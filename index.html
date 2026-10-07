@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>porównywarek ubezpieczeń w Polsce</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-left">
+      <a class="brand" href="#" id="brand-link">porównywarek</a>
+      <span class="brand-sub">ubezpieczeń w Polsce · OC</span>
+    </div>
+    <div class="topbar-center">
+      <label class="search-wrap" for="tag-search">
+        <svg class="search-icon" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true">
+          <circle cx="7" cy="7" r="5.5" fill="none" stroke="currentColor" stroke-width="1.5"/>
+          <path d="M11.5 11.5 L14.5 14.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+        <input id="tag-search" type="search" placeholder="Szukaj po tagach…" autocomplete="off" />
+      </label>
+    </div>
+    <div class="topbar-right">
+      <div class="device-toggle" role="group" aria-label="Urządzenie">
+        <button type="button" class="pill-btn is-active" data-device="desktop">Desktop</button>
+        <button type="button" class="pill-btn" data-device="mobile">Mobile</button>
+      </div>
+    </div>
+  </header>
+
+  <nav class="site-nav" aria-label="Porównywarki">
+    <button type="button" class="site-chip is-active" data-site="rankomat">Rankomat</button>
+    <button type="button" class="site-chip" data-site="kioskpolis">Kiosk Polis</button>
+    <button type="button" class="site-chip" data-site="insurify">insurify.com</button>
+  </nav>
+
+  <div class="tag-chips" id="tag-chips" aria-label="Tagi"></div>
+
+  <!-- Flow browse mode -->
+  <main class="layout" id="flow-mode">
+    <aside class="step-strip" id="step-strip" aria-label="Kroki flow"></aside>
+    <section class="stage">
+      <div class="stage-frame" id="stage-frame">
+        <img id="main-shot" alt="" />
+        <div class="empty-state" id="flow-empty" hidden>
+          <p>Brak screenshotów dla tej kombinacji.</p>
+        </div>
+      </div>
+    </section>
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-block">
+        <p class="meta-label">Tagi</p>
+        <div class="sidebar-tags" id="sidebar-tags"></div>
+      </div>
+      <div class="sidebar-block">
+        <p class="meta-label">Opis</p>
+        <p class="meta-body" id="sidebar-desc">—</p>
+      </div>
+      <div class="sidebar-block meta-row">
+        <div>
+          <p class="meta-label">Porównywarka</p>
+          <p class="meta-body" id="sidebar-site">—</p>
+        </div>
+        <div>
+          <p class="meta-label">Krok</p>
+          <p class="meta-body" id="sidebar-step">—</p>
+        </div>
+      </div>
+      <div class="sidebar-block">
+        <p class="meta-label">Urządzenie</p>
+        <p class="meta-body" id="sidebar-device">—</p>
+      </div>
+    </aside>
+  </main>
+
+  <!-- Tag search / compare mode -->
+  <main class="compare-layout" id="compare-mode" hidden>
+    <header class="compare-header">
+      <h1 id="compare-title">Wyniki tagu</h1>
+      <p class="compare-sub" id="compare-sub"></p>
+    </header>
+    <div class="compare-grid" id="compare-grid"></div>
+    <div class="empty-state" id="compare-empty" hidden>
+      <p>Brak ekranów z tym tagiem dla wybranego urządzenia.</p>
+    </div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
