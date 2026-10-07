@@ -171,12 +171,19 @@ body.is-home .app-title {
   height: 36px;
   padding: 0;
   border-radius: 50%;
-  border: 1px solid var(--hairline);
+  border: none;
+  outline: none;
+  background: var(--surface);
+  box-shadow: none;
   color: var(--ink);
   flex-shrink: 0;
 }
 
-.back-btn:hover { background: var(--surface); }
+.back-btn:hover {
+  background: #ebebeb;
+  border: none;
+  box-shadow: none;
+}
 
 .back-btn[hidden] { display: none !important; }
 
@@ -270,7 +277,7 @@ body.is-home .app-title {
   width: 100%;
   max-width: none;
   margin: 0;
-  padding: 24px 24px 48px 8px;
+  padding: 24px 24px 48px 24px;
   box-sizing: border-box;
 }
 
