@@ -4,7 +4,7 @@ Aktualizowane w trakcie pracy. Mobile target: iPhone 14/15 **390×844 @3×** →
 
 ## W toku
 
-- [ ] **Kiosk Polis** — świeże natywne zrzuty mobile 1170×2532 (stan: **7 / 12**), potem sync do viewera i produkcja
+- [ ] **Kiosk Polis** — świeże natywne zrzuty mobile 1170×2532 (stan: **9 / 12**), potem sync do viewera i produkcja
 
 ## Kolejka
 
