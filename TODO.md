@@ -10,6 +10,7 @@ Zmiany w tym pliku **bez osobnego deployu** — wjeżdżają przy następnym dep
 - [x] Gdy brak innego zadania — brać następny punkt z listy, robić, zaznaczać
 - [x] Po każdym punkcie: deploy na produkcję Vercel, check, od razu następny
 - [x] Edycje samego TODO.md bez osobnego deployu (wchodzą z następnym deployem)
+- [x] **Długie ekrany (np. lista ofert):** 1–2 dodatkowe screeny po lekkim scrollu (nie za dużo)
 - [x] **Przy każdym nowym flow:** czyścić formularz/dane strony i zaczynać od zera (pełne flow widoczne) — zasada ogólna dla wszystkich porównywarek
 
 ## W toku
