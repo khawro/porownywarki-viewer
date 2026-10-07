@@ -773,3 +773,23 @@ body.is-home .app-title {
     padding-right: 10px;
   }
 }
+
+.site-footer {
+  position: sticky;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  padding: 10px 16px calc(10px + env(safe-area-inset-bottom, 0px));
+  background: rgba(244, 244, 245, 0.92);
+  backdrop-filter: blur(8px);
+  border-top: 1px solid var(--hairline, #e5e5e5);
+  font-size: 13px;
+  z-index: 20;
+}
+.site-footer a {
+  color: var(--muted, #666);
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+.site-footer a:hover { color: var(--ink, #111); }
