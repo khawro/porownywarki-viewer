@@ -13,7 +13,8 @@ Zmiany w tym pliku **bez osobnego deployu** — wjeżdżają przy następnym dep
 
 ## W toku
 
-- [ ] **Lemonade** — desktop + mobile 1170×2532, bez DevTools
+- [ ] **Rankomat** — mobile od zera: wyczyścić formularz/dane strony, pełne flow OC (nie wznawiać sesji)
+
 
 ## Pominięte (wrócimy później)
 
@@ -21,6 +22,7 @@ Zmiany w tym pliku **bez osobnego deployu** — wjeżdżają przy następnym dep
 
 ## Kolejka
 
+1. [ ] **Lemonade** — desktop + mobile 1170×2532, bez DevTools
 1. [ ] **Mubi** — desktop + mobile 1170×2532, bez DevTools
 2. [ ] **GoCompare** — desktop + mobile 1170×2532, bez DevTools
 3. [ ] **Dark mode** — motyw ciemny z przełącznikiem
