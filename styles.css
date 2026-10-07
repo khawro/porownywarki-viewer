@@ -255,28 +255,18 @@ img {
   color: var(--accent);
 }
 
+/* Force hidden attribute over display:grid/flex */
+.home-layout[hidden],
+.layout[hidden],
+.compare-layout[hidden] {
+  display: none !important;
+}
+
 /* ——— Home site cards ——— */
 .home-layout {
   padding: 28px 28px 48px;
   max-width: 1200px;
   margin: 0 auto;
-}
-
-.home-header {
-  margin-bottom: 24px;
-}
-
-.home-header h1 {
-  margin: 0 0 6px;
-  font-size: 24px;
-  font-weight: 600;
-  letter-spacing: -0.02em;
-}
-
-.home-sub {
-  margin: 0;
-  color: var(--muted);
-  font-size: 14px;
 }
 
 .site-cards {
