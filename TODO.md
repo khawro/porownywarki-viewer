@@ -15,7 +15,7 @@ Zmiany w tym pliku **bez osobnego deployu** — wjeżdżają przy następnym dep
 
 ## W toku
 
-- [ ] **Lemonade** — desktop + mobile 1170×2532, bez DevTools
+- [ ] **Lemonade mobile** — 1170×2532, bez DevTools (pełne flow od zera, czyścić formularz)
 
 ## Kolejka
 

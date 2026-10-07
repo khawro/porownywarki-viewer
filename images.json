@@ -2156,5 +2156,382 @@
     "description": "rankomat mobile krok 7: checkout-telefon-zablokowany",
     "width": 1170,
     "height": 2532
+  },
+  {
+    "site": "lemonade",
+    "device": "desktop",
+    "step": 1,
+    "tag": "home",
+    "tags": [
+      "home"
+    ],
+    "path": "images/lemonade/desktop/01-home.png",
+    "description": "lemonade desktop krok 1: home",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "lemonade",
+    "device": "desktop",
+    "step": 2,
+    "tag": "car",
+    "tags": [
+      "car"
+    ],
+    "path": "images/lemonade/desktop/02-car-landing.png",
+    "description": "lemonade desktop krok 2: car-landing",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "lemonade",
+    "device": "desktop",
+    "step": 3,
+    "tag": "ever",
+    "tags": [
+      "ever"
+    ],
+    "path": "images/lemonade/desktop/03-ever-quote.png",
+    "description": "lemonade desktop krok 3: ever-quote",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "lemonade",
+    "device": "desktop",
+    "step": 4,
+    "tag": "name",
+    "tags": [
+      "name"
+    ],
+    "path": "images/lemonade/desktop/04-name.png",
+    "description": "lemonade desktop krok 4: name",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "lemonade",
+    "device": "desktop",
+    "step": 5,
+    "tag": "address",
+    "tags": [
+      "address"
+    ],
+    "path": "images/lemonade/desktop/05-address.png",
+    "description": "lemonade desktop krok 5: address",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "lemonade",
+    "device": "desktop",
+    "step": 6,
+    "tag": "tos",
+    "tags": [
+      "tos"
+    ],
+    "path": "images/lemonade/desktop/06-tos-modal.png",
+    "description": "lemonade desktop krok 6: tos-modal",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "lemonade",
+    "device": "desktop",
+    "step": 7,
+    "tag": "email",
+    "tags": [
+      "email"
+    ],
+    "path": "images/lemonade/desktop/07-email-dob.png",
+    "description": "lemonade desktop krok 7: email-dob",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "lemonade",
+    "device": "desktop",
+    "step": 8,
+    "tag": "great",
+    "tags": [
+      "great"
+    ],
+    "path": "images/lemonade/desktop/08-great-news.png",
+    "description": "lemonade desktop krok 8: great-news",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "lemonade",
+    "device": "desktop",
+    "step": 9,
+    "tag": "scanning",
+    "tags": [
+      "scanning"
+    ],
+    "path": "images/lemonade/desktop/09-scanning.png",
+    "description": "lemonade desktop krok 9: scanning",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "lemonade",
+    "device": "desktop",
+    "step": 10,
+    "tag": "cars",
+    "tags": [
+      "cars"
+    ],
+    "path": "images/lemonade/desktop/10-cars-found.png",
+    "description": "lemonade desktop krok 10: cars-found",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "lemonade",
+    "device": "desktop",
+    "step": 11,
+    "tag": "drivers",
+    "tags": [
+      "drivers"
+    ],
+    "path": "images/lemonade/desktop/11-drivers.png",
+    "description": "lemonade desktop krok 11: drivers",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "lemonade",
+    "device": "desktop",
+    "step": 12,
+    "tag": "financed",
+    "tags": [
+      "financed"
+    ],
+    "path": "images/lemonade/desktop/12-financed.png",
+    "description": "lemonade desktop krok 12: financed",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "lemonade",
+    "device": "desktop",
+    "step": 13,
+    "tag": "rideshare",
+    "tags": [
+      "rideshare"
+    ],
+    "path": "images/lemonade/desktop/13-rideshare.png",
+    "description": "lemonade desktop krok 13: rideshare",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "lemonade",
+    "device": "desktop",
+    "step": 14,
+    "tag": "violations",
+    "tags": [
+      "violations"
+    ],
+    "path": "images/lemonade/desktop/14-violations.png",
+    "description": "lemonade desktop krok 14: violations",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "lemonade",
+    "device": "desktop",
+    "step": 15,
+    "tag": "marital",
+    "tags": [
+      "marital"
+    ],
+    "path": "images/lemonade/desktop/15-marital.png",
+    "description": "lemonade desktop krok 15: marital",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "lemonade",
+    "device": "desktop",
+    "step": 16,
+    "tag": "registered",
+    "tags": [
+      "registered"
+    ],
+    "path": "images/lemonade/desktop/16-registered.png",
+    "description": "lemonade desktop krok 16: registered",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "lemonade",
+    "device": "desktop",
+    "step": 17,
+    "tag": "license",
+    "tags": [
+      "license"
+    ],
+    "path": "images/lemonade/desktop/17-license-status.png",
+    "description": "lemonade desktop krok 17: license-status",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "lemonade",
+    "device": "desktop",
+    "step": 18,
+    "tag": "license",
+    "tags": [
+      "license"
+    ],
+    "path": "images/lemonade/desktop/18-license-state.png",
+    "description": "lemonade desktop krok 18: license-state",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "lemonade",
+    "device": "desktop",
+    "step": 19,
+    "tag": "age",
+    "tags": [
+      "age"
+    ],
+    "path": "images/lemonade/desktop/19-age-licensed.png",
+    "description": "lemonade desktop krok 19: age-licensed",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "lemonade",
+    "device": "desktop",
+    "step": 20,
+    "tag": "license",
+    "tags": [
+      "license"
+    ],
+    "path": "images/lemonade/desktop/20-license-number.png",
+    "description": "lemonade desktop krok 20: license-number",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "lemonade",
+    "device": "desktop",
+    "step": 21,
+    "tag": "license",
+    "tags": [
+      "license"
+    ],
+    "path": "images/lemonade/desktop/21-license-filled.png",
+    "description": "lemonade desktop krok 21: license-filled",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "lemonade",
+    "device": "desktop",
+    "step": 22,
+    "tag": "other",
+    "tags": [
+      "other"
+    ],
+    "path": "images/lemonade/desktop/22-other-country.png",
+    "description": "lemonade desktop krok 22: other-country",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "lemonade",
+    "device": "desktop",
+    "step": 23,
+    "tag": "occupation",
+    "tags": [
+      "occupation"
+    ],
+    "path": "images/lemonade/desktop/23-occupation.png",
+    "description": "lemonade desktop krok 23: occupation",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "lemonade",
+    "device": "desktop",
+    "step": 24,
+    "tag": "other",
+    "tags": [
+      "other"
+    ],
+    "path": "images/lemonade/desktop/24-other-policies.png",
+    "description": "lemonade desktop krok 24: other-policies",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "lemonade",
+    "device": "desktop",
+    "step": 25,
+    "tag": "claims",
+    "tags": [
+      "claims"
+    ],
+    "path": "images/lemonade/desktop/25-claims.png",
+    "description": "lemonade desktop krok 25: claims",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "lemonade",
+    "device": "desktop",
+    "step": 26,
+    "tag": "crunching",
+    "tags": [
+      "crunching"
+    ],
+    "path": "images/lemonade/desktop/26-crunching.png",
+    "description": "lemonade desktop krok 26: crunching",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "lemonade",
+    "device": "desktop",
+    "step": 27,
+    "tag": "quote",
+    "tags": [
+      "quote"
+    ],
+    "path": "images/lemonade/desktop/27-quote-price.png",
+    "description": "lemonade desktop krok 27: quote-price",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "lemonade",
+    "device": "desktop",
+    "step": 28,
+    "tag": "quote",
+    "tags": [
+      "quote"
+    ],
+    "path": "images/lemonade/desktop/28-quote-scroll1.png",
+    "description": "lemonade desktop krok 28: quote-scroll1",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "lemonade",
+    "device": "desktop",
+    "step": 29,
+    "tag": "quote",
+    "tags": [
+      "quote"
+    ],
+    "path": "images/lemonade/desktop/29-quote-scroll2.png",
+    "description": "lemonade desktop krok 29: quote-scroll2",
+    "width": 1920,
+    "height": 1200
   }
 ]

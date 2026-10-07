@@ -6,6 +6,7 @@
     thezebra: "The Zebra",
     nerdwallet: "NerdWallet",
     gocompare: "GoCompare",
+    lemonade: "Lemonade",
   };
 
   const TAG_LABELS = {
