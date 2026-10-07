@@ -19,11 +19,14 @@
     payment: "płatność",
   };
 
+  const NAV_KEY = "porownywarki-nav-variant";
+
   const state = {
     images: [],
     sites: [],
     siteFilter: "",
-    drawerOpen: false,
+    navOpen: false,
+    navVariant: localStorage.getItem(NAV_KEY) === "overlay" ? "overlay" : "bottom",
     device: "desktop",
     site: null,
     stepIndex: 0,
@@ -38,30 +41,43 @@
     return SITE_LABELS[id] || id;
   }
 
-  function updateSiteTrigger() {
-    const label = $("#site-trigger-label");
-    const openBtn = $("#site-drawer-open");
+  function updateSiteLabel() {
+    const label = $("#site-current-label");
+    const openBtn = $("#site-nav-open");
     if (label) label.textContent = state.site ? siteLabel(state.site) : "Strony";
     if (openBtn) {
-      openBtn.setAttribute("aria-expanded", state.drawerOpen ? "true" : "false");
+      openBtn.setAttribute("aria-expanded", state.navOpen ? "true" : "false");
     }
   }
 
-  function setDrawerOpen(open) {
-    state.drawerOpen = Boolean(open);
-    const drawer = $("#site-drawer");
-    const backdrop = $("#site-drawer-backdrop");
-    if (!drawer || !backdrop) return;
-    drawer.classList.toggle("is-open", state.drawerOpen);
-    drawer.setAttribute("aria-hidden", state.drawerOpen ? "false" : "true");
-    backdrop.hidden = !state.drawerOpen;
-    document.body.classList.toggle("drawer-open", state.drawerOpen);
-    updateSiteTrigger();
-    if (state.drawerOpen) {
+  function applyNavVariant() {
+    document.body.classList.toggle("nav-bottom", state.navVariant === "bottom");
+    document.body.classList.toggle("nav-overlay", state.navVariant === "overlay");
+    $$(".nav-variant-toggle .pill-btn").forEach((b) =>
+      b.classList.toggle("is-active", b.dataset.nav === state.navVariant)
+    );
+    localStorage.setItem(NAV_KEY, state.navVariant);
+  }
+
+  function setNavVariant(variant) {
+    if (variant !== "bottom" && variant !== "overlay") return;
+    state.navVariant = variant;
+    applyNavVariant();
+  }
+
+  function setNavOpen(open) {
+    state.navOpen = Boolean(open);
+    const panel = $("#site-nav-panel");
+    const backdrop = $("#site-nav-backdrop");
+    if (!panel || !backdrop) return;
+    panel.classList.toggle("is-open", state.navOpen);
+    panel.setAttribute("aria-hidden", state.navOpen ? "false" : "true");
+    backdrop.hidden = !state.navOpen;
+    document.body.classList.toggle("nav-open", state.navOpen);
+    updateSiteLabel();
+    if (state.navOpen) {
       const input = $("#site-search");
-      if (input) {
-        requestAnimationFrame(() => input.focus());
-      }
+      if (input) requestAnimationFrame(() => input.focus());
     }
   }
 
@@ -294,7 +310,7 @@
     $("#flow-mode").hidden = compare;
     $("#compare-mode").hidden = !compare;
     document.body.classList.toggle("is-compare", compare);
-    updateSiteTrigger();
+    updateSiteLabel();
     renderSiteList();
     renderTagChips();
     if (compare) renderCompare();
@@ -316,7 +332,7 @@
     state.search = "";
     state.activeTag = null;
     $("#tag-search").value = "";
-    setDrawerOpen(false);
+    setNavOpen(false);
     syncMode();
   }
 
@@ -338,11 +354,21 @@
     $$(".device-toggle .pill-btn").forEach((btn) => {
       btn.addEventListener("click", () => setDevice(btn.dataset.device));
     });
-    $("#site-drawer-open").addEventListener("click", () => {
-      setDrawerOpen(!state.drawerOpen);
+    $$(".nav-variant-toggle .pill-btn").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        setNavVariant(btn.dataset.nav);
+        if (state.navOpen) {
+          // re-open so layout variant applies cleanly
+          setNavOpen(false);
+          requestAnimationFrame(() => setNavOpen(true));
+        }
+      });
     });
-    $("#site-drawer-close").addEventListener("click", () => setDrawerOpen(false));
-    $("#site-drawer-backdrop").addEventListener("click", () => setDrawerOpen(false));
+    $("#site-nav-open").addEventListener("click", () => {
+      setNavOpen(!state.navOpen);
+    });
+    $("#site-nav-close").addEventListener("click", () => setNavOpen(false));
+    $("#site-nav-backdrop").addEventListener("click", () => setNavOpen(false));
     $("#site-list").addEventListener("click", (e) => {
       const btn = e.target.closest("[data-site]");
       if (!btn) return;
@@ -351,10 +377,6 @@
     $("#site-search").addEventListener("input", (e) => {
       state.siteFilter = e.target.value;
       renderSiteList();
-    });
-    $("#brand-link").addEventListener("click", (e) => {
-      e.preventDefault();
-      clearSearch();
     });
     $("#tag-search").addEventListener("input", (e) => {
       state.search = normalizeTag(e.target.value);
@@ -393,9 +415,9 @@
       syncMode();
     });
     document.addEventListener("keydown", (e) => {
-      if (e.key === "Escape" && state.drawerOpen) {
+      if (e.key === "Escape" && state.navOpen) {
         e.preventDefault();
-        setDrawerOpen(false);
+        setNavOpen(false);
         return;
       }
       if (isCompareMode()) return;
@@ -427,7 +449,8 @@
       ? "rankomat"
       : state.sites[0] || null;
     bind();
-    setDrawerOpen(false);
+    applyNavVariant();
+    setNavOpen(false);
     syncMode();
   }
 
