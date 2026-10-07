@@ -16,13 +16,12 @@ Zmiany w tym pliku **bez osobnego deployu** — wjeżdżają przy następnym dep
 
 ## W toku
 
-- [ ] **Poprawka landingów mobile:** Rankomat, Mubi, Lemonade (czysty landing bez banera)
+- [ ] **Link4** — spróbować inny profil danych, żeby zobaczyć ofertę (przy okazji ponowić 3 ekrany mobile: walidacja właściciela, Zgody, kalendarz daty startu)
 
 ## Kolejka
 
 1. [ ] **Mubi desktop** — ostra wersja 1920×1200 bez paska przeglądarki (ponowić, mubi.pl blokowało 403 przy wyborze marki)
-2. [ ] **Link4** — spróbować inny profil danych, żeby zobaczyć ofertę (przy okazji ponowić 3 ekrany mobile: walidacja właściciela, Zgody, kalendarz daty startu)
-3. [ ] **The Zebra** — dokończyć (oferty + mobile) gdy Cloudflare puści
+2. [ ] **The Zebra** — dokończyć (oferty + mobile) gdy Cloudflare puści
 
 ## Pominięte (wrócimy później)
 
@@ -30,8 +29,9 @@ Zmiany w tym pliku **bez osobnego deployu** — wjeżdżają przy następnym dep
 
 ## Zrobione
 
+- [x] **Poprawka landingów mobile:** Rankomat, Mubi, Lemonade — krok 1 to czysty landing bez banera cookies (1170×2532), na produkcji
 - [x] **Link4** — częściowo: desktop **14** (1920×1200) + mobile **10** (1170×2532; 3 ekrany mobile z błędnym zoomem pominięte, wersja tylko na desktopie). Po Zgodach Link4 odmówił sprzedaży online dla profilu testowego — modal „kontakt z infolinią”, brak ofert. Na produkcji
-- [x] **Pierwszy ekran bez cookies** — usunięte ekrany zgody cookies jako krok 1: Mubi desktop (2 ekrany cookies → start od landingu), The Zebra (landing bez bannera ze starszej sesji), Beesafe. Zostawione (brak czystego landingu w nagraniu): Rankomat mobile, Mubi mobile
+- [x] **Pierwszy ekran bez cookies** — usunięte ekrany zgody cookies jako krok 1: Mubi desktop (2 ekrany cookies → start od landingu), The Zebra (landing bez bannera ze starszej sesji), Beesafe. Rankomat mobile i Mubi mobile — poprawione osobno (nowe czyste landingi)
 - [x] **Beesafe** — częściowo: desktop **16** (1920×1200) + mobile **17** (1170×2532), od landingu do oferty i danych właściciela; zatrzymane na polu VIN (strona wymaga VIN przed podsumowaniem/płatnością), na produkcji
 - [x] **The Zebra** — opublikowane częściowo: desktop **16** (1920×1200, od landingu do pytania o płeć kierowcy; Cloudflare blokuje od roku auta w nowej sesji), mobile **0**, na produkcji
 - [x] **Dark mode** — przełącznik motywu (słońce/księżyc) w topbarze i na /todo; domyślnie wg systemu, wybór zapamiętany w localStorage, bez mignięcia przy ładowaniu, na produkcji

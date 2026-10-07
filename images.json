@@ -2070,12 +2070,12 @@
     "site": "rankomat",
     "device": "mobile",
     "step": 1,
-    "tag": "cookie",
+    "tag": "landing",
     "tags": [
-      "cookie"
+      "landing"
     ],
-    "path": "images/rankomat/mobile/01-cookie-consent.png",
-    "description": "rankomat mobile krok 1: cookie-consent",
+    "path": "images/rankomat/mobile/01-landing.png",
+    "description": "Landing ubezpieczenia samochodu z przyciskiem Porównaj ceny",
     "width": 1170,
     "height": 2532
   },
@@ -3868,8 +3868,8 @@
     "tags": [
       "landing"
     ],
-    "path": "images/mubi/mobile/01-landing-cookie-consent.png",
-    "description": "mubi mobile krok 1: landing-cookie-consent",
+    "path": "images/mubi/mobile/01-landing.png",
+    "description": "Strona główna — porównywarka OC AC, wybór Samochód / Nieruchomość / Podróż",
     "width": 1170,
     "height": 2532
   },
