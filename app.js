@@ -8,6 +8,7 @@
     gocompare: "GoCompare",
     lemonade: "Lemonade",
     mubi: "Mubi",
+    beesafe: "Beesafe",
   };
 
   const TAG_LABELS = {

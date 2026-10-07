@@ -3400,8 +3400,8 @@
     "tags": [
       "landing"
     ],
-    "path": "images/mubi/desktop/01-landing-cookie-consent.png",
-    "description": "mubi desktop krok 1: landing-cookie-consent",
+    "path": "images/mubi/desktop/01-landing-hero.png",
+    "description": "mubi desktop krok 1: landing-hero",
     "width": 1920,
     "height": 1111
   },
@@ -3409,12 +3409,12 @@
     "site": "mubi",
     "device": "desktop",
     "step": 2,
-    "tag": "cookie",
+    "tag": "calculator",
     "tags": [
-      "cookie"
+      "calculator"
     ],
-    "path": "images/mubi/desktop/02-cookie-consent-details.png",
-    "description": "mubi desktop krok 2: cookie-consent-details",
+    "path": "images/mubi/desktop/02-calculator-cookie-consent.png",
+    "description": "mubi desktop krok 2: calculator-cookie-consent",
     "width": 1920,
     "height": 1111
   },
@@ -3422,12 +3422,12 @@
     "site": "mubi",
     "device": "desktop",
     "step": 3,
-    "tag": "landing",
+    "tag": "calculator",
     "tags": [
-      "landing"
+      "calculator"
     ],
-    "path": "images/mubi/desktop/03-landing-hero.png",
-    "description": "mubi desktop krok 3: landing-hero",
+    "path": "images/mubi/desktop/03-calculator-start-form.png",
+    "description": "mubi desktop krok 3: calculator-start-form",
     "width": 1920,
     "height": 1111
   },
@@ -3435,12 +3435,12 @@
     "site": "mubi",
     "device": "desktop",
     "step": 4,
-    "tag": "calculator",
+    "tag": "birthdate",
     "tags": [
-      "calculator"
+      "birthdate"
     ],
-    "path": "images/mubi/desktop/04-calculator-cookie-consent.png",
-    "description": "mubi desktop krok 4: calculator-cookie-consent",
+    "path": "images/mubi/desktop/04-birthdate-picker-decades.png",
+    "description": "mubi desktop krok 4: birthdate-picker-decades",
     "width": 1920,
     "height": 1111
   },
@@ -3448,12 +3448,12 @@
     "site": "mubi",
     "device": "desktop",
     "step": 5,
-    "tag": "calculator",
+    "tag": "birthdate",
     "tags": [
-      "calculator"
+      "birthdate"
     ],
-    "path": "images/mubi/desktop/05-calculator-start-form.png",
-    "description": "mubi desktop krok 5: calculator-start-form",
+    "path": "images/mubi/desktop/05-birthdate-picker-days.png",
+    "description": "mubi desktop krok 5: birthdate-picker-days",
     "width": 1920,
     "height": 1111
   },
@@ -3461,12 +3461,12 @@
     "site": "mubi",
     "device": "desktop",
     "step": 6,
-    "tag": "birthdate",
+    "tag": "start",
     "tags": [
-      "birthdate"
+      "start"
     ],
-    "path": "images/mubi/desktop/06-birthdate-picker-decades.png",
-    "description": "mubi desktop krok 6: birthdate-picker-decades",
+    "path": "images/mubi/desktop/06-start-form-filled-consents.png",
+    "description": "mubi desktop krok 6: start-form-filled-consents",
     "width": 1920,
     "height": 1111
   },
@@ -3474,12 +3474,12 @@
     "site": "mubi",
     "device": "desktop",
     "step": 7,
-    "tag": "birthdate",
+    "tag": "twoje",
     "tags": [
-      "birthdate"
+      "twoje"
     ],
-    "path": "images/mubi/desktop/07-birthdate-picker-days.png",
-    "description": "mubi desktop krok 7: birthdate-picker-days",
+    "path": "images/mubi/desktop/07-twoje-dane-vehicle-top.png",
+    "description": "mubi desktop krok 7: twoje-dane-vehicle-top",
     "width": 1920,
     "height": 1111
   },
@@ -3487,12 +3487,12 @@
     "site": "mubi",
     "device": "desktop",
     "step": 8,
-    "tag": "start",
+    "tag": "ac",
     "tags": [
-      "start"
+      "ac"
     ],
-    "path": "images/mubi/desktop/08-start-form-filled-consents.png",
-    "description": "mubi desktop krok 8: start-form-filled-consents",
+    "path": "images/mubi/desktop/08-ac-selected-year-picker.png",
+    "description": "mubi desktop krok 8: ac-selected-year-picker",
     "width": 1920,
     "height": 1111
   },
@@ -3500,12 +3500,12 @@
     "site": "mubi",
     "device": "desktop",
     "step": 9,
-    "tag": "twoje",
+    "tag": "production",
     "tags": [
-      "twoje"
+      "production"
     ],
-    "path": "images/mubi/desktop/09-twoje-dane-vehicle-top.png",
-    "description": "mubi desktop krok 9: twoje-dane-vehicle-top",
+    "path": "images/mubi/desktop/09-production-year-dropdown.png",
+    "description": "mubi desktop krok 9: production-year-dropdown",
     "width": 1920,
     "height": 1111
   },
@@ -3513,12 +3513,12 @@
     "site": "mubi",
     "device": "desktop",
     "step": 10,
-    "tag": "ac",
+    "tag": "brand",
     "tags": [
-      "ac"
+      "brand"
     ],
-    "path": "images/mubi/desktop/10-ac-selected-year-picker.png",
-    "description": "mubi desktop krok 10: ac-selected-year-picker",
+    "path": "images/mubi/desktop/10-brand-picker.png",
+    "description": "mubi desktop krok 10: brand-picker",
     "width": 1920,
     "height": 1111
   },
@@ -3526,12 +3526,12 @@
     "site": "mubi",
     "device": "desktop",
     "step": 11,
-    "tag": "production",
+    "tag": "model",
     "tags": [
-      "production"
+      "model"
     ],
-    "path": "images/mubi/desktop/11-production-year-dropdown.png",
-    "description": "mubi desktop krok 11: production-year-dropdown",
+    "path": "images/mubi/desktop/11-model-picker.png",
+    "description": "mubi desktop krok 11: model-picker",
     "width": 1920,
     "height": 1111
   },
@@ -3539,12 +3539,12 @@
     "site": "mubi",
     "device": "desktop",
     "step": 12,
-    "tag": "brand",
+    "tag": "fuel",
     "tags": [
-      "brand"
+      "fuel"
     ],
-    "path": "images/mubi/desktop/12-brand-picker.png",
-    "description": "mubi desktop krok 12: brand-picker",
+    "path": "images/mubi/desktop/12-fuel-picker.png",
+    "description": "mubi desktop krok 12: fuel-picker",
     "width": 1920,
     "height": 1111
   },
@@ -3552,12 +3552,12 @@
     "site": "mubi",
     "device": "desktop",
     "step": 13,
-    "tag": "model",
+    "tag": "engine",
     "tags": [
-      "model"
+      "engine"
     ],
-    "path": "images/mubi/desktop/13-model-picker.png",
-    "description": "mubi desktop krok 13: model-picker",
+    "path": "images/mubi/desktop/13-engine-capacity-picker.png",
+    "description": "mubi desktop krok 13: engine-capacity-picker",
     "width": 1920,
     "height": 1111
   },
@@ -3565,12 +3565,12 @@
     "site": "mubi",
     "device": "desktop",
     "step": 14,
-    "tag": "fuel",
+    "tag": "engine",
     "tags": [
-      "fuel"
+      "engine"
     ],
-    "path": "images/mubi/desktop/14-fuel-picker.png",
-    "description": "mubi desktop krok 14: fuel-picker",
+    "path": "images/mubi/desktop/14-engine-power-picker.png",
+    "description": "mubi desktop krok 14: engine-power-picker",
     "width": 1920,
     "height": 1111
   },
@@ -3578,12 +3578,12 @@
     "site": "mubi",
     "device": "desktop",
     "step": 15,
-    "tag": "engine",
+    "tag": "version",
     "tags": [
-      "engine"
+      "version"
     ],
-    "path": "images/mubi/desktop/15-engine-capacity-picker.png",
-    "description": "mubi desktop krok 15: engine-capacity-picker",
+    "path": "images/mubi/desktop/15-version-picker.png",
+    "description": "mubi desktop krok 15: version-picker",
     "width": 1920,
     "height": 1111
   },
@@ -3591,12 +3591,12 @@
     "site": "mubi",
     "device": "desktop",
     "step": 16,
-    "tag": "engine",
+    "tag": "vehicle",
     "tags": [
-      "engine"
+      "vehicle"
     ],
-    "path": "images/mubi/desktop/16-engine-power-picker.png",
-    "description": "mubi desktop krok 16: engine-power-picker",
+    "path": "images/mubi/desktop/16-vehicle-selected-infoekspert.png",
+    "description": "mubi desktop krok 16: vehicle-selected-infoekspert",
     "width": 1920,
     "height": 1111
   },
@@ -3604,12 +3604,12 @@
     "site": "mubi",
     "device": "desktop",
     "step": 17,
-    "tag": "version",
+    "tag": "policy",
     "tags": [
-      "version"
+      "policy"
     ],
-    "path": "images/mubi/desktop/17-version-picker.png",
-    "description": "mubi desktop krok 17: version-picker",
+    "path": "images/mubi/desktop/17-policy-start-date-picker.png",
+    "description": "mubi desktop krok 17: policy-start-date-picker",
     "width": 1920,
     "height": 1111
   },
@@ -3621,8 +3621,8 @@
     "tags": [
       "vehicle"
     ],
-    "path": "images/mubi/desktop/18-vehicle-selected-infoekspert.png",
-    "description": "mubi desktop krok 18: vehicle-selected-infoekspert",
+    "path": "images/mubi/desktop/18-vehicle-section-complete.png",
+    "description": "mubi desktop krok 18: vehicle-section-complete",
     "width": 1920,
     "height": 1111
   },
@@ -3630,12 +3630,12 @@
     "site": "mubi",
     "device": "desktop",
     "step": 19,
-    "tag": "policy",
+    "tag": "usage",
     "tags": [
-      "policy"
+      "usage"
     ],
-    "path": "images/mubi/desktop/19-policy-start-date-picker.png",
-    "description": "mubi desktop krok 19: policy-start-date-picker",
+    "path": "images/mubi/desktop/19-usage-section.png",
+    "description": "mubi desktop krok 19: usage-section",
     "width": 1920,
     "height": 1111
   },
@@ -3643,12 +3643,12 @@
     "site": "mubi",
     "device": "desktop",
     "step": 20,
-    "tag": "vehicle",
+    "tag": "first",
     "tags": [
-      "vehicle"
+      "first"
     ],
-    "path": "images/mubi/desktop/20-vehicle-section-complete.png",
-    "description": "mubi desktop krok 20: vehicle-section-complete",
+    "path": "images/mubi/desktop/20-first-registration-year-picker.png",
+    "description": "mubi desktop krok 20: first-registration-year-picker",
     "width": 1920,
     "height": 1111
   },
@@ -3660,8 +3660,8 @@
     "tags": [
       "usage"
     ],
-    "path": "images/mubi/desktop/21-usage-section.png",
-    "description": "mubi desktop krok 21: usage-section",
+    "path": "images/mubi/desktop/21-usage-section-filled.png",
+    "description": "mubi desktop krok 21: usage-section-filled",
     "width": 1920,
     "height": 1111
   },
@@ -3669,12 +3669,12 @@
     "site": "mubi",
     "device": "desktop",
     "step": 22,
-    "tag": "first",
+    "tag": "ownership",
     "tags": [
-      "first"
+      "ownership"
     ],
-    "path": "images/mubi/desktop/22-first-registration-year-picker.png",
-    "description": "mubi desktop krok 22: first-registration-year-picker",
+    "path": "images/mubi/desktop/22-ownership-year-dropdown.png",
+    "description": "mubi desktop krok 22: ownership-year-dropdown",
     "width": 1920,
     "height": 1111
   },
@@ -3682,12 +3682,12 @@
     "site": "mubi",
     "device": "desktop",
     "step": 23,
-    "tag": "usage",
+    "tag": "last",
     "tags": [
-      "usage"
+      "last"
     ],
-    "path": "images/mubi/desktop/23-usage-section-filled.png",
-    "description": "mubi desktop krok 23: usage-section-filled",
+    "path": "images/mubi/desktop/23-last-insurer-dropdown.png",
+    "description": "mubi desktop krok 23: last-insurer-dropdown",
     "width": 1920,
     "height": 1111
   },
@@ -3695,12 +3695,12 @@
     "site": "mubi",
     "device": "desktop",
     "step": 24,
-    "tag": "ownership",
+    "tag": "usage",
     "tags": [
-      "ownership"
+      "usage"
     ],
-    "path": "images/mubi/desktop/24-ownership-year-dropdown.png",
-    "description": "mubi desktop krok 24: ownership-year-dropdown",
+    "path": "images/mubi/desktop/24-usage-complete-owner-section-appears.png",
+    "description": "mubi desktop krok 24: usage-complete-owner-section-appears",
     "width": 1920,
     "height": 1111
   },
@@ -3708,12 +3708,12 @@
     "site": "mubi",
     "device": "desktop",
     "step": 25,
-    "tag": "last",
+    "tag": "owner",
     "tags": [
-      "last"
+      "owner"
     ],
-    "path": "images/mubi/desktop/25-last-insurer-dropdown.png",
-    "description": "mubi desktop krok 25: last-insurer-dropdown",
+    "path": "images/mubi/desktop/25-owner-section.png",
+    "description": "mubi desktop krok 25: owner-section",
     "width": 1920,
     "height": 1111
   },
@@ -3721,12 +3721,12 @@
     "site": "mubi",
     "device": "desktop",
     "step": 26,
-    "tag": "usage",
+    "tag": "owner",
     "tags": [
-      "usage"
+      "owner"
     ],
-    "path": "images/mubi/desktop/26-usage-complete-owner-section-appears.png",
-    "description": "mubi desktop krok 26: usage-complete-owner-section-appears",
+    "path": "images/mubi/desktop/26-owner-data-form-empty.png",
+    "description": "mubi desktop krok 26: owner-data-form-empty",
     "width": 1920,
     "height": 1111
   },
@@ -3738,8 +3738,8 @@
     "tags": [
       "owner"
     ],
-    "path": "images/mubi/desktop/27-owner-section.png",
-    "description": "mubi desktop krok 27: owner-section",
+    "path": "images/mubi/desktop/27-owner-data-filled-license-year-picker.png",
+    "description": "mubi desktop krok 27: owner-data-filled-license-year-picker",
     "width": 1920,
     "height": 1111
   },
@@ -3747,12 +3747,12 @@
     "site": "mubi",
     "device": "desktop",
     "step": 28,
-    "tag": "owner",
+    "tag": "insurance",
     "tags": [
-      "owner"
+      "insurance"
     ],
-    "path": "images/mubi/desktop/28-owner-data-form-empty.png",
-    "description": "mubi desktop krok 28: owner-data-form-empty",
+    "path": "images/mubi/desktop/28-insurance-history-dropdown.png",
+    "description": "mubi desktop krok 28: insurance-history-dropdown",
     "width": 1920,
     "height": 1111
   },
@@ -3760,12 +3760,12 @@
     "site": "mubi",
     "device": "desktop",
     "step": 29,
-    "tag": "owner",
+    "tag": "contact",
     "tags": [
-      "owner"
+      "contact"
     ],
-    "path": "images/mubi/desktop/29-owner-data-filled-license-year-picker.png",
-    "description": "mubi desktop krok 29: owner-data-filled-license-year-picker",
+    "path": "images/mubi/desktop/29-contact-data-filled-kalkuluj.png",
+    "description": "mubi desktop krok 29: contact-data-filled-kalkuluj",
     "width": 1920,
     "height": 1111
   },
@@ -3773,12 +3773,12 @@
     "site": "mubi",
     "device": "desktop",
     "step": 30,
-    "tag": "insurance",
+    "tag": "validation",
     "tags": [
-      "insurance"
+      "validation"
     ],
-    "path": "images/mubi/desktop/30-insurance-history-dropdown.png",
-    "description": "mubi desktop krok 30: insurance-history-dropdown",
+    "path": "images/mubi/desktop/30-validation-error-claims-field.png",
+    "description": "mubi desktop krok 30: validation-error-claims-field",
     "width": 1920,
     "height": 1111
   },
@@ -3786,12 +3786,12 @@
     "site": "mubi",
     "device": "desktop",
     "step": 31,
-    "tag": "contact",
+    "tag": "offers",
     "tags": [
-      "contact"
+      "offers"
     ],
-    "path": "images/mubi/desktop/31-contact-data-filled-kalkuluj.png",
-    "description": "mubi desktop krok 31: contact-data-filled-kalkuluj",
+    "path": "images/mubi/desktop/31-offers-loading-modal.png",
+    "description": "mubi desktop krok 31: offers-loading-modal",
     "width": 1920,
     "height": 1111
   },
@@ -3799,12 +3799,12 @@
     "site": "mubi",
     "device": "desktop",
     "step": 32,
-    "tag": "validation",
+    "tag": "offers",
     "tags": [
-      "validation"
+      "offers"
     ],
-    "path": "images/mubi/desktop/32-validation-error-claims-field.png",
-    "description": "mubi desktop krok 32: validation-error-claims-field",
+    "path": "images/mubi/desktop/32-offers-list-top.png",
+    "description": "mubi desktop krok 32: offers-list-top",
     "width": 1920,
     "height": 1111
   },
@@ -3816,8 +3816,8 @@
     "tags": [
       "offers"
     ],
-    "path": "images/mubi/desktop/33-offers-loading-modal.png",
-    "description": "mubi desktop krok 33: offers-loading-modal",
+    "path": "images/mubi/desktop/33-offers-list-scroll-1.png",
+    "description": "mubi desktop krok 33: offers-list-scroll-1",
     "width": 1920,
     "height": 1111
   },
@@ -3829,8 +3829,8 @@
     "tags": [
       "offers"
     ],
-    "path": "images/mubi/desktop/34-offers-list-top.png",
-    "description": "mubi desktop krok 34: offers-list-top",
+    "path": "images/mubi/desktop/34-offers-list-scroll-2.png",
+    "description": "mubi desktop krok 34: offers-list-scroll-2",
     "width": 1920,
     "height": 1111
   },
@@ -3838,12 +3838,12 @@
     "site": "mubi",
     "device": "desktop",
     "step": 35,
-    "tag": "offers",
+    "tag": "offer",
     "tags": [
-      "offers"
+      "offer"
     ],
-    "path": "images/mubi/desktop/35-offers-list-scroll-1.png",
-    "description": "mubi desktop krok 35: offers-list-scroll-1",
+    "path": "images/mubi/desktop/35-offer-details-modal.png",
+    "description": "mubi desktop krok 35: offer-details-modal",
     "width": 1920,
     "height": 1111
   },
@@ -3851,38 +3851,12 @@
     "site": "mubi",
     "device": "desktop",
     "step": 36,
-    "tag": "offers",
-    "tags": [
-      "offers"
-    ],
-    "path": "images/mubi/desktop/36-offers-list-scroll-2.png",
-    "description": "mubi desktop krok 36: offers-list-scroll-2",
-    "width": 1920,
-    "height": 1111
-  },
-  {
-    "site": "mubi",
-    "device": "desktop",
-    "step": 37,
-    "tag": "offer",
-    "tags": [
-      "offer"
-    ],
-    "path": "images/mubi/desktop/37-offer-details-modal.png",
-    "description": "mubi desktop krok 37: offer-details-modal",
-    "width": 1920,
-    "height": 1111
-  },
-  {
-    "site": "mubi",
-    "device": "desktop",
-    "step": 38,
     "tag": "selected",
     "tags": [
       "selected"
     ],
-    "path": "images/mubi/desktop/38-selected-offer-upsell-addons.png",
-    "description": "mubi desktop krok 38: selected-offer-upsell-addons",
+    "path": "images/mubi/desktop/36-selected-offer-upsell-addons.png",
+    "description": "mubi desktop krok 36: selected-offer-upsell-addons",
     "width": 1920,
     "height": 1111
   },
@@ -4826,12 +4800,12 @@
     "site": "thezebra",
     "device": "desktop",
     "step": 1,
-    "tag": "landing",
+    "tag": "home",
     "tags": [
-      "landing"
+      "home"
     ],
-    "path": "images/thezebra/desktop/01-landing-cookie-consent.png",
-    "description": "thezebra desktop krok 1: landing-cookie-consent",
+    "path": "images/thezebra/desktop/01-home.png",
+    "description": "thezebra desktop krok 1: home",
     "width": 1920,
     "height": 1200
   },
@@ -5029,5 +5003,434 @@
     "description": "thezebra desktop krok 16: gender",
     "width": 1920,
     "height": 1200
+  },
+  {
+    "site": "beesafe",
+    "device": "desktop",
+    "step": 1,
+    "tag": "landing",
+    "tags": [
+      "landing"
+    ],
+    "path": "images/beesafe/desktop/01-landing-hero.png",
+    "description": "beesafe desktop krok 1: landing-hero",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "beesafe",
+    "device": "desktop",
+    "step": 2,
+    "tag": "calculator",
+    "tags": [
+      "calculator"
+    ],
+    "path": "images/beesafe/desktop/02-calculator-start.png",
+    "description": "beesafe desktop krok 2: calculator-start",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "beesafe",
+    "device": "desktop",
+    "step": 3,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/beesafe/desktop/03-vehicle-type-year.png",
+    "description": "beesafe desktop krok 3: vehicle-type-year",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "beesafe",
+    "device": "desktop",
+    "step": 4,
+    "tag": "brand",
+    "tags": [
+      "brand"
+    ],
+    "path": "images/beesafe/desktop/04-brand-picker.png",
+    "description": "beesafe desktop krok 4: brand-picker",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "beesafe",
+    "device": "desktop",
+    "step": 5,
+    "tag": "fuel",
+    "tags": [
+      "fuel"
+    ],
+    "path": "images/beesafe/desktop/05-fuel-type.png",
+    "description": "beesafe desktop krok 5: fuel-type",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "beesafe",
+    "device": "desktop",
+    "step": 6,
+    "tag": "version",
+    "tags": [
+      "version"
+    ],
+    "path": "images/beesafe/desktop/06-version-picker.png",
+    "description": "beesafe desktop krok 6: version-picker",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "beesafe",
+    "device": "desktop",
+    "step": 7,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/beesafe/desktop/07-vehicle-summary.png",
+    "description": "beesafe desktop krok 7: vehicle-summary",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "beesafe",
+    "device": "desktop",
+    "step": 8,
+    "tag": "owner",
+    "tags": [
+      "owner"
+    ],
+    "path": "images/beesafe/desktop/08-owner-validation-error.png",
+    "description": "beesafe desktop krok 8: owner-validation-error",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "beesafe",
+    "device": "desktop",
+    "step": 9,
+    "tag": "owner",
+    "tags": [
+      "owner"
+    ],
+    "path": "images/beesafe/desktop/09-owner-filled-consents.png",
+    "description": "beesafe desktop krok 9: owner-filled-consents",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "beesafe",
+    "device": "desktop",
+    "step": 10,
+    "tag": "pesel",
+    "tags": [
+      "pesel"
+    ],
+    "path": "images/beesafe/desktop/10-pesel-postcode.png",
+    "description": "beesafe desktop krok 10: pesel-postcode",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "beesafe",
+    "device": "desktop",
+    "step": 11,
+    "tag": "offer",
+    "tags": [
+      "offer"
+    ],
+    "path": "images/beesafe/desktop/11-offer-top.png",
+    "description": "beesafe desktop krok 11: offer-top",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "beesafe",
+    "device": "desktop",
+    "step": 12,
+    "tag": "offer",
+    "tags": [
+      "offer"
+    ],
+    "path": "images/beesafe/desktop/12-offer-scroll-1.png",
+    "description": "beesafe desktop krok 12: offer-scroll-1",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "beesafe",
+    "device": "desktop",
+    "step": 13,
+    "tag": "offer",
+    "tags": [
+      "offer"
+    ],
+    "path": "images/beesafe/desktop/13-offer-details-addons.png",
+    "description": "beesafe desktop krok 13: offer-details-addons",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "beesafe",
+    "device": "desktop",
+    "step": 14,
+    "tag": "policy",
+    "tags": [
+      "policy"
+    ],
+    "path": "images/beesafe/desktop/14-policy-start-date.png",
+    "description": "beesafe desktop krok 14: policy-start-date",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "beesafe",
+    "device": "desktop",
+    "step": 15,
+    "tag": "owner",
+    "tags": [
+      "owner"
+    ],
+    "path": "images/beesafe/desktop/15-owner-details.png",
+    "description": "beesafe desktop krok 15: owner-details",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "beesafe",
+    "device": "desktop",
+    "step": 16,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/beesafe/desktop/16-vehicle-plate-vin.png",
+    "description": "beesafe desktop krok 16: vehicle-plate-vin",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "beesafe",
+    "device": "mobile",
+    "step": 1,
+    "tag": "landing",
+    "tags": [
+      "landing"
+    ],
+    "path": "images/beesafe/mobile/01-landing-hero.png",
+    "description": "beesafe mobile krok 1: landing-hero",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "beesafe",
+    "device": "mobile",
+    "step": 2,
+    "tag": "calculator",
+    "tags": [
+      "calculator"
+    ],
+    "path": "images/beesafe/mobile/02-calculator-start.png",
+    "description": "beesafe mobile krok 2: calculator-start",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "beesafe",
+    "device": "mobile",
+    "step": 3,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/beesafe/mobile/03-vehicle-type-year.png",
+    "description": "beesafe mobile krok 3: vehicle-type-year",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "beesafe",
+    "device": "mobile",
+    "step": 4,
+    "tag": "brand",
+    "tags": [
+      "brand"
+    ],
+    "path": "images/beesafe/mobile/04-brand-picker.png",
+    "description": "beesafe mobile krok 4: brand-picker",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "beesafe",
+    "device": "mobile",
+    "step": 5,
+    "tag": "fuel",
+    "tags": [
+      "fuel"
+    ],
+    "path": "images/beesafe/mobile/05-fuel-type.png",
+    "description": "beesafe mobile krok 5: fuel-type",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "beesafe",
+    "device": "mobile",
+    "step": 6,
+    "tag": "version",
+    "tags": [
+      "version"
+    ],
+    "path": "images/beesafe/mobile/06-version-picker.png",
+    "description": "beesafe mobile krok 6: version-picker",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "beesafe",
+    "device": "mobile",
+    "step": 7,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/beesafe/mobile/07-vehicle-summary.png",
+    "description": "beesafe mobile krok 7: vehicle-summary",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "beesafe",
+    "device": "mobile",
+    "step": 8,
+    "tag": "owner",
+    "tags": [
+      "owner"
+    ],
+    "path": "images/beesafe/mobile/08-owner-validation-error.png",
+    "description": "beesafe mobile krok 8: owner-validation-error",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "beesafe",
+    "device": "mobile",
+    "step": 9,
+    "tag": "owner",
+    "tags": [
+      "owner"
+    ],
+    "path": "images/beesafe/mobile/09-owner-filled-consents.png",
+    "description": "beesafe mobile krok 9: owner-filled-consents",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "beesafe",
+    "device": "mobile",
+    "step": 10,
+    "tag": "pesel",
+    "tags": [
+      "pesel"
+    ],
+    "path": "images/beesafe/mobile/10-pesel-postcode.png",
+    "description": "beesafe mobile krok 10: pesel-postcode",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "beesafe",
+    "device": "mobile",
+    "step": 11,
+    "tag": "offer",
+    "tags": [
+      "offer"
+    ],
+    "path": "images/beesafe/mobile/11-offer-loading.png",
+    "description": "beesafe mobile krok 11: offer-loading",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "beesafe",
+    "device": "mobile",
+    "step": 12,
+    "tag": "offer",
+    "tags": [
+      "offer"
+    ],
+    "path": "images/beesafe/mobile/12-offer-top.png",
+    "description": "beesafe mobile krok 12: offer-top",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "beesafe",
+    "device": "mobile",
+    "step": 13,
+    "tag": "offer",
+    "tags": [
+      "offer"
+    ],
+    "path": "images/beesafe/mobile/13-offer-scroll-1.png",
+    "description": "beesafe mobile krok 13: offer-scroll-1",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "beesafe",
+    "device": "mobile",
+    "step": 14,
+    "tag": "offer",
+    "tags": [
+      "offer"
+    ],
+    "path": "images/beesafe/mobile/14-offer-details-addons.png",
+    "description": "beesafe mobile krok 14: offer-details-addons",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "beesafe",
+    "device": "mobile",
+    "step": 15,
+    "tag": "policy",
+    "tags": [
+      "policy"
+    ],
+    "path": "images/beesafe/mobile/15-policy-start-date.png",
+    "description": "beesafe mobile krok 15: policy-start-date",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "beesafe",
+    "device": "mobile",
+    "step": 16,
+    "tag": "owner",
+    "tags": [
+      "owner"
+    ],
+    "path": "images/beesafe/mobile/16-owner-details.png",
+    "description": "beesafe mobile krok 16: owner-details",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "beesafe",
+    "device": "mobile",
+    "step": 17,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/beesafe/mobile/17-vehicle-plate-vin.png",
+    "description": "beesafe mobile krok 17: vehicle-plate-vin",
+    "width": 1170,
+    "height": 2532
   }
 ]
