@@ -454,7 +454,7 @@ body.is-home .app-title {
 
 /* ——— Sidebar ——— */
 .sidebar {
-  align-self: stretch;
+  align-self: start;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -462,10 +462,9 @@ body.is-home .app-title {
   background: var(--canvas);
   border: 1px solid var(--hairline);
   border-radius: var(--radius-card);
-  min-height: 0;
+  height: auto;
   max-height: none;
-  height: 100%;
-  overflow-y: auto;
+  overflow: visible;
 }
 
 .sidebar-block { display: flex; flex-direction: column; gap: 8px; }
