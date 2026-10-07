@@ -15,17 +15,16 @@ Zmiany w tym pliku **bez osobnego deployu** — wjeżdżają przy następnym dep
 
 ## W toku
 
-- [ ] **Lemonade mobile** — 1170×2532, bez DevTools (pełne flow od zera, czyścić formularz)
+- [ ] **Rankomat mobile** — poprawić: wyczyścić formularz, przejść całe flow od nowa (obecne 7 kroków pomija początek formularza)
 
 ## Kolejka
 
-1. [ ] **Rankomat mobile** — poprawić: wyczyścić formularz, przejść całe flow od nowa (obecne 7 kroków pomija początek formularza)
-2. [ ] **Mubi** — desktop + mobile 1170×2532, bez DevTools
-3. [ ] **GoCompare** — desktop + mobile 1170×2532, bez DevTools
-4. [ ] **Dark mode** — motyw ciemny z przełącznikiem
-5. [ ] **The Zebra** — wznowić później (oferty + mobile), gdy block opadnie
-6. [ ] **Beesafe** — desktop + mobile 1170×2532, bez DevTools
-7. [ ] **Link4** — desktop + mobile 1170×2532, bez DevTools
+1. [ ] **Mubi** — desktop + mobile 1170×2532, bez DevTools
+2. [ ] **GoCompare** — desktop + mobile 1170×2532, bez DevTools
+3. [ ] **Dark mode** — motyw ciemny z przełącznikiem
+4. [ ] **The Zebra** — wznowić później (oferty + mobile), gdy block opadnie
+5. [ ] **Beesafe** — desktop + mobile 1170×2532, bez DevTools
+6. [ ] **Link4** — desktop + mobile 1170×2532, bez DevTools
 
 ## Pominięte (wrócimy później)
 
@@ -33,6 +32,7 @@ Zmiany w tym pliku **bez osobnego deployu** — wjeżdżają przy następnym dep
 
 ## Zrobione
 
+- [x] **Lemonade** — desktop **29** + mobile **45 / 45** do oferty (1170×2532), na produkcji
 - [x] **Insurify** — desktop OK + natywne mobile **45 / 45** do ofert, 1170×2532, na produkcji
 - [x] **NerdWallet** — desktop 20 + mobile 21, 1920×1200 / 1170×2532, na produkcji
 - [x] **Kiosk Polis** — mobile 1170×2532 (**12 / 12**) na produkcji

@@ -2533,5 +2533,590 @@
     "description": "lemonade desktop krok 29: quote-scroll2",
     "width": 1920,
     "height": 1200
+  },
+  {
+    "site": "lemonade",
+    "device": "mobile",
+    "step": 1,
+    "tag": "landing",
+    "tags": [
+      "landing"
+    ],
+    "path": "images/lemonade/mobile/01-landing.png",
+    "description": "lemonade mobile krok 1: landing",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "lemonade",
+    "device": "mobile",
+    "step": 2,
+    "tag": "cookies",
+    "tags": [
+      "cookies"
+    ],
+    "path": "images/lemonade/mobile/02-cookies.png",
+    "description": "lemonade mobile krok 2: cookies",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "lemonade",
+    "device": "mobile",
+    "step": 3,
+    "tag": "returning",
+    "tags": [
+      "returning"
+    ],
+    "path": "images/lemonade/mobile/03-returning-question.png",
+    "description": "lemonade mobile krok 3: returning-question",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "lemonade",
+    "device": "mobile",
+    "step": 4,
+    "tag": "name",
+    "tags": [
+      "name"
+    ],
+    "path": "images/lemonade/mobile/04-name-empty.png",
+    "description": "lemonade mobile krok 4: name-empty",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "lemonade",
+    "device": "mobile",
+    "step": 5,
+    "tag": "name",
+    "tags": [
+      "name"
+    ],
+    "path": "images/lemonade/mobile/05-name-filled.png",
+    "description": "lemonade mobile krok 5: name-filled",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "lemonade",
+    "device": "mobile",
+    "step": 6,
+    "tag": "address",
+    "tags": [
+      "address"
+    ],
+    "path": "images/lemonade/mobile/06-address-empty.png",
+    "description": "lemonade mobile krok 6: address-empty",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "lemonade",
+    "device": "mobile",
+    "step": 7,
+    "tag": "address",
+    "tags": [
+      "address"
+    ],
+    "path": "images/lemonade/mobile/07-address-autocomplete.png",
+    "description": "lemonade mobile krok 7: address-autocomplete",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "lemonade",
+    "device": "mobile",
+    "step": 8,
+    "tag": "address",
+    "tags": [
+      "address"
+    ],
+    "path": "images/lemonade/mobile/08-address-filled.png",
+    "description": "lemonade mobile krok 8: address-filled",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "lemonade",
+    "device": "mobile",
+    "step": 9,
+    "tag": "details",
+    "tags": [
+      "details"
+    ],
+    "path": "images/lemonade/mobile/09-details-empty.png",
+    "description": "lemonade mobile krok 9: details-empty",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "lemonade",
+    "device": "mobile",
+    "step": 10,
+    "tag": "details",
+    "tags": [
+      "details"
+    ],
+    "path": "images/lemonade/mobile/10-details-dob-entry.png",
+    "description": "lemonade mobile krok 10: details-dob-entry",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "lemonade",
+    "device": "mobile",
+    "step": 11,
+    "tag": "econsent",
+    "tags": [
+      "econsent"
+    ],
+    "path": "images/lemonade/mobile/11-econsent-modal.png",
+    "description": "lemonade mobile krok 11: econsent-modal",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "lemonade",
+    "device": "mobile",
+    "step": 12,
+    "tag": "tos",
+    "tags": [
+      "tos"
+    ],
+    "path": "images/lemonade/mobile/12-tos-modal.png",
+    "description": "lemonade mobile krok 12: tos-modal",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "lemonade",
+    "device": "mobile",
+    "step": 13,
+    "tag": "tos",
+    "tags": [
+      "tos"
+    ],
+    "path": "images/lemonade/mobile/13-tos-agree.png",
+    "description": "lemonade mobile krok 13: tos-agree",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "lemonade",
+    "device": "mobile",
+    "step": 14,
+    "tag": "details",
+    "tags": [
+      "details"
+    ],
+    "path": "images/lemonade/mobile/14-details-filled.png",
+    "description": "lemonade mobile krok 14: details-filled",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "lemonade",
+    "device": "mobile",
+    "step": 15,
+    "tag": "email",
+    "tags": [
+      "email"
+    ],
+    "path": "images/lemonade/mobile/15-email-verification-code.png",
+    "description": "lemonade mobile krok 15: email-verification-code",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "lemonade",
+    "device": "mobile",
+    "step": 16,
+    "tag": "otp",
+    "tags": [
+      "otp"
+    ],
+    "path": "images/lemonade/mobile/16-otp-entered.png",
+    "description": "lemonade mobile krok 16: otp-entered",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "lemonade",
+    "device": "mobile",
+    "step": 17,
+    "tag": "otp",
+    "tags": [
+      "otp"
+    ],
+    "path": "images/lemonade/mobile/17-otp-accepted-ubi-intro.png",
+    "description": "lemonade mobile krok 17: otp-accepted-ubi-intro",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "lemonade",
+    "device": "mobile",
+    "step": 18,
+    "tag": "scanning",
+    "tags": [
+      "scanning"
+    ],
+    "path": "images/lemonade/mobile/18-scanning-address.png",
+    "description": "lemonade mobile krok 18: scanning-address",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "lemonade",
+    "device": "mobile",
+    "step": 19,
+    "tag": "car",
+    "tags": [
+      "car"
+    ],
+    "path": "images/lemonade/mobile/19-car-f150-selected.png",
+    "description": "lemonade mobile krok 19: car-f150-selected",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "lemonade",
+    "device": "mobile",
+    "step": 20,
+    "tag": "drivers",
+    "tags": [
+      "drivers"
+    ],
+    "path": "images/lemonade/mobile/20-drivers-alex-only.png",
+    "description": "lemonade mobile krok 20: drivers-alex-only",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "lemonade",
+    "device": "mobile",
+    "step": 21,
+    "tag": "financed",
+    "tags": [
+      "financed"
+    ],
+    "path": "images/lemonade/mobile/21-financed-leased.png",
+    "description": "lemonade mobile krok 21: financed-leased",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "lemonade",
+    "device": "mobile",
+    "step": 22,
+    "tag": "rideshare",
+    "tags": [
+      "rideshare"
+    ],
+    "path": "images/lemonade/mobile/22-rideshare.png",
+    "description": "lemonade mobile krok 22: rideshare",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "lemonade",
+    "device": "mobile",
+    "step": 23,
+    "tag": "violations",
+    "tags": [
+      "violations"
+    ],
+    "path": "images/lemonade/mobile/23-violations.png",
+    "description": "lemonade mobile krok 23: violations",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "lemonade",
+    "device": "mobile",
+    "step": 24,
+    "tag": "marital",
+    "tags": [
+      "marital"
+    ],
+    "path": "images/lemonade/mobile/24-marital-status.png",
+    "description": "lemonade mobile krok 24: marital-status",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "lemonade",
+    "device": "mobile",
+    "step": 25,
+    "tag": "registered",
+    "tags": [
+      "registered"
+    ],
+    "path": "images/lemonade/mobile/25-registered-ca.png",
+    "description": "lemonade mobile krok 25: registered-ca",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "lemonade",
+    "device": "mobile",
+    "step": 26,
+    "tag": "registered",
+    "tags": [
+      "registered"
+    ],
+    "path": "images/lemonade/mobile/26-registered-ca-selected.png",
+    "description": "lemonade mobile krok 26: registered-ca-selected",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "lemonade",
+    "device": "mobile",
+    "step": 27,
+    "tag": "license",
+    "tags": [
+      "license"
+    ],
+    "path": "images/lemonade/mobile/27-license-status.png",
+    "description": "lemonade mobile krok 27: license-status",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "lemonade",
+    "device": "mobile",
+    "step": 28,
+    "tag": "license",
+    "tags": [
+      "license"
+    ],
+    "path": "images/lemonade/mobile/28-license-state.png",
+    "description": "lemonade mobile krok 28: license-state",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "lemonade",
+    "device": "mobile",
+    "step": 29,
+    "tag": "license",
+    "tags": [
+      "license"
+    ],
+    "path": "images/lemonade/mobile/29-license-state-picker.png",
+    "description": "lemonade mobile krok 29: license-state-picker",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "lemonade",
+    "device": "mobile",
+    "step": 30,
+    "tag": "license",
+    "tags": [
+      "license"
+    ],
+    "path": "images/lemonade/mobile/30-license-state-ca.png",
+    "description": "lemonade mobile krok 30: license-state-ca",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "lemonade",
+    "device": "mobile",
+    "step": 31,
+    "tag": "age",
+    "tags": [
+      "age"
+    ],
+    "path": "images/lemonade/mobile/31-age-first-licensed.png",
+    "description": "lemonade mobile krok 31: age-first-licensed",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "lemonade",
+    "device": "mobile",
+    "step": 32,
+    "tag": "age",
+    "tags": [
+      "age"
+    ],
+    "path": "images/lemonade/mobile/32-age-picker.png",
+    "description": "lemonade mobile krok 32: age-picker",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "lemonade",
+    "device": "mobile",
+    "step": 33,
+    "tag": "age",
+    "tags": [
+      "age"
+    ],
+    "path": "images/lemonade/mobile/33-age-18.png",
+    "description": "lemonade mobile krok 33: age-18",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "lemonade",
+    "device": "mobile",
+    "step": 34,
+    "tag": "license",
+    "tags": [
+      "license"
+    ],
+    "path": "images/lemonade/mobile/34-license-number.png",
+    "description": "lemonade mobile krok 34: license-number",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "lemonade",
+    "device": "mobile",
+    "step": 35,
+    "tag": "license",
+    "tags": [
+      "license"
+    ],
+    "path": "images/lemonade/mobile/35-license-number-filled.png",
+    "description": "lemonade mobile krok 35: license-number-filled",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "lemonade",
+    "device": "mobile",
+    "step": 36,
+    "tag": "other",
+    "tags": [
+      "other"
+    ],
+    "path": "images/lemonade/mobile/36-other-country-license.png",
+    "description": "lemonade mobile krok 36: other-country-license",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "lemonade",
+    "device": "mobile",
+    "step": 37,
+    "tag": "occupation",
+    "tags": [
+      "occupation"
+    ],
+    "path": "images/lemonade/mobile/37-occupation.png",
+    "description": "lemonade mobile krok 37: occupation",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "lemonade",
+    "device": "mobile",
+    "step": 38,
+    "tag": "occupation",
+    "tags": [
+      "occupation"
+    ],
+    "path": "images/lemonade/mobile/38-occupation-search.png",
+    "description": "lemonade mobile krok 38: occupation-search",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "lemonade",
+    "device": "mobile",
+    "step": 39,
+    "tag": "occupation",
+    "tags": [
+      "occupation"
+    ],
+    "path": "images/lemonade/mobile/39-occupation-marketing-specialist.png",
+    "description": "lemonade mobile krok 39: occupation-marketing-specialist",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "lemonade",
+    "device": "mobile",
+    "step": 40,
+    "tag": "other",
+    "tags": [
+      "other"
+    ],
+    "path": "images/lemonade/mobile/40-other-policies.png",
+    "description": "lemonade mobile krok 40: other-policies",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "lemonade",
+    "device": "mobile",
+    "step": 41,
+    "tag": "claims",
+    "tags": [
+      "claims"
+    ],
+    "path": "images/lemonade/mobile/41-claims.png",
+    "description": "lemonade mobile krok 41: claims",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "lemonade",
+    "device": "mobile",
+    "step": 42,
+    "tag": "crunching",
+    "tags": [
+      "crunching"
+    ],
+    "path": "images/lemonade/mobile/42-crunching-numbers.png",
+    "description": "lemonade mobile krok 42: crunching-numbers",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "lemonade",
+    "device": "mobile",
+    "step": 43,
+    "tag": "see",
+    "tags": [
+      "see"
+    ],
+    "path": "images/lemonade/mobile/43-see-my-quote.png",
+    "description": "lemonade mobile krok 43: see-my-quote",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "lemonade",
+    "device": "mobile",
+    "step": 44,
+    "tag": "quote",
+    "tags": [
+      "quote"
+    ],
+    "path": "images/lemonade/mobile/44-quote-top.png",
+    "description": "lemonade mobile krok 44: quote-top",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "lemonade",
+    "device": "mobile",
+    "step": 45,
+    "tag": "quote",
+    "tags": [
+      "quote"
+    ],
+    "path": "images/lemonade/mobile/45-quote-scroll-coverages.png",
+    "description": "lemonade mobile krok 45: quote-scroll-coverages",
+    "width": 1170,
+    "height": 2532
   }
 ]
