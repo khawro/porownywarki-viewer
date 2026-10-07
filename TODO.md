@@ -13,15 +13,19 @@ Zmiany w tym pliku **bez osobnego deployu** — wjeżdżają przy następnym dep
 
 ## W toku
 
-- [ ] **The Zebra** — zrzuty desktop + mobile 1170×2532; deploy
+- [ ] **Insurify** — dograć świeże natywne mobile (na produkcji są 1170×2532 z konwersji upscale, nie z nowego capture)
+
+## Wstrzymane
+
+- [ ] **The Zebra** — Cloudflare hard block („Sorry, you have been blocked”, Ray ID `a46e7db10c0f3224`) po kroku email→telefon; ~30 desktop zapisanych, 0 mobile. Nie retry od razu / nie rotować IP agresywnie.
 
 ## Kolejka
 
-1. [ ] **Insurify** — dograć świeże natywne mobile (na produkcji są 1170×2532 z konwersji upscale, nie z nowego capture)
-2. [ ] **Lemonade** — zrzuty desktop i mobile 390×844 @3× (1170×2532), bez DevTools, w dobrej jakości
-3. [ ] **Mubi** — zrzuty desktop i mobile 390×844 @3× (1170×2532), bez DevTools, w dobrej jakości
-4. [ ] **GoCompare** — zrzuty desktop i mobile 390×844 @3× (1170×2532), bez DevTools, w dobrej jakości
-5. [ ] **Dark mode** — dodać motyw ciemny z przełącznikiem theme w aplikacji (viewer)
+1. [ ] **Lemonade** — zrzuty desktop i mobile 390×844 @3× (1170×2532), bez DevTools, w dobrej jakości
+2. [ ] **Mubi** — zrzuty desktop i mobile 390×844 @3× (1170×2532), bez DevTools, w dobrej jakości
+3. [ ] **GoCompare** — zrzuty desktop i mobile 390×844 @3× (1170×2532), bez DevTools, w dobrej jakości
+4. [ ] **Dark mode** — dodać motyw ciemny z przełącznikiem theme w aplikacji (viewer)
+5. [ ] **The Zebra** — wznowić później (desktop dokończyć oferty + mobile), gdy block opadnie
 
 ## Zrobione
 
