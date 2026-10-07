@@ -13,23 +13,23 @@ Zmiany w tym pliku **bez osobnego deployu** — wjeżdżają przy następnym dep
 
 ## W toku
 
-- [ ] **Insurify** — dograć świeże natywne mobile (na produkcji są 1170×2532 z konwersji upscale, nie z nowego capture)
+- [ ] **Insurify** — świeże natywne mobile 1170×2532 (obecne na prod to upscale), bez DevTools; desktop już OK
 
-## Wstrzymane
+## Pominięte (wrócimy później)
 
-- [ ] **The Zebra** — Cloudflare hard block („Sorry, you have been blocked”, Ray ID `a46e7db10c0f3224`) po kroku email→telefon; ~30 desktop zapisanych, 0 mobile. Nie retry od razu / nie rotować IP agresywnie.
+- [ ] **The Zebra** — pominięte: Cloudflare hard block (Ray ID `a46e7db10c0f3224`); bez retry. ~30 desktop lokalnie, 0 mobile.
 
 ## Kolejka
 
-1. [ ] **Lemonade** — zrzuty desktop i mobile 390×844 @3× (1170×2532), bez DevTools, w dobrej jakości
-2. [ ] **Mubi** — zrzuty desktop i mobile 390×844 @3× (1170×2532), bez DevTools, w dobrej jakości
-3. [ ] **GoCompare** — zrzuty desktop i mobile 390×844 @3× (1170×2532), bez DevTools, w dobrej jakości
-4. [ ] **Dark mode** — dodać motyw ciemny z przełącznikiem theme w aplikacji (viewer)
-5. [ ] **The Zebra** — wznowić później (desktop dokończyć oferty + mobile), gdy block opadnie
+1. [ ] **Lemonade** — desktop + mobile 1170×2532, bez DevTools
+2. [ ] **Mubi** — desktop + mobile 1170×2532, bez DevTools
+3. [ ] **GoCompare** — desktop + mobile 1170×2532, bez DevTools
+4. [ ] **Dark mode** — motyw ciemny z przełącznikiem
+5. [ ] **The Zebra** — wznowić później (oferty + mobile), gdy block opadnie
 
 ## Zrobione
 
-- [x] **NerdWallet** — desktop 20 + mobile 21 (do ofert), 1920×1200 / 1170×2532, gość bez konta, na produkcji
-- [x] **Kiosk Polis** — świeże natywne mobile 1170×2532 (**12 / 12**) na produkcji
-- [x] **Rankomat** mobile — świeże 1170×2532 (**7 / 7**) na produkcji
-- [x] Strona [/todo](https://porownywarki-viewer.vercel.app/todo) z TODO.md (bez linku Roadmap w stopce)
+- [x] **NerdWallet** — desktop 20 + mobile 21, 1920×1200 / 1170×2532, na produkcji
+- [x] **Kiosk Polis** — mobile 1170×2532 (**12 / 12**) na produkcji
+- [x] **Rankomat** mobile — 1170×2532 (**7 / 7**) na produkcji
+- [x] Strona [/todo](https://porownywarki-viewer.vercel.app/todo)
