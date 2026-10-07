@@ -1,1 +1,838 @@
-[]
+[
+  {
+    "site": "insurify",
+    "device": "desktop",
+    "step": 1,
+    "tag": "home",
+    "tags": [
+      "home"
+    ],
+    "path": "images/insurify/desktop/01-home.png",
+    "description": "insurify desktop krok 1: Strona główna (home)"
+  },
+  {
+    "site": "insurify",
+    "device": "desktop",
+    "step": 2,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/insurify/desktop/02-vehicle-ubezpieczony.png",
+    "description": "insurify desktop krok 2: Dane pojazdu (vehicle-ubezpieczony)"
+  },
+  {
+    "site": "insurify",
+    "device": "desktop",
+    "step": 3,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/insurify/desktop/03-vehicle-rok.png",
+    "description": "insurify desktop krok 3: Dane pojazdu (vehicle-rok)"
+  },
+  {
+    "site": "insurify",
+    "device": "desktop",
+    "step": 4,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/insurify/desktop/04-vehicle-marka.png",
+    "description": "insurify desktop krok 4: Dane pojazdu (vehicle-marka)"
+  },
+  {
+    "site": "insurify",
+    "device": "desktop",
+    "step": 5,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/insurify/desktop/05-vehicle-model.png",
+    "description": "insurify desktop krok 5: Dane pojazdu (vehicle-model)"
+  },
+  {
+    "site": "insurify",
+    "device": "desktop",
+    "step": 6,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/insurify/desktop/06-vehicle-zakres.png",
+    "description": "insurify desktop krok 6: Dane pojazdu (vehicle-zakres)"
+  },
+  {
+    "site": "insurify",
+    "device": "desktop",
+    "step": 7,
+    "tag": "driver",
+    "tags": [
+      "driver"
+    ],
+    "path": "images/insurify/desktop/07-driver-data-urodzenia.png",
+    "description": "insurify desktop krok 7: Dane kierowcy / historia (driver-data-urodzenia)"
+  },
+  {
+    "site": "insurify",
+    "device": "desktop",
+    "step": 8,
+    "tag": "driver",
+    "tags": [
+      "driver"
+    ],
+    "path": "images/insurify/desktop/08-driver-zawod.png",
+    "description": "insurify desktop krok 8: Dane kierowcy / historia (driver-zawod)"
+  },
+  {
+    "site": "insurify",
+    "device": "desktop",
+    "step": 9,
+    "tag": "driver",
+    "tags": [
+      "driver"
+    ],
+    "path": "images/insurify/desktop/09-driver-historia-ubezpieczenia.png",
+    "description": "insurify desktop krok 9: Dane kierowcy / historia (driver-historia-ubezpieczenia)"
+  },
+  {
+    "site": "insurify",
+    "device": "desktop",
+    "step": 10,
+    "tag": "driver",
+    "tags": [
+      "driver"
+    ],
+    "path": "images/insurify/desktop/10-driver-wypadki.png",
+    "description": "insurify desktop krok 10: Dane kierowcy / historia (driver-wypadki)"
+  },
+  {
+    "site": "insurify",
+    "device": "desktop",
+    "step": 11,
+    "tag": "details",
+    "tags": [
+      "details"
+    ],
+    "path": "images/insurify/desktop/11-details-imie-nazwisko.png",
+    "description": "insurify desktop krok 11: Dane osobowe / adres (details-imie-nazwisko)"
+  },
+  {
+    "site": "insurify",
+    "device": "desktop",
+    "step": 12,
+    "tag": "details",
+    "tags": [
+      "details"
+    ],
+    "path": "images/insurify/desktop/12-details-adres.png",
+    "description": "insurify desktop krok 12: Dane osobowe / adres (details-adres)"
+  },
+  {
+    "site": "insurify",
+    "device": "desktop",
+    "step": 13,
+    "tag": "checkout",
+    "tags": [
+      "checkout"
+    ],
+    "path": "images/insurify/desktop/13-checkout-email-zgody.png",
+    "description": "insurify desktop krok 13: Checkout / dane kontaktowe i zgody (checkout-email-zgody)"
+  },
+  {
+    "site": "kioskpolis",
+    "device": "desktop",
+    "step": 1,
+    "tag": "home",
+    "tags": [
+      "home"
+    ],
+    "path": "images/kioskpolis/desktop/01-home.png",
+    "description": "kioskpolis desktop krok 1: Strona główna (home)"
+  },
+  {
+    "site": "kioskpolis",
+    "device": "desktop",
+    "step": 2,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/kioskpolis/desktop/02-start-formularz.png",
+    "description": "kioskpolis desktop krok 2: Dane pojazdu (start-formularz)"
+  },
+  {
+    "site": "kioskpolis",
+    "device": "desktop",
+    "step": 3,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/kioskpolis/desktop/03-pojazd.png",
+    "description": "kioskpolis desktop krok 3: Dane pojazdu (pojazd)"
+  },
+  {
+    "site": "kioskpolis",
+    "device": "desktop",
+    "step": 4,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/kioskpolis/desktop/04-uzytkowanie-pojazdu.png",
+    "description": "kioskpolis desktop krok 4: Dane pojazdu (uzytkowanie-pojazdu)"
+  },
+  {
+    "site": "kioskpolis",
+    "device": "desktop",
+    "step": 5,
+    "tag": "driver",
+    "tags": [
+      "driver"
+    ],
+    "path": "images/kioskpolis/desktop/05-wlasciciel.png",
+    "description": "kioskpolis desktop krok 5: Dane kierowcy / historia (wlasciciel)"
+  },
+  {
+    "site": "kioskpolis",
+    "device": "desktop",
+    "step": 6,
+    "tag": "details",
+    "tags": [
+      "details"
+    ],
+    "path": "images/kioskpolis/desktop/06-kontakt.png",
+    "description": "kioskpolis desktop krok 6: Dane osobowe / adres (kontakt)"
+  },
+  {
+    "site": "kioskpolis",
+    "device": "desktop",
+    "step": 7,
+    "tag": "details",
+    "tags": [
+      "details"
+    ],
+    "path": "images/kioskpolis/desktop/07-wymagany-pesel.png",
+    "description": "kioskpolis desktop krok 7: Dane osobowe / adres (wymagany-pesel)"
+  },
+  {
+    "site": "kioskpolis",
+    "device": "mobile",
+    "step": 1,
+    "tag": "home",
+    "tags": [
+      "home"
+    ],
+    "path": "images/kioskpolis/mobile/01-home.png",
+    "description": "kioskpolis mobile krok 1: Strona główna (home)"
+  },
+  {
+    "site": "kioskpolis",
+    "device": "mobile",
+    "step": 2,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/kioskpolis/mobile/02-start-formularz.png",
+    "description": "kioskpolis mobile krok 2: Dane pojazdu (start-formularz)"
+  },
+  {
+    "site": "kioskpolis",
+    "device": "mobile",
+    "step": 3,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/kioskpolis/mobile/03-wybor-marki.png",
+    "description": "kioskpolis mobile krok 3: Dane pojazdu (wybor-marki)"
+  },
+  {
+    "site": "kioskpolis",
+    "device": "mobile",
+    "step": 4,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/kioskpolis/mobile/04-rok-produkcji.png",
+    "description": "kioskpolis mobile krok 4: Dane pojazdu (rok-produkcji)"
+  },
+  {
+    "site": "kioskpolis",
+    "device": "mobile",
+    "step": 5,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/kioskpolis/mobile/05-wersja-pojazdu.png",
+    "description": "kioskpolis mobile krok 5: Dane pojazdu (wersja-pojazdu)"
+  },
+  {
+    "site": "kioskpolis",
+    "device": "mobile",
+    "step": 6,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/kioskpolis/mobile/06-uzytkowanie-pojazdu.png",
+    "description": "kioskpolis mobile krok 6: Dane pojazdu (uzytkowanie-pojazdu)"
+  },
+  {
+    "site": "rankomat",
+    "device": "desktop",
+    "step": 1,
+    "tag": "home",
+    "tags": [
+      "home"
+    ],
+    "path": "images/rankomat/desktop/01-home.png",
+    "description": "rankomat desktop krok 1: Strona główna (home)"
+  },
+  {
+    "site": "rankomat",
+    "device": "desktop",
+    "step": 2,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/rankomat/desktop/02-start-form.png",
+    "description": "rankomat desktop krok 2: Dane pojazdu (start-form)"
+  },
+  {
+    "site": "rankomat",
+    "device": "desktop",
+    "step": 3,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/rankomat/desktop/03-pojazd.png",
+    "description": "rankomat desktop krok 3: Dane pojazdu (pojazd)"
+  },
+  {
+    "site": "rankomat",
+    "device": "desktop",
+    "step": 4,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/rankomat/desktop/04-historia-pojazdu.png",
+    "description": "rankomat desktop krok 4: Dane pojazdu (historia-pojazdu)"
+  },
+  {
+    "site": "rankomat",
+    "device": "desktop",
+    "step": 5,
+    "tag": "driver",
+    "tags": [
+      "driver"
+    ],
+    "path": "images/rankomat/desktop/05-wlasciciel.png",
+    "description": "rankomat desktop krok 5: Dane kierowcy / historia (wlasciciel)"
+  },
+  {
+    "site": "rankomat",
+    "device": "desktop",
+    "step": 6,
+    "tag": "loading",
+    "tags": [
+      "loading"
+    ],
+    "path": "images/rankomat/desktop/06-ladowanie-ofert.png",
+    "description": "rankomat desktop krok 6: Ładowanie ofert (ladowanie-ofert)"
+  },
+  {
+    "site": "rankomat",
+    "device": "desktop",
+    "step": 7,
+    "tag": "offers",
+    "tags": [
+      "offers"
+    ],
+    "path": "images/rankomat/desktop/07-lista-ofert.png",
+    "description": "rankomat desktop krok 7: Ranking ofert (lista-ofert)"
+  },
+  {
+    "site": "rankomat",
+    "device": "desktop",
+    "step": 8,
+    "tag": "checkout",
+    "tags": [
+      "checkout"
+    ],
+    "path": "images/rankomat/desktop/08-checkout-dane.png",
+    "description": "rankomat desktop krok 8: Checkout / dane kontaktowe i zgody (checkout-dane)"
+  },
+  {
+    "site": "rankomat",
+    "device": "mobile",
+    "step": 1,
+    "tag": "home",
+    "tags": [
+      "home"
+    ],
+    "path": "images/rankomat/mobile/01-home.png",
+    "description": "rankomat mobile krok 1: Strona główna (home)"
+  },
+  {
+    "site": "rankomat",
+    "device": "mobile",
+    "step": 2,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/rankomat/mobile/02-start-formularz.png",
+    "description": "rankomat mobile krok 2: Dane pojazdu (start-formularz)"
+  },
+  {
+    "site": "rankomat",
+    "device": "mobile",
+    "step": 3,
+    "tag": "offers",
+    "tags": [
+      "offers"
+    ],
+    "path": "images/rankomat/mobile/03-lista-ofert.png",
+    "description": "rankomat mobile krok 3: Ranking ofert (lista-ofert)"
+  },
+  {
+    "site": "rankomat",
+    "device": "mobile",
+    "step": 4,
+    "tag": "checkout",
+    "tags": [
+      "checkout"
+    ],
+    "path": "images/rankomat/mobile/04-checkout-dodatki.png",
+    "description": "rankomat mobile krok 4: Checkout / dane kontaktowe i zgody (checkout-dodatki)"
+  },
+  {
+    "site": "rankomat",
+    "device": "mobile",
+    "step": 5,
+    "tag": "checkout",
+    "tags": [
+      "checkout"
+    ],
+    "path": "images/rankomat/mobile/05-checkout-dane.png",
+    "description": "rankomat mobile krok 5: Checkout / dane kontaktowe i zgody (checkout-dane)"
+  },
+  {
+    "site": "insurify",
+    "device": "mobile",
+    "step": 1,
+    "tag": "home.png",
+    "tags": [
+      "home.png"
+    ],
+    "path": "images/insurify/mobile/01-home.png",
+    "description": "insurify mobile krok 1: home"
+  },
+  {
+    "site": "insurify",
+    "device": "mobile",
+    "step": 2,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/insurify/mobile/02-vehicle-ubezpieczony.png",
+    "description": "insurify mobile krok 2: vehicle-ubezpieczony"
+  },
+  {
+    "site": "insurify",
+    "device": "mobile",
+    "step": 3,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/insurify/mobile/03-vehicle-termin-zakupu.png",
+    "description": "insurify mobile krok 3: vehicle-termin-zakupu"
+  },
+  {
+    "site": "insurify",
+    "device": "mobile",
+    "step": 4,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/insurify/mobile/04-vehicle-wlasciciel-domu.png",
+    "description": "insurify mobile krok 4: vehicle-wlasciciel-domu"
+  },
+  {
+    "site": "insurify",
+    "device": "mobile",
+    "step": 5,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/insurify/mobile/05-vehicle-liczba-aut.png",
+    "description": "insurify mobile krok 5: vehicle-liczba-aut"
+  },
+  {
+    "site": "insurify",
+    "device": "mobile",
+    "step": 6,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/insurify/mobile/06-vehicle-rok.png",
+    "description": "insurify mobile krok 6: vehicle-rok"
+  },
+  {
+    "site": "insurify",
+    "device": "mobile",
+    "step": 7,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/insurify/mobile/07-vehicle-marka.png",
+    "description": "insurify mobile krok 7: vehicle-marka"
+  },
+  {
+    "site": "insurify",
+    "device": "mobile",
+    "step": 8,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/insurify/mobile/08-vehicle-model.png",
+    "description": "insurify mobile krok 8: vehicle-model"
+  },
+  {
+    "site": "insurify",
+    "device": "mobile",
+    "step": 9,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/insurify/mobile/09-vehicle-wersja.png",
+    "description": "insurify mobile krok 9: vehicle-wersja"
+  },
+  {
+    "site": "insurify",
+    "device": "mobile",
+    "step": 10,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/insurify/mobile/10-vehicle-nadwozie.png",
+    "description": "insurify mobile krok 10: vehicle-nadwozie"
+  },
+  {
+    "site": "insurify",
+    "device": "mobile",
+    "step": 11,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/insurify/mobile/11-vehicle-uzytkowanie.png",
+    "description": "insurify mobile krok 11: vehicle-uzytkowanie"
+  },
+  {
+    "site": "insurify",
+    "device": "mobile",
+    "step": 12,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/insurify/mobile/12-vehicle-przebieg.png",
+    "description": "insurify mobile krok 12: vehicle-przebieg"
+  },
+  {
+    "site": "insurify",
+    "device": "mobile",
+    "step": 13,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/insurify/mobile/13-vehicle-wlasnosc.png",
+    "description": "insurify mobile krok 13: vehicle-wlasnosc"
+  },
+  {
+    "site": "insurify",
+    "device": "mobile",
+    "step": 14,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/insurify/mobile/14-vehicle-zakres.png",
+    "description": "insurify mobile krok 14: vehicle-zakres"
+  },
+  {
+    "site": "insurify",
+    "device": "mobile",
+    "step": 15,
+    "tag": "driver",
+    "tags": [
+      "driver"
+    ],
+    "path": "images/insurify/mobile/15-driver-data-urodzenia.png",
+    "description": "insurify mobile krok 15: driver-data-urodzenia"
+  },
+  {
+    "site": "insurify",
+    "device": "mobile",
+    "step": 16,
+    "tag": "driver",
+    "tags": [
+      "driver"
+    ],
+    "path": "images/insurify/mobile/16-driver-plec.png",
+    "description": "insurify mobile krok 16: driver-plec"
+  },
+  {
+    "site": "insurify",
+    "device": "mobile",
+    "step": 17,
+    "tag": "driver",
+    "tags": [
+      "driver"
+    ],
+    "path": "images/insurify/mobile/17-driver-prawo-jazdy.png",
+    "description": "insurify mobile krok 17: driver-prawo-jazdy"
+  },
+  {
+    "site": "insurify",
+    "device": "mobile",
+    "step": 18,
+    "tag": "driver",
+    "tags": [
+      "driver"
+    ],
+    "path": "images/insurify/mobile/18-driver-znizki.png",
+    "description": "insurify mobile krok 18: driver-znizki"
+  },
+  {
+    "site": "insurify",
+    "device": "mobile",
+    "step": 19,
+    "tag": "driver",
+    "tags": [
+      "driver"
+    ],
+    "path": "images/insurify/mobile/19-driver-zawod.png",
+    "description": "insurify mobile krok 19: driver-zawod"
+  },
+  {
+    "site": "insurify",
+    "device": "mobile",
+    "step": 20,
+    "tag": "driver",
+    "tags": [
+      "driver"
+    ],
+    "path": "images/insurify/mobile/20-driver-wypadki.png",
+    "description": "insurify mobile krok 20: driver-wypadki"
+  },
+  {
+    "site": "insurify",
+    "device": "mobile",
+    "step": 21,
+    "tag": "details",
+    "tags": [
+      "details"
+    ],
+    "path": "images/insurify/mobile/21-details-imie-nazwisko.png",
+    "description": "insurify mobile krok 21: details-imie-nazwisko"
+  },
+  {
+    "site": "insurify",
+    "device": "mobile",
+    "step": 22,
+    "tag": "details",
+    "tags": [
+      "details"
+    ],
+    "path": "images/insurify/mobile/22-details-kolejny-kierowca.png",
+    "description": "insurify mobile krok 22: details-kolejny-kierowca"
+  },
+  {
+    "site": "insurify",
+    "device": "mobile",
+    "step": 23,
+    "tag": "checkout",
+    "tags": [
+      "checkout"
+    ],
+    "path": "images/insurify/mobile/23-checkout-email-zgody.png",
+    "description": "insurify mobile krok 23: checkout-email-zgody"
+  },
+  {
+    "site": "kioskpolis",
+    "device": "desktop",
+    "step": 8,
+    "tag": "details",
+    "tags": [
+      "details"
+    ],
+    "path": "images/kioskpolis/desktop/08-details-pesel-uzupelniony.png",
+    "description": "kioskpolis desktop krok 8: Dane właściciela z PESEL, rokiem prawa jazdy (details)"
+  },
+  {
+    "site": "kioskpolis",
+    "device": "desktop",
+    "step": 9,
+    "tag": "loading",
+    "tags": [
+      "loading"
+    ],
+    "path": "images/kioskpolis/desktop/09-loading-oferty.png",
+    "description": "kioskpolis desktop krok 9: Ładowanie ofert (loading)"
+  },
+  {
+    "site": "kioskpolis",
+    "device": "desktop",
+    "step": 10,
+    "tag": "offers",
+    "tags": [
+      "offers"
+    ],
+    "path": "images/kioskpolis/desktop/10-offers-lista-ofert.png",
+    "description": "kioskpolis desktop krok 10: Lista ofert (offers)"
+  },
+  {
+    "site": "kioskpolis",
+    "device": "desktop",
+    "step": 11,
+    "tag": "checkout",
+    "tags": [
+      "checkout"
+    ],
+    "path": "images/kioskpolis/desktop/11-checkout-podsumowanie-zakupu.png",
+    "description": "kioskpolis desktop krok 11: Podsumowanie zakupu (LINK4 OC+Assistance) (checkout)"
+  },
+  {
+    "site": "kioskpolis",
+    "device": "desktop",
+    "step": 12,
+    "tag": "payment",
+    "tags": [
+      "payment"
+    ],
+    "path": "images/kioskpolis/desktop/12-payment-forma-platnosci.png",
+    "description": "kioskpolis desktop krok 12: Wybór formy płatności (bez płatności) (payment)"
+  },
+  {
+    "site": "kioskpolis",
+    "device": "mobile",
+    "step": 7,
+    "tag": "details",
+    "tags": [
+      "details"
+    ],
+    "path": "images/kioskpolis/mobile/07-details-wlasciciel-pesel.png",
+    "description": "kioskpolis mobile krok 7: Dane właściciela z PESEL (details)"
+  },
+  {
+    "site": "kioskpolis",
+    "device": "mobile",
+    "step": 8,
+    "tag": "details",
+    "tags": [
+      "details"
+    ],
+    "path": "images/kioskpolis/mobile/08-details-kontakt-telefon.png",
+    "description": "kioskpolis mobile krok 8: Dane kontaktowe z telefonem (details)"
+  },
+  {
+    "site": "kioskpolis",
+    "device": "mobile",
+    "step": 9,
+    "tag": "loading",
+    "tags": [
+      "loading"
+    ],
+    "path": "images/kioskpolis/mobile/09-loading-oferty.png",
+    "description": "kioskpolis mobile krok 9: Ładowanie ofert (loading)"
+  },
+  {
+    "site": "kioskpolis",
+    "device": "mobile",
+    "step": 10,
+    "tag": "offers",
+    "tags": [
+      "offers"
+    ],
+    "path": "images/kioskpolis/mobile/10-offers-rekomendacje.png",
+    "description": "kioskpolis mobile krok 10: Rekomendowane oferty (offers)"
+  },
+  {
+    "site": "kioskpolis",
+    "device": "mobile",
+    "step": 11,
+    "tag": "checkout",
+    "tags": [
+      "checkout"
+    ],
+    "path": "images/kioskpolis/mobile/11-checkout-podsumowanie-zakupu.png",
+    "description": "kioskpolis mobile krok 11: Podsumowanie zakupu (checkout)"
+  },
+  {
+    "site": "kioskpolis",
+    "device": "mobile",
+    "step": 12,
+    "tag": "payment",
+    "tags": [
+      "payment"
+    ],
+    "path": "images/kioskpolis/mobile/12-payment-forma-platnosci.png",
+    "description": "kioskpolis mobile krok 12: Wybór formy płatności (bez płatności) (payment)"
+  },
+  {
+    "site": "rankomat",
+    "device": "mobile",
+    "step": 6,
+    "tag": "checkout",
+    "tags": [
+      "checkout"
+    ],
+    "path": "images/rankomat/mobile/06-checkout-dane-wypelnione.png",
+    "description": "rankomat mobile krok 6: Checkout: dane ubezpieczającego wypełnione (checkout)"
+  },
+  {
+    "site": "rankomat",
+    "device": "mobile",
+    "step": 7,
+    "tag": "checkout",
+    "tags": [
+      "checkout"
+    ],
+    "path": "images/rankomat/mobile/07-checkout-telefon-zablokowany.png",
+    "description": "rankomat mobile krok 7: Checkout: numer telefonu zablokowany przez serwis (checkout)"
+  },
+  {
+    "site": "rankomat",
+    "device": "desktop",
+    "step": 9,
+    "tag": "checkout",
+    "tags": [
+      "checkout"
+    ],
+    "path": "images/rankomat/desktop/09-checkout-telefon-zablokowany.png",
+    "description": "rankomat desktop krok 9: Checkout: numer telefonu zablokowany przez serwis (checkout)"
+  }
+]
