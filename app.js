@@ -2,7 +2,7 @@
   const SITE_LABELS = {
     rankomat: "Rankomat",
     kioskpolis: "Kiosk Polis",
-    insurify: "insurify.com",
+    insurify: "Insurify",
     thezebra: "The Zebra",
     nerdwallet: "NerdWallet",
     gocompare: "GoCompare",
@@ -26,6 +26,7 @@
     sites: [],
     siteFilter: "",
     navOpen: false,
+    tagsOpen: false,
     navVariant: localStorage.getItem(NAV_KEY) === "overlay" ? "overlay" : "bottom",
     device: "desktop",
     site: null,
@@ -47,6 +48,32 @@
     if (label) label.textContent = state.site ? siteLabel(state.site) : "Strony";
     if (openBtn) {
       openBtn.setAttribute("aria-expanded", state.navOpen ? "true" : "false");
+    }
+  }
+
+  function updateTagSearchLabel() {
+    const label = $("#tag-search-label");
+    const toggle = $("#tag-search-toggle");
+    if (!label || !toggle) return;
+    if (state.activeTag) {
+      label.textContent = tagLabel(state.activeTag);
+    } else if (state.search) {
+      label.textContent = `„${state.search}”`;
+    } else {
+      label.textContent = "Szukaj po tagach";
+    }
+    toggle.classList.toggle("has-filter", Boolean(state.activeTag || state.search));
+    toggle.setAttribute("aria-expanded", state.tagsOpen ? "true" : "false");
+  }
+
+  function setTagsOpen(open) {
+    state.tagsOpen = Boolean(open);
+    const pop = $("#tag-popover");
+    if (pop) pop.hidden = !state.tagsOpen;
+    updateTagSearchLabel();
+    if (state.tagsOpen) {
+      const input = $("#tag-search");
+      if (input) requestAnimationFrame(() => input.focus());
     }
   }
 
@@ -311,6 +338,7 @@
     $("#compare-mode").hidden = !compare;
     document.body.classList.toggle("is-compare", compare);
     updateSiteLabel();
+    updateTagSearchLabel();
     renderSiteList();
     renderTagChips();
     if (compare) renderCompare();
@@ -354,6 +382,14 @@
     $$(".device-toggle .pill-btn").forEach((btn) => {
       btn.addEventListener("click", () => setDevice(btn.dataset.device));
     });
+    $("#tag-search-toggle").addEventListener("click", (e) => {
+      e.stopPropagation();
+      setTagsOpen(!state.tagsOpen);
+    });
+    $("#tag-popover").addEventListener("click", (e) => e.stopPropagation());
+    document.addEventListener("click", () => {
+      if (state.tagsOpen) setTagsOpen(false);
+    });
     $$(".nav-variant-toggle .pill-btn").forEach((btn) => {
       btn.addEventListener("click", () => {
         setNavVariant(btn.dataset.nav);
@@ -365,6 +401,7 @@
       });
     });
     $("#site-nav-open").addEventListener("click", () => {
+      if (!state.navOpen) setTagsOpen(false);
       setNavOpen(!state.navOpen);
     });
     $("#site-nav-close").addEventListener("click", () => setNavOpen(false));
@@ -390,6 +427,7 @@
       const tag = btn.dataset.tag;
       if (state.activeTag === tag) clearSearch();
       else activateTag(tag);
+      setTagsOpen(false);
     });
     $("#step-strip").addEventListener("click", (e) => {
       const btn = e.target.closest("[data-idx]");
@@ -418,6 +456,11 @@
       if (e.key === "Escape" && state.navOpen) {
         e.preventDefault();
         setNavOpen(false);
+        return;
+      }
+      if (e.key === "Escape" && state.tagsOpen) {
+        e.preventDefault();
+        setTagsOpen(false);
         return;
       }
       if (isCompareMode()) return;

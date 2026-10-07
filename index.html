@@ -14,30 +14,40 @@
           <path d="M3 5h12M3 9h12M3 13h12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
         </svg>
       </button>
+      <div class="device-toggle" role="group" aria-label="Urządzenie">
+        <button type="button" class="pill-btn is-active" data-device="desktop">Desktop</button>
+        <button type="button" class="pill-btn" data-device="mobile">Mobile</button>
+      </div>
       <span class="site-current" id="site-current-label">Strony</span>
     </div>
     <div class="topbar-center">
-      <label class="search-wrap" for="tag-search">
-        <svg class="search-icon" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true">
-          <circle cx="7" cy="7" r="5.5" fill="none" stroke="currentColor" stroke-width="1.5"/>
-          <path d="M11.5 11.5 L14.5 14.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-        </svg>
-        <input id="tag-search" type="search" placeholder="Szukaj po tagach…" autocomplete="off" />
-      </label>
+      <div class="tag-search-box" id="tag-search-box">
+        <button type="button" class="tag-search-toggle" id="tag-search-toggle" aria-expanded="false" aria-controls="tag-popover">
+          <svg class="search-icon" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true">
+            <circle cx="7" cy="7" r="5.5" fill="none" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M11.5 11.5 L14.5 14.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+          <span id="tag-search-label">Szukaj po tagach</span>
+        </button>
+        <div class="tag-popover" id="tag-popover" hidden>
+          <label class="search-wrap" for="tag-search">
+            <svg class="search-icon" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true">
+              <circle cx="7" cy="7" r="5.5" fill="none" stroke="currentColor" stroke-width="1.5"/>
+              <path d="M11.5 11.5 L14.5 14.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+            <input id="tag-search" type="search" placeholder="Szukaj po tagach…" autocomplete="off" />
+          </label>
+          <div class="tag-chips" id="tag-chips" aria-label="Tagi"></div>
+        </div>
+      </div>
     </div>
     <div class="topbar-right">
       <div class="nav-variant-toggle" role="group" aria-label="Wariant nawigacji">
         <button type="button" class="pill-btn is-active" data-nav="bottom">Bottom</button>
         <button type="button" class="pill-btn" data-nav="overlay">Overlay</button>
       </div>
-      <div class="device-toggle" role="group" aria-label="Urządzenie">
-        <button type="button" class="pill-btn is-active" data-device="desktop">Desktop</button>
-        <button type="button" class="pill-btn" data-device="mobile">Mobile</button>
-      </div>
     </div>
   </header>
-
-  <div class="tag-chips" id="tag-chips" aria-label="Tagi"></div>
 
   <main class="layout" id="flow-mode">
     <aside class="step-strip" id="step-strip" aria-label="Kroki flow"></aside>
