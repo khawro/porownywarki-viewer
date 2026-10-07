@@ -240,7 +240,7 @@ img {
 .step-thumb img {
   width: 100%;
   aspect-ratio: 16 / 10;
-  object-fit: cover;
+  object-fit: contain;
   object-position: top;
   border-radius: 8px;
   background: var(--surface);
@@ -289,6 +289,8 @@ img {
   border-radius: 12px;
   background: var(--canvas);
   border: 1px solid var(--hairline);
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
 }
 
 .stage-frame.is-mobile {
@@ -436,7 +438,7 @@ img {
   border-radius: 12px;
   border: 1px solid var(--hairline);
   background: var(--surface);
-  object-fit: cover;
+  object-fit: contain;
   object-position: top;
   aspect-ratio: 16 / 11;
 }
