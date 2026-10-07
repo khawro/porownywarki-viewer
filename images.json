@@ -347,8 +347,8 @@
       "home"
     ],
     "path": "images/rankomat/desktop/01-home.png",
-    "width": 1024,
-    "height": 594
+    "width": 1920,
+    "height": 1200
   },
   {
     "site": "rankomat",
@@ -360,8 +360,8 @@
       "vehicle"
     ],
     "path": "images/rankomat/desktop/02-start-form.png",
-    "width": 1024,
-    "height": 936
+    "width": 1920,
+    "height": 1200
   },
   {
     "site": "rankomat",
@@ -373,8 +373,8 @@
       "vehicle"
     ],
     "path": "images/rankomat/desktop/03-pojazd.png",
-    "width": 599,
-    "height": 1024
+    "width": 1920,
+    "height": 1200
   },
   {
     "site": "rankomat",
@@ -386,8 +386,8 @@
       "vehicle"
     ],
     "path": "images/rankomat/desktop/04-historia-pojazdu.png",
-    "width": 1024,
-    "height": 594
+    "width": 1920,
+    "height": 1200
   },
   {
     "site": "rankomat",
@@ -399,8 +399,8 @@
       "driver"
     ],
     "path": "images/rankomat/desktop/05-wlasciciel.png",
-    "width": 854,
-    "height": 1024
+    "width": 1920,
+    "height": 1200
   },
   {
     "site": "rankomat",
@@ -412,8 +412,8 @@
       "loading"
     ],
     "path": "images/rankomat/desktop/06-ladowanie-ofert.png",
-    "width": 1024,
-    "height": 594
+    "width": 1920,
+    "height": 1200
   },
   {
     "site": "rankomat",

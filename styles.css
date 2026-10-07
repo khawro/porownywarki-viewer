@@ -289,8 +289,7 @@ img {
   border-radius: 12px;
   background: var(--canvas);
   border: 1px solid var(--hairline);
-  image-rendering: -webkit-optimize-contrast;
-  image-rendering: crisp-edges;
+  image-rendering: auto;
 }
 
 .stage-frame.is-mobile {
