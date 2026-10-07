@@ -74,6 +74,7 @@ img {
 }
 
 .app-title {
+  display: none;
   font-size: 15px;
   font-weight: 600;
   letter-spacing: -0.02em;
@@ -82,6 +83,10 @@ img {
   white-space: nowrap;
   padding: 0 4px 0 8px;
   flex-shrink: 0;
+}
+
+body.is-home .app-title {
+  display: inline-block;
 }
 
 .app-title:hover {
@@ -330,17 +335,24 @@ img {
   display: grid;
   grid-template-columns: var(--strip-w) minmax(0, 1fr) var(--sidebar-w);
   gap: 24px;
-  padding: 20px 28px 40px;
-  min-height: calc(100vh - var(--topbar-h) - 100px);
+  padding: 16px 28px 12px;
+  height: calc(100vh - var(--topbar-h));
+  min-height: 0;
+  box-sizing: border-box;
+  overflow: hidden;
 }
 
 .step-strip {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  max-height: calc(100vh - var(--topbar-h) - 120px);
+  height: 100%;
+  max-height: none;
+  min-height: 0;
   overflow-y: auto;
   padding-right: 4px;
+  padding-bottom: 8px;
+  align-self: stretch;
 }
 
 .step-thumb {
@@ -393,6 +405,9 @@ img {
   justify-content: center;
   align-items: flex-start;
   min-width: 0;
+  min-height: 0;
+  height: 100%;
+  overflow: auto;
 }
 
 .stage-frame {
@@ -439,9 +454,7 @@ img {
 
 /* ——— Sidebar ——— */
 .sidebar {
-  position: sticky;
-  top: calc(var(--topbar-h) + 16px);
-  align-self: start;
+  align-self: stretch;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -449,7 +462,9 @@ img {
   background: var(--canvas);
   border: 1px solid var(--hairline);
   border-radius: var(--radius-card);
-  max-height: calc(100vh - var(--topbar-h) - 40px);
+  min-height: 0;
+  max-height: none;
+  height: 100%;
   overflow-y: auto;
 }
 
@@ -628,11 +643,17 @@ img {
   .layout {
     grid-template-columns: 1fr;
     padding: 16px;
+    height: auto;
+    overflow: visible;
   }
   .step-strip {
     flex-direction: row;
     overflow-x: auto;
+    height: auto;
     max-height: none;
+  }
+  .stage, .sidebar {
+    height: auto;
   }
   .step-thumb { min-width: 100px; }
   .compare-layout { padding-left: 16px; padding-right: 16px; }
