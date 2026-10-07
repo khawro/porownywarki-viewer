@@ -159,7 +159,7 @@
         const mobile = state.device === "mobile" ? " is-mobile" : "";
         const img = cover
           ? `<img class="site-card-thumb" src="${cover.path}" alt="" loading="lazy" />`
-          : `<div class="site-card-thumb" style="display:flex;align-items:center;justify-content:center;color:#adadad;font-size:13px">Brak zrzutu</div>`;
+          : `<div class="site-card-thumb" style="display:flex;align-items:center;justify-content:center;color:var(--faint);font-size:13px">Brak zrzutu</div>`;
         return `<button type="button" class="site-card${mobile}" data-site="${id}">
           ${img}
           <span class="site-card-label">${siteLabel(id)}</span>

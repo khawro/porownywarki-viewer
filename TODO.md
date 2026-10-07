@@ -15,7 +15,7 @@ Zmiany w tym pliku **bez osobnego deployu** — wjeżdżają przy następnym dep
 
 ## W toku
 
-- [ ] **Dark mode** — motyw ciemny z przełącznikiem
+Brak — następny punkt z kolejki.
 
 ## Kolejka
 
@@ -30,6 +30,7 @@ Zmiany w tym pliku **bez osobnego deployu** — wjeżdżają przy następnym dep
 
 ## Zrobione
 
+- [x] **Dark mode** — przełącznik motywu (słońce/księżyc) w topbarze i na /todo; domyślnie wg systemu, wybór zapamiętany w localStorage, bez mignięcia przy ładowaniu, na produkcji
 - [x] **GoCompare** — desktop **21** (1920×1200) + mobile **23 / 23** (1170×2532), do przekierowania do ubezpieczyciela, na produkcji
 - [x] **Mubi** — desktop **38** (z 39, bez duplikatu z błędem połączenia; przycięty pasek Chrome → 1920×1111) + mobile **28 / 28** (1170×2532), do dodatków po wyborze oferty, na produkcji
 - [x] **Rankomat** mobile — pełne flow od czystego formularza (**28 / 28**), 1170×2532, na produkcji

@@ -4,6 +4,18 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <title>TODO — Porównywarki</title>
+  <meta name="color-scheme" content="light dark" />
+  <meta name="theme-color" content="#ffffff" />
+  <script>
+    (function () {
+      var t = null;
+      try { t = localStorage.getItem("theme"); } catch (e) {}
+      if (t !== "dark" && t !== "light") {
+        t = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+      }
+      document.documentElement.setAttribute("data-theme", t);
+    })();
+  </script>
   <style>
     :root {
       --bg: #f2f2f4;
@@ -16,6 +28,54 @@
       --open-bg: #fff6ef;
       --rule-bg: #eef0f7;
       --rule-ink: #3a3f55;
+      --badge-bg: #ececf1;
+      --badge-rules-bg: #dde3f5; --badge-rules-ink: #3a4a7a;
+      --badge-open-bg: #ffe2cc; --badge-open-ink: #a33d00;
+      --badge-done-bg: #d8f3e5; --badge-done-ink: #0a6b44;
+      --mark-border: #c5c5ce;
+      --open-border: #ffd2ad;
+      --open-mark-bg: #fff;
+      --done-border: #bfe9d2;
+      --done-ink: #1a3d2c;
+      --rule-border: #d5dbeb;
+      --rule-mark: #7a88b8;
+      --link: #06c;
+      --code-bg: rgba(0,0,0,.06);
+      --err: #c00;
+      --panel-shadow: 0 1px 2px rgba(0,0,0,.04);
+      --btn-bg: #e8e8ec;
+      --btn-hover: #dedee4;
+      color-scheme: light;
+    }
+    :root[data-theme="dark"] {
+      --bg: #121214;
+      --card: #1b1b1f;
+      --ink: #ececee;
+      --muted: #a3a3ab;
+      --done: #2fbf7f;
+      --done-bg: #14261d;
+      --open: #ff8a3d;
+      --open-bg: #2a1d13;
+      --rule-bg: #1c2030;
+      --rule-ink: #c3c9e0;
+      --badge-bg: #2a2a30;
+      --badge-rules-bg: #262d48; --badge-rules-ink: #b7c3f0;
+      --badge-open-bg: #4a2a12; --badge-open-ink: #ffbf8f;
+      --badge-done-bg: #173a29; --badge-done-ink: #7fe0b1;
+      --mark-border: #55555e;
+      --open-border: #5a3a1f;
+      --open-mark-bg: #1b1b1f;
+      --done-border: #24493a;
+      --done-ink: #cdeedd;
+      --rule-border: #2e3550;
+      --rule-mark: #7f8dc4;
+      --link: #6aa8ff;
+      --code-bg: rgba(255,255,255,.1);
+      --err: #ff6b6b;
+      --panel-shadow: 0 1px 2px rgba(0,0,0,.4);
+      --btn-bg: #26262b;
+      --btn-hover: #303036;
+      color-scheme: dark;
     }
     * { box-sizing: border-box; }
     body {
@@ -30,7 +90,7 @@
     header {
       display: flex;
       justify-content: space-between;
-      align-items: baseline;
+      align-items: center;
       gap: 12px;
       margin-bottom: 14px;
     }
@@ -40,7 +100,7 @@
       background: var(--card);
       border-radius: 16px;
       padding: 8px 12px 16px;
-      box-shadow: 0 1px 2px rgba(0,0,0,.04);
+      box-shadow: var(--panel-shadow);
     }
     #status { font-size: 12px; color: var(--muted); margin: 8px 4px 4px; }
     #todo h1 { display: none; }
@@ -71,13 +131,13 @@
       font-weight: 650;
       padding: 2px 8px;
       border-radius: 999px;
-      background: #ececf1;
+      background: var(--badge-bg);
       color: var(--muted);
     }
-    #todo section.rules h2 .badge { background: #dde3f5; color: #3a4a7a; }
-    #todo section.active h2 .badge { background: #ffe2cc; color: #a33d00; }
-    #todo section.queue h2 .badge { background: #ffe2cc; color: #a33d00; }
-    #todo section.done h2 .badge { background: #d8f3e5; color: #0a6b44; }
+    #todo section.rules h2 .badge { background: var(--badge-rules-bg); color: var(--badge-rules-ink); }
+    #todo section.active h2 .badge { background: var(--badge-open-bg); color: var(--badge-open-ink); }
+    #todo section.queue h2 .badge { background: var(--badge-open-bg); color: var(--badge-open-ink); }
+    #todo section.done h2 .badge { background: var(--badge-done-bg); color: var(--badge-done-ink); }
     #todo ul, #todo ol {
       margin: 0;
       padding: 0;
@@ -99,7 +159,7 @@
       height: 22px;
       margin-top: 1px;
       border-radius: 7px;
-      border: 2px solid #c5c5ce;
+      border: 2px solid var(--mark-border);
       display: grid;
       place-items: center;
       font-size: 13px;
@@ -110,16 +170,16 @@
     #todo li .body { flex: 1; min-width: 0; }
     #todo li.open {
       background: var(--open-bg);
-      border: 1px solid #ffd2ad;
+      border: 1px solid var(--open-border);
     }
     #todo li.open .mark {
       border-color: var(--open);
-      background: #fff;
+      background: var(--open-mark-bg);
     }
     #todo li.done {
       background: var(--done-bg);
-      border: 1px solid #bfe9d2;
-      color: #1a3d2c;
+      border: 1px solid var(--done-border);
+      color: var(--done-ink);
     }
     #todo li.done .mark {
       border-color: var(--done);
@@ -130,38 +190,56 @@
     #todo li.done .body { text-decoration: none; opacity: 0.92; }
     #todo section.rules li {
       background: var(--rule-bg);
-      border: 1px solid #d5dbeb;
+      border: 1px solid var(--rule-border);
       color: var(--rule-ink);
     }
     #todo section.rules li .mark {
       border-radius: 50%;
-      border-color: #7a88b8;
-      background: #7a88b8;
+      border-color: var(--rule-mark);
+      background: var(--rule-mark);
       color: #fff;
       font-size: 11px;
     }
     #todo section.rules li .mark::after { content: "i"; font-style: italic; font-family: Georgia, serif; }
     #todo section.rules li.done .mark::after { content: "i"; }
     #todo strong { font-weight: 650; }
-    #todo a { color: #06c; }
+    #todo a { color: var(--link); }
     #todo code {
       font-size: 12px;
-      background: rgba(0,0,0,.06);
+      background: var(--code-bg);
       padding: 1px 5px;
       border-radius: 4px;
     }
-    .err { color: #c00; font-size: 14px; }
+    .err { color: var(--err); font-size: 14px; }
+    .head-actions { display: flex; align-items: center; gap: 12px; }
+    .theme-toggle {
+      display: inline-flex; align-items: center; justify-content: center;
+      width: 34px; height: 34px; padding: 0; border: 0; border-radius: 50%;
+      background: var(--btn-bg); color: var(--ink); cursor: pointer;
+    }
+    .theme-toggle:hover { background: var(--btn-hover); }
+    .theme-toggle:focus-visible { outline: 2px solid var(--link); outline-offset: 2px; }
+    .theme-toggle .icon-sun { display: none; }
+    :root[data-theme="dark"] .theme-toggle .icon-sun { display: block; }
+    :root[data-theme="dark"] .theme-toggle .icon-moon { display: none; }
   </style>
 </head>
 <body>
   <header>
     <h1>Kolejka zadań</h1>
-    <a class="back" href="/">← Viewer</a>
+    <div class="head-actions">
+      <button type="button" class="theme-toggle" data-theme-toggle aria-label="Przełącz motyw" title="Przełącz motyw" aria-pressed="false">
+        <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 14.6A8.5 8.5 0 0 1 9.4 3.5a8.5 8.5 0 1 0 11.1 11.1Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>
+        <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+      </button>
+      <a class="back" href="/">← Viewer</a>
+    </div>
   </header>
   <div class="panel">
     <p id="status">Ładowanie…</p>
     <div id="todo"></div>
   </div>
+  <script src="/theme.js"></script>
   <script>
     function escapeHtml(s) {
       return s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
