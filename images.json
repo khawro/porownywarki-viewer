@@ -3391,5 +3391,863 @@
     "description": "lemonade mobile krok 45: quote-scroll-coverages",
     "width": 1170,
     "height": 2532
+  },
+  {
+    "site": "mubi",
+    "device": "desktop",
+    "step": 1,
+    "tag": "landing",
+    "tags": [
+      "landing"
+    ],
+    "path": "images/mubi/desktop/01-landing-cookie-consent.png",
+    "description": "mubi desktop krok 1: landing-cookie-consent",
+    "width": 1920,
+    "height": 1111
+  },
+  {
+    "site": "mubi",
+    "device": "desktop",
+    "step": 2,
+    "tag": "cookie",
+    "tags": [
+      "cookie"
+    ],
+    "path": "images/mubi/desktop/02-cookie-consent-details.png",
+    "description": "mubi desktop krok 2: cookie-consent-details",
+    "width": 1920,
+    "height": 1111
+  },
+  {
+    "site": "mubi",
+    "device": "desktop",
+    "step": 3,
+    "tag": "landing",
+    "tags": [
+      "landing"
+    ],
+    "path": "images/mubi/desktop/03-landing-hero.png",
+    "description": "mubi desktop krok 3: landing-hero",
+    "width": 1920,
+    "height": 1111
+  },
+  {
+    "site": "mubi",
+    "device": "desktop",
+    "step": 4,
+    "tag": "calculator",
+    "tags": [
+      "calculator"
+    ],
+    "path": "images/mubi/desktop/04-calculator-cookie-consent.png",
+    "description": "mubi desktop krok 4: calculator-cookie-consent",
+    "width": 1920,
+    "height": 1111
+  },
+  {
+    "site": "mubi",
+    "device": "desktop",
+    "step": 5,
+    "tag": "calculator",
+    "tags": [
+      "calculator"
+    ],
+    "path": "images/mubi/desktop/05-calculator-start-form.png",
+    "description": "mubi desktop krok 5: calculator-start-form",
+    "width": 1920,
+    "height": 1111
+  },
+  {
+    "site": "mubi",
+    "device": "desktop",
+    "step": 6,
+    "tag": "birthdate",
+    "tags": [
+      "birthdate"
+    ],
+    "path": "images/mubi/desktop/06-birthdate-picker-decades.png",
+    "description": "mubi desktop krok 6: birthdate-picker-decades",
+    "width": 1920,
+    "height": 1111
+  },
+  {
+    "site": "mubi",
+    "device": "desktop",
+    "step": 7,
+    "tag": "birthdate",
+    "tags": [
+      "birthdate"
+    ],
+    "path": "images/mubi/desktop/07-birthdate-picker-days.png",
+    "description": "mubi desktop krok 7: birthdate-picker-days",
+    "width": 1920,
+    "height": 1111
+  },
+  {
+    "site": "mubi",
+    "device": "desktop",
+    "step": 8,
+    "tag": "start",
+    "tags": [
+      "start"
+    ],
+    "path": "images/mubi/desktop/08-start-form-filled-consents.png",
+    "description": "mubi desktop krok 8: start-form-filled-consents",
+    "width": 1920,
+    "height": 1111
+  },
+  {
+    "site": "mubi",
+    "device": "desktop",
+    "step": 9,
+    "tag": "twoje",
+    "tags": [
+      "twoje"
+    ],
+    "path": "images/mubi/desktop/09-twoje-dane-vehicle-top.png",
+    "description": "mubi desktop krok 9: twoje-dane-vehicle-top",
+    "width": 1920,
+    "height": 1111
+  },
+  {
+    "site": "mubi",
+    "device": "desktop",
+    "step": 10,
+    "tag": "ac",
+    "tags": [
+      "ac"
+    ],
+    "path": "images/mubi/desktop/10-ac-selected-year-picker.png",
+    "description": "mubi desktop krok 10: ac-selected-year-picker",
+    "width": 1920,
+    "height": 1111
+  },
+  {
+    "site": "mubi",
+    "device": "desktop",
+    "step": 11,
+    "tag": "production",
+    "tags": [
+      "production"
+    ],
+    "path": "images/mubi/desktop/11-production-year-dropdown.png",
+    "description": "mubi desktop krok 11: production-year-dropdown",
+    "width": 1920,
+    "height": 1111
+  },
+  {
+    "site": "mubi",
+    "device": "desktop",
+    "step": 12,
+    "tag": "brand",
+    "tags": [
+      "brand"
+    ],
+    "path": "images/mubi/desktop/12-brand-picker.png",
+    "description": "mubi desktop krok 12: brand-picker",
+    "width": 1920,
+    "height": 1111
+  },
+  {
+    "site": "mubi",
+    "device": "desktop",
+    "step": 13,
+    "tag": "model",
+    "tags": [
+      "model"
+    ],
+    "path": "images/mubi/desktop/13-model-picker.png",
+    "description": "mubi desktop krok 13: model-picker",
+    "width": 1920,
+    "height": 1111
+  },
+  {
+    "site": "mubi",
+    "device": "desktop",
+    "step": 14,
+    "tag": "fuel",
+    "tags": [
+      "fuel"
+    ],
+    "path": "images/mubi/desktop/14-fuel-picker.png",
+    "description": "mubi desktop krok 14: fuel-picker",
+    "width": 1920,
+    "height": 1111
+  },
+  {
+    "site": "mubi",
+    "device": "desktop",
+    "step": 15,
+    "tag": "engine",
+    "tags": [
+      "engine"
+    ],
+    "path": "images/mubi/desktop/15-engine-capacity-picker.png",
+    "description": "mubi desktop krok 15: engine-capacity-picker",
+    "width": 1920,
+    "height": 1111
+  },
+  {
+    "site": "mubi",
+    "device": "desktop",
+    "step": 16,
+    "tag": "engine",
+    "tags": [
+      "engine"
+    ],
+    "path": "images/mubi/desktop/16-engine-power-picker.png",
+    "description": "mubi desktop krok 16: engine-power-picker",
+    "width": 1920,
+    "height": 1111
+  },
+  {
+    "site": "mubi",
+    "device": "desktop",
+    "step": 17,
+    "tag": "version",
+    "tags": [
+      "version"
+    ],
+    "path": "images/mubi/desktop/17-version-picker.png",
+    "description": "mubi desktop krok 17: version-picker",
+    "width": 1920,
+    "height": 1111
+  },
+  {
+    "site": "mubi",
+    "device": "desktop",
+    "step": 18,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/mubi/desktop/18-vehicle-selected-infoekspert.png",
+    "description": "mubi desktop krok 18: vehicle-selected-infoekspert",
+    "width": 1920,
+    "height": 1111
+  },
+  {
+    "site": "mubi",
+    "device": "desktop",
+    "step": 19,
+    "tag": "policy",
+    "tags": [
+      "policy"
+    ],
+    "path": "images/mubi/desktop/19-policy-start-date-picker.png",
+    "description": "mubi desktop krok 19: policy-start-date-picker",
+    "width": 1920,
+    "height": 1111
+  },
+  {
+    "site": "mubi",
+    "device": "desktop",
+    "step": 20,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/mubi/desktop/20-vehicle-section-complete.png",
+    "description": "mubi desktop krok 20: vehicle-section-complete",
+    "width": 1920,
+    "height": 1111
+  },
+  {
+    "site": "mubi",
+    "device": "desktop",
+    "step": 21,
+    "tag": "usage",
+    "tags": [
+      "usage"
+    ],
+    "path": "images/mubi/desktop/21-usage-section.png",
+    "description": "mubi desktop krok 21: usage-section",
+    "width": 1920,
+    "height": 1111
+  },
+  {
+    "site": "mubi",
+    "device": "desktop",
+    "step": 22,
+    "tag": "first",
+    "tags": [
+      "first"
+    ],
+    "path": "images/mubi/desktop/22-first-registration-year-picker.png",
+    "description": "mubi desktop krok 22: first-registration-year-picker",
+    "width": 1920,
+    "height": 1111
+  },
+  {
+    "site": "mubi",
+    "device": "desktop",
+    "step": 23,
+    "tag": "usage",
+    "tags": [
+      "usage"
+    ],
+    "path": "images/mubi/desktop/23-usage-section-filled.png",
+    "description": "mubi desktop krok 23: usage-section-filled",
+    "width": 1920,
+    "height": 1111
+  },
+  {
+    "site": "mubi",
+    "device": "desktop",
+    "step": 24,
+    "tag": "ownership",
+    "tags": [
+      "ownership"
+    ],
+    "path": "images/mubi/desktop/24-ownership-year-dropdown.png",
+    "description": "mubi desktop krok 24: ownership-year-dropdown",
+    "width": 1920,
+    "height": 1111
+  },
+  {
+    "site": "mubi",
+    "device": "desktop",
+    "step": 25,
+    "tag": "last",
+    "tags": [
+      "last"
+    ],
+    "path": "images/mubi/desktop/25-last-insurer-dropdown.png",
+    "description": "mubi desktop krok 25: last-insurer-dropdown",
+    "width": 1920,
+    "height": 1111
+  },
+  {
+    "site": "mubi",
+    "device": "desktop",
+    "step": 26,
+    "tag": "usage",
+    "tags": [
+      "usage"
+    ],
+    "path": "images/mubi/desktop/26-usage-complete-owner-section-appears.png",
+    "description": "mubi desktop krok 26: usage-complete-owner-section-appears",
+    "width": 1920,
+    "height": 1111
+  },
+  {
+    "site": "mubi",
+    "device": "desktop",
+    "step": 27,
+    "tag": "owner",
+    "tags": [
+      "owner"
+    ],
+    "path": "images/mubi/desktop/27-owner-section.png",
+    "description": "mubi desktop krok 27: owner-section",
+    "width": 1920,
+    "height": 1111
+  },
+  {
+    "site": "mubi",
+    "device": "desktop",
+    "step": 28,
+    "tag": "owner",
+    "tags": [
+      "owner"
+    ],
+    "path": "images/mubi/desktop/28-owner-data-form-empty.png",
+    "description": "mubi desktop krok 28: owner-data-form-empty",
+    "width": 1920,
+    "height": 1111
+  },
+  {
+    "site": "mubi",
+    "device": "desktop",
+    "step": 29,
+    "tag": "owner",
+    "tags": [
+      "owner"
+    ],
+    "path": "images/mubi/desktop/29-owner-data-filled-license-year-picker.png",
+    "description": "mubi desktop krok 29: owner-data-filled-license-year-picker",
+    "width": 1920,
+    "height": 1111
+  },
+  {
+    "site": "mubi",
+    "device": "desktop",
+    "step": 30,
+    "tag": "insurance",
+    "tags": [
+      "insurance"
+    ],
+    "path": "images/mubi/desktop/30-insurance-history-dropdown.png",
+    "description": "mubi desktop krok 30: insurance-history-dropdown",
+    "width": 1920,
+    "height": 1111
+  },
+  {
+    "site": "mubi",
+    "device": "desktop",
+    "step": 31,
+    "tag": "contact",
+    "tags": [
+      "contact"
+    ],
+    "path": "images/mubi/desktop/31-contact-data-filled-kalkuluj.png",
+    "description": "mubi desktop krok 31: contact-data-filled-kalkuluj",
+    "width": 1920,
+    "height": 1111
+  },
+  {
+    "site": "mubi",
+    "device": "desktop",
+    "step": 32,
+    "tag": "validation",
+    "tags": [
+      "validation"
+    ],
+    "path": "images/mubi/desktop/32-validation-error-claims-field.png",
+    "description": "mubi desktop krok 32: validation-error-claims-field",
+    "width": 1920,
+    "height": 1111
+  },
+  {
+    "site": "mubi",
+    "device": "desktop",
+    "step": 33,
+    "tag": "offers",
+    "tags": [
+      "offers"
+    ],
+    "path": "images/mubi/desktop/33-offers-loading-modal.png",
+    "description": "mubi desktop krok 33: offers-loading-modal",
+    "width": 1920,
+    "height": 1111
+  },
+  {
+    "site": "mubi",
+    "device": "desktop",
+    "step": 34,
+    "tag": "offers",
+    "tags": [
+      "offers"
+    ],
+    "path": "images/mubi/desktop/34-offers-list-top.png",
+    "description": "mubi desktop krok 34: offers-list-top",
+    "width": 1920,
+    "height": 1111
+  },
+  {
+    "site": "mubi",
+    "device": "desktop",
+    "step": 35,
+    "tag": "offers",
+    "tags": [
+      "offers"
+    ],
+    "path": "images/mubi/desktop/35-offers-list-scroll-1.png",
+    "description": "mubi desktop krok 35: offers-list-scroll-1",
+    "width": 1920,
+    "height": 1111
+  },
+  {
+    "site": "mubi",
+    "device": "desktop",
+    "step": 36,
+    "tag": "offers",
+    "tags": [
+      "offers"
+    ],
+    "path": "images/mubi/desktop/36-offers-list-scroll-2.png",
+    "description": "mubi desktop krok 36: offers-list-scroll-2",
+    "width": 1920,
+    "height": 1111
+  },
+  {
+    "site": "mubi",
+    "device": "desktop",
+    "step": 37,
+    "tag": "offer",
+    "tags": [
+      "offer"
+    ],
+    "path": "images/mubi/desktop/37-offer-details-modal.png",
+    "description": "mubi desktop krok 37: offer-details-modal",
+    "width": 1920,
+    "height": 1111
+  },
+  {
+    "site": "mubi",
+    "device": "desktop",
+    "step": 38,
+    "tag": "selected",
+    "tags": [
+      "selected"
+    ],
+    "path": "images/mubi/desktop/38-selected-offer-upsell-addons.png",
+    "description": "mubi desktop krok 38: selected-offer-upsell-addons",
+    "width": 1920,
+    "height": 1111
+  },
+  {
+    "site": "mubi",
+    "device": "mobile",
+    "step": 1,
+    "tag": "landing",
+    "tags": [
+      "landing"
+    ],
+    "path": "images/mubi/mobile/01-landing-cookie-consent.png",
+    "description": "mubi mobile krok 1: landing-cookie-consent",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "mubi",
+    "device": "mobile",
+    "step": 2,
+    "tag": "calculator",
+    "tags": [
+      "calculator"
+    ],
+    "path": "images/mubi/mobile/02-calculator-start-empty.png",
+    "description": "mubi mobile krok 2: calculator-start-empty",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "mubi",
+    "device": "mobile",
+    "step": 3,
+    "tag": "validation",
+    "tags": [
+      "validation"
+    ],
+    "path": "images/mubi/mobile/03-validation-errors-empty-submit.png",
+    "description": "mubi mobile krok 3: validation-errors-empty-submit",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "mubi",
+    "device": "mobile",
+    "step": 4,
+    "tag": "birthdate",
+    "tags": [
+      "birthdate"
+    ],
+    "path": "images/mubi/mobile/04-birthdate-picker-decades.png",
+    "description": "mubi mobile krok 4: birthdate-picker-decades",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "mubi",
+    "device": "mobile",
+    "step": 5,
+    "tag": "calculator",
+    "tags": [
+      "calculator"
+    ],
+    "path": "images/mubi/mobile/05-calculator-start-filled-no-plate.png",
+    "description": "mubi mobile krok 5: calculator-start-filled-no-plate",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "mubi",
+    "device": "mobile",
+    "step": 6,
+    "tag": "step2",
+    "tags": [
+      "step2"
+    ],
+    "path": "images/mubi/mobile/06-step2-vehicle-type-and-coverage.png",
+    "description": "mubi mobile krok 6: step2-vehicle-type-and-coverage",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "mubi",
+    "device": "mobile",
+    "step": 7,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/mubi/mobile/07-vehicle-year-picker-open.png",
+    "description": "mubi mobile krok 7: vehicle-year-picker-open",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "mubi",
+    "device": "mobile",
+    "step": 8,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/mubi/mobile/08-vehicle-brand-picker-open.png",
+    "description": "mubi mobile krok 8: vehicle-brand-picker-open",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "mubi",
+    "device": "mobile",
+    "step": 9,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/mubi/mobile/09-vehicle-model-picker-open.png",
+    "description": "mubi mobile krok 9: vehicle-model-picker-open",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "mubi",
+    "device": "mobile",
+    "step": 10,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/mubi/mobile/10-vehicle-fuel-picker-open.png",
+    "description": "mubi mobile krok 10: vehicle-fuel-picker-open",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "mubi",
+    "device": "mobile",
+    "step": 11,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/mubi/mobile/11-vehicle-engine-capacity-picker-open.png",
+    "description": "mubi mobile krok 11: vehicle-engine-capacity-picker-open",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "mubi",
+    "device": "mobile",
+    "step": 12,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/mubi/mobile/12-vehicle-doors-picker-open.png",
+    "description": "mubi mobile krok 12: vehicle-doors-picker-open",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "mubi",
+    "device": "mobile",
+    "step": 13,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/mubi/mobile/13-vehicle-engine-power-picker-open.png",
+    "description": "mubi mobile krok 13: vehicle-engine-power-picker-open",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "mubi",
+    "device": "mobile",
+    "step": 14,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/mubi/mobile/14-vehicle-version-picker-open.png",
+    "description": "mubi mobile krok 14: vehicle-version-picker-open",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "mubi",
+    "device": "mobile",
+    "step": 15,
+    "tag": "policy",
+    "tags": [
+      "policy"
+    ],
+    "path": "images/mubi/mobile/15-policy-start-date-picker-open.png",
+    "description": "mubi mobile krok 15: policy-start-date-picker-open",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "mubi",
+    "device": "mobile",
+    "step": 16,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/mubi/mobile/16-vehicle-details-filled.png",
+    "description": "mubi mobile krok 16: vehicle-details-filled",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "mubi",
+    "device": "mobile",
+    "step": 17,
+    "tag": "car",
+    "tags": [
+      "car"
+    ],
+    "path": "images/mubi/mobile/17-car-usage-section.png",
+    "description": "mubi mobile krok 17: car-usage-section",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "mubi",
+    "device": "mobile",
+    "step": 18,
+    "tag": "first",
+    "tags": [
+      "first"
+    ],
+    "path": "images/mubi/mobile/18-first-registration-year-picker-open.png",
+    "description": "mubi mobile krok 18: first-registration-year-picker-open",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "mubi",
+    "device": "mobile",
+    "step": 19,
+    "tag": "car",
+    "tags": [
+      "car"
+    ],
+    "path": "images/mubi/mobile/19-car-usage-filled-mileage-hint-tooltip.png",
+    "description": "mubi mobile krok 19: car-usage-filled-mileage-hint-tooltip",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "mubi",
+    "device": "mobile",
+    "step": 20,
+    "tag": "owner",
+    "tags": [
+      "owner"
+    ],
+    "path": "images/mubi/mobile/20-owner-section-filled.png",
+    "description": "mubi mobile krok 20: owner-section-filled",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "mubi",
+    "device": "mobile",
+    "step": 21,
+    "tag": "owner",
+    "tags": [
+      "owner"
+    ],
+    "path": "images/mubi/mobile/21-owner-licence-address-filled.png",
+    "description": "mubi mobile krok 21: owner-licence-address-filled",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "mubi",
+    "device": "mobile",
+    "step": 22,
+    "tag": "oc",
+    "tags": [
+      "oc"
+    ],
+    "path": "images/mubi/mobile/22-oc-history-contact-kalkuluj.png",
+    "description": "mubi mobile krok 22: oc-history-contact-kalkuluj",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "mubi",
+    "device": "mobile",
+    "step": 23,
+    "tag": "offers",
+    "tags": [
+      "offers"
+    ],
+    "path": "images/mubi/mobile/23-offers-list-still-searching.png",
+    "description": "mubi mobile krok 23: offers-list-still-searching",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "mubi",
+    "device": "mobile",
+    "step": 24,
+    "tag": "offers",
+    "tags": [
+      "offers"
+    ],
+    "path": "images/mubi/mobile/24-offers-list-top.png",
+    "description": "mubi mobile krok 24: offers-list-top",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "mubi",
+    "device": "mobile",
+    "step": 25,
+    "tag": "offers",
+    "tags": [
+      "offers"
+    ],
+    "path": "images/mubi/mobile/25-offers-list-scroll-1.png",
+    "description": "mubi mobile krok 25: offers-list-scroll-1",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "mubi",
+    "device": "mobile",
+    "step": 26,
+    "tag": "offers",
+    "tags": [
+      "offers"
+    ],
+    "path": "images/mubi/mobile/26-offers-list-scroll-2-call-tooltip.png",
+    "description": "mubi mobile krok 26: offers-list-scroll-2-call-tooltip",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "mubi",
+    "device": "mobile",
+    "step": 27,
+    "tag": "offer",
+    "tags": [
+      "offer"
+    ],
+    "path": "images/mubi/mobile/27-offer-details-uniqa.png",
+    "description": "mubi mobile krok 27: offer-details-uniqa",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "mubi",
+    "device": "mobile",
+    "step": 28,
+    "tag": "selected",
+    "tags": [
+      "selected"
+    ],
+    "path": "images/mubi/mobile/28-selected-offer-addons-upsell.png",
+    "description": "mubi mobile krok 28: selected-offer-addons-upsell",
+    "width": 1170,
+    "height": 2532
   }
 ]

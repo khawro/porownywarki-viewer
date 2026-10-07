@@ -15,15 +15,15 @@ Zmiany w tym pliku **bez osobnego deployu** — wjeżdżają przy następnym dep
 
 ## W toku
 
-- [ ] **Mubi** — desktop + mobile 1170×2532, bez DevTools
+- [ ] **GoCompare** — desktop + mobile 1170×2532, bez DevTools
 
 ## Kolejka
 
-1. [ ] **GoCompare** — desktop + mobile 1170×2532, bez DevTools
-2. [ ] **Dark mode** — motyw ciemny z przełącznikiem
-3. [ ] **The Zebra** — wznowić później (oferty + mobile), gdy block opadnie
-4. [ ] **Beesafe** — desktop + mobile 1170×2532, bez DevTools
-5. [ ] **Link4** — desktop + mobile 1170×2532, bez DevTools
+1. [ ] **Dark mode** — motyw ciemny z przełącznikiem
+2. [ ] **The Zebra** — wznowić później (oferty + mobile), gdy block opadnie
+3. [ ] **Beesafe** — desktop + mobile 1170×2532, bez DevTools
+4. [ ] **Link4** — desktop + mobile 1170×2532, bez DevTools
+5. [ ] **Mubi desktop** — ostra wersja 1920×1200 bez paska przeglądarki (ponowić, mubi.pl blokowało 403 przy wyborze marki)
 
 ## Pominięte (wrócimy później)
 
@@ -31,6 +31,7 @@ Zmiany w tym pliku **bez osobnego deployu** — wjeżdżają przy następnym dep
 
 ## Zrobione
 
+- [x] **Mubi** — desktop **38** (z 39, bez duplikatu z błędem połączenia; przycięty pasek Chrome → 1920×1111) + mobile **28 / 28** (1170×2532), do dodatków po wyborze oferty, na produkcji
 - [x] **Rankomat** mobile — pełne flow od czystego formularza (**28 / 28**), 1170×2532, na produkcji
 - [x] **Lemonade** — desktop **29** + mobile **45 / 45** do oferty (1170×2532), na produkcji
 - [x] **Insurify** — desktop OK + natywne mobile **45 / 45** do ofert, 1170×2532, na produkcji

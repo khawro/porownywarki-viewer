@@ -7,6 +7,7 @@
     nerdwallet: "NerdWallet",
     gocompare: "GoCompare",
     lemonade: "Lemonade",
+    mubi: "Mubi",
   };
 
   const TAG_LABELS = {
