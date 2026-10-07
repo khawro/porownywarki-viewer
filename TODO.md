@@ -21,6 +21,7 @@ Zmiany w tym pliku **bez osobnego deployu** — wjeżdżają przy następnym dep
 2. [ ] **Insurify** — dograć świeże natywne mobile (na produkcji są 1170×2532 z konwersji upscale, nie z nowego capture)
 3. [ ] **Lemonade** — zrzuty desktop i mobile 390×844 @3× (1170×2532), bez DevTools, w dobrej jakości
 4. [ ] **Mubi** — zrzuty desktop i mobile 390×844 @3× (1170×2532), bez DevTools, w dobrej jakości
+5. [ ] **GoCompare** — zrzuty desktop i mobile 390×844 @3× (1170×2532), bez DevTools, w dobrej jakości
 
 ## Zrobione
 
