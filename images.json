@@ -503,8 +503,8 @@
     ],
     "path": "images/insurify/mobile/01-home.png",
     "description": "insurify mobile krok 1: home",
-    "width": 1920,
-    "height": 1200
+    "width": 1170,
+    "height": 2532
   },
   {
     "site": "insurify",
@@ -516,8 +516,8 @@
     ],
     "path": "images/insurify/mobile/02-vehicle-ubezpieczony.png",
     "description": "insurify mobile krok 2: vehicle-ubezpieczony",
-    "width": 1920,
-    "height": 1200
+    "width": 1170,
+    "height": 2532
   },
   {
     "site": "insurify",
@@ -529,8 +529,8 @@
     ],
     "path": "images/insurify/mobile/03-vehicle-termin-zakupu.png",
     "description": "insurify mobile krok 3: vehicle-termin-zakupu",
-    "width": 1920,
-    "height": 1200
+    "width": 1170,
+    "height": 2532
   },
   {
     "site": "insurify",
@@ -542,8 +542,8 @@
     ],
     "path": "images/insurify/mobile/04-vehicle-wlasciciel-domu.png",
     "description": "insurify mobile krok 4: vehicle-wlasciciel-domu",
-    "width": 1920,
-    "height": 1200
+    "width": 1170,
+    "height": 2532
   },
   {
     "site": "insurify",
@@ -555,8 +555,8 @@
     ],
     "path": "images/insurify/mobile/05-vehicle-liczba-aut.png",
     "description": "insurify mobile krok 5: vehicle-liczba-aut",
-    "width": 1920,
-    "height": 1200
+    "width": 1170,
+    "height": 2532
   },
   {
     "site": "insurify",
@@ -568,8 +568,8 @@
     ],
     "path": "images/insurify/mobile/06-vehicle-rok.png",
     "description": "insurify mobile krok 6: vehicle-rok",
-    "width": 1920,
-    "height": 1200
+    "width": 1170,
+    "height": 2532
   },
   {
     "site": "insurify",
@@ -581,8 +581,8 @@
     ],
     "path": "images/insurify/mobile/07-vehicle-marka.png",
     "description": "insurify mobile krok 7: vehicle-marka",
-    "width": 1920,
-    "height": 1200
+    "width": 1170,
+    "height": 2532
   },
   {
     "site": "insurify",
@@ -594,8 +594,8 @@
     ],
     "path": "images/insurify/mobile/08-vehicle-model.png",
     "description": "insurify mobile krok 8: vehicle-model",
-    "width": 1920,
-    "height": 1200
+    "width": 1170,
+    "height": 2532
   },
   {
     "site": "insurify",
@@ -607,8 +607,8 @@
     ],
     "path": "images/insurify/mobile/09-vehicle-wersja.png",
     "description": "insurify mobile krok 9: vehicle-wersja",
-    "width": 1920,
-    "height": 1200
+    "width": 1170,
+    "height": 2532
   },
   {
     "site": "insurify",
@@ -620,8 +620,8 @@
     ],
     "path": "images/insurify/mobile/10-vehicle-nadwozie.png",
     "description": "insurify mobile krok 10: vehicle-nadwozie",
-    "width": 1920,
-    "height": 1200
+    "width": 1170,
+    "height": 2532
   },
   {
     "site": "insurify",
@@ -633,8 +633,8 @@
     ],
     "path": "images/insurify/mobile/11-vehicle-uzytkowanie.png",
     "description": "insurify mobile krok 11: vehicle-uzytkowanie",
-    "width": 1920,
-    "height": 1200
+    "width": 1170,
+    "height": 2532
   },
   {
     "site": "insurify",
@@ -646,8 +646,8 @@
     ],
     "path": "images/insurify/mobile/12-vehicle-przebieg.png",
     "description": "insurify mobile krok 12: vehicle-przebieg",
-    "width": 1920,
-    "height": 1200
+    "width": 1170,
+    "height": 2532
   },
   {
     "site": "insurify",
@@ -659,8 +659,8 @@
     ],
     "path": "images/insurify/mobile/13-vehicle-wlasnosc.png",
     "description": "insurify mobile krok 13: vehicle-wlasnosc",
-    "width": 1920,
-    "height": 1200
+    "width": 1170,
+    "height": 2532
   },
   {
     "site": "insurify",
@@ -672,8 +672,8 @@
     ],
     "path": "images/insurify/mobile/14-vehicle-zakres.png",
     "description": "insurify mobile krok 14: vehicle-zakres",
-    "width": 1920,
-    "height": 1200
+    "width": 1170,
+    "height": 2532
   },
   {
     "site": "insurify",
@@ -685,8 +685,8 @@
     ],
     "path": "images/insurify/mobile/15-driver-data-urodzenia.png",
     "description": "insurify mobile krok 15: driver-data-urodzenia",
-    "width": 1920,
-    "height": 1200
+    "width": 1170,
+    "height": 2532
   },
   {
     "site": "insurify",
@@ -698,8 +698,8 @@
     ],
     "path": "images/insurify/mobile/16-driver-plec.png",
     "description": "insurify mobile krok 16: driver-plec",
-    "width": 1920,
-    "height": 1200
+    "width": 1170,
+    "height": 2532
   },
   {
     "site": "insurify",
@@ -711,8 +711,8 @@
     ],
     "path": "images/insurify/mobile/17-driver-prawo-jazdy.png",
     "description": "insurify mobile krok 17: driver-prawo-jazdy",
-    "width": 1920,
-    "height": 1200
+    "width": 1170,
+    "height": 2532
   },
   {
     "site": "insurify",
@@ -724,8 +724,8 @@
     ],
     "path": "images/insurify/mobile/18-driver-wiek-prawa-jazdy.png",
     "description": "insurify mobile krok 18: driver-wiek-prawa-jazdy",
-    "width": 1920,
-    "height": 1200
+    "width": 1170,
+    "height": 2532
   },
   {
     "site": "insurify",
@@ -737,8 +737,8 @@
     ],
     "path": "images/insurify/mobile/19-driver-scoring-kredytowy.png",
     "description": "insurify mobile krok 19: driver-scoring-kredytowy",
-    "width": 1920,
-    "height": 1200
+    "width": 1170,
+    "height": 2532
   },
   {
     "site": "insurify",
@@ -750,8 +750,8 @@
     ],
     "path": "images/insurify/mobile/20-driver-wyksztalcenie.png",
     "description": "insurify mobile krok 20: driver-wyksztalcenie",
-    "width": 1920,
-    "height": 1200
+    "width": 1170,
+    "height": 2532
   },
   {
     "site": "insurify",
@@ -763,8 +763,8 @@
     ],
     "path": "images/insurify/mobile/21-driver-wojsko.png",
     "description": "insurify mobile krok 21: driver-wojsko",
-    "width": 1920,
-    "height": 1200
+    "width": 1170,
+    "height": 2532
   },
   {
     "site": "insurify",
@@ -776,8 +776,8 @@
     ],
     "path": "images/insurify/mobile/22-driver-znizki.png",
     "description": "insurify mobile krok 22: driver-znizki",
-    "width": 1920,
-    "height": 1200
+    "width": 1170,
+    "height": 2532
   },
   {
     "site": "insurify",
@@ -789,8 +789,8 @@
     ],
     "path": "images/insurify/mobile/23-driver-zawod.png",
     "description": "insurify mobile krok 23: driver-zawod",
-    "width": 1920,
-    "height": 1200
+    "width": 1170,
+    "height": 2532
   },
   {
     "site": "insurify",
@@ -802,8 +802,8 @@
     ],
     "path": "images/insurify/mobile/24-driver-historia-ubezpieczenia.png",
     "description": "insurify mobile krok 24: driver-historia-ubezpieczenia",
-    "width": 1920,
-    "height": 1200
+    "width": 1170,
+    "height": 2532
   },
   {
     "site": "insurify",
@@ -815,8 +815,8 @@
     ],
     "path": "images/insurify/mobile/25-driver-przerwa-w-ubezpieczeniu.png",
     "description": "insurify mobile krok 25: driver-przerwa-w-ubezpieczeniu",
-    "width": 1920,
-    "height": 1200
+    "width": 1170,
+    "height": 2532
   },
   {
     "site": "insurify",
@@ -828,8 +828,8 @@
     ],
     "path": "images/insurify/mobile/26-driver-wypadki.png",
     "description": "insurify mobile krok 26: driver-wypadki",
-    "width": 1920,
-    "height": 1200
+    "width": 1170,
+    "height": 2532
   },
   {
     "site": "insurify",
@@ -841,8 +841,8 @@
     ],
     "path": "images/insurify/mobile/27-driver-mandaty.png",
     "description": "insurify mobile krok 27: driver-mandaty",
-    "width": 1920,
-    "height": 1200
+    "width": 1170,
+    "height": 2532
   },
   {
     "site": "insurify",
@@ -854,8 +854,8 @@
     ],
     "path": "images/insurify/mobile/28-driver-szkody.png",
     "description": "insurify mobile krok 28: driver-szkody",
-    "width": 1920,
-    "height": 1200
+    "width": 1170,
+    "height": 2532
   },
   {
     "site": "insurify",
@@ -867,8 +867,8 @@
     ],
     "path": "images/insurify/mobile/29-driver-dui.png",
     "description": "insurify mobile krok 29: driver-dui",
-    "width": 1920,
-    "height": 1200
+    "width": 1170,
+    "height": 2532
   },
   {
     "site": "insurify",
@@ -880,8 +880,8 @@
     ],
     "path": "images/insurify/mobile/30-details-imie-nazwisko.png",
     "description": "insurify mobile krok 30: details-imie-nazwisko",
-    "width": 1920,
-    "height": 1200
+    "width": 1170,
+    "height": 2532
   },
   {
     "site": "insurify",
@@ -893,8 +893,8 @@
     ],
     "path": "images/insurify/mobile/31-details-kolejny-kierowca.png",
     "description": "insurify mobile krok 31: details-kolejny-kierowca",
-    "width": 1920,
-    "height": 1200
+    "width": 1170,
+    "height": 2532
   },
   {
     "site": "insurify",
@@ -906,8 +906,8 @@
     ],
     "path": "images/insurify/mobile/32-details-adres.png",
     "description": "insurify mobile krok 32: details-adres",
-    "width": 1920,
-    "height": 1200
+    "width": 1170,
+    "height": 2532
   },
   {
     "site": "insurify",
@@ -919,8 +919,8 @@
     ],
     "path": "images/insurify/mobile/33-checkout-email-zgody.png",
     "description": "insurify mobile krok 33: checkout-email-zgody",
-    "width": 1920,
-    "height": 1200
+    "width": 1170,
+    "height": 2532
   },
   {
     "site": "insurify",
@@ -932,8 +932,8 @@
     ],
     "path": "images/insurify/mobile/34-checkout-telefon.png",
     "description": "insurify mobile krok 34: checkout-telefon",
-    "width": 1920,
-    "height": 1200
+    "width": 1170,
+    "height": 2532
   },
   {
     "site": "insurify",
@@ -945,8 +945,8 @@
     ],
     "path": "images/insurify/mobile/35-checkout-podsumowanie-powrot.png",
     "description": "insurify mobile krok 35: checkout-podsumowanie-powrot",
-    "width": 1920,
-    "height": 1200
+    "width": 1170,
+    "height": 2532
   },
   {
     "site": "insurify",
@@ -958,8 +958,8 @@
     ],
     "path": "images/insurify/mobile/36-loading-oferty.png",
     "description": "insurify mobile krok 36: loading-oferty",
-    "width": 1920,
-    "height": 1200
+    "width": 1170,
+    "height": 2532
   },
   {
     "site": "insurify",
@@ -971,8 +971,8 @@
     ],
     "path": "images/insurify/mobile/37-offers-lista.png",
     "description": "insurify mobile krok 37: offers-lista",
-    "width": 1920,
-    "height": 1200
+    "width": 1170,
+    "height": 2532
   },
   {
     "site": "insurify",
@@ -984,8 +984,8 @@
     ],
     "path": "images/insurify/mobile/38-offers-szczegoly.png",
     "description": "insurify mobile krok 38: offers-szczegoly",
-    "width": 1920,
-    "height": 1200
+    "width": 1170,
+    "height": 2532
   },
   {
     "site": "kioskpolis",
@@ -996,7 +996,7 @@
       "home"
     ],
     "path": "images/kioskpolis/desktop/01-home.png",
-    "description": "kioskpolis desktop krok 1: Strona główna (home)",
+    "description": "kioskpolis desktop krok 1: home",
     "width": 1920,
     "height": 1200
   },
@@ -1004,12 +1004,12 @@
     "site": "kioskpolis",
     "device": "desktop",
     "step": 2,
-    "tag": "vehicle",
+    "tag": "start",
     "tags": [
-      "vehicle"
+      "start"
     ],
     "path": "images/kioskpolis/desktop/02-start-formularz.png",
-    "description": "kioskpolis desktop krok 2: Dane pojazdu (start-formularz)",
+    "description": "kioskpolis desktop krok 2: start-formularz",
     "width": 1920,
     "height": 1200
   },
@@ -1017,12 +1017,12 @@
     "site": "kioskpolis",
     "device": "desktop",
     "step": 3,
-    "tag": "vehicle",
+    "tag": "pojazd",
     "tags": [
-      "vehicle"
+      "pojazd"
     ],
     "path": "images/kioskpolis/desktop/03-pojazd.png",
-    "description": "kioskpolis desktop krok 3: Dane pojazdu (pojazd)",
+    "description": "kioskpolis desktop krok 3: pojazd",
     "width": 1920,
     "height": 1200
   },
@@ -1030,12 +1030,12 @@
     "site": "kioskpolis",
     "device": "desktop",
     "step": 4,
-    "tag": "vehicle",
+    "tag": "uzytkowanie",
     "tags": [
-      "vehicle"
+      "uzytkowanie"
     ],
     "path": "images/kioskpolis/desktop/04-uzytkowanie-pojazdu.png",
-    "description": "kioskpolis desktop krok 4: Dane pojazdu (uzytkowanie-pojazdu)",
+    "description": "kioskpolis desktop krok 4: uzytkowanie-pojazdu",
     "width": 1920,
     "height": 1200
   },
@@ -1043,12 +1043,12 @@
     "site": "kioskpolis",
     "device": "desktop",
     "step": 5,
-    "tag": "driver",
+    "tag": "wlasciciel",
     "tags": [
-      "driver"
+      "wlasciciel"
     ],
     "path": "images/kioskpolis/desktop/05-wlasciciel.png",
-    "description": "kioskpolis desktop krok 5: Dane kierowcy / historia (wlasciciel)",
+    "description": "kioskpolis desktop krok 5: wlasciciel",
     "width": 1920,
     "height": 1200
   },
@@ -1056,12 +1056,12 @@
     "site": "kioskpolis",
     "device": "desktop",
     "step": 6,
-    "tag": "details",
+    "tag": "kontakt",
     "tags": [
-      "details"
+      "kontakt"
     ],
     "path": "images/kioskpolis/desktop/06-kontakt.png",
-    "description": "kioskpolis desktop krok 6: Dane osobowe / adres (kontakt)",
+    "description": "kioskpolis desktop krok 6: kontakt",
     "width": 1920,
     "height": 1200
   },
@@ -1069,12 +1069,12 @@
     "site": "kioskpolis",
     "device": "desktop",
     "step": 7,
-    "tag": "details",
+    "tag": "wymagany",
     "tags": [
-      "details"
+      "wymagany"
     ],
     "path": "images/kioskpolis/desktop/07-wymagany-pesel.png",
-    "description": "kioskpolis desktop krok 7: Dane osobowe / adres (wymagany-pesel)",
+    "description": "kioskpolis desktop krok 7: wymagany-pesel",
     "width": 1024,
     "height": 594
   },
@@ -1087,7 +1087,7 @@
       "details"
     ],
     "path": "images/kioskpolis/desktop/08-details-pesel-uzupelniony.png",
-    "description": "kioskpolis desktop krok 8: Dane właściciela z PESEL, rokiem prawa jazdy (details)",
+    "description": "kioskpolis desktop krok 8: details-pesel-uzupelniony",
     "width": 1920,
     "height": 1200
   },
@@ -1100,7 +1100,7 @@
       "loading"
     ],
     "path": "images/kioskpolis/desktop/09-loading-oferty.png",
-    "description": "kioskpolis desktop krok 9: Ładowanie ofert (loading)",
+    "description": "kioskpolis desktop krok 9: loading-oferty",
     "width": 1920,
     "height": 1200
   },
@@ -1113,7 +1113,7 @@
       "offers"
     ],
     "path": "images/kioskpolis/desktop/10-offers-lista-ofert.png",
-    "description": "kioskpolis desktop krok 10: Lista ofert (offers)",
+    "description": "kioskpolis desktop krok 10: offers-lista-ofert",
     "width": 1920,
     "height": 1200
   },
@@ -1126,7 +1126,7 @@
       "checkout"
     ],
     "path": "images/kioskpolis/desktop/11-checkout-podsumowanie-zakupu.png",
-    "description": "kioskpolis desktop krok 11: Podsumowanie zakupu (LINK4 OC+Assistance) (checkout)",
+    "description": "kioskpolis desktop krok 11: checkout-podsumowanie-zakupu",
     "width": 1920,
     "height": 1200
   },
@@ -1139,7 +1139,7 @@
       "payment"
     ],
     "path": "images/kioskpolis/desktop/12-payment-forma-platnosci.png",
-    "description": "kioskpolis desktop krok 12: Wybór formy płatności (bez płatności) (payment)",
+    "description": "kioskpolis desktop krok 12: payment-forma-platnosci",
     "width": 1920,
     "height": 1200
   },
@@ -1152,74 +1152,74 @@
       "home"
     ],
     "path": "images/kioskpolis/mobile/01-home.png",
-    "description": "kioskpolis mobile krok 1: Strona główna (home)",
-    "width": 399,
-    "height": 1024
+    "description": "kioskpolis mobile krok 1: home",
+    "width": 1170,
+    "height": 2532
   },
   {
     "site": "kioskpolis",
     "device": "mobile",
     "step": 2,
-    "tag": "vehicle",
+    "tag": "start",
     "tags": [
-      "vehicle"
+      "start"
     ],
     "path": "images/kioskpolis/mobile/02-start-formularz.png",
-    "description": "kioskpolis mobile krok 2: Dane pojazdu (start-formularz)",
-    "width": 399,
-    "height": 1024
+    "description": "kioskpolis mobile krok 2: start-formularz",
+    "width": 1170,
+    "height": 2532
   },
   {
     "site": "kioskpolis",
     "device": "mobile",
     "step": 3,
-    "tag": "vehicle",
+    "tag": "wybor",
     "tags": [
-      "vehicle"
+      "wybor"
     ],
     "path": "images/kioskpolis/mobile/03-wybor-marki.png",
-    "description": "kioskpolis mobile krok 3: Dane pojazdu (wybor-marki)",
-    "width": 399,
-    "height": 1024
+    "description": "kioskpolis mobile krok 3: wybor-marki",
+    "width": 1170,
+    "height": 2532
   },
   {
     "site": "kioskpolis",
     "device": "mobile",
     "step": 4,
-    "tag": "vehicle",
+    "tag": "rok",
     "tags": [
-      "vehicle"
+      "rok"
     ],
     "path": "images/kioskpolis/mobile/04-rok-produkcji.png",
-    "description": "kioskpolis mobile krok 4: Dane pojazdu (rok-produkcji)",
-    "width": 399,
-    "height": 1024
+    "description": "kioskpolis mobile krok 4: rok-produkcji",
+    "width": 1170,
+    "height": 2532
   },
   {
     "site": "kioskpolis",
     "device": "mobile",
     "step": 5,
-    "tag": "vehicle",
+    "tag": "wersja",
     "tags": [
-      "vehicle"
+      "wersja"
     ],
     "path": "images/kioskpolis/mobile/05-wersja-pojazdu.png",
-    "description": "kioskpolis mobile krok 5: Dane pojazdu (wersja-pojazdu)",
-    "width": 399,
-    "height": 1024
+    "description": "kioskpolis mobile krok 5: wersja-pojazdu",
+    "width": 1170,
+    "height": 2532
   },
   {
     "site": "kioskpolis",
     "device": "mobile",
     "step": 6,
-    "tag": "vehicle",
+    "tag": "uzytkowanie",
     "tags": [
-      "vehicle"
+      "uzytkowanie"
     ],
     "path": "images/kioskpolis/mobile/06-uzytkowanie-pojazdu.png",
-    "description": "kioskpolis mobile krok 6: Dane pojazdu (uzytkowanie-pojazdu)",
-    "width": 399,
-    "height": 1024
+    "description": "kioskpolis mobile krok 6: uzytkowanie-pojazdu",
+    "width": 1170,
+    "height": 2532
   },
   {
     "site": "kioskpolis",
@@ -1230,9 +1230,9 @@
       "details"
     ],
     "path": "images/kioskpolis/mobile/07-details-wlasciciel-pesel.png",
-    "description": "kioskpolis mobile krok 7: Dane właściciela z PESEL (details)",
-    "width": 370,
-    "height": 1024
+    "description": "kioskpolis mobile krok 7: details-wlasciciel-pesel",
+    "width": 1170,
+    "height": 2532
   },
   {
     "site": "kioskpolis",
@@ -1243,9 +1243,9 @@
       "details"
     ],
     "path": "images/kioskpolis/mobile/08-details-kontakt-telefon.png",
-    "description": "kioskpolis mobile krok 8: Dane kontaktowe z telefonem (details)",
-    "width": 370,
-    "height": 1024
+    "description": "kioskpolis mobile krok 8: details-kontakt-telefon",
+    "width": 1170,
+    "height": 2532
   },
   {
     "site": "kioskpolis",
@@ -1256,9 +1256,9 @@
       "loading"
     ],
     "path": "images/kioskpolis/mobile/09-loading-oferty.png",
-    "description": "kioskpolis mobile krok 9: Ładowanie ofert (loading)",
-    "width": 370,
-    "height": 1024
+    "description": "kioskpolis mobile krok 9: loading-oferty",
+    "width": 1170,
+    "height": 2532
   },
   {
     "site": "kioskpolis",
@@ -1269,9 +1269,9 @@
       "offers"
     ],
     "path": "images/kioskpolis/mobile/10-offers-rekomendacje.png",
-    "description": "kioskpolis mobile krok 10: Rekomendowane oferty (offers)",
-    "width": 370,
-    "height": 1024
+    "description": "kioskpolis mobile krok 10: offers-rekomendacje",
+    "width": 1170,
+    "height": 2532
   },
   {
     "site": "kioskpolis",
@@ -1282,9 +1282,9 @@
       "checkout"
     ],
     "path": "images/kioskpolis/mobile/11-checkout-podsumowanie-zakupu.png",
-    "description": "kioskpolis mobile krok 11: Podsumowanie zakupu (checkout)",
-    "width": 370,
-    "height": 1024
+    "description": "kioskpolis mobile krok 11: checkout-podsumowanie-zakupu",
+    "width": 1170,
+    "height": 2532
   },
   {
     "site": "kioskpolis",
@@ -1295,9 +1295,542 @@
       "payment"
     ],
     "path": "images/kioskpolis/mobile/12-payment-forma-platnosci.png",
-    "description": "kioskpolis mobile krok 12: Wybór formy płatności (bez płatności) (payment)",
-    "width": 370,
-    "height": 1024
+    "description": "kioskpolis mobile krok 12: payment-forma-platnosci",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "nerdwallet",
+    "device": "desktop",
+    "step": 1,
+    "tag": "home",
+    "tags": [
+      "home"
+    ],
+    "path": "images/nerdwallet/desktop/01-home.png",
+    "description": "nerdwallet desktop krok 1: home",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "nerdwallet",
+    "device": "desktop",
+    "step": 2,
+    "tag": "currently",
+    "tags": [
+      "currently"
+    ],
+    "path": "images/nerdwallet/desktop/02-form-currently-insured.png",
+    "description": "nerdwallet desktop krok 2: form-currently-insured",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "nerdwallet",
+    "device": "desktop",
+    "step": 3,
+    "tag": "current",
+    "tags": [
+      "current"
+    ],
+    "path": "images/nerdwallet/desktop/03-form-current-insurer.png",
+    "description": "nerdwallet desktop krok 3: form-current-insurer",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "nerdwallet",
+    "device": "desktop",
+    "step": 4,
+    "tag": "driver",
+    "tags": [
+      "driver"
+    ],
+    "path": "images/nerdwallet/desktop/04-form-driver-license.png",
+    "description": "nerdwallet desktop krok 4: form-driver-license",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "nerdwallet",
+    "device": "desktop",
+    "step": 5,
+    "tag": "incidents",
+    "tags": [
+      "incidents"
+    ],
+    "path": "images/nerdwallet/desktop/05-form-incidents.png",
+    "description": "nerdwallet desktop krok 5: form-incidents",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "nerdwallet",
+    "device": "desktop",
+    "step": 6,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/nerdwallet/desktop/06-form-vehicle-year.png",
+    "description": "nerdwallet desktop krok 6: form-vehicle-year",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "nerdwallet",
+    "device": "desktop",
+    "step": 7,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/nerdwallet/desktop/07-form-vehicle-make.png",
+    "description": "nerdwallet desktop krok 7: form-vehicle-make",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "nerdwallet",
+    "device": "desktop",
+    "step": 8,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/nerdwallet/desktop/08-form-vehicle-model.png",
+    "description": "nerdwallet desktop krok 8: form-vehicle-model",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "nerdwallet",
+    "device": "desktop",
+    "step": 9,
+    "tag": "additional",
+    "tags": [
+      "additional"
+    ],
+    "path": "images/nerdwallet/desktop/09-form-additional-vehicle.png",
+    "description": "nerdwallet desktop krok 9: form-additional-vehicle",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "nerdwallet",
+    "device": "desktop",
+    "step": 10,
+    "tag": "multiple",
+    "tags": [
+      "multiple"
+    ],
+    "path": "images/nerdwallet/desktop/10-form-multiple-drivers.png",
+    "description": "nerdwallet desktop krok 10: form-multiple-drivers",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "nerdwallet",
+    "device": "desktop",
+    "step": 11,
+    "tag": "multi",
+    "tags": [
+      "multi"
+    ],
+    "path": "images/nerdwallet/desktop/11-form-multi-driver-discount.png",
+    "description": "nerdwallet desktop krok 11: form-multi-driver-discount",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "nerdwallet",
+    "device": "desktop",
+    "step": 12,
+    "tag": "military",
+    "tags": [
+      "military"
+    ],
+    "path": "images/nerdwallet/desktop/12-form-military-or-veteran-discount.png",
+    "description": "nerdwallet desktop krok 12: form-military-or-veteran-discount",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "nerdwallet",
+    "device": "desktop",
+    "step": 13,
+    "tag": "married",
+    "tags": [
+      "married"
+    ],
+    "path": "images/nerdwallet/desktop/13-form-married-discount.png",
+    "description": "nerdwallet desktop krok 13: form-married-discount",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "nerdwallet",
+    "device": "desktop",
+    "step": 14,
+    "tag": "homeowner",
+    "tags": [
+      "homeowner"
+    ],
+    "path": "images/nerdwallet/desktop/14-form-homeowner-discount.png",
+    "description": "nerdwallet desktop krok 14: form-homeowner-discount",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "nerdwallet",
+    "device": "desktop",
+    "step": 15,
+    "tag": "gender",
+    "tags": [
+      "gender"
+    ],
+    "path": "images/nerdwallet/desktop/15-form-gender-identity.png",
+    "description": "nerdwallet desktop krok 15: form-gender-identity",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "nerdwallet",
+    "device": "desktop",
+    "step": 16,
+    "tag": "date",
+    "tags": [
+      "date"
+    ],
+    "path": "images/nerdwallet/desktop/16-form-date-of-birth.png",
+    "description": "nerdwallet desktop krok 16: form-date-of-birth",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "nerdwallet",
+    "device": "desktop",
+    "step": 17,
+    "tag": "street",
+    "tags": [
+      "street"
+    ],
+    "path": "images/nerdwallet/desktop/17-form-street-address.png",
+    "description": "nerdwallet desktop krok 17: form-street-address",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "nerdwallet",
+    "device": "desktop",
+    "step": 18,
+    "tag": "name",
+    "tags": [
+      "name"
+    ],
+    "path": "images/nerdwallet/desktop/18-form-name.png",
+    "description": "nerdwallet desktop krok 18: form-name",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "nerdwallet",
+    "device": "desktop",
+    "step": 19,
+    "tag": "email",
+    "tags": [
+      "email"
+    ],
+    "path": "images/nerdwallet/desktop/19-form-email.png",
+    "description": "nerdwallet desktop krok 19: form-email",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "nerdwallet",
+    "device": "desktop",
+    "step": 20,
+    "tag": "offers",
+    "tags": [
+      "offers"
+    ],
+    "path": "images/nerdwallet/desktop/20-offers.png",
+    "description": "nerdwallet desktop krok 20: offers",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "nerdwallet",
+    "device": "mobile",
+    "step": 1,
+    "tag": "landing",
+    "tags": [
+      "landing"
+    ],
+    "path": "images/nerdwallet/mobile/01-landing-zip.png",
+    "description": "nerdwallet mobile krok 1: landing-zip",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "nerdwallet",
+    "device": "mobile",
+    "step": 2,
+    "tag": "matches",
+    "tags": [
+      "matches"
+    ],
+    "path": "images/nerdwallet/mobile/02-matches-a.png",
+    "description": "nerdwallet mobile krok 2: matches-a",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "nerdwallet",
+    "device": "mobile",
+    "step": 3,
+    "tag": "currently",
+    "tags": [
+      "currently"
+    ],
+    "path": "images/nerdwallet/mobile/03-currently-insured.png",
+    "description": "nerdwallet mobile krok 3: currently-insured",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "nerdwallet",
+    "device": "mobile",
+    "step": 4,
+    "tag": "current",
+    "tags": [
+      "current"
+    ],
+    "path": "images/nerdwallet/mobile/04-current-insurer.png",
+    "description": "nerdwallet mobile krok 4: current-insurer",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "nerdwallet",
+    "device": "mobile",
+    "step": 5,
+    "tag": "valid",
+    "tags": [
+      "valid"
+    ],
+    "path": "images/nerdwallet/mobile/05-valid-driver-license.png",
+    "description": "nerdwallet mobile krok 5: valid-driver-license",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "nerdwallet",
+    "device": "mobile",
+    "step": 6,
+    "tag": "recent",
+    "tags": [
+      "recent"
+    ],
+    "path": "images/nerdwallet/mobile/06-recent-incidents.png",
+    "description": "nerdwallet mobile krok 6: recent-incidents",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "nerdwallet",
+    "device": "mobile",
+    "step": 7,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/nerdwallet/mobile/07-vehicle-year.png",
+    "description": "nerdwallet mobile krok 7: vehicle-year",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "nerdwallet",
+    "device": "mobile",
+    "step": 8,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/nerdwallet/mobile/08-vehicle-make.png",
+    "description": "nerdwallet mobile krok 8: vehicle-make",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "nerdwallet",
+    "device": "mobile",
+    "step": 9,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/nerdwallet/mobile/09-vehicle-model.png",
+    "description": "nerdwallet mobile krok 9: vehicle-model",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "nerdwallet",
+    "device": "mobile",
+    "step": 10,
+    "tag": "another",
+    "tags": [
+      "another"
+    ],
+    "path": "images/nerdwallet/mobile/10-another-vehicle.png",
+    "description": "nerdwallet mobile krok 10: another-vehicle",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "nerdwallet",
+    "device": "mobile",
+    "step": 11,
+    "tag": "multi",
+    "tags": [
+      "multi"
+    ],
+    "path": "images/nerdwallet/mobile/11-multi-driver-discount.png",
+    "description": "nerdwallet mobile krok 11: multi-driver-discount",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "nerdwallet",
+    "device": "mobile",
+    "step": 12,
+    "tag": "military",
+    "tags": [
+      "military"
+    ],
+    "path": "images/nerdwallet/mobile/12-military-or-veteran-discount.png",
+    "description": "nerdwallet mobile krok 12: military-or-veteran-discount",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "nerdwallet",
+    "device": "mobile",
+    "step": 13,
+    "tag": "married",
+    "tags": [
+      "married"
+    ],
+    "path": "images/nerdwallet/mobile/13-married-discount.png",
+    "description": "nerdwallet mobile krok 13: married-discount",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "nerdwallet",
+    "device": "mobile",
+    "step": 14,
+    "tag": "homeowner",
+    "tags": [
+      "homeowner"
+    ],
+    "path": "images/nerdwallet/mobile/14-homeowner-discount.png",
+    "description": "nerdwallet mobile krok 14: homeowner-discount",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "nerdwallet",
+    "device": "mobile",
+    "step": 15,
+    "tag": "gender",
+    "tags": [
+      "gender"
+    ],
+    "path": "images/nerdwallet/mobile/15-gender-identity.png",
+    "description": "nerdwallet mobile krok 15: gender-identity",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "nerdwallet",
+    "device": "mobile",
+    "step": 16,
+    "tag": "date",
+    "tags": [
+      "date"
+    ],
+    "path": "images/nerdwallet/mobile/16-date-of-birth.png",
+    "description": "nerdwallet mobile krok 16: date-of-birth",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "nerdwallet",
+    "device": "mobile",
+    "step": 17,
+    "tag": "street",
+    "tags": [
+      "street"
+    ],
+    "path": "images/nerdwallet/mobile/17-street-address.png",
+    "description": "nerdwallet mobile krok 17: street-address",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "nerdwallet",
+    "device": "mobile",
+    "step": 18,
+    "tag": "name",
+    "tags": [
+      "name"
+    ],
+    "path": "images/nerdwallet/mobile/18-name.png",
+    "description": "nerdwallet mobile krok 18: name",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "nerdwallet",
+    "device": "mobile",
+    "step": 19,
+    "tag": "email",
+    "tags": [
+      "email"
+    ],
+    "path": "images/nerdwallet/mobile/19-email.png",
+    "description": "nerdwallet mobile krok 19: email",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "nerdwallet",
+    "device": "mobile",
+    "step": 20,
+    "tag": "offers",
+    "tags": [
+      "offers"
+    ],
+    "path": "images/nerdwallet/mobile/20-offers-top.png",
+    "description": "nerdwallet mobile krok 20: offers-top",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "nerdwallet",
+    "device": "mobile",
+    "step": 21,
+    "tag": "offers",
+    "tags": [
+      "offers"
+    ],
+    "path": "images/nerdwallet/mobile/21-offers-bottom.png",
+    "description": "nerdwallet mobile krok 21: offers-bottom",
+    "width": 1170,
+    "height": 2532
   },
   {
     "site": "rankomat",
@@ -1316,9 +1849,9 @@
     "site": "rankomat",
     "device": "desktop",
     "step": 2,
-    "tag": "vehicle",
+    "tag": "start",
     "tags": [
-      "vehicle"
+      "start"
     ],
     "path": "images/rankomat/desktop/02-start-form.png",
     "description": "rankomat desktop krok 2: start-form",
@@ -1329,9 +1862,9 @@
     "site": "rankomat",
     "device": "desktop",
     "step": 3,
-    "tag": "vehicle",
+    "tag": "pojazd",
     "tags": [
-      "vehicle"
+      "pojazd"
     ],
     "path": "images/rankomat/desktop/03-pojazd.png",
     "description": "rankomat desktop krok 3: pojazd",
@@ -1342,9 +1875,9 @@
     "site": "rankomat",
     "device": "desktop",
     "step": 4,
-    "tag": "vehicle",
+    "tag": "historia",
     "tags": [
-      "vehicle"
+      "historia"
     ],
     "path": "images/rankomat/desktop/04-historia-pojazdu.png",
     "description": "rankomat desktop krok 4: historia-pojazdu",
@@ -1355,9 +1888,9 @@
     "site": "rankomat",
     "device": "desktop",
     "step": 5,
-    "tag": "driver",
+    "tag": "wlasciciel",
     "tags": [
-      "driver"
+      "wlasciciel"
     ],
     "path": "images/rankomat/desktop/05-wlasciciel.png",
     "description": "rankomat desktop krok 5: wlasciciel",
@@ -1368,9 +1901,9 @@
     "site": "rankomat",
     "device": "desktop",
     "step": 6,
-    "tag": "loading",
+    "tag": "ladowanie",
     "tags": [
-      "loading"
+      "ladowanie"
     ],
     "path": "images/rankomat/desktop/06-ladowanie-ofert.png",
     "description": "rankomat desktop krok 6: ladowanie-ofert",
@@ -1381,9 +1914,9 @@
     "site": "rankomat",
     "device": "desktop",
     "step": 7,
-    "tag": "offers",
+    "tag": "lista",
     "tags": [
-      "offers"
+      "lista"
     ],
     "path": "images/rankomat/desktop/07-lista-ofert.png",
     "description": "rankomat desktop krok 7: lista-ofert",
@@ -1451,35 +1984,35 @@
       "home"
     ],
     "path": "images/rankomat/mobile/01-home.png",
-    "description": "rankomat mobile krok 1: Strona główna (home)",
-    "width": 399,
-    "height": 1024
+    "description": "rankomat mobile krok 1: home",
+    "width": 1170,
+    "height": 2532
   },
   {
     "site": "rankomat",
     "device": "mobile",
     "step": 2,
-    "tag": "vehicle",
+    "tag": "start",
     "tags": [
-      "vehicle"
+      "start"
     ],
     "path": "images/rankomat/mobile/02-start-formularz.png",
-    "description": "rankomat mobile krok 2: Dane pojazdu (start-formularz)",
-    "width": 399,
-    "height": 1024
+    "description": "rankomat mobile krok 2: start-formularz",
+    "width": 1170,
+    "height": 2532
   },
   {
     "site": "rankomat",
     "device": "mobile",
     "step": 3,
-    "tag": "offers",
+    "tag": "lista",
     "tags": [
-      "offers"
+      "lista"
     ],
     "path": "images/rankomat/mobile/03-lista-ofert.png",
-    "description": "rankomat mobile krok 3: Ranking ofert (lista-ofert)",
-    "width": 399,
-    "height": 1024
+    "description": "rankomat mobile krok 3: lista-ofert",
+    "width": 1170,
+    "height": 2532
   },
   {
     "site": "rankomat",
@@ -1490,9 +2023,9 @@
       "checkout"
     ],
     "path": "images/rankomat/mobile/04-checkout-dodatki.png",
-    "description": "rankomat mobile krok 4: Checkout / dane kontaktowe i zgody (checkout-dodatki)",
-    "width": 399,
-    "height": 1024
+    "description": "rankomat mobile krok 4: checkout-dodatki",
+    "width": 1170,
+    "height": 2532
   },
   {
     "site": "rankomat",
@@ -1503,9 +2036,9 @@
       "checkout"
     ],
     "path": "images/rankomat/mobile/05-checkout-dane.png",
-    "description": "rankomat mobile krok 5: Checkout / dane kontaktowe i zgody (checkout-dane)",
-    "width": 399,
-    "height": 1024
+    "description": "rankomat mobile krok 5: checkout-dane",
+    "width": 1170,
+    "height": 2532
   },
   {
     "site": "rankomat",
@@ -1516,9 +2049,9 @@
       "checkout"
     ],
     "path": "images/rankomat/mobile/06-checkout-dane-wypelnione.png",
-    "description": "rankomat mobile krok 6: Checkout: dane ubezpieczającego wypełnione (checkout)",
-    "width": 370,
-    "height": 1024
+    "description": "rankomat mobile krok 6: checkout-dane-wypelnione",
+    "width": 1170,
+    "height": 2532
   },
   {
     "site": "rankomat",
@@ -1529,8 +2062,8 @@
       "checkout"
     ],
     "path": "images/rankomat/mobile/07-checkout-telefon-zablokowany.png",
-    "description": "rankomat mobile krok 7: Checkout: numer telefonu zablokowany przez serwis (checkout)",
-    "width": 370,
-    "height": 1024
+    "description": "rankomat mobile krok 7: checkout-telefon-zablokowany",
+    "width": 1170,
+    "height": 2532
   }
 ]
