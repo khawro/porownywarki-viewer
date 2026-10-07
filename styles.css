@@ -270,7 +270,7 @@ body.is-home .app-title {
   width: 100%;
   max-width: none;
   margin: 0;
-  padding: 24px 24px 48px 32px;
+  padding: 24px 24px 48px 8px;
   box-sizing: border-box;
 }
 
