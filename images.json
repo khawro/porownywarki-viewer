@@ -2070,12 +2070,12 @@
     "site": "rankomat",
     "device": "mobile",
     "step": 1,
-    "tag": "home",
+    "tag": "cookie",
     "tags": [
-      "home"
+      "cookie"
     ],
-    "path": "images/rankomat/mobile/01-home.png",
-    "description": "rankomat mobile krok 1: home",
+    "path": "images/rankomat/mobile/01-cookie-consent.png",
+    "description": "rankomat mobile krok 1: cookie-consent",
     "width": 1170,
     "height": 2532
   },
@@ -2083,12 +2083,12 @@
     "site": "rankomat",
     "device": "mobile",
     "step": 2,
-    "tag": "start",
+    "tag": "form",
     "tags": [
-      "start"
+      "form"
     ],
-    "path": "images/rankomat/mobile/02-start-formularz.png",
-    "description": "rankomat mobile krok 2: start-formularz",
+    "path": "images/rankomat/mobile/02-form-step1-blank.png",
+    "description": "rankomat mobile krok 2: form-step1-blank",
     "width": 1170,
     "height": 2532
   },
@@ -2096,12 +2096,12 @@
     "site": "rankomat",
     "device": "mobile",
     "step": 3,
-    "tag": "lista",
+    "tag": "birthdate",
     "tags": [
-      "lista"
+      "birthdate"
     ],
-    "path": "images/rankomat/mobile/03-lista-ofert.png",
-    "description": "rankomat mobile krok 3: lista-ofert",
+    "path": "images/rankomat/mobile/03-birthdate-calendar.png",
+    "description": "rankomat mobile krok 3: birthdate-calendar",
     "width": 1170,
     "height": 2532
   },
@@ -2109,12 +2109,12 @@
     "site": "rankomat",
     "device": "mobile",
     "step": 4,
-    "tag": "checkout",
+    "tag": "startdate",
     "tags": [
-      "checkout"
+      "startdate"
     ],
-    "path": "images/rankomat/mobile/04-checkout-dodatki.png",
-    "description": "rankomat mobile krok 4: checkout-dodatki",
+    "path": "images/rankomat/mobile/04-startdate-calendar.png",
+    "description": "rankomat mobile krok 4: startdate-calendar",
     "width": 1170,
     "height": 2532
   },
@@ -2122,12 +2122,12 @@
     "site": "rankomat",
     "device": "mobile",
     "step": 5,
-    "tag": "checkout",
+    "tag": "step1",
     "tags": [
-      "checkout"
+      "step1"
     ],
-    "path": "images/rankomat/mobile/05-checkout-dane.png",
-    "description": "rankomat mobile krok 5: checkout-dane",
+    "path": "images/rankomat/mobile/05-step1-filled-consents.png",
+    "description": "rankomat mobile krok 5: step1-filled-consents",
     "width": 1170,
     "height": 2532
   },
@@ -2135,12 +2135,12 @@
     "site": "rankomat",
     "device": "mobile",
     "step": 6,
-    "tag": "checkout",
+    "tag": "step2",
     "tags": [
-      "checkout"
+      "step2"
     ],
-    "path": "images/rankomat/mobile/06-checkout-dane-wypelnione.png",
-    "description": "rankomat mobile krok 6: checkout-dane-wypelnione",
+    "path": "images/rankomat/mobile/06-step2-year-picker.png",
+    "description": "rankomat mobile krok 6: step2-year-picker",
     "width": 1170,
     "height": 2532
   },
@@ -2148,12 +2148,285 @@
     "site": "rankomat",
     "device": "mobile",
     "step": 7,
-    "tag": "checkout",
+    "tag": "step2",
     "tags": [
-      "checkout"
+      "step2"
     ],
-    "path": "images/rankomat/mobile/07-checkout-telefon-zablokowany.png",
-    "description": "rankomat mobile krok 7: checkout-telefon-zablokowany",
+    "path": "images/rankomat/mobile/07-step2-vehicle.png",
+    "description": "rankomat mobile krok 7: step2-vehicle",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "rankomat",
+    "device": "mobile",
+    "step": 8,
+    "tag": "make",
+    "tags": [
+      "make"
+    ],
+    "path": "images/rankomat/mobile/08-make-picker.png",
+    "description": "rankomat mobile krok 8: make-picker",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "rankomat",
+    "device": "mobile",
+    "step": 9,
+    "tag": "version",
+    "tags": [
+      "version"
+    ],
+    "path": "images/rankomat/mobile/09-version-picker.png",
+    "description": "rankomat mobile krok 9: version-picker",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "rankomat",
+    "device": "mobile",
+    "step": 10,
+    "tag": "step2",
+    "tags": [
+      "step2"
+    ],
+    "path": "images/rankomat/mobile/10-step2-vehicle-filled.png",
+    "description": "rankomat mobile krok 10: step2-vehicle-filled",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "rankomat",
+    "device": "mobile",
+    "step": 11,
+    "tag": "step2",
+    "tags": [
+      "step2"
+    ],
+    "path": "images/rankomat/mobile/11-step2-additional-info.png",
+    "description": "rankomat mobile krok 11: step2-additional-info",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "rankomat",
+    "device": "mobile",
+    "step": 12,
+    "tag": "step2",
+    "tags": [
+      "step2"
+    ],
+    "path": "images/rankomat/mobile/12-step2-bottom-dalej.png",
+    "description": "rankomat mobile krok 12: step2-bottom-dalej",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "rankomat",
+    "device": "mobile",
+    "step": 13,
+    "tag": "step3",
+    "tags": [
+      "step3"
+    ],
+    "path": "images/rankomat/mobile/13-step3-vehicle-questions.png",
+    "description": "rankomat mobile krok 13: step3-vehicle-questions",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "rankomat",
+    "device": "mobile",
+    "step": 14,
+    "tag": "mileage",
+    "tags": [
+      "mileage"
+    ],
+    "path": "images/rankomat/mobile/14-mileage-picker.png",
+    "description": "rankomat mobile krok 14: mileage-picker",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "rankomat",
+    "device": "mobile",
+    "step": 15,
+    "tag": "previous",
+    "tags": [
+      "previous"
+    ],
+    "path": "images/rankomat/mobile/15-previous-insurer-picker.png",
+    "description": "rankomat mobile krok 15: previous-insurer-picker",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "rankomat",
+    "device": "mobile",
+    "step": 16,
+    "tag": "step3",
+    "tags": [
+      "step3"
+    ],
+    "path": "images/rankomat/mobile/16-step3-filled.png",
+    "description": "rankomat mobile krok 16: step3-filled",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "rankomat",
+    "device": "mobile",
+    "step": 17,
+    "tag": "step4",
+    "tags": [
+      "step4"
+    ],
+    "path": "images/rankomat/mobile/17-step4-owner-top.png",
+    "description": "rankomat mobile krok 17: step4-owner-top",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "rankomat",
+    "device": "mobile",
+    "step": 18,
+    "tag": "license",
+    "tags": [
+      "license"
+    ],
+    "path": "images/rankomat/mobile/18-license-year-picker.png",
+    "description": "rankomat mobile krok 18: license-year-picker",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "rankomat",
+    "device": "mobile",
+    "step": 19,
+    "tag": "oc",
+    "tags": [
+      "oc"
+    ],
+    "path": "images/rankomat/mobile/19-oc-years-picker.png",
+    "description": "rankomat mobile krok 19: oc-years-picker",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "rankomat",
+    "device": "mobile",
+    "step": 20,
+    "tag": "step4",
+    "tags": [
+      "step4"
+    ],
+    "path": "images/rankomat/mobile/20-step4-owner-mid.png",
+    "description": "rankomat mobile krok 20: step4-owner-mid",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "rankomat",
+    "device": "mobile",
+    "step": 21,
+    "tag": "claims",
+    "tags": [
+      "claims"
+    ],
+    "path": "images/rankomat/mobile/21-claims-picker.png",
+    "description": "rankomat mobile krok 21: claims-picker",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "rankomat",
+    "device": "mobile",
+    "step": 22,
+    "tag": "step4",
+    "tags": [
+      "step4"
+    ],
+    "path": "images/rankomat/mobile/22-step4-history-filled.png",
+    "description": "rankomat mobile krok 22: step4-history-filled",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "rankomat",
+    "device": "mobile",
+    "step": 23,
+    "tag": "step4",
+    "tags": [
+      "step4"
+    ],
+    "path": "images/rankomat/mobile/23-step4-bottom-pokaz-oferty.png",
+    "description": "rankomat mobile krok 23: step4-bottom-pokaz-oferty",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "rankomat",
+    "device": "mobile",
+    "step": 24,
+    "tag": "offers",
+    "tags": [
+      "offers"
+    ],
+    "path": "images/rankomat/mobile/24-offers-loading.png",
+    "description": "rankomat mobile krok 24: offers-loading",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "rankomat",
+    "device": "mobile",
+    "step": 25,
+    "tag": "offers",
+    "tags": [
+      "offers"
+    ],
+    "path": "images/rankomat/mobile/25-offers-list-top.png",
+    "description": "rankomat mobile krok 25: offers-list-top",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "rankomat",
+    "device": "mobile",
+    "step": 26,
+    "tag": "offers",
+    "tags": [
+      "offers"
+    ],
+    "path": "images/rankomat/mobile/26-offers-sms-link-popup.png",
+    "description": "rankomat mobile krok 26: offers-sms-link-popup",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "rankomat",
+    "device": "mobile",
+    "step": 27,
+    "tag": "offers",
+    "tags": [
+      "offers"
+    ],
+    "path": "images/rankomat/mobile/27-offers-scroll-1.png",
+    "description": "rankomat mobile krok 27: offers-scroll-1",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "rankomat",
+    "device": "mobile",
+    "step": 28,
+    "tag": "offers",
+    "tags": [
+      "offers"
+    ],
+    "path": "images/rankomat/mobile/28-offers-scroll-2.png",
+    "description": "rankomat mobile krok 28: offers-scroll-2",
     "width": 1170,
     "height": 2532
   },

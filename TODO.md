@@ -15,16 +15,15 @@ Zmiany w tym pliku **bez osobnego deployu** — wjeżdżają przy następnym dep
 
 ## W toku
 
-- [ ] **Rankomat mobile** — poprawić: wyczyścić formularz, przejść całe flow od nowa (obecne 7 kroków pomija początek formularza)
+- [ ] **Mubi** — desktop + mobile 1170×2532, bez DevTools
 
 ## Kolejka
 
-1. [ ] **Mubi** — desktop + mobile 1170×2532, bez DevTools
-2. [ ] **GoCompare** — desktop + mobile 1170×2532, bez DevTools
-3. [ ] **Dark mode** — motyw ciemny z przełącznikiem
-4. [ ] **The Zebra** — wznowić później (oferty + mobile), gdy block opadnie
-5. [ ] **Beesafe** — desktop + mobile 1170×2532, bez DevTools
-6. [ ] **Link4** — desktop + mobile 1170×2532, bez DevTools
+1. [ ] **GoCompare** — desktop + mobile 1170×2532, bez DevTools
+2. [ ] **Dark mode** — motyw ciemny z przełącznikiem
+3. [ ] **The Zebra** — wznowić później (oferty + mobile), gdy block opadnie
+4. [ ] **Beesafe** — desktop + mobile 1170×2532, bez DevTools
+5. [ ] **Link4** — desktop + mobile 1170×2532, bez DevTools
 
 ## Pominięte (wrócimy później)
 
@@ -32,9 +31,9 @@ Zmiany w tym pliku **bez osobnego deployu** — wjeżdżają przy następnym dep
 
 ## Zrobione
 
+- [x] **Rankomat** mobile — pełne flow od czystego formularza (**28 / 28**), 1170×2532, na produkcji
 - [x] **Lemonade** — desktop **29** + mobile **45 / 45** do oferty (1170×2532), na produkcji
 - [x] **Insurify** — desktop OK + natywne mobile **45 / 45** do ofert, 1170×2532, na produkcji
 - [x] **NerdWallet** — desktop 20 + mobile 21, 1920×1200 / 1170×2532, na produkcji
 - [x] **Kiosk Polis** — mobile 1170×2532 (**12 / 12**) na produkcji
-- [x] **Rankomat** mobile — 1170×2532 (**7 / 7**) na produkcji (do poprawy — pełne flow)
 - [x] Strona [/todo](https://porownywarki-viewer.vercel.app/todo)
