@@ -264,15 +264,20 @@ img {
 
 /* ——— Home site cards ——— */
 .home-layout {
-  padding: 28px 28px 48px;
-  max-width: 1200px;
-  margin: 0 auto;
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 20px 16px 48px 8px;
+  box-sizing: border-box;
 }
 
 .site-cards {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
   gap: 20px;
+  width: 100%;
+  justify-content: start;
+  justify-items: stretch;
 }
 
 .site-card {
