@@ -429,565 +429,6 @@
     "height": 1200
   },
   {
-    "site": "kioskpolis",
-    "device": "desktop",
-    "step": 1,
-    "tag": "home",
-    "tags": [
-      "home"
-    ],
-    "path": "images/kioskpolis/desktop/01-home.png",
-    "description": "kioskpolis desktop krok 1: Strona główna (home)",
-    "width": 1920,
-    "height": 1200
-  },
-  {
-    "site": "kioskpolis",
-    "device": "desktop",
-    "step": 2,
-    "tag": "vehicle",
-    "tags": [
-      "vehicle"
-    ],
-    "path": "images/kioskpolis/desktop/02-start-formularz.png",
-    "description": "kioskpolis desktop krok 2: Dane pojazdu (start-formularz)",
-    "width": 1920,
-    "height": 1200
-  },
-  {
-    "site": "kioskpolis",
-    "device": "desktop",
-    "step": 3,
-    "tag": "vehicle",
-    "tags": [
-      "vehicle"
-    ],
-    "path": "images/kioskpolis/desktop/03-pojazd.png",
-    "description": "kioskpolis desktop krok 3: Dane pojazdu (pojazd)",
-    "width": 1920,
-    "height": 1200
-  },
-  {
-    "site": "kioskpolis",
-    "device": "desktop",
-    "step": 4,
-    "tag": "vehicle",
-    "tags": [
-      "vehicle"
-    ],
-    "path": "images/kioskpolis/desktop/04-uzytkowanie-pojazdu.png",
-    "description": "kioskpolis desktop krok 4: Dane pojazdu (uzytkowanie-pojazdu)",
-    "width": 1920,
-    "height": 1200
-  },
-  {
-    "site": "kioskpolis",
-    "device": "desktop",
-    "step": 5,
-    "tag": "driver",
-    "tags": [
-      "driver"
-    ],
-    "path": "images/kioskpolis/desktop/05-wlasciciel.png",
-    "description": "kioskpolis desktop krok 5: Dane kierowcy / historia (wlasciciel)",
-    "width": 1920,
-    "height": 1200
-  },
-  {
-    "site": "kioskpolis",
-    "device": "desktop",
-    "step": 6,
-    "tag": "details",
-    "tags": [
-      "details"
-    ],
-    "path": "images/kioskpolis/desktop/06-kontakt.png",
-    "description": "kioskpolis desktop krok 6: Dane osobowe / adres (kontakt)",
-    "width": 1920,
-    "height": 1200
-  },
-  {
-    "site": "kioskpolis",
-    "device": "desktop",
-    "step": 7,
-    "tag": "details",
-    "tags": [
-      "details"
-    ],
-    "path": "images/kioskpolis/desktop/07-wymagany-pesel.png",
-    "description": "kioskpolis desktop krok 7: Dane osobowe / adres (wymagany-pesel)",
-    "width": 1024,
-    "height": 594
-  },
-  {
-    "site": "kioskpolis",
-    "device": "mobile",
-    "step": 1,
-    "tag": "home",
-    "tags": [
-      "home"
-    ],
-    "path": "images/kioskpolis/mobile/01-home.png",
-    "description": "kioskpolis mobile krok 1: Strona główna (home)",
-    "width": 399,
-    "height": 1024
-  },
-  {
-    "site": "kioskpolis",
-    "device": "mobile",
-    "step": 2,
-    "tag": "vehicle",
-    "tags": [
-      "vehicle"
-    ],
-    "path": "images/kioskpolis/mobile/02-start-formularz.png",
-    "description": "kioskpolis mobile krok 2: Dane pojazdu (start-formularz)",
-    "width": 399,
-    "height": 1024
-  },
-  {
-    "site": "kioskpolis",
-    "device": "mobile",
-    "step": 3,
-    "tag": "vehicle",
-    "tags": [
-      "vehicle"
-    ],
-    "path": "images/kioskpolis/mobile/03-wybor-marki.png",
-    "description": "kioskpolis mobile krok 3: Dane pojazdu (wybor-marki)",
-    "width": 399,
-    "height": 1024
-  },
-  {
-    "site": "kioskpolis",
-    "device": "mobile",
-    "step": 4,
-    "tag": "vehicle",
-    "tags": [
-      "vehicle"
-    ],
-    "path": "images/kioskpolis/mobile/04-rok-produkcji.png",
-    "description": "kioskpolis mobile krok 4: Dane pojazdu (rok-produkcji)",
-    "width": 399,
-    "height": 1024
-  },
-  {
-    "site": "kioskpolis",
-    "device": "mobile",
-    "step": 5,
-    "tag": "vehicle",
-    "tags": [
-      "vehicle"
-    ],
-    "path": "images/kioskpolis/mobile/05-wersja-pojazdu.png",
-    "description": "kioskpolis mobile krok 5: Dane pojazdu (wersja-pojazdu)",
-    "width": 399,
-    "height": 1024
-  },
-  {
-    "site": "kioskpolis",
-    "device": "mobile",
-    "step": 6,
-    "tag": "vehicle",
-    "tags": [
-      "vehicle"
-    ],
-    "path": "images/kioskpolis/mobile/06-uzytkowanie-pojazdu.png",
-    "description": "kioskpolis mobile krok 6: Dane pojazdu (uzytkowanie-pojazdu)",
-    "width": 399,
-    "height": 1024
-  },
-  {
-    "site": "rankomat",
-    "device": "desktop",
-    "step": 1,
-    "tag": "home",
-    "tags": [
-      "home"
-    ],
-    "path": "images/rankomat/desktop/01-home.png",
-    "description": "rankomat desktop krok 1: Strona główna (home)",
-    "width": 1920,
-    "height": 1200
-  },
-  {
-    "site": "rankomat",
-    "device": "desktop",
-    "step": 2,
-    "tag": "vehicle",
-    "tags": [
-      "vehicle"
-    ],
-    "path": "images/rankomat/desktop/02-start-form.png",
-    "description": "rankomat desktop krok 2: Dane pojazdu (start-form)",
-    "width": 1920,
-    "height": 1200
-  },
-  {
-    "site": "rankomat",
-    "device": "desktop",
-    "step": 3,
-    "tag": "vehicle",
-    "tags": [
-      "vehicle"
-    ],
-    "path": "images/rankomat/desktop/03-pojazd.png",
-    "description": "rankomat desktop krok 3: Dane pojazdu (pojazd)",
-    "width": 1920,
-    "height": 1200
-  },
-  {
-    "site": "rankomat",
-    "device": "desktop",
-    "step": 4,
-    "tag": "vehicle",
-    "tags": [
-      "vehicle"
-    ],
-    "path": "images/rankomat/desktop/04-historia-pojazdu.png",
-    "description": "rankomat desktop krok 4: Dane pojazdu (historia-pojazdu)",
-    "width": 1920,
-    "height": 1200
-  },
-  {
-    "site": "rankomat",
-    "device": "desktop",
-    "step": 5,
-    "tag": "driver",
-    "tags": [
-      "driver"
-    ],
-    "path": "images/rankomat/desktop/05-wlasciciel.png",
-    "description": "rankomat desktop krok 5: Dane kierowcy / historia (wlasciciel)",
-    "width": 1920,
-    "height": 1200
-  },
-  {
-    "site": "rankomat",
-    "device": "desktop",
-    "step": 6,
-    "tag": "loading",
-    "tags": [
-      "loading"
-    ],
-    "path": "images/rankomat/desktop/06-ladowanie-ofert.png",
-    "description": "rankomat desktop krok 6: Ładowanie ofert (ladowanie-ofert)",
-    "width": 1920,
-    "height": 1200
-  },
-  {
-    "site": "rankomat",
-    "device": "desktop",
-    "step": 7,
-    "tag": "offers",
-    "tags": [
-      "offers"
-    ],
-    "path": "images/rankomat/desktop/07-lista-ofert.png",
-    "description": "rankomat desktop krok 7: Ranking ofert (lista-ofert)",
-    "width": 1920,
-    "height": 1200
-  },
-  {
-    "site": "rankomat",
-    "device": "desktop",
-    "step": 8,
-    "tag": "checkout",
-    "tags": [
-      "checkout"
-    ],
-    "path": "images/rankomat/desktop/08-checkout-dane.png",
-    "description": "rankomat desktop krok 8: Checkout / dane kontaktowe i zgody (checkout-dane)",
-    "width": 1920,
-    "height": 1200
-  },
-  {
-    "site": "rankomat",
-    "device": "mobile",
-    "step": 1,
-    "tag": "home",
-    "tags": [
-      "home"
-    ],
-    "path": "images/rankomat/mobile/01-home.png",
-    "description": "rankomat mobile krok 1: Strona główna (home)",
-    "width": 399,
-    "height": 1024
-  },
-  {
-    "site": "rankomat",
-    "device": "mobile",
-    "step": 2,
-    "tag": "vehicle",
-    "tags": [
-      "vehicle"
-    ],
-    "path": "images/rankomat/mobile/02-start-formularz.png",
-    "description": "rankomat mobile krok 2: Dane pojazdu (start-formularz)",
-    "width": 399,
-    "height": 1024
-  },
-  {
-    "site": "rankomat",
-    "device": "mobile",
-    "step": 3,
-    "tag": "offers",
-    "tags": [
-      "offers"
-    ],
-    "path": "images/rankomat/mobile/03-lista-ofert.png",
-    "description": "rankomat mobile krok 3: Ranking ofert (lista-ofert)",
-    "width": 399,
-    "height": 1024
-  },
-  {
-    "site": "rankomat",
-    "device": "mobile",
-    "step": 4,
-    "tag": "checkout",
-    "tags": [
-      "checkout"
-    ],
-    "path": "images/rankomat/mobile/04-checkout-dodatki.png",
-    "description": "rankomat mobile krok 4: Checkout / dane kontaktowe i zgody (checkout-dodatki)",
-    "width": 399,
-    "height": 1024
-  },
-  {
-    "site": "rankomat",
-    "device": "mobile",
-    "step": 5,
-    "tag": "checkout",
-    "tags": [
-      "checkout"
-    ],
-    "path": "images/rankomat/mobile/05-checkout-dane.png",
-    "description": "rankomat mobile krok 5: Checkout / dane kontaktowe i zgody (checkout-dane)",
-    "width": 399,
-    "height": 1024
-  },
-  {
-    "site": "kioskpolis",
-    "device": "desktop",
-    "step": 8,
-    "tag": "details",
-    "tags": [
-      "details"
-    ],
-    "path": "images/kioskpolis/desktop/08-details-pesel-uzupelniony.png",
-    "description": "kioskpolis desktop krok 8: Dane właściciela z PESEL, rokiem prawa jazdy (details)",
-    "width": 1920,
-    "height": 1200
-  },
-  {
-    "site": "kioskpolis",
-    "device": "desktop",
-    "step": 9,
-    "tag": "loading",
-    "tags": [
-      "loading"
-    ],
-    "path": "images/kioskpolis/desktop/09-loading-oferty.png",
-    "description": "kioskpolis desktop krok 9: Ładowanie ofert (loading)",
-    "width": 1920,
-    "height": 1200
-  },
-  {
-    "site": "kioskpolis",
-    "device": "desktop",
-    "step": 10,
-    "tag": "offers",
-    "tags": [
-      "offers"
-    ],
-    "path": "images/kioskpolis/desktop/10-offers-lista-ofert.png",
-    "description": "kioskpolis desktop krok 10: Lista ofert (offers)",
-    "width": 1920,
-    "height": 1200
-  },
-  {
-    "site": "kioskpolis",
-    "device": "desktop",
-    "step": 11,
-    "tag": "checkout",
-    "tags": [
-      "checkout"
-    ],
-    "path": "images/kioskpolis/desktop/11-checkout-podsumowanie-zakupu.png",
-    "description": "kioskpolis desktop krok 11: Podsumowanie zakupu (LINK4 OC+Assistance) (checkout)",
-    "width": 1920,
-    "height": 1200
-  },
-  {
-    "site": "kioskpolis",
-    "device": "desktop",
-    "step": 12,
-    "tag": "payment",
-    "tags": [
-      "payment"
-    ],
-    "path": "images/kioskpolis/desktop/12-payment-forma-platnosci.png",
-    "description": "kioskpolis desktop krok 12: Wybór formy płatności (bez płatności) (payment)",
-    "width": 1920,
-    "height": 1200
-  },
-  {
-    "site": "kioskpolis",
-    "device": "mobile",
-    "step": 7,
-    "tag": "details",
-    "tags": [
-      "details"
-    ],
-    "path": "images/kioskpolis/mobile/07-details-wlasciciel-pesel.png",
-    "description": "kioskpolis mobile krok 7: Dane właściciela z PESEL (details)",
-    "width": 370,
-    "height": 1024
-  },
-  {
-    "site": "kioskpolis",
-    "device": "mobile",
-    "step": 8,
-    "tag": "details",
-    "tags": [
-      "details"
-    ],
-    "path": "images/kioskpolis/mobile/08-details-kontakt-telefon.png",
-    "description": "kioskpolis mobile krok 8: Dane kontaktowe z telefonem (details)",
-    "width": 370,
-    "height": 1024
-  },
-  {
-    "site": "kioskpolis",
-    "device": "mobile",
-    "step": 9,
-    "tag": "loading",
-    "tags": [
-      "loading"
-    ],
-    "path": "images/kioskpolis/mobile/09-loading-oferty.png",
-    "description": "kioskpolis mobile krok 9: Ładowanie ofert (loading)",
-    "width": 370,
-    "height": 1024
-  },
-  {
-    "site": "kioskpolis",
-    "device": "mobile",
-    "step": 10,
-    "tag": "offers",
-    "tags": [
-      "offers"
-    ],
-    "path": "images/kioskpolis/mobile/10-offers-rekomendacje.png",
-    "description": "kioskpolis mobile krok 10: Rekomendowane oferty (offers)",
-    "width": 370,
-    "height": 1024
-  },
-  {
-    "site": "kioskpolis",
-    "device": "mobile",
-    "step": 11,
-    "tag": "checkout",
-    "tags": [
-      "checkout"
-    ],
-    "path": "images/kioskpolis/mobile/11-checkout-podsumowanie-zakupu.png",
-    "description": "kioskpolis mobile krok 11: Podsumowanie zakupu (checkout)",
-    "width": 370,
-    "height": 1024
-  },
-  {
-    "site": "kioskpolis",
-    "device": "mobile",
-    "step": 12,
-    "tag": "payment",
-    "tags": [
-      "payment"
-    ],
-    "path": "images/kioskpolis/mobile/12-payment-forma-platnosci.png",
-    "description": "kioskpolis mobile krok 12: Wybór formy płatności (bez płatności) (payment)",
-    "width": 370,
-    "height": 1024
-  },
-  {
-    "site": "rankomat",
-    "device": "mobile",
-    "step": 6,
-    "tag": "checkout",
-    "tags": [
-      "checkout"
-    ],
-    "path": "images/rankomat/mobile/06-checkout-dane-wypelnione.png",
-    "description": "rankomat mobile krok 6: Checkout: dane ubezpieczającego wypełnione (checkout)",
-    "width": 370,
-    "height": 1024
-  },
-  {
-    "site": "rankomat",
-    "device": "mobile",
-    "step": 7,
-    "tag": "checkout",
-    "tags": [
-      "checkout"
-    ],
-    "path": "images/rankomat/mobile/07-checkout-telefon-zablokowany.png",
-    "description": "rankomat mobile krok 7: Checkout: numer telefonu zablokowany przez serwis (checkout)",
-    "width": 370,
-    "height": 1024
-  },
-  {
-    "site": "rankomat",
-    "device": "desktop",
-    "step": 9,
-    "tag": "checkout",
-    "tags": [
-      "checkout"
-    ],
-    "path": "images/rankomat/desktop/09-checkout-telefon-zablokowany.png",
-    "description": "rankomat desktop krok 9: Checkout: numer telefonu zablokowany przez serwis (checkout)",
-    "width": 1024,
-    "height": 594
-  },
-  {
-    "site": "rankomat",
-    "device": "desktop",
-    "step": 10,
-    "tag": "checkout",
-    "tags": [
-      "checkout"
-    ],
-    "path": "images/rankomat/desktop/10-checkout-telefon-500100200-zablokowany.png",
-    "description": "rankomat desktop krok 10: Checkout – telefon +48500100200 również zablokowany (1920x1200 natywnie)",
-    "width": 1920,
-    "height": 1200
-  },
-  {
-    "site": "rankomat",
-    "device": "desktop",
-    "step": 10,
-    "tag": "checkout",
-    "tags": [
-      "checkout"
-    ],
-    "path": "images/rankomat/desktop/10b-checkout-zgody-prawne.png",
-    "description": "rankomat desktop krok 10: Checkout – telefon +48600999888 zaakceptowany, sekcja zgód prawnych",
-    "width": 1920,
-    "height": 1200
-  },
-  {
-    "site": "rankomat",
-    "device": "desktop",
-    "step": 11,
-    "tag": "payment",
-    "tags": [
-      "payment"
-    ],
-    "path": "images/rankomat/desktop/11-payment-forma-platnosci.png",
-    "description": "rankomat desktop krok 11: Płatność za polisę – wybór formy płatności (bez płatności, KUPUJĘ nie kliknięte)",
-    "width": 1920,
-    "height": 1200
-  },
-  {
     "site": "insurify",
     "device": "desktop",
     "step": 34,
@@ -1545,5 +986,551 @@
     "description": "insurify mobile krok 38: offers-szczegoly",
     "width": 1920,
     "height": 1200
+  },
+  {
+    "site": "kioskpolis",
+    "device": "desktop",
+    "step": 1,
+    "tag": "home",
+    "tags": [
+      "home"
+    ],
+    "path": "images/kioskpolis/desktop/01-home.png",
+    "description": "kioskpolis desktop krok 1: Strona główna (home)",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "kioskpolis",
+    "device": "desktop",
+    "step": 2,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/kioskpolis/desktop/02-start-formularz.png",
+    "description": "kioskpolis desktop krok 2: Dane pojazdu (start-formularz)",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "kioskpolis",
+    "device": "desktop",
+    "step": 3,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/kioskpolis/desktop/03-pojazd.png",
+    "description": "kioskpolis desktop krok 3: Dane pojazdu (pojazd)",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "kioskpolis",
+    "device": "desktop",
+    "step": 4,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/kioskpolis/desktop/04-uzytkowanie-pojazdu.png",
+    "description": "kioskpolis desktop krok 4: Dane pojazdu (uzytkowanie-pojazdu)",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "kioskpolis",
+    "device": "desktop",
+    "step": 5,
+    "tag": "driver",
+    "tags": [
+      "driver"
+    ],
+    "path": "images/kioskpolis/desktop/05-wlasciciel.png",
+    "description": "kioskpolis desktop krok 5: Dane kierowcy / historia (wlasciciel)",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "kioskpolis",
+    "device": "desktop",
+    "step": 6,
+    "tag": "details",
+    "tags": [
+      "details"
+    ],
+    "path": "images/kioskpolis/desktop/06-kontakt.png",
+    "description": "kioskpolis desktop krok 6: Dane osobowe / adres (kontakt)",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "kioskpolis",
+    "device": "desktop",
+    "step": 7,
+    "tag": "details",
+    "tags": [
+      "details"
+    ],
+    "path": "images/kioskpolis/desktop/07-wymagany-pesel.png",
+    "description": "kioskpolis desktop krok 7: Dane osobowe / adres (wymagany-pesel)",
+    "width": 1024,
+    "height": 594
+  },
+  {
+    "site": "kioskpolis",
+    "device": "desktop",
+    "step": 8,
+    "tag": "details",
+    "tags": [
+      "details"
+    ],
+    "path": "images/kioskpolis/desktop/08-details-pesel-uzupelniony.png",
+    "description": "kioskpolis desktop krok 8: Dane właściciela z PESEL, rokiem prawa jazdy (details)",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "kioskpolis",
+    "device": "desktop",
+    "step": 9,
+    "tag": "loading",
+    "tags": [
+      "loading"
+    ],
+    "path": "images/kioskpolis/desktop/09-loading-oferty.png",
+    "description": "kioskpolis desktop krok 9: Ładowanie ofert (loading)",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "kioskpolis",
+    "device": "desktop",
+    "step": 10,
+    "tag": "offers",
+    "tags": [
+      "offers"
+    ],
+    "path": "images/kioskpolis/desktop/10-offers-lista-ofert.png",
+    "description": "kioskpolis desktop krok 10: Lista ofert (offers)",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "kioskpolis",
+    "device": "desktop",
+    "step": 11,
+    "tag": "checkout",
+    "tags": [
+      "checkout"
+    ],
+    "path": "images/kioskpolis/desktop/11-checkout-podsumowanie-zakupu.png",
+    "description": "kioskpolis desktop krok 11: Podsumowanie zakupu (LINK4 OC+Assistance) (checkout)",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "kioskpolis",
+    "device": "desktop",
+    "step": 12,
+    "tag": "payment",
+    "tags": [
+      "payment"
+    ],
+    "path": "images/kioskpolis/desktop/12-payment-forma-platnosci.png",
+    "description": "kioskpolis desktop krok 12: Wybór formy płatności (bez płatności) (payment)",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "kioskpolis",
+    "device": "mobile",
+    "step": 1,
+    "tag": "home",
+    "tags": [
+      "home"
+    ],
+    "path": "images/kioskpolis/mobile/01-home.png",
+    "description": "kioskpolis mobile krok 1: Strona główna (home)",
+    "width": 399,
+    "height": 1024
+  },
+  {
+    "site": "kioskpolis",
+    "device": "mobile",
+    "step": 2,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/kioskpolis/mobile/02-start-formularz.png",
+    "description": "kioskpolis mobile krok 2: Dane pojazdu (start-formularz)",
+    "width": 399,
+    "height": 1024
+  },
+  {
+    "site": "kioskpolis",
+    "device": "mobile",
+    "step": 3,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/kioskpolis/mobile/03-wybor-marki.png",
+    "description": "kioskpolis mobile krok 3: Dane pojazdu (wybor-marki)",
+    "width": 399,
+    "height": 1024
+  },
+  {
+    "site": "kioskpolis",
+    "device": "mobile",
+    "step": 4,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/kioskpolis/mobile/04-rok-produkcji.png",
+    "description": "kioskpolis mobile krok 4: Dane pojazdu (rok-produkcji)",
+    "width": 399,
+    "height": 1024
+  },
+  {
+    "site": "kioskpolis",
+    "device": "mobile",
+    "step": 5,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/kioskpolis/mobile/05-wersja-pojazdu.png",
+    "description": "kioskpolis mobile krok 5: Dane pojazdu (wersja-pojazdu)",
+    "width": 399,
+    "height": 1024
+  },
+  {
+    "site": "kioskpolis",
+    "device": "mobile",
+    "step": 6,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/kioskpolis/mobile/06-uzytkowanie-pojazdu.png",
+    "description": "kioskpolis mobile krok 6: Dane pojazdu (uzytkowanie-pojazdu)",
+    "width": 399,
+    "height": 1024
+  },
+  {
+    "site": "kioskpolis",
+    "device": "mobile",
+    "step": 7,
+    "tag": "details",
+    "tags": [
+      "details"
+    ],
+    "path": "images/kioskpolis/mobile/07-details-wlasciciel-pesel.png",
+    "description": "kioskpolis mobile krok 7: Dane właściciela z PESEL (details)",
+    "width": 370,
+    "height": 1024
+  },
+  {
+    "site": "kioskpolis",
+    "device": "mobile",
+    "step": 8,
+    "tag": "details",
+    "tags": [
+      "details"
+    ],
+    "path": "images/kioskpolis/mobile/08-details-kontakt-telefon.png",
+    "description": "kioskpolis mobile krok 8: Dane kontaktowe z telefonem (details)",
+    "width": 370,
+    "height": 1024
+  },
+  {
+    "site": "kioskpolis",
+    "device": "mobile",
+    "step": 9,
+    "tag": "loading",
+    "tags": [
+      "loading"
+    ],
+    "path": "images/kioskpolis/mobile/09-loading-oferty.png",
+    "description": "kioskpolis mobile krok 9: Ładowanie ofert (loading)",
+    "width": 370,
+    "height": 1024
+  },
+  {
+    "site": "kioskpolis",
+    "device": "mobile",
+    "step": 10,
+    "tag": "offers",
+    "tags": [
+      "offers"
+    ],
+    "path": "images/kioskpolis/mobile/10-offers-rekomendacje.png",
+    "description": "kioskpolis mobile krok 10: Rekomendowane oferty (offers)",
+    "width": 370,
+    "height": 1024
+  },
+  {
+    "site": "kioskpolis",
+    "device": "mobile",
+    "step": 11,
+    "tag": "checkout",
+    "tags": [
+      "checkout"
+    ],
+    "path": "images/kioskpolis/mobile/11-checkout-podsumowanie-zakupu.png",
+    "description": "kioskpolis mobile krok 11: Podsumowanie zakupu (checkout)",
+    "width": 370,
+    "height": 1024
+  },
+  {
+    "site": "kioskpolis",
+    "device": "mobile",
+    "step": 12,
+    "tag": "payment",
+    "tags": [
+      "payment"
+    ],
+    "path": "images/kioskpolis/mobile/12-payment-forma-platnosci.png",
+    "description": "kioskpolis mobile krok 12: Wybór formy płatności (bez płatności) (payment)",
+    "width": 370,
+    "height": 1024
+  },
+  {
+    "site": "rankomat",
+    "device": "desktop",
+    "step": 1,
+    "tag": "home",
+    "tags": [
+      "home"
+    ],
+    "path": "images/rankomat/desktop/01-home.png",
+    "description": "rankomat desktop krok 1: home",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "rankomat",
+    "device": "desktop",
+    "step": 2,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/rankomat/desktop/02-start-form.png",
+    "description": "rankomat desktop krok 2: start-form",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "rankomat",
+    "device": "desktop",
+    "step": 3,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/rankomat/desktop/03-pojazd.png",
+    "description": "rankomat desktop krok 3: pojazd",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "rankomat",
+    "device": "desktop",
+    "step": 4,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/rankomat/desktop/04-historia-pojazdu.png",
+    "description": "rankomat desktop krok 4: historia-pojazdu",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "rankomat",
+    "device": "desktop",
+    "step": 5,
+    "tag": "driver",
+    "tags": [
+      "driver"
+    ],
+    "path": "images/rankomat/desktop/05-wlasciciel.png",
+    "description": "rankomat desktop krok 5: wlasciciel",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "rankomat",
+    "device": "desktop",
+    "step": 6,
+    "tag": "loading",
+    "tags": [
+      "loading"
+    ],
+    "path": "images/rankomat/desktop/06-ladowanie-ofert.png",
+    "description": "rankomat desktop krok 6: ladowanie-ofert",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "rankomat",
+    "device": "desktop",
+    "step": 7,
+    "tag": "offers",
+    "tags": [
+      "offers"
+    ],
+    "path": "images/rankomat/desktop/07-lista-ofert.png",
+    "description": "rankomat desktop krok 7: lista-ofert",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "rankomat",
+    "device": "desktop",
+    "step": 8,
+    "tag": "checkout",
+    "tags": [
+      "checkout"
+    ],
+    "path": "images/rankomat/desktop/08-checkout-dane.png",
+    "description": "rankomat desktop krok 8: checkout-dane",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "rankomat",
+    "device": "desktop",
+    "step": 9,
+    "tag": "checkout",
+    "tags": [
+      "checkout"
+    ],
+    "path": "images/rankomat/desktop/09-checkout-telefon-500100200-zablokowany.png",
+    "description": "rankomat desktop krok 9: checkout-telefon-500100200-zablokowany",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "rankomat",
+    "device": "desktop",
+    "step": 10,
+    "tag": "checkout",
+    "tags": [
+      "checkout"
+    ],
+    "path": "images/rankomat/desktop/10-checkout-zgody-prawne.png",
+    "description": "rankomat desktop krok 10: checkout-zgody-prawne",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "rankomat",
+    "device": "desktop",
+    "step": 11,
+    "tag": "payment",
+    "tags": [
+      "payment"
+    ],
+    "path": "images/rankomat/desktop/11-payment-forma-platnosci.png",
+    "description": "rankomat desktop krok 11: payment-forma-platnosci",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "rankomat",
+    "device": "mobile",
+    "step": 1,
+    "tag": "home",
+    "tags": [
+      "home"
+    ],
+    "path": "images/rankomat/mobile/01-home.png",
+    "description": "rankomat mobile krok 1: Strona główna (home)",
+    "width": 399,
+    "height": 1024
+  },
+  {
+    "site": "rankomat",
+    "device": "mobile",
+    "step": 2,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/rankomat/mobile/02-start-formularz.png",
+    "description": "rankomat mobile krok 2: Dane pojazdu (start-formularz)",
+    "width": 399,
+    "height": 1024
+  },
+  {
+    "site": "rankomat",
+    "device": "mobile",
+    "step": 3,
+    "tag": "offers",
+    "tags": [
+      "offers"
+    ],
+    "path": "images/rankomat/mobile/03-lista-ofert.png",
+    "description": "rankomat mobile krok 3: Ranking ofert (lista-ofert)",
+    "width": 399,
+    "height": 1024
+  },
+  {
+    "site": "rankomat",
+    "device": "mobile",
+    "step": 4,
+    "tag": "checkout",
+    "tags": [
+      "checkout"
+    ],
+    "path": "images/rankomat/mobile/04-checkout-dodatki.png",
+    "description": "rankomat mobile krok 4: Checkout / dane kontaktowe i zgody (checkout-dodatki)",
+    "width": 399,
+    "height": 1024
+  },
+  {
+    "site": "rankomat",
+    "device": "mobile",
+    "step": 5,
+    "tag": "checkout",
+    "tags": [
+      "checkout"
+    ],
+    "path": "images/rankomat/mobile/05-checkout-dane.png",
+    "description": "rankomat mobile krok 5: Checkout / dane kontaktowe i zgody (checkout-dane)",
+    "width": 399,
+    "height": 1024
+  },
+  {
+    "site": "rankomat",
+    "device": "mobile",
+    "step": 6,
+    "tag": "checkout",
+    "tags": [
+      "checkout"
+    ],
+    "path": "images/rankomat/mobile/06-checkout-dane-wypelnione.png",
+    "description": "rankomat mobile krok 6: Checkout: dane ubezpieczającego wypełnione (checkout)",
+    "width": 370,
+    "height": 1024
+  },
+  {
+    "site": "rankomat",
+    "device": "mobile",
+    "step": 7,
+    "tag": "checkout",
+    "tags": [
+      "checkout"
+    ],
+    "path": "images/rankomat/mobile/07-checkout-telefon-zablokowany.png",
+    "description": "rankomat mobile krok 7: Checkout: numer telefonu zablokowany przez serwis (checkout)",
+    "width": 370,
+    "height": 1024
   }
 ]

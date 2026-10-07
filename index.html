@@ -6,19 +6,20 @@
   <title>Porównywarki OC</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
-<body class="nav-bottom">
+<body>
   <header class="topbar">
     <div class="topbar-left">
-      <button type="button" class="site-menu-btn" id="site-nav-open" aria-expanded="false" aria-controls="site-nav-panel" title="Lista stron">
+      <button type="button" class="back-btn" id="back-btn" hidden title="Powrót">
         <svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true">
-          <path d="M3 5h12M3 9h12M3 13h12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+          <path d="M11 4 L6 9 L11 14" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>
+        <span>Powrót</span>
       </button>
       <div class="device-toggle" role="group" aria-label="Urządzenie">
         <button type="button" class="pill-btn is-active" data-device="desktop">Desktop</button>
         <button type="button" class="pill-btn" data-device="mobile">Mobile</button>
       </div>
-      <span class="site-current" id="site-current-label">Strony</span>
+      <span class="site-current" id="site-current-label" hidden>Strony</span>
     </div>
     <div class="topbar-center">
       <div class="tag-search-box" id="tag-search-box">
@@ -41,15 +42,18 @@
         </div>
       </div>
     </div>
-    <div class="topbar-right">
-      <div class="nav-variant-toggle" role="group" aria-label="Wariant nawigacji">
-        <button type="button" class="pill-btn is-active" data-nav="bottom">Bottom</button>
-        <button type="button" class="pill-btn" data-nav="overlay">Overlay</button>
-      </div>
-    </div>
+    <div class="topbar-right"></div>
   </header>
 
-  <main class="layout" id="flow-mode">
+  <main class="home-layout" id="home-mode">
+    <header class="home-header">
+      <h1>Porównywarki</h1>
+      <p class="home-sub">Wybierz stronę, żeby zobaczyć flow</p>
+    </header>
+    <div class="site-cards" id="site-cards"></div>
+  </main>
+
+  <main class="layout" id="flow-mode" hidden>
     <aside class="step-strip" id="step-strip" aria-label="Kroki flow"></aside>
     <section class="stage">
       <div class="stage-frame" id="stage-frame">
@@ -95,27 +99,6 @@
       <p>Brak ekranów z tym tagiem dla wybranego urządzenia.</p>
     </div>
   </main>
-
-  <div class="site-nav-backdrop" id="site-nav-backdrop" hidden></div>
-  <aside class="site-nav-panel" id="site-nav-panel" role="dialog" aria-modal="true" aria-labelledby="site-nav-title" aria-hidden="true">
-    <div class="site-nav-grab" aria-hidden="true"></div>
-    <div class="site-nav-header">
-      <h2 id="site-nav-title">Strony</h2>
-      <button type="button" class="site-nav-close" id="site-nav-close" aria-label="Zamknij">
-        <svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true">
-          <path d="M4.5 4.5l9 9M13.5 4.5l-9 9" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
-        </svg>
-      </button>
-    </div>
-    <label class="site-search-wrap" for="site-search">
-      <svg class="search-icon" width="14" height="14" viewBox="0 0 16 16" aria-hidden="true">
-        <circle cx="7" cy="7" r="5.5" fill="none" stroke="currentColor" stroke-width="1.5"/>
-        <path d="M11.5 11.5 L14.5 14.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-      </svg>
-      <input id="site-search" type="search" placeholder="Szukaj strony…" autocomplete="off" />
-    </label>
-    <div class="site-list" id="site-list" role="listbox" aria-label="Lista porównywarek"></div>
-  </aside>
 
   <script src="app.js"></script>
 </body>

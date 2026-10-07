@@ -19,20 +19,16 @@
     payment: "płatność",
   };
 
-  const NAV_KEY = "porownywarki-nav-variant";
-
   const state = {
     images: [],
     sites: [],
-    siteFilter: "",
-    navOpen: false,
     tagsOpen: false,
-    navVariant: localStorage.getItem(NAV_KEY) === "overlay" ? "overlay" : "bottom",
     device: "desktop",
     site: null,
     stepIndex: 0,
     search: "",
     activeTag: null,
+    view: "home", // home | flow | compare
   };
 
   const $ = (sel) => document.querySelector(sel);
@@ -40,72 +36,6 @@
 
   function siteLabel(id) {
     return SITE_LABELS[id] || id;
-  }
-
-  function updateSiteLabel() {
-    const label = $("#site-current-label");
-    const openBtn = $("#site-nav-open");
-    if (label) label.textContent = state.site ? siteLabel(state.site) : "Strony";
-    if (openBtn) {
-      openBtn.setAttribute("aria-expanded", state.navOpen ? "true" : "false");
-    }
-  }
-
-  function updateTagSearchLabel() {
-    const label = $("#tag-search-label");
-    const toggle = $("#tag-search-toggle");
-    if (!label || !toggle) return;
-    if (state.activeTag) {
-      label.textContent = tagLabel(state.activeTag);
-    } else if (state.search) {
-      label.textContent = `„${state.search}”`;
-    } else {
-      label.textContent = "Szukaj po tagach";
-    }
-    toggle.classList.toggle("has-filter", Boolean(state.activeTag || state.search));
-    toggle.setAttribute("aria-expanded", state.tagsOpen ? "true" : "false");
-  }
-
-  function setTagsOpen(open) {
-    state.tagsOpen = Boolean(open);
-    const pop = $("#tag-popover");
-    if (pop) pop.hidden = !state.tagsOpen;
-    updateTagSearchLabel();
-    if (state.tagsOpen) {
-      const input = $("#tag-search");
-      if (input) requestAnimationFrame(() => input.focus());
-    }
-  }
-
-  function applyNavVariant() {
-    document.body.classList.toggle("nav-bottom", state.navVariant === "bottom");
-    document.body.classList.toggle("nav-overlay", state.navVariant === "overlay");
-    $$(".nav-variant-toggle .pill-btn").forEach((b) =>
-      b.classList.toggle("is-active", b.dataset.nav === state.navVariant)
-    );
-    localStorage.setItem(NAV_KEY, state.navVariant);
-  }
-
-  function setNavVariant(variant) {
-    if (variant !== "bottom" && variant !== "overlay") return;
-    state.navVariant = variant;
-    applyNavVariant();
-  }
-
-  function setNavOpen(open) {
-    state.navOpen = Boolean(open);
-    const panel = $("#site-nav-panel");
-    const backdrop = $("#site-nav-backdrop");
-    if (!panel || !backdrop) return;
-    panel.classList.toggle("is-open", state.navOpen);
-    panel.setAttribute("aria-hidden", state.navOpen ? "false" : "true");
-    backdrop.hidden = !state.navOpen;
-    document.body.classList.toggle("nav-open", state.navOpen);
-    updateSiteLabel();
-    if (state.navOpen) {
-      const input = $("#site-search");
-      if (input) requestAnimationFrame(() => input.focus());
-    }
   }
 
   function tagLabel(t) {
@@ -137,6 +67,17 @@
       .sort((a, b) => a.step - b.step);
   }
 
+  function coverForSite(siteId) {
+    const forDevice = state.images
+      .filter((i) => i.site === siteId && i.device === state.device)
+      .sort((a, b) => a.step - b.step);
+    if (forDevice.length) return forDevice[0];
+    const any = state.images
+      .filter((i) => i.site === siteId)
+      .sort((a, b) => a.step - b.step);
+    return any[0] || null;
+  }
+
   function allTagsForDevice() {
     const set = new Map();
     state.images
@@ -158,30 +99,63 @@
     return state.activeTag || state.search;
   }
 
-  function renderSiteList() {
-    const el = $("#site-list");
-    if (!el) return;
-    const q = normalizeTag(state.siteFilter);
-    const filtered = state.sites.filter((id) => {
-      if (!q) return true;
-      return (
-        normalizeTag(id).includes(q) ||
-        normalizeTag(siteLabel(id)).includes(q)
-      );
-    });
-    if (!filtered.length) {
-      el.innerHTML = `<div class="site-list-empty">Brak stron</div>`;
-      return;
+  function updateTagSearchLabel() {
+    const label = $("#tag-search-label");
+    const toggle = $("#tag-search-toggle");
+    if (!label || !toggle) return;
+    if (state.activeTag) {
+      label.textContent = tagLabel(state.activeTag);
+    } else if (state.search) {
+      label.textContent = `„${state.search}”`;
+    } else {
+      label.textContent = "Szukaj po tagach";
     }
-    el.innerHTML = filtered
+    toggle.classList.toggle("has-filter", Boolean(state.activeTag || state.search));
+    toggle.setAttribute("aria-expanded", state.tagsOpen ? "true" : "false");
+  }
+
+  function setTagsOpen(open) {
+    state.tagsOpen = Boolean(open);
+    const pop = $("#tag-popover");
+    if (pop) pop.hidden = !state.tagsOpen;
+    updateTagSearchLabel();
+    if (state.tagsOpen) {
+      const input = $("#tag-search");
+      if (input) requestAnimationFrame(() => input.focus());
+    }
+  }
+
+  function updateChrome() {
+    const back = $("#back-btn");
+    const siteLabelEl = $("#site-current-label");
+    const onFlow = state.view === "flow";
+    const onCompare = state.view === "compare";
+    if (back) back.hidden = !(onFlow || onCompare);
+    if (siteLabelEl) {
+      if (onFlow && state.site) {
+        siteLabelEl.hidden = false;
+        siteLabelEl.textContent = siteLabel(state.site);
+      } else {
+        siteLabelEl.hidden = true;
+      }
+    }
+    updateTagSearchLabel();
+  }
+
+  function renderSiteCards() {
+    const el = $("#site-cards");
+    if (!el) return;
+    el.innerHTML = state.sites
       .map((id) => {
-        const n = state.images.filter((i) => i.site === id).length;
-        const active = id === state.site ? " is-active" : "";
-        return `<button type="button" class="site-list-item${active}" role="option" aria-selected="${
-          id === state.site
-        }" data-site="${id}"><span>${siteLabel(
-          id
-        )}</span><span class="site-count">${n}</span></button>`;
+        const cover = coverForSite(id);
+        const mobile = state.device === "mobile" ? " is-mobile" : "";
+        const img = cover
+          ? `<img class="site-card-thumb" src="${cover.path}" alt="" loading="lazy" />`
+          : `<div class="site-card-thumb" style="display:flex;align-items:center;justify-content:center;color:#adadad;font-size:13px">Brak zrzutu</div>`;
+        return `<button type="button" class="site-card${mobile}" data-site="${id}">
+          ${img}
+          <span class="site-card-label">${siteLabel(id)}</span>
+        </button>`;
       })
       .join("");
   }
@@ -333,15 +307,26 @@
   }
 
   function syncMode() {
-    const compare = isCompareMode();
-    $("#flow-mode").hidden = compare;
-    $("#compare-mode").hidden = !compare;
-    document.body.classList.toggle("is-compare", compare);
-    updateSiteLabel();
-    updateTagSearchLabel();
-    renderSiteList();
+    if (isCompareMode()) {
+      state.view = "compare";
+    } else if (state.site) {
+      state.view = "flow";
+    } else {
+      state.view = "home";
+    }
+
+    $("#home-mode").hidden = state.view !== "home";
+    $("#flow-mode").hidden = state.view !== "flow";
+    $("#compare-mode").hidden = state.view !== "compare";
+    document.body.classList.toggle("is-compare", state.view === "compare");
+    document.body.classList.toggle("is-home", state.view === "home");
+    document.body.classList.toggle("is-flow", state.view === "flow");
+
+    updateChrome();
     renderTagChips();
-    if (compare) renderCompare();
+
+    if (state.view === "home") renderSiteCards();
+    else if (state.view === "compare") renderCompare();
     else renderFlow();
   }
 
@@ -354,13 +339,23 @@
     syncMode();
   }
 
+  function goHome() {
+    state.site = null;
+    state.stepIndex = 0;
+    state.search = "";
+    state.activeTag = null;
+    $("#tag-search").value = "";
+    setTagsOpen(false);
+    syncMode();
+  }
+
   function setSite(site) {
     state.site = site;
     state.stepIndex = 0;
     state.search = "";
     state.activeTag = null;
     $("#tag-search").value = "";
-    setNavOpen(false);
+    setTagsOpen(false);
     syncMode();
   }
 
@@ -382,6 +377,7 @@
     $$(".device-toggle .pill-btn").forEach((btn) => {
       btn.addEventListener("click", () => setDevice(btn.dataset.device));
     });
+    $("#back-btn").addEventListener("click", () => goHome());
     $("#tag-search-toggle").addEventListener("click", (e) => {
       e.stopPropagation();
       setTagsOpen(!state.tagsOpen);
@@ -390,30 +386,10 @@
     document.addEventListener("click", () => {
       if (state.tagsOpen) setTagsOpen(false);
     });
-    $$(".nav-variant-toggle .pill-btn").forEach((btn) => {
-      btn.addEventListener("click", () => {
-        setNavVariant(btn.dataset.nav);
-        if (state.navOpen) {
-          // re-open so layout variant applies cleanly
-          setNavOpen(false);
-          requestAnimationFrame(() => setNavOpen(true));
-        }
-      });
-    });
-    $("#site-nav-open").addEventListener("click", () => {
-      if (!state.navOpen) setTagsOpen(false);
-      setNavOpen(!state.navOpen);
-    });
-    $("#site-nav-close").addEventListener("click", () => setNavOpen(false));
-    $("#site-nav-backdrop").addEventListener("click", () => setNavOpen(false));
-    $("#site-list").addEventListener("click", (e) => {
-      const btn = e.target.closest("[data-site]");
-      if (!btn) return;
-      setSite(btn.dataset.site);
-    });
-    $("#site-search").addEventListener("input", (e) => {
-      state.siteFilter = e.target.value;
-      renderSiteList();
+    $("#site-cards").addEventListener("click", (e) => {
+      const card = e.target.closest("[data-site]");
+      if (!card) return;
+      setSite(card.dataset.site);
     });
     $("#tag-search").addEventListener("input", (e) => {
       state.search = normalizeTag(e.target.value);
@@ -453,17 +429,12 @@
       syncMode();
     });
     document.addEventListener("keydown", (e) => {
-      if (e.key === "Escape" && state.navOpen) {
-        e.preventDefault();
-        setNavOpen(false);
-        return;
-      }
       if (e.key === "Escape" && state.tagsOpen) {
         e.preventDefault();
         setTagsOpen(false);
         return;
       }
-      if (isCompareMode()) return;
+      if (state.view !== "flow") return;
       if (e.target.matches("input, textarea")) return;
       const items = flowItems();
       if (!items.length) return;
@@ -488,19 +459,16 @@
       if (!i.tags.includes(i.tag)) i.tags.unshift(i.tag);
     });
     state.sites = discoverSites();
-    state.site = state.sites.includes("rankomat")
-      ? "rankomat"
-      : state.sites[0] || null;
+    state.site = null;
     bind();
-    applyNavVariant();
-    setNavOpen(false);
+    setTagsOpen(false);
     syncMode();
   }
 
   init().catch((err) => {
     console.error(err);
-    $("#flow-empty").hidden = false;
-    $("#flow-empty").innerHTML =
-      "<p>Nie udało się wczytać images.json. Uruchom lokalny serwer HTTP z folderu aplikacji.</p>";
+    $("#home-mode").hidden = false;
+    $("#site-cards").innerHTML =
+      "<p class=\"empty-state\">Nie udało się wczytać images.json.</p>";
   });
 })();
