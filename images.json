@@ -4249,5 +4249,577 @@
     "description": "mubi mobile krok 28: selected-offer-addons-upsell",
     "width": 1170,
     "height": 2532
+  },
+  {
+    "site": "gocompare",
+    "device": "desktop",
+    "step": 1,
+    "tag": "landing",
+    "tags": [
+      "landing"
+    ],
+    "path": "images/gocompare/desktop/01-landing-hero.png",
+    "description": "gocompare desktop krok 1: landing-hero",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "gocompare",
+    "device": "desktop",
+    "step": 2,
+    "tag": "car",
+    "tags": [
+      "car"
+    ],
+    "path": "images/gocompare/desktop/02-car-insurance-landing.png",
+    "description": "gocompare desktop krok 2: car-insurance-landing",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "gocompare",
+    "device": "desktop",
+    "step": 3,
+    "tag": "quote",
+    "tags": [
+      "quote"
+    ],
+    "path": "images/gocompare/desktop/03-quote-vehicle-step-empty.png",
+    "description": "gocompare desktop krok 3: quote-vehicle-step-empty",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "gocompare",
+    "device": "desktop",
+    "step": 4,
+    "tag": "find",
+    "tags": [
+      "find"
+    ],
+    "path": "images/gocompare/desktop/04-find-my-car-make-model-form.png",
+    "description": "gocompare desktop krok 4: find-my-car-make-model-form",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "gocompare",
+    "device": "desktop",
+    "step": 5,
+    "tag": "find",
+    "tags": [
+      "find"
+    ],
+    "path": "images/gocompare/desktop/05-find-my-car-filled.png",
+    "description": "gocompare desktop krok 5: find-my-car-filled",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "gocompare",
+    "device": "desktop",
+    "step": 6,
+    "tag": "car",
+    "tags": [
+      "car"
+    ],
+    "path": "images/gocompare/desktop/06-car-model-picker.png",
+    "description": "gocompare desktop krok 6: car-model-picker",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "gocompare",
+    "device": "desktop",
+    "step": 7,
+    "tag": "car",
+    "tags": [
+      "car"
+    ],
+    "path": "images/gocompare/desktop/07-car-details-and-cover-start-filled.png",
+    "description": "gocompare desktop krok 7: car-details-and-cover-start-filled",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "gocompare",
+    "device": "desktop",
+    "step": 8,
+    "tag": "driver",
+    "tags": [
+      "driver"
+    ],
+    "path": "images/gocompare/desktop/08-driver-details-empty.png",
+    "description": "gocompare desktop krok 8: driver-details-empty",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "gocompare",
+    "device": "desktop",
+    "step": 9,
+    "tag": "address",
+    "tags": [
+      "address"
+    ],
+    "path": "images/gocompare/desktop/09-address-picker.png",
+    "description": "gocompare desktop krok 9: address-picker",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "gocompare",
+    "device": "desktop",
+    "step": 10,
+    "tag": "occupation",
+    "tags": [
+      "occupation"
+    ],
+    "path": "images/gocompare/desktop/10-occupation-autocomplete.png",
+    "description": "gocompare desktop krok 10: occupation-autocomplete",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "gocompare",
+    "device": "desktop",
+    "step": 11,
+    "tag": "driver",
+    "tags": [
+      "driver"
+    ],
+    "path": "images/gocompare/desktop/11-driver-employment-filled.png",
+    "description": "gocompare desktop krok 11: driver-employment-filled",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "gocompare",
+    "device": "desktop",
+    "step": 12,
+    "tag": "experience",
+    "tags": [
+      "experience"
+    ],
+    "path": "images/gocompare/desktop/12-experience-validation-errors.png",
+    "description": "gocompare desktop krok 12: experience-validation-errors",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "gocompare",
+    "device": "desktop",
+    "step": 13,
+    "tag": "experience",
+    "tags": [
+      "experience"
+    ],
+    "path": "images/gocompare/desktop/13-experience-filled.png",
+    "description": "gocompare desktop krok 13: experience-filled",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "gocompare",
+    "device": "desktop",
+    "step": 14,
+    "tag": "driving",
+    "tags": [
+      "driving"
+    ],
+    "path": "images/gocompare/desktop/14-driving-usage-filled.png",
+    "description": "gocompare desktop krok 14: driving-usage-filled",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "gocompare",
+    "device": "desktop",
+    "step": 15,
+    "tag": "cover",
+    "tags": [
+      "cover"
+    ],
+    "path": "images/gocompare/desktop/15-cover-type-comprehensive.png",
+    "description": "gocompare desktop krok 15: cover-type-comprehensive",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "gocompare",
+    "device": "desktop",
+    "step": 16,
+    "tag": "create",
+    "tags": [
+      "create"
+    ],
+    "path": "images/gocompare/desktop/16-create-account-save-answers.png",
+    "description": "gocompare desktop krok 16: create-account-save-answers",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "gocompare",
+    "device": "desktop",
+    "step": 17,
+    "tag": "loading",
+    "tags": [
+      "loading"
+    ],
+    "path": "images/gocompare/desktop/17-loading-results-telematics-modal.png",
+    "description": "gocompare desktop krok 17: loading-results-telematics-modal",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "gocompare",
+    "device": "desktop",
+    "step": 18,
+    "tag": "results",
+    "tags": [
+      "results"
+    ],
+    "path": "images/gocompare/desktop/18-results-list-top.png",
+    "description": "gocompare desktop krok 18: results-list-top",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "gocompare",
+    "device": "desktop",
+    "step": 19,
+    "tag": "results",
+    "tags": [
+      "results"
+    ],
+    "path": "images/gocompare/desktop/19-results-list-scrolled.png",
+    "description": "gocompare desktop krok 19: results-list-scrolled",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "gocompare",
+    "device": "desktop",
+    "step": 20,
+    "tag": "quote",
+    "tags": [
+      "quote"
+    ],
+    "path": "images/gocompare/desktop/20-quote-details-panel.png",
+    "description": "gocompare desktop krok 20: quote-details-panel",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "gocompare",
+    "device": "desktop",
+    "step": 21,
+    "tag": "insurer",
+    "tags": [
+      "insurer"
+    ],
+    "path": "images/gocompare/desktop/21-insurer-redirect-allianz-assumptions.png",
+    "description": "gocompare desktop krok 21: insurer-redirect-allianz-assumptions",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "gocompare",
+    "device": "mobile",
+    "step": 1,
+    "tag": "landing",
+    "tags": [
+      "landing"
+    ],
+    "path": "images/gocompare/mobile/01-landing-hero.png",
+    "description": "gocompare mobile krok 1: landing-hero",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "gocompare",
+    "device": "mobile",
+    "step": 2,
+    "tag": "car",
+    "tags": [
+      "car"
+    ],
+    "path": "images/gocompare/mobile/02-car-insurance-landing.png",
+    "description": "gocompare mobile krok 2: car-insurance-landing",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "gocompare",
+    "device": "mobile",
+    "step": 3,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/gocompare/mobile/03-vehicle-reg-lookup.png",
+    "description": "gocompare mobile krok 3: vehicle-reg-lookup",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "gocompare",
+    "device": "mobile",
+    "step": 4,
+    "tag": "find",
+    "tags": [
+      "find"
+    ],
+    "path": "images/gocompare/mobile/04-find-car-manual-form.png",
+    "description": "gocompare mobile krok 4: find-car-manual-form",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "gocompare",
+    "device": "mobile",
+    "step": 5,
+    "tag": "car",
+    "tags": [
+      "car"
+    ],
+    "path": "images/gocompare/mobile/05-car-model-picker.png",
+    "description": "gocompare mobile krok 5: car-model-picker",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "gocompare",
+    "device": "mobile",
+    "step": 6,
+    "tag": "selected",
+    "tags": [
+      "selected"
+    ],
+    "path": "images/gocompare/mobile/06-selected-car-details.png",
+    "description": "gocompare mobile krok 6: selected-car-details",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "gocompare",
+    "device": "mobile",
+    "step": 7,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/gocompare/mobile/07-vehicle-validation-errors.png",
+    "description": "gocompare mobile krok 7: vehicle-validation-errors",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "gocompare",
+    "device": "mobile",
+    "step": 8,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/gocompare/mobile/08-vehicle-answers-filled.png",
+    "description": "gocompare mobile krok 8: vehicle-answers-filled",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "gocompare",
+    "device": "mobile",
+    "step": 9,
+    "tag": "driver",
+    "tags": [
+      "driver"
+    ],
+    "path": "images/gocompare/mobile/09-driver-step-top.png",
+    "description": "gocompare mobile krok 9: driver-step-top",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "gocompare",
+    "device": "mobile",
+    "step": 10,
+    "tag": "address",
+    "tags": [
+      "address"
+    ],
+    "path": "images/gocompare/mobile/10-address-picker.png",
+    "description": "gocompare mobile krok 10: address-picker",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "gocompare",
+    "device": "mobile",
+    "step": 11,
+    "tag": "occupation",
+    "tags": [
+      "occupation"
+    ],
+    "path": "images/gocompare/mobile/11-occupation-autocomplete.png",
+    "description": "gocompare mobile krok 11: occupation-autocomplete",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "gocompare",
+    "device": "mobile",
+    "step": 12,
+    "tag": "experience",
+    "tags": [
+      "experience"
+    ],
+    "path": "images/gocompare/mobile/12-experience-step-top.png",
+    "description": "gocompare mobile krok 12: experience-step-top",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "gocompare",
+    "device": "mobile",
+    "step": 13,
+    "tag": "driving",
+    "tags": [
+      "driving"
+    ],
+    "path": "images/gocompare/mobile/13-driving-step-top.png",
+    "description": "gocompare mobile krok 13: driving-step-top",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "gocompare",
+    "device": "mobile",
+    "step": 14,
+    "tag": "driving",
+    "tags": [
+      "driving"
+    ],
+    "path": "images/gocompare/mobile/14-driving-validation-error.png",
+    "description": "gocompare mobile krok 14: driving-validation-error",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "gocompare",
+    "device": "mobile",
+    "step": 15,
+    "tag": "cover",
+    "tags": [
+      "cover"
+    ],
+    "path": "images/gocompare/mobile/15-cover-step-top.png",
+    "description": "gocompare mobile krok 15: cover-step-top",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "gocompare",
+    "device": "mobile",
+    "step": 16,
+    "tag": "cover",
+    "tags": [
+      "cover"
+    ],
+    "path": "images/gocompare/mobile/16-cover-marketing-optouts.png",
+    "description": "gocompare mobile krok 16: cover-marketing-optouts",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "gocompare",
+    "device": "mobile",
+    "step": 17,
+    "tag": "submitting",
+    "tags": [
+      "submitting"
+    ],
+    "path": "images/gocompare/mobile/17-submitting-quote-loading.png",
+    "description": "gocompare mobile krok 17: submitting-quote-loading",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "gocompare",
+    "device": "mobile",
+    "step": 18,
+    "tag": "save",
+    "tags": [
+      "save"
+    ],
+    "path": "images/gocompare/mobile/18-save-answers-create-account.png",
+    "description": "gocompare mobile krok 18: save-answers-create-account",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "gocompare",
+    "device": "mobile",
+    "step": 19,
+    "tag": "telematics",
+    "tags": [
+      "telematics"
+    ],
+    "path": "images/gocompare/mobile/19-telematics-question-modal.png",
+    "description": "gocompare mobile krok 19: telematics-question-modal",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "gocompare",
+    "device": "mobile",
+    "step": 20,
+    "tag": "results",
+    "tags": [
+      "results"
+    ],
+    "path": "images/gocompare/mobile/20-results-list-top.png",
+    "description": "gocompare mobile krok 20: results-list-top",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "gocompare",
+    "device": "mobile",
+    "step": 21,
+    "tag": "results",
+    "tags": [
+      "results"
+    ],
+    "path": "images/gocompare/mobile/21-results-scrolled-1.png",
+    "description": "gocompare mobile krok 21: results-scrolled-1",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "gocompare",
+    "device": "mobile",
+    "step": 22,
+    "tag": "quote",
+    "tags": [
+      "quote"
+    ],
+    "path": "images/gocompare/mobile/22-quote-details.png",
+    "description": "gocompare mobile krok 22: quote-details",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "gocompare",
+    "device": "mobile",
+    "step": 23,
+    "tag": "insurer",
+    "tags": [
+      "insurer"
+    ],
+    "path": "images/gocompare/mobile/23-insurer-cookie-banner.png",
+    "description": "gocompare mobile krok 23: insurer-cookie-banner",
+    "width": 1170,
+    "height": 2532
   }
 ]

@@ -2,7 +2,7 @@
 
 Statyczna web-aplikacja (styl Mobbin) do podglądu screenshotów flow OC:
 
-- **Rankomat**, **Kiosk Polis**, **Insurify**, **NerdWallet**, **Lemonade**, **Mubi**
+- **Rankomat**, **Kiosk Polis**, **Insurify**, **NerdWallet**, **Lemonade**, **Mubi**, **GoCompare**
 - osobno **Desktop** i **Mobile**
 - tagi w panelu bocznym (nie na obrazkach)
 - wyszukiwanie po tagach — ten sam tag we wszystkich trzech aplikacjach naraz
