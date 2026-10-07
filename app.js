@@ -9,6 +9,7 @@
     lemonade: "Lemonade",
     mubi: "Mubi",
     beesafe: "Beesafe",
+    link4: "Link4",
   };
 
   const TAG_LABELS = {

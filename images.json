@@ -5432,5 +5432,317 @@
     "description": "beesafe mobile krok 17: vehicle-plate-vin",
     "width": 1170,
     "height": 2532
+  },
+  {
+    "site": "link4",
+    "device": "desktop",
+    "step": 1,
+    "tag": "landing",
+    "tags": [
+      "landing"
+    ],
+    "path": "images/link4/desktop/01-landing.png",
+    "description": "link4 desktop krok 1: landing",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "link4",
+    "device": "desktop",
+    "step": 2,
+    "tag": "car",
+    "tags": [
+      "car"
+    ],
+    "path": "images/link4/desktop/02-car-insurance-page.png",
+    "description": "link4 desktop krok 2: car-insurance-page",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "link4",
+    "device": "desktop",
+    "step": 3,
+    "tag": "calculator",
+    "tags": [
+      "calculator"
+    ],
+    "path": "images/link4/desktop/03-calculator-start.png",
+    "description": "link4 desktop krok 3: calculator-start",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "link4",
+    "device": "desktop",
+    "step": 4,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/link4/desktop/04-vehicle-year-picker.png",
+    "description": "link4 desktop krok 4: vehicle-year-picker",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "link4",
+    "device": "desktop",
+    "step": 5,
+    "tag": "version",
+    "tags": [
+      "version"
+    ],
+    "path": "images/link4/desktop/05-version-picker.png",
+    "description": "link4 desktop krok 5: version-picker",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "link4",
+    "device": "desktop",
+    "step": 6,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/link4/desktop/06-vehicle-filled.png",
+    "description": "link4 desktop krok 6: vehicle-filled",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "link4",
+    "device": "desktop",
+    "step": 7,
+    "tag": "usage",
+    "tags": [
+      "usage"
+    ],
+    "path": "images/link4/desktop/07-usage-picker.png",
+    "description": "link4 desktop krok 7: usage-picker",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "link4",
+    "device": "desktop",
+    "step": 8,
+    "tag": "drivers",
+    "tags": [
+      "drivers"
+    ],
+    "path": "images/link4/desktop/08-drivers-owners.png",
+    "description": "link4 desktop krok 8: drivers-owners",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "link4",
+    "device": "desktop",
+    "step": 9,
+    "tag": "owner",
+    "tags": [
+      "owner"
+    ],
+    "path": "images/link4/desktop/09-owner-validation-error.png",
+    "description": "link4 desktop krok 9: owner-validation-error",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "link4",
+    "device": "desktop",
+    "step": 10,
+    "tag": "owner",
+    "tags": [
+      "owner"
+    ],
+    "path": "images/link4/desktop/10-owner-filled.png",
+    "description": "link4 desktop krok 10: owner-filled",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "link4",
+    "device": "desktop",
+    "step": 11,
+    "tag": "consents",
+    "tags": [
+      "consents"
+    ],
+    "path": "images/link4/desktop/11-consents.png",
+    "description": "link4 desktop krok 11: consents",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "link4",
+    "device": "desktop",
+    "step": 12,
+    "tag": "start",
+    "tags": [
+      "start"
+    ],
+    "path": "images/link4/desktop/12-start-date-picker.png",
+    "description": "link4 desktop krok 12: start-date-picker",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "link4",
+    "device": "desktop",
+    "step": 13,
+    "tag": "consents",
+    "tags": [
+      "consents"
+    ],
+    "path": "images/link4/desktop/13-consents-filled.png",
+    "description": "link4 desktop krok 13: consents-filled",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "link4",
+    "device": "desktop",
+    "step": 14,
+    "tag": "online",
+    "tags": [
+      "online"
+    ],
+    "path": "images/link4/desktop/14-online-purchase-unavailable-modal.png",
+    "description": "link4 desktop krok 14: online-purchase-unavailable-modal",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "link4",
+    "device": "mobile",
+    "step": 1,
+    "tag": "landing",
+    "tags": [
+      "landing"
+    ],
+    "path": "images/link4/mobile/01-landing.png",
+    "description": "link4 mobile krok 1: landing",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "link4",
+    "device": "mobile",
+    "step": 2,
+    "tag": "car",
+    "tags": [
+      "car"
+    ],
+    "path": "images/link4/mobile/02-car-insurance-page.png",
+    "description": "link4 mobile krok 2: car-insurance-page",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "link4",
+    "device": "mobile",
+    "step": 3,
+    "tag": "calculator",
+    "tags": [
+      "calculator"
+    ],
+    "path": "images/link4/mobile/03-calculator-start.png",
+    "description": "link4 mobile krok 3: calculator-start",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "link4",
+    "device": "mobile",
+    "step": 4,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/link4/mobile/04-vehicle-year-picker.png",
+    "description": "link4 mobile krok 4: vehicle-year-picker",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "link4",
+    "device": "mobile",
+    "step": 5,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/link4/mobile/05-vehicle-filled.png",
+    "description": "link4 mobile krok 5: vehicle-filled",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "link4",
+    "device": "mobile",
+    "step": 6,
+    "tag": "usage",
+    "tags": [
+      "usage"
+    ],
+    "path": "images/link4/mobile/06-usage-picker.png",
+    "description": "link4 mobile krok 6: usage-picker",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "link4",
+    "device": "mobile",
+    "step": 7,
+    "tag": "drivers",
+    "tags": [
+      "drivers"
+    ],
+    "path": "images/link4/mobile/07-drivers-owners.png",
+    "description": "link4 mobile krok 7: drivers-owners",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "link4",
+    "device": "mobile",
+    "step": 8,
+    "tag": "owner",
+    "tags": [
+      "owner"
+    ],
+    "path": "images/link4/mobile/08-owner-filled.png",
+    "description": "link4 mobile krok 8: owner-filled",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "link4",
+    "device": "mobile",
+    "step": 9,
+    "tag": "consents",
+    "tags": [
+      "consents"
+    ],
+    "path": "images/link4/mobile/09-consents-filled.png",
+    "description": "link4 mobile krok 9: consents-filled",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "link4",
+    "device": "mobile",
+    "step": 10,
+    "tag": "online",
+    "tags": [
+      "online"
+    ],
+    "path": "images/link4/mobile/10-online-purchase-unavailable-modal.png",
+    "description": "link4 mobile krok 10: online-purchase-unavailable-modal",
+    "width": 1170,
+    "height": 2532
   }
 ]
