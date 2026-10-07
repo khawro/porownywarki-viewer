@@ -55,10 +55,25 @@
 
   function matchesSearch(item, q) {
     if (!q) return true;
-    const hay = [...(item.tags || []), item.tag, item.label, item.description]
+    const hay = [
+      ...(item.tags || []),
+      item.tag,
+      item.label,
+      item.description,
+      item.site,
+      siteLabel(item.site),
+    ]
       .map(normalizeTag)
       .join(" ");
     return hay.includes(q);
+  }
+
+  function siteMatchesQuery(siteId, q) {
+    if (!q) return false;
+    return (
+      normalizeTag(siteId).includes(q) ||
+      normalizeTag(siteLabel(siteId)).includes(q)
+    );
   }
 
   function flowItems() {
@@ -99,30 +114,21 @@
     return state.activeTag || state.search;
   }
 
-  function updateTagSearchLabel() {
-    const label = $("#tag-search-label");
-    const toggle = $("#tag-search-toggle");
-    if (!label || !toggle) return;
-    if (state.activeTag) {
-      label.textContent = tagLabel(state.activeTag);
-    } else if (state.search) {
-      label.textContent = `„${state.search}”`;
-    } else {
-      label.textContent = "Szukaj po tagach";
+  function updateSearchChrome() {
+    const wrap = document.querySelector(".search-wrap");
+    if (wrap) {
+      wrap.classList.toggle(
+        "has-filter",
+        Boolean(state.activeTag || state.search)
+      );
     }
-    toggle.classList.toggle("has-filter", Boolean(state.activeTag || state.search));
-    toggle.setAttribute("aria-expanded", state.tagsOpen ? "true" : "false");
   }
 
   function setTagsOpen(open) {
     state.tagsOpen = Boolean(open);
     const pop = $("#tag-popover");
     if (pop) pop.hidden = !state.tagsOpen;
-    updateTagSearchLabel();
-    if (state.tagsOpen) {
-      const input = $("#tag-search");
-      if (input) requestAnimationFrame(() => input.focus());
-    }
+    updateSearchChrome();
   }
 
   function updateChrome() {
@@ -139,7 +145,7 @@
         siteLabelEl.hidden = true;
       }
     }
-    updateTagSearchLabel();
+    updateSearchChrome();
   }
 
   function renderSiteCards() {
@@ -162,8 +168,25 @@
 
   function renderTagChips() {
     const el = $("#tag-chips");
-    const tags = allTagsForDevice();
-    el.innerHTML = tags
+    if (!el) return;
+    const q = state.search;
+    const siteChips = state.sites
+      .filter((id) => !q || siteMatchesQuery(id, q))
+      .map((id) => {
+        const active = q && siteMatchesQuery(id, q);
+        return `<button type="button" class="tag-chip is-site${
+          active ? " is-active" : ""
+        }" data-site-chip="${id}">${siteLabel(id)}</button>`;
+      })
+      .join("");
+    const tags = allTagsForDevice().filter(([t]) => {
+      if (!q) return true;
+      return (
+        normalizeTag(t).includes(q) ||
+        normalizeTag(tagLabel(t)).includes(q)
+      );
+    });
+    const tagChips = tags
       .map(([t, n]) => {
         const active =
           state.activeTag === t ||
@@ -173,6 +196,7 @@
         }" data-tag="${t}">${tagLabel(t)} · ${n}</button>`;
       })
       .join("");
+    el.innerHTML = siteChips + tagChips;
   }
 
   function renderStepStrip(items) {
@@ -268,6 +292,7 @@
             if (state.activeTag) {
               return (i.tags || [i.tag]).includes(state.activeTag);
             }
+            if (siteMatchesQuery(site, q)) return true;
             return matchesSearch(i, q);
           })
           .sort((a, b) => a.step - b.step);
@@ -378,10 +403,18 @@
       btn.addEventListener("click", () => setDevice(btn.dataset.device));
     });
     $("#back-btn").addEventListener("click", () => goHome());
-    $("#tag-search-toggle").addEventListener("click", (e) => {
-      e.stopPropagation();
-      setTagsOpen(!state.tagsOpen);
+    const searchInput = $("#tag-search");
+    const searchBox = $("#tag-search-box");
+    searchInput.addEventListener("focus", () => {
+      setTagsOpen(true);
+      renderTagChips();
     });
+    searchInput.addEventListener("click", (e) => {
+      e.stopPropagation();
+      setTagsOpen(true);
+      searchInput.focus();
+    });
+    searchBox.addEventListener("click", (e) => e.stopPropagation());
     $("#tag-popover").addEventListener("click", (e) => e.stopPropagation());
     document.addEventListener("click", () => {
       if (state.tagsOpen) setTagsOpen(false);
@@ -391,13 +424,19 @@
       if (!card) return;
       setSite(card.dataset.site);
     });
-    $("#tag-search").addEventListener("input", (e) => {
+    searchInput.addEventListener("input", (e) => {
       state.search = normalizeTag(e.target.value);
       state.activeTag = null;
       state.stepIndex = 0;
+      setTagsOpen(true);
       syncMode();
     });
     $("#tag-chips").addEventListener("click", (e) => {
+      const siteBtn = e.target.closest("[data-site-chip]");
+      if (siteBtn) {
+        setSite(siteBtn.dataset.siteChip);
+        return;
+      }
       const btn = e.target.closest("[data-tag]");
       if (!btn) return;
       const tag = btn.dataset.tag;
