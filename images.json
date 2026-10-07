@@ -3,836 +3,1027 @@
     "site": "insurify",
     "device": "desktop",
     "step": 1,
+    "description": "insurify desktop krok 1: Strona główna (home)",
     "tag": "home",
     "tags": [
       "home"
     ],
     "path": "images/insurify/desktop/01-home.png",
-    "description": "insurify desktop krok 1: Strona główna (home)"
+    "width": 1024,
+    "height": 594
   },
   {
     "site": "insurify",
     "device": "desktop",
     "step": 2,
+    "description": "insurify desktop krok 2: Dane pojazdu (vehicle-ubezpieczony)",
     "tag": "vehicle",
     "tags": [
       "vehicle"
     ],
     "path": "images/insurify/desktop/02-vehicle-ubezpieczony.png",
-    "description": "insurify desktop krok 2: Dane pojazdu (vehicle-ubezpieczony)"
+    "width": 1024,
+    "height": 594
   },
   {
     "site": "insurify",
     "device": "desktop",
     "step": 3,
+    "description": "insurify desktop krok 3: Dane pojazdu (vehicle-rok)",
     "tag": "vehicle",
     "tags": [
       "vehicle"
     ],
     "path": "images/insurify/desktop/03-vehicle-rok.png",
-    "description": "insurify desktop krok 3: Dane pojazdu (vehicle-rok)"
+    "width": 1024,
+    "height": 594
   },
   {
     "site": "insurify",
     "device": "desktop",
     "step": 4,
+    "description": "insurify desktop krok 4: Dane pojazdu (vehicle-marka)",
     "tag": "vehicle",
     "tags": [
       "vehicle"
     ],
     "path": "images/insurify/desktop/04-vehicle-marka.png",
-    "description": "insurify desktop krok 4: Dane pojazdu (vehicle-marka)"
+    "width": 1024,
+    "height": 594
   },
   {
     "site": "insurify",
     "device": "desktop",
     "step": 5,
+    "description": "insurify desktop krok 5: Dane pojazdu (vehicle-model)",
     "tag": "vehicle",
     "tags": [
       "vehicle"
     ],
     "path": "images/insurify/desktop/05-vehicle-model.png",
-    "description": "insurify desktop krok 5: Dane pojazdu (vehicle-model)"
+    "width": 1024,
+    "height": 594
   },
   {
     "site": "insurify",
     "device": "desktop",
     "step": 6,
+    "description": "insurify desktop krok 6: Dane pojazdu (vehicle-zakres)",
     "tag": "vehicle",
     "tags": [
       "vehicle"
     ],
     "path": "images/insurify/desktop/06-vehicle-zakres.png",
-    "description": "insurify desktop krok 6: Dane pojazdu (vehicle-zakres)"
+    "width": 1024,
+    "height": 594
   },
   {
     "site": "insurify",
     "device": "desktop",
     "step": 7,
+    "description": "insurify desktop krok 7: Dane kierowcy / historia (driver-data-urodzenia)",
     "tag": "driver",
     "tags": [
       "driver"
     ],
     "path": "images/insurify/desktop/07-driver-data-urodzenia.png",
-    "description": "insurify desktop krok 7: Dane kierowcy / historia (driver-data-urodzenia)"
+    "width": 1024,
+    "height": 594
   },
   {
     "site": "insurify",
     "device": "desktop",
     "step": 8,
+    "description": "insurify desktop krok 8: Dane kierowcy / historia (driver-zawod)",
     "tag": "driver",
     "tags": [
       "driver"
     ],
     "path": "images/insurify/desktop/08-driver-zawod.png",
-    "description": "insurify desktop krok 8: Dane kierowcy / historia (driver-zawod)"
+    "width": 1024,
+    "height": 594
   },
   {
     "site": "insurify",
     "device": "desktop",
     "step": 9,
+    "description": "insurify desktop krok 9: Dane kierowcy / historia (driver-historia-ubezpieczenia)",
     "tag": "driver",
     "tags": [
       "driver"
     ],
     "path": "images/insurify/desktop/09-driver-historia-ubezpieczenia.png",
-    "description": "insurify desktop krok 9: Dane kierowcy / historia (driver-historia-ubezpieczenia)"
+    "width": 1024,
+    "height": 594
   },
   {
     "site": "insurify",
     "device": "desktop",
     "step": 10,
+    "description": "insurify desktop krok 10: Dane kierowcy / historia (driver-wypadki)",
     "tag": "driver",
     "tags": [
       "driver"
     ],
     "path": "images/insurify/desktop/10-driver-wypadki.png",
-    "description": "insurify desktop krok 10: Dane kierowcy / historia (driver-wypadki)"
+    "width": 1024,
+    "height": 594
   },
   {
     "site": "insurify",
     "device": "desktop",
     "step": 11,
+    "description": "insurify desktop krok 11: Dane osobowe / adres (details-imie-nazwisko)",
     "tag": "details",
     "tags": [
       "details"
     ],
     "path": "images/insurify/desktop/11-details-imie-nazwisko.png",
-    "description": "insurify desktop krok 11: Dane osobowe / adres (details-imie-nazwisko)"
+    "width": 1024,
+    "height": 594
   },
   {
     "site": "insurify",
     "device": "desktop",
     "step": 12,
+    "description": "insurify desktop krok 12: Dane osobowe / adres (details-adres)",
     "tag": "details",
     "tags": [
       "details"
     ],
     "path": "images/insurify/desktop/12-details-adres.png",
-    "description": "insurify desktop krok 12: Dane osobowe / adres (details-adres)"
+    "width": 1024,
+    "height": 594
   },
   {
     "site": "insurify",
     "device": "desktop",
     "step": 13,
+    "description": "insurify desktop krok 13: Checkout / dane kontaktowe i zgody (checkout-email-zgody)",
     "tag": "checkout",
     "tags": [
       "checkout"
     ],
     "path": "images/insurify/desktop/13-checkout-email-zgody.png",
-    "description": "insurify desktop krok 13: Checkout / dane kontaktowe i zgody (checkout-email-zgody)"
+    "width": 1024,
+    "height": 594
   },
   {
     "site": "kioskpolis",
     "device": "desktop",
     "step": 1,
+    "description": "kioskpolis desktop krok 1: Strona główna (home)",
     "tag": "home",
     "tags": [
       "home"
     ],
     "path": "images/kioskpolis/desktop/01-home.png",
-    "description": "kioskpolis desktop krok 1: Strona główna (home)"
+    "width": 1920,
+    "height": 1200
   },
   {
     "site": "kioskpolis",
     "device": "desktop",
     "step": 2,
+    "description": "kioskpolis desktop krok 2: Dane pojazdu (start-formularz)",
     "tag": "vehicle",
     "tags": [
       "vehicle"
     ],
     "path": "images/kioskpolis/desktop/02-start-formularz.png",
-    "description": "kioskpolis desktop krok 2: Dane pojazdu (start-formularz)"
+    "width": 1920,
+    "height": 1200
   },
   {
     "site": "kioskpolis",
     "device": "desktop",
     "step": 3,
+    "description": "kioskpolis desktop krok 3: Dane pojazdu (pojazd)",
     "tag": "vehicle",
     "tags": [
       "vehicle"
     ],
     "path": "images/kioskpolis/desktop/03-pojazd.png",
-    "description": "kioskpolis desktop krok 3: Dane pojazdu (pojazd)"
+    "width": 1920,
+    "height": 1200
   },
   {
     "site": "kioskpolis",
     "device": "desktop",
     "step": 4,
+    "description": "kioskpolis desktop krok 4: Dane pojazdu (uzytkowanie-pojazdu)",
     "tag": "vehicle",
     "tags": [
       "vehicle"
     ],
     "path": "images/kioskpolis/desktop/04-uzytkowanie-pojazdu.png",
-    "description": "kioskpolis desktop krok 4: Dane pojazdu (uzytkowanie-pojazdu)"
+    "width": 1920,
+    "height": 1200
   },
   {
     "site": "kioskpolis",
     "device": "desktop",
     "step": 5,
+    "description": "kioskpolis desktop krok 5: Dane kierowcy / historia (wlasciciel)",
     "tag": "driver",
     "tags": [
       "driver"
     ],
     "path": "images/kioskpolis/desktop/05-wlasciciel.png",
-    "description": "kioskpolis desktop krok 5: Dane kierowcy / historia (wlasciciel)"
+    "width": 1920,
+    "height": 1200
   },
   {
     "site": "kioskpolis",
     "device": "desktop",
     "step": 6,
+    "description": "kioskpolis desktop krok 6: Dane osobowe / adres (kontakt)",
     "tag": "details",
     "tags": [
       "details"
     ],
     "path": "images/kioskpolis/desktop/06-kontakt.png",
-    "description": "kioskpolis desktop krok 6: Dane osobowe / adres (kontakt)"
+    "width": 1920,
+    "height": 1200
   },
   {
     "site": "kioskpolis",
     "device": "desktop",
     "step": 7,
+    "description": "kioskpolis desktop krok 7: Dane osobowe / adres (wymagany-pesel)",
     "tag": "details",
     "tags": [
       "details"
     ],
     "path": "images/kioskpolis/desktop/07-wymagany-pesel.png",
-    "description": "kioskpolis desktop krok 7: Dane osobowe / adres (wymagany-pesel)"
+    "width": 1024,
+    "height": 594
   },
   {
     "site": "kioskpolis",
     "device": "mobile",
     "step": 1,
+    "description": "kioskpolis mobile krok 1: Strona główna (home)",
     "tag": "home",
     "tags": [
       "home"
     ],
     "path": "images/kioskpolis/mobile/01-home.png",
-    "description": "kioskpolis mobile krok 1: Strona główna (home)"
+    "width": 399,
+    "height": 1024
   },
   {
     "site": "kioskpolis",
     "device": "mobile",
     "step": 2,
+    "description": "kioskpolis mobile krok 2: Dane pojazdu (start-formularz)",
     "tag": "vehicle",
     "tags": [
       "vehicle"
     ],
     "path": "images/kioskpolis/mobile/02-start-formularz.png",
-    "description": "kioskpolis mobile krok 2: Dane pojazdu (start-formularz)"
+    "width": 399,
+    "height": 1024
   },
   {
     "site": "kioskpolis",
     "device": "mobile",
     "step": 3,
+    "description": "kioskpolis mobile krok 3: Dane pojazdu (wybor-marki)",
     "tag": "vehicle",
     "tags": [
       "vehicle"
     ],
     "path": "images/kioskpolis/mobile/03-wybor-marki.png",
-    "description": "kioskpolis mobile krok 3: Dane pojazdu (wybor-marki)"
+    "width": 399,
+    "height": 1024
   },
   {
     "site": "kioskpolis",
     "device": "mobile",
     "step": 4,
+    "description": "kioskpolis mobile krok 4: Dane pojazdu (rok-produkcji)",
     "tag": "vehicle",
     "tags": [
       "vehicle"
     ],
     "path": "images/kioskpolis/mobile/04-rok-produkcji.png",
-    "description": "kioskpolis mobile krok 4: Dane pojazdu (rok-produkcji)"
+    "width": 399,
+    "height": 1024
   },
   {
     "site": "kioskpolis",
     "device": "mobile",
     "step": 5,
+    "description": "kioskpolis mobile krok 5: Dane pojazdu (wersja-pojazdu)",
     "tag": "vehicle",
     "tags": [
       "vehicle"
     ],
     "path": "images/kioskpolis/mobile/05-wersja-pojazdu.png",
-    "description": "kioskpolis mobile krok 5: Dane pojazdu (wersja-pojazdu)"
+    "width": 399,
+    "height": 1024
   },
   {
     "site": "kioskpolis",
     "device": "mobile",
     "step": 6,
+    "description": "kioskpolis mobile krok 6: Dane pojazdu (uzytkowanie-pojazdu)",
     "tag": "vehicle",
     "tags": [
       "vehicle"
     ],
     "path": "images/kioskpolis/mobile/06-uzytkowanie-pojazdu.png",
-    "description": "kioskpolis mobile krok 6: Dane pojazdu (uzytkowanie-pojazdu)"
+    "width": 399,
+    "height": 1024
   },
   {
     "site": "rankomat",
     "device": "desktop",
     "step": 1,
+    "description": "rankomat desktop krok 1: Strona główna (home)",
     "tag": "home",
     "tags": [
       "home"
     ],
     "path": "images/rankomat/desktop/01-home.png",
-    "description": "rankomat desktop krok 1: Strona główna (home)"
+    "width": 1024,
+    "height": 594
   },
   {
     "site": "rankomat",
     "device": "desktop",
     "step": 2,
+    "description": "rankomat desktop krok 2: Dane pojazdu (start-form)",
     "tag": "vehicle",
     "tags": [
       "vehicle"
     ],
     "path": "images/rankomat/desktop/02-start-form.png",
-    "description": "rankomat desktop krok 2: Dane pojazdu (start-form)"
+    "width": 1024,
+    "height": 936
   },
   {
     "site": "rankomat",
     "device": "desktop",
     "step": 3,
+    "description": "rankomat desktop krok 3: Dane pojazdu (pojazd)",
     "tag": "vehicle",
     "tags": [
       "vehicle"
     ],
     "path": "images/rankomat/desktop/03-pojazd.png",
-    "description": "rankomat desktop krok 3: Dane pojazdu (pojazd)"
+    "width": 599,
+    "height": 1024
   },
   {
     "site": "rankomat",
     "device": "desktop",
     "step": 4,
+    "description": "rankomat desktop krok 4: Dane pojazdu (historia-pojazdu)",
     "tag": "vehicle",
     "tags": [
       "vehicle"
     ],
     "path": "images/rankomat/desktop/04-historia-pojazdu.png",
-    "description": "rankomat desktop krok 4: Dane pojazdu (historia-pojazdu)"
+    "width": 1024,
+    "height": 594
   },
   {
     "site": "rankomat",
     "device": "desktop",
     "step": 5,
+    "description": "rankomat desktop krok 5: Dane kierowcy / historia (wlasciciel)",
     "tag": "driver",
     "tags": [
       "driver"
     ],
     "path": "images/rankomat/desktop/05-wlasciciel.png",
-    "description": "rankomat desktop krok 5: Dane kierowcy / historia (wlasciciel)"
+    "width": 854,
+    "height": 1024
   },
   {
     "site": "rankomat",
     "device": "desktop",
     "step": 6,
+    "description": "rankomat desktop krok 6: Ładowanie ofert (ladowanie-ofert)",
     "tag": "loading",
     "tags": [
       "loading"
     ],
     "path": "images/rankomat/desktop/06-ladowanie-ofert.png",
-    "description": "rankomat desktop krok 6: Ładowanie ofert (ladowanie-ofert)"
+    "width": 1024,
+    "height": 594
   },
   {
     "site": "rankomat",
     "device": "desktop",
     "step": 7,
+    "description": "rankomat desktop krok 7: Ranking ofert (lista-ofert)",
     "tag": "offers",
     "tags": [
       "offers"
     ],
     "path": "images/rankomat/desktop/07-lista-ofert.png",
-    "description": "rankomat desktop krok 7: Ranking ofert (lista-ofert)"
+    "width": 1920,
+    "height": 1200
   },
   {
     "site": "rankomat",
     "device": "desktop",
     "step": 8,
+    "description": "rankomat desktop krok 8: Checkout / dane kontaktowe i zgody (checkout-dane)",
     "tag": "checkout",
     "tags": [
       "checkout"
     ],
     "path": "images/rankomat/desktop/08-checkout-dane.png",
-    "description": "rankomat desktop krok 8: Checkout / dane kontaktowe i zgody (checkout-dane)"
+    "width": 1920,
+    "height": 1200
   },
   {
     "site": "rankomat",
     "device": "mobile",
     "step": 1,
+    "description": "rankomat mobile krok 1: Strona główna (home)",
     "tag": "home",
     "tags": [
       "home"
     ],
     "path": "images/rankomat/mobile/01-home.png",
-    "description": "rankomat mobile krok 1: Strona główna (home)"
+    "width": 399,
+    "height": 1024
   },
   {
     "site": "rankomat",
     "device": "mobile",
     "step": 2,
+    "description": "rankomat mobile krok 2: Dane pojazdu (start-formularz)",
     "tag": "vehicle",
     "tags": [
       "vehicle"
     ],
     "path": "images/rankomat/mobile/02-start-formularz.png",
-    "description": "rankomat mobile krok 2: Dane pojazdu (start-formularz)"
+    "width": 399,
+    "height": 1024
   },
   {
     "site": "rankomat",
     "device": "mobile",
     "step": 3,
+    "description": "rankomat mobile krok 3: Ranking ofert (lista-ofert)",
     "tag": "offers",
     "tags": [
       "offers"
     ],
     "path": "images/rankomat/mobile/03-lista-ofert.png",
-    "description": "rankomat mobile krok 3: Ranking ofert (lista-ofert)"
+    "width": 399,
+    "height": 1024
   },
   {
     "site": "rankomat",
     "device": "mobile",
     "step": 4,
+    "description": "rankomat mobile krok 4: Checkout / dane kontaktowe i zgody (checkout-dodatki)",
     "tag": "checkout",
     "tags": [
       "checkout"
     ],
     "path": "images/rankomat/mobile/04-checkout-dodatki.png",
-    "description": "rankomat mobile krok 4: Checkout / dane kontaktowe i zgody (checkout-dodatki)"
+    "width": 399,
+    "height": 1024
   },
   {
     "site": "rankomat",
     "device": "mobile",
     "step": 5,
+    "description": "rankomat mobile krok 5: Checkout / dane kontaktowe i zgody (checkout-dane)",
     "tag": "checkout",
     "tags": [
       "checkout"
     ],
     "path": "images/rankomat/mobile/05-checkout-dane.png",
-    "description": "rankomat mobile krok 5: Checkout / dane kontaktowe i zgody (checkout-dane)"
+    "width": 399,
+    "height": 1024
   },
   {
     "site": "insurify",
     "device": "mobile",
     "step": 1,
+    "description": "insurify mobile krok 1: home",
     "tag": "home.png",
     "tags": [
       "home.png"
     ],
     "path": "images/insurify/mobile/01-home.png",
-    "description": "insurify mobile krok 1: home"
+    "width": 399,
+    "height": 1024
   },
   {
     "site": "insurify",
     "device": "mobile",
     "step": 2,
+    "description": "insurify mobile krok 2: vehicle-ubezpieczony",
     "tag": "vehicle",
     "tags": [
       "vehicle"
     ],
     "path": "images/insurify/mobile/02-vehicle-ubezpieczony.png",
-    "description": "insurify mobile krok 2: vehicle-ubezpieczony"
+    "width": 399,
+    "height": 1024
   },
   {
     "site": "insurify",
     "device": "mobile",
     "step": 3,
+    "description": "insurify mobile krok 3: vehicle-termin-zakupu",
     "tag": "vehicle",
     "tags": [
       "vehicle"
     ],
     "path": "images/insurify/mobile/03-vehicle-termin-zakupu.png",
-    "description": "insurify mobile krok 3: vehicle-termin-zakupu"
+    "width": 399,
+    "height": 1024
   },
   {
     "site": "insurify",
     "device": "mobile",
     "step": 4,
+    "description": "insurify mobile krok 4: vehicle-wlasciciel-domu",
     "tag": "vehicle",
     "tags": [
       "vehicle"
     ],
     "path": "images/insurify/mobile/04-vehicle-wlasciciel-domu.png",
-    "description": "insurify mobile krok 4: vehicle-wlasciciel-domu"
+    "width": 399,
+    "height": 1024
   },
   {
     "site": "insurify",
     "device": "mobile",
     "step": 5,
+    "description": "insurify mobile krok 5: vehicle-liczba-aut",
     "tag": "vehicle",
     "tags": [
       "vehicle"
     ],
     "path": "images/insurify/mobile/05-vehicle-liczba-aut.png",
-    "description": "insurify mobile krok 5: vehicle-liczba-aut"
+    "width": 399,
+    "height": 1024
   },
   {
     "site": "insurify",
     "device": "mobile",
     "step": 6,
+    "description": "insurify mobile krok 6: vehicle-rok",
     "tag": "vehicle",
     "tags": [
       "vehicle"
     ],
     "path": "images/insurify/mobile/06-vehicle-rok.png",
-    "description": "insurify mobile krok 6: vehicle-rok"
+    "width": 399,
+    "height": 1024
   },
   {
     "site": "insurify",
     "device": "mobile",
     "step": 7,
+    "description": "insurify mobile krok 7: vehicle-marka",
     "tag": "vehicle",
     "tags": [
       "vehicle"
     ],
     "path": "images/insurify/mobile/07-vehicle-marka.png",
-    "description": "insurify mobile krok 7: vehicle-marka"
+    "width": 399,
+    "height": 1024
   },
   {
     "site": "insurify",
     "device": "mobile",
     "step": 8,
+    "description": "insurify mobile krok 8: vehicle-model",
     "tag": "vehicle",
     "tags": [
       "vehicle"
     ],
     "path": "images/insurify/mobile/08-vehicle-model.png",
-    "description": "insurify mobile krok 8: vehicle-model"
+    "width": 399,
+    "height": 1024
   },
   {
     "site": "insurify",
     "device": "mobile",
     "step": 9,
+    "description": "insurify mobile krok 9: vehicle-wersja",
     "tag": "vehicle",
     "tags": [
       "vehicle"
     ],
     "path": "images/insurify/mobile/09-vehicle-wersja.png",
-    "description": "insurify mobile krok 9: vehicle-wersja"
+    "width": 399,
+    "height": 1024
   },
   {
     "site": "insurify",
     "device": "mobile",
     "step": 10,
+    "description": "insurify mobile krok 10: vehicle-nadwozie",
     "tag": "vehicle",
     "tags": [
       "vehicle"
     ],
     "path": "images/insurify/mobile/10-vehicle-nadwozie.png",
-    "description": "insurify mobile krok 10: vehicle-nadwozie"
+    "width": 399,
+    "height": 1024
   },
   {
     "site": "insurify",
     "device": "mobile",
     "step": 11,
+    "description": "insurify mobile krok 11: vehicle-uzytkowanie",
     "tag": "vehicle",
     "tags": [
       "vehicle"
     ],
     "path": "images/insurify/mobile/11-vehicle-uzytkowanie.png",
-    "description": "insurify mobile krok 11: vehicle-uzytkowanie"
+    "width": 399,
+    "height": 1024
   },
   {
     "site": "insurify",
     "device": "mobile",
     "step": 12,
+    "description": "insurify mobile krok 12: vehicle-przebieg",
     "tag": "vehicle",
     "tags": [
       "vehicle"
     ],
     "path": "images/insurify/mobile/12-vehicle-przebieg.png",
-    "description": "insurify mobile krok 12: vehicle-przebieg"
+    "width": 399,
+    "height": 1024
   },
   {
     "site": "insurify",
     "device": "mobile",
     "step": 13,
+    "description": "insurify mobile krok 13: vehicle-wlasnosc",
     "tag": "vehicle",
     "tags": [
       "vehicle"
     ],
     "path": "images/insurify/mobile/13-vehicle-wlasnosc.png",
-    "description": "insurify mobile krok 13: vehicle-wlasnosc"
+    "width": 399,
+    "height": 1024
   },
   {
     "site": "insurify",
     "device": "mobile",
     "step": 14,
+    "description": "insurify mobile krok 14: vehicle-zakres",
     "tag": "vehicle",
     "tags": [
       "vehicle"
     ],
     "path": "images/insurify/mobile/14-vehicle-zakres.png",
-    "description": "insurify mobile krok 14: vehicle-zakres"
+    "width": 399,
+    "height": 1024
   },
   {
     "site": "insurify",
     "device": "mobile",
     "step": 15,
+    "description": "insurify mobile krok 15: driver-data-urodzenia",
     "tag": "driver",
     "tags": [
       "driver"
     ],
     "path": "images/insurify/mobile/15-driver-data-urodzenia.png",
-    "description": "insurify mobile krok 15: driver-data-urodzenia"
+    "width": 399,
+    "height": 1024
   },
   {
     "site": "insurify",
     "device": "mobile",
     "step": 16,
+    "description": "insurify mobile krok 16: driver-plec",
     "tag": "driver",
     "tags": [
       "driver"
     ],
     "path": "images/insurify/mobile/16-driver-plec.png",
-    "description": "insurify mobile krok 16: driver-plec"
+    "width": 399,
+    "height": 1024
   },
   {
     "site": "insurify",
     "device": "mobile",
     "step": 17,
+    "description": "insurify mobile krok 17: driver-prawo-jazdy",
     "tag": "driver",
     "tags": [
       "driver"
     ],
     "path": "images/insurify/mobile/17-driver-prawo-jazdy.png",
-    "description": "insurify mobile krok 17: driver-prawo-jazdy"
+    "width": 399,
+    "height": 1024
   },
   {
     "site": "insurify",
     "device": "mobile",
     "step": 18,
+    "description": "insurify mobile krok 18: driver-znizki",
     "tag": "driver",
     "tags": [
       "driver"
     ],
     "path": "images/insurify/mobile/18-driver-znizki.png",
-    "description": "insurify mobile krok 18: driver-znizki"
+    "width": 399,
+    "height": 1024
   },
   {
     "site": "insurify",
     "device": "mobile",
     "step": 19,
+    "description": "insurify mobile krok 19: driver-zawod",
     "tag": "driver",
     "tags": [
       "driver"
     ],
     "path": "images/insurify/mobile/19-driver-zawod.png",
-    "description": "insurify mobile krok 19: driver-zawod"
+    "width": 399,
+    "height": 1024
   },
   {
     "site": "insurify",
     "device": "mobile",
     "step": 20,
+    "description": "insurify mobile krok 20: driver-wypadki",
     "tag": "driver",
     "tags": [
       "driver"
     ],
     "path": "images/insurify/mobile/20-driver-wypadki.png",
-    "description": "insurify mobile krok 20: driver-wypadki"
+    "width": 399,
+    "height": 1024
   },
   {
     "site": "insurify",
     "device": "mobile",
     "step": 21,
+    "description": "insurify mobile krok 21: details-imie-nazwisko",
     "tag": "details",
     "tags": [
       "details"
     ],
     "path": "images/insurify/mobile/21-details-imie-nazwisko.png",
-    "description": "insurify mobile krok 21: details-imie-nazwisko"
+    "width": 399,
+    "height": 1024
   },
   {
     "site": "insurify",
     "device": "mobile",
     "step": 22,
+    "description": "insurify mobile krok 22: details-kolejny-kierowca",
     "tag": "details",
     "tags": [
       "details"
     ],
     "path": "images/insurify/mobile/22-details-kolejny-kierowca.png",
-    "description": "insurify mobile krok 22: details-kolejny-kierowca"
+    "width": 399,
+    "height": 1024
   },
   {
     "site": "insurify",
     "device": "mobile",
     "step": 23,
+    "description": "insurify mobile krok 23: checkout-email-zgody",
     "tag": "checkout",
     "tags": [
       "checkout"
     ],
     "path": "images/insurify/mobile/23-checkout-email-zgody.png",
-    "description": "insurify mobile krok 23: checkout-email-zgody"
+    "width": 399,
+    "height": 1024
   },
   {
     "site": "kioskpolis",
     "device": "desktop",
     "step": 8,
+    "description": "kioskpolis desktop krok 8: Dane właściciela z PESEL, rokiem prawa jazdy (details)",
     "tag": "details",
     "tags": [
       "details"
     ],
     "path": "images/kioskpolis/desktop/08-details-pesel-uzupelniony.png",
-    "description": "kioskpolis desktop krok 8: Dane właściciela z PESEL, rokiem prawa jazdy (details)"
+    "width": 1920,
+    "height": 1200
   },
   {
     "site": "kioskpolis",
     "device": "desktop",
     "step": 9,
+    "description": "kioskpolis desktop krok 9: Ładowanie ofert (loading)",
     "tag": "loading",
     "tags": [
       "loading"
     ],
     "path": "images/kioskpolis/desktop/09-loading-oferty.png",
-    "description": "kioskpolis desktop krok 9: Ładowanie ofert (loading)"
+    "width": 1920,
+    "height": 1200
   },
   {
     "site": "kioskpolis",
     "device": "desktop",
     "step": 10,
+    "description": "kioskpolis desktop krok 10: Lista ofert (offers)",
     "tag": "offers",
     "tags": [
       "offers"
     ],
     "path": "images/kioskpolis/desktop/10-offers-lista-ofert.png",
-    "description": "kioskpolis desktop krok 10: Lista ofert (offers)"
+    "width": 1920,
+    "height": 1200
   },
   {
     "site": "kioskpolis",
     "device": "desktop",
     "step": 11,
+    "description": "kioskpolis desktop krok 11: Podsumowanie zakupu (LINK4 OC+Assistance) (checkout)",
     "tag": "checkout",
     "tags": [
       "checkout"
     ],
     "path": "images/kioskpolis/desktop/11-checkout-podsumowanie-zakupu.png",
-    "description": "kioskpolis desktop krok 11: Podsumowanie zakupu (LINK4 OC+Assistance) (checkout)"
+    "width": 1920,
+    "height": 1200
   },
   {
     "site": "kioskpolis",
     "device": "desktop",
     "step": 12,
+    "description": "kioskpolis desktop krok 12: Wybór formy płatności (bez płatności) (payment)",
     "tag": "payment",
     "tags": [
       "payment"
     ],
     "path": "images/kioskpolis/desktop/12-payment-forma-platnosci.png",
-    "description": "kioskpolis desktop krok 12: Wybór formy płatności (bez płatności) (payment)"
+    "width": 1920,
+    "height": 1200
   },
   {
     "site": "kioskpolis",
     "device": "mobile",
     "step": 7,
+    "description": "kioskpolis mobile krok 7: Dane właściciela z PESEL (details)",
     "tag": "details",
     "tags": [
       "details"
     ],
     "path": "images/kioskpolis/mobile/07-details-wlasciciel-pesel.png",
-    "description": "kioskpolis mobile krok 7: Dane właściciela z PESEL (details)"
+    "width": 370,
+    "height": 1024
   },
   {
     "site": "kioskpolis",
     "device": "mobile",
     "step": 8,
+    "description": "kioskpolis mobile krok 8: Dane kontaktowe z telefonem (details)",
     "tag": "details",
     "tags": [
       "details"
     ],
     "path": "images/kioskpolis/mobile/08-details-kontakt-telefon.png",
-    "description": "kioskpolis mobile krok 8: Dane kontaktowe z telefonem (details)"
+    "width": 370,
+    "height": 1024
   },
   {
     "site": "kioskpolis",
     "device": "mobile",
     "step": 9,
+    "description": "kioskpolis mobile krok 9: Ładowanie ofert (loading)",
     "tag": "loading",
     "tags": [
       "loading"
     ],
     "path": "images/kioskpolis/mobile/09-loading-oferty.png",
-    "description": "kioskpolis mobile krok 9: Ładowanie ofert (loading)"
+    "width": 370,
+    "height": 1024
   },
   {
     "site": "kioskpolis",
     "device": "mobile",
     "step": 10,
+    "description": "kioskpolis mobile krok 10: Rekomendowane oferty (offers)",
     "tag": "offers",
     "tags": [
       "offers"
     ],
     "path": "images/kioskpolis/mobile/10-offers-rekomendacje.png",
-    "description": "kioskpolis mobile krok 10: Rekomendowane oferty (offers)"
+    "width": 370,
+    "height": 1024
   },
   {
     "site": "kioskpolis",
     "device": "mobile",
     "step": 11,
+    "description": "kioskpolis mobile krok 11: Podsumowanie zakupu (checkout)",
     "tag": "checkout",
     "tags": [
       "checkout"
     ],
     "path": "images/kioskpolis/mobile/11-checkout-podsumowanie-zakupu.png",
-    "description": "kioskpolis mobile krok 11: Podsumowanie zakupu (checkout)"
+    "width": 370,
+    "height": 1024
   },
   {
     "site": "kioskpolis",
     "device": "mobile",
     "step": 12,
+    "description": "kioskpolis mobile krok 12: Wybór formy płatności (bez płatności) (payment)",
     "tag": "payment",
     "tags": [
       "payment"
     ],
     "path": "images/kioskpolis/mobile/12-payment-forma-platnosci.png",
-    "description": "kioskpolis mobile krok 12: Wybór formy płatności (bez płatności) (payment)"
+    "width": 370,
+    "height": 1024
   },
   {
     "site": "rankomat",
     "device": "mobile",
     "step": 6,
+    "description": "rankomat mobile krok 6: Checkout: dane ubezpieczającego wypełnione (checkout)",
     "tag": "checkout",
     "tags": [
       "checkout"
     ],
     "path": "images/rankomat/mobile/06-checkout-dane-wypelnione.png",
-    "description": "rankomat mobile krok 6: Checkout: dane ubezpieczającego wypełnione (checkout)"
+    "width": 370,
+    "height": 1024
   },
   {
     "site": "rankomat",
     "device": "mobile",
     "step": 7,
+    "description": "rankomat mobile krok 7: Checkout: numer telefonu zablokowany przez serwis (checkout)",
     "tag": "checkout",
     "tags": [
       "checkout"
     ],
     "path": "images/rankomat/mobile/07-checkout-telefon-zablokowany.png",
-    "description": "rankomat mobile krok 7: Checkout: numer telefonu zablokowany przez serwis (checkout)"
+    "width": 370,
+    "height": 1024
   },
   {
     "site": "rankomat",
     "device": "desktop",
     "step": 9,
+    "description": "rankomat desktop krok 9: Checkout: numer telefonu zablokowany przez serwis (checkout)",
     "tag": "checkout",
     "tags": [
       "checkout"
     ],
     "path": "images/rankomat/desktop/09-checkout-telefon-zablokowany.png",
-    "description": "rankomat desktop krok 9: Checkout: numer telefonu zablokowany przez serwis (checkout)"
+    "width": 1024,
+    "height": 594
+  },
+  {
+    "site": "rankomat",
+    "device": "desktop",
+    "step": 10,
+    "description": "rankomat desktop krok 10: Checkout – telefon +48500100200 również zablokowany (1920x1200 natywnie)",
+    "tag": "checkout",
+    "tags": [
+      "checkout"
+    ],
+    "path": "images/rankomat/desktop/10-checkout-telefon-500100200-zablokowany.png",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "rankomat",
+    "device": "desktop",
+    "step": 10,
+    "description": "rankomat desktop krok 10: Checkout – telefon +48600999888 zaakceptowany, sekcja zgód prawnych",
+    "tag": "checkout",
+    "tags": [
+      "checkout"
+    ],
+    "path": "images/rankomat/desktop/10b-checkout-zgody-prawne.png",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "rankomat",
+    "device": "desktop",
+    "step": 11,
+    "description": "rankomat desktop krok 11: Płatność za polisę – wybór formy płatności (bez płatności, KUPUJĘ nie kliknięte)",
+    "tag": "payment",
+    "tags": [
+      "payment"
+    ],
+    "path": "images/rankomat/desktop/11-payment-forma-platnosci.png",
+    "width": 1920,
+    "height": 1200
   }
 ]
