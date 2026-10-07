@@ -5442,7 +5442,7 @@
       "landing"
     ],
     "path": "images/link4/desktop/01-landing.png",
-    "description": "link4 desktop krok 1: landing",
+    "description": "link4 desktop krok 1: strona główna Link4 z formularzem „Kup online polisę OC/AC”",
     "width": 1920,
     "height": 1200
   },
@@ -5450,12 +5450,12 @@
     "site": "link4",
     "device": "desktop",
     "step": 2,
-    "tag": "car",
+    "tag": "calculator",
     "tags": [
-      "car"
+      "calculator"
     ],
-    "path": "images/link4/desktop/02-car-insurance-page.png",
-    "description": "link4 desktop krok 2: car-insurance-page",
+    "path": "images/link4/desktop/02-calculator-start.png",
+    "description": "link4 desktop krok 2: start kalkulatora OC/AC — numer rejestracyjny i data urodzenia właściciela",
     "width": 1920,
     "height": 1200
   },
@@ -5463,12 +5463,12 @@
     "site": "link4",
     "device": "desktop",
     "step": 3,
-    "tag": "calculator",
+    "tag": "vehicle",
     "tags": [
-      "calculator"
+      "vehicle"
     ],
-    "path": "images/link4/desktop/03-calculator-start.png",
-    "description": "link4 desktop krok 3: calculator-start",
+    "path": "images/link4/desktop/03-vehicle-form.png",
+    "description": "link4 desktop krok 3: Twój pojazd — formularz danych auta (Toyota Corolla 2019)",
     "width": 1920,
     "height": 1200
   },
@@ -5476,12 +5476,12 @@
     "site": "link4",
     "device": "desktop",
     "step": 4,
-    "tag": "vehicle",
+    "tag": "version",
     "tags": [
-      "vehicle"
+      "version"
     ],
-    "path": "images/link4/desktop/04-vehicle-year-picker.png",
-    "description": "link4 desktop krok 4: vehicle-year-picker",
+    "path": "images/link4/desktop/04-version-picker.png",
+    "description": "link4 desktop krok 4: wybór wersji pojazdu z listy (Corolla 1.6 Active)",
     "width": 1920,
     "height": 1200
   },
@@ -5489,12 +5489,12 @@
     "site": "link4",
     "device": "desktop",
     "step": 5,
-    "tag": "version",
+    "tag": "usage",
     "tags": [
-      "version"
+      "usage"
     ],
-    "path": "images/link4/desktop/05-version-picker.png",
-    "description": "link4 desktop krok 5: version-picker",
+    "path": "images/link4/desktop/05-usage.png",
+    "description": "link4 desktop krok 5: Użytkowanie — instalacja gazowa, przebieg, sposób użytkowania",
     "width": 1920,
     "height": 1200
   },
@@ -5502,12 +5502,12 @@
     "site": "link4",
     "device": "desktop",
     "step": 6,
-    "tag": "vehicle",
+    "tag": "owners",
     "tags": [
-      "vehicle"
+      "owners"
     ],
-    "path": "images/link4/desktop/06-vehicle-filled.png",
-    "description": "link4 desktop krok 6: vehicle-filled",
+    "path": "images/link4/desktop/06-owners.png",
+    "description": "link4 desktop krok 6: Kierowcy — liczba właścicieli i młodzi kierowcy poniżej 24 lat",
     "width": 1920,
     "height": 1200
   },
@@ -5515,12 +5515,12 @@
     "site": "link4",
     "device": "desktop",
     "step": 7,
-    "tag": "usage",
+    "tag": "owner",
     "tags": [
-      "usage"
+      "owner"
     ],
-    "path": "images/link4/desktop/07-usage-picker.png",
-    "description": "link4 desktop krok 7: usage-picker",
+    "path": "images/link4/desktop/07-owner-validation-errors.png",
+    "description": "link4 desktop krok 7: dane właściciela — błędy walidacji pustych pól",
     "width": 1920,
     "height": 1200
   },
@@ -5528,12 +5528,12 @@
     "site": "link4",
     "device": "desktop",
     "step": 8,
-    "tag": "drivers",
+    "tag": "owner",
     "tags": [
-      "drivers"
+      "owner"
     ],
-    "path": "images/link4/desktop/08-drivers-owners.png",
-    "description": "link4 desktop krok 8: drivers-owners",
+    "path": "images/link4/desktop/08-owner-filled.png",
+    "description": "link4 desktop krok 8: dane właściciela uzupełnione (PESEL testowy, imię, nazwisko, telefon)",
     "width": 1920,
     "height": 1200
   },
@@ -5541,12 +5541,12 @@
     "site": "link4",
     "device": "desktop",
     "step": 9,
-    "tag": "owner",
+    "tag": "zgody",
     "tags": [
-      "owner"
+      "zgody"
     ],
-    "path": "images/link4/desktop/09-owner-validation-error.png",
-    "description": "link4 desktop krok 9: owner-validation-error",
+    "path": "images/link4/desktop/09-zgody.png",
+    "description": "link4 desktop krok 9: Zgody — data rozpoczęcia ubezpieczenia i oświadczenia",
     "width": 1920,
     "height": 1200
   },
@@ -5554,12 +5554,12 @@
     "site": "link4",
     "device": "desktop",
     "step": 10,
-    "tag": "owner",
+    "tag": "start",
     "tags": [
-      "owner"
+      "start"
     ],
-    "path": "images/link4/desktop/10-owner-filled.png",
-    "description": "link4 desktop krok 10: owner-filled",
+    "path": "images/link4/desktop/10-start-date-calendar.png",
+    "description": "link4 desktop krok 10: kalendarz wyboru daty rozpoczęcia ubezpieczenia",
     "width": 1920,
     "height": 1200
   },
@@ -5567,12 +5567,12 @@
     "site": "link4",
     "device": "desktop",
     "step": 11,
-    "tag": "consents",
+    "tag": "offer",
     "tags": [
-      "consents"
+      "offer"
     ],
-    "path": "images/link4/desktop/11-consents.png",
-    "description": "link4 desktop krok 11: consents",
+    "path": "images/link4/desktop/11-offer-variants.png",
+    "description": "link4 desktop krok 11: „Dostosuj do swoich potrzeb” — warianty podstawowy / standardowy / rozszerzony",
     "width": 1920,
     "height": 1200
   },
@@ -5580,12 +5580,12 @@
     "site": "link4",
     "device": "desktop",
     "step": 12,
-    "tag": "start",
+    "tag": "additional",
     "tags": [
-      "start"
+      "additional"
     ],
-    "path": "images/link4/desktop/12-start-date-picker.png",
-    "description": "link4 desktop krok 12: start-date-picker",
+    "path": "images/link4/desktop/12-additional-options.png",
+    "description": "link4 desktop krok 12: „Potrzebujesz dodatkowej ochrony?” — dodatki, m.in. Auto Assistance, z podsumowaniem ceny",
     "width": 1920,
     "height": 1200
   },
@@ -5593,12 +5593,12 @@
     "site": "link4",
     "device": "desktop",
     "step": 13,
-    "tag": "consents",
+    "tag": "your",
     "tags": [
-      "consents"
+      "your"
     ],
-    "path": "images/link4/desktop/13-consents-filled.png",
-    "description": "link4 desktop krok 13: consents-filled",
+    "path": "images/link4/desktop/13-your-offer.png",
+    "description": "link4 desktop krok 13: Twoja oferta — OC + AC + NNW + MiniAssistance, 2 262,98 zł po rabacie 7% online (przed: 2 428,74 zł)",
     "width": 1920,
     "height": 1200
   },
@@ -5606,12 +5606,12 @@
     "site": "link4",
     "device": "desktop",
     "step": 14,
-    "tag": "online",
+    "tag": "registration",
     "tags": [
-      "online"
+      "registration"
     ],
-    "path": "images/link4/desktop/14-online-purchase-unavailable-modal.png",
-    "description": "link4 desktop krok 14: online-purchase-unavailable-modal",
+    "path": "images/link4/desktop/14-registration-vin.png",
+    "description": "link4 desktop krok 14: Potwierdzenie danych — wymagany numer rejestracyjny i VIN (koniec flow, bez wpisywania VIN)",
     "width": 1920,
     "height": 1200
   },
@@ -5624,7 +5624,7 @@
       "landing"
     ],
     "path": "images/link4/mobile/01-landing.png",
-    "description": "link4 mobile krok 1: landing",
+    "description": "link4 mobile krok 1: strona główna Link4 z formularzem „Kup online polisę OC/AC”",
     "width": 1170,
     "height": 2532
   },
@@ -5632,12 +5632,12 @@
     "site": "link4",
     "device": "mobile",
     "step": 2,
-    "tag": "car",
+    "tag": "calculator",
     "tags": [
-      "car"
+      "calculator"
     ],
-    "path": "images/link4/mobile/02-car-insurance-page.png",
-    "description": "link4 mobile krok 2: car-insurance-page",
+    "path": "images/link4/mobile/02-calculator-start.png",
+    "description": "link4 mobile krok 2: start kalkulatora OC/AC — numer rejestracyjny i data urodzenia właściciela",
     "width": 1170,
     "height": 2532
   },
@@ -5645,12 +5645,12 @@
     "site": "link4",
     "device": "mobile",
     "step": 3,
-    "tag": "calculator",
+    "tag": "vehicle",
     "tags": [
-      "calculator"
+      "vehicle"
     ],
-    "path": "images/link4/mobile/03-calculator-start.png",
-    "description": "link4 mobile krok 3: calculator-start",
+    "path": "images/link4/mobile/03-vehicle-form.png",
+    "description": "link4 mobile krok 3: Twój pojazd — formularz danych auta (Toyota Corolla 2019)",
     "width": 1170,
     "height": 2532
   },
@@ -5662,8 +5662,8 @@
     "tags": [
       "vehicle"
     ],
-    "path": "images/link4/mobile/04-vehicle-year-picker.png",
-    "description": "link4 mobile krok 4: vehicle-year-picker",
+    "path": "images/link4/mobile/04-vehicle-filled.png",
+    "description": "link4 mobile krok 4: Twój pojazd — uzupełnione dane Toyoty Corolla 2019",
     "width": 1170,
     "height": 2532
   },
@@ -5671,12 +5671,12 @@
     "site": "link4",
     "device": "mobile",
     "step": 5,
-    "tag": "vehicle",
+    "tag": "usage",
     "tags": [
-      "vehicle"
+      "usage"
     ],
-    "path": "images/link4/mobile/05-vehicle-filled.png",
-    "description": "link4 mobile krok 5: vehicle-filled",
+    "path": "images/link4/mobile/05-usage.png",
+    "description": "link4 mobile krok 5: Użytkowanie — instalacja gazowa, przebieg, sposób użytkowania",
     "width": 1170,
     "height": 2532
   },
@@ -5684,12 +5684,12 @@
     "site": "link4",
     "device": "mobile",
     "step": 6,
-    "tag": "usage",
+    "tag": "owners",
     "tags": [
-      "usage"
+      "owners"
     ],
-    "path": "images/link4/mobile/06-usage-picker.png",
-    "description": "link4 mobile krok 6: usage-picker",
+    "path": "images/link4/mobile/06-owners.png",
+    "description": "link4 mobile krok 6: Kierowcy — liczba właścicieli i młodzi kierowcy poniżej 24 lat",
     "width": 1170,
     "height": 2532
   },
@@ -5697,12 +5697,12 @@
     "site": "link4",
     "device": "mobile",
     "step": 7,
-    "tag": "drivers",
+    "tag": "owner",
     "tags": [
-      "drivers"
+      "owner"
     ],
-    "path": "images/link4/mobile/07-drivers-owners.png",
-    "description": "link4 mobile krok 7: drivers-owners",
+    "path": "images/link4/mobile/07-owner-validation-errors.png",
+    "description": "link4 mobile krok 7: dane właściciela — błędy walidacji pustych pól",
     "width": 1170,
     "height": 2532
   },
@@ -5715,7 +5715,7 @@
       "owner"
     ],
     "path": "images/link4/mobile/08-owner-filled.png",
-    "description": "link4 mobile krok 8: owner-filled",
+    "description": "link4 mobile krok 8: dane właściciela uzupełnione (PESEL testowy, imię, nazwisko, telefon)",
     "width": 1170,
     "height": 2532
   },
@@ -5723,12 +5723,12 @@
     "site": "link4",
     "device": "mobile",
     "step": 9,
-    "tag": "consents",
+    "tag": "zgody",
     "tags": [
-      "consents"
+      "zgody"
     ],
-    "path": "images/link4/mobile/09-consents-filled.png",
-    "description": "link4 mobile krok 9: consents-filled",
+    "path": "images/link4/mobile/09-zgody.png",
+    "description": "link4 mobile krok 9: Zgody — data rozpoczęcia ubezpieczenia i oświadczenia",
     "width": 1170,
     "height": 2532
   },
@@ -5736,12 +5736,90 @@
     "site": "link4",
     "device": "mobile",
     "step": 10,
-    "tag": "online",
+    "tag": "start",
     "tags": [
-      "online"
+      "start"
     ],
-    "path": "images/link4/mobile/10-online-purchase-unavailable-modal.png",
-    "description": "link4 mobile krok 10: online-purchase-unavailable-modal",
+    "path": "images/link4/mobile/10-start-date-calendar.png",
+    "description": "link4 mobile krok 10: kalendarz wyboru daty rozpoczęcia ubezpieczenia",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "link4",
+    "device": "mobile",
+    "step": 11,
+    "tag": "offer",
+    "tags": [
+      "offer"
+    ],
+    "path": "images/link4/mobile/11-offer-variants.png",
+    "description": "link4 mobile krok 11: „Dostosuj do swoich potrzeb” — warianty podstawowy / standardowy / rozszerzony",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "link4",
+    "device": "mobile",
+    "step": 12,
+    "tag": "offer",
+    "tags": [
+      "offer"
+    ],
+    "path": "images/link4/mobile/12-offer-variants-scroll1.png",
+    "description": "link4 mobile krok 12: warianty po przewinięciu — wariant podstawowy 1 999,14 zł i początek wariantu standardowego",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "link4",
+    "device": "mobile",
+    "step": 13,
+    "tag": "offer",
+    "tags": [
+      "offer"
+    ],
+    "path": "images/link4/mobile/13-offer-variants-scroll2.png",
+    "description": "link4 mobile krok 13: wybrany wariant standardowy 2 262,98 zł (−7% online, przed 2 428,74 zł) i początek wariantu rozszerzonego",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "link4",
+    "device": "mobile",
+    "step": 14,
+    "tag": "additional",
+    "tags": [
+      "additional"
+    ],
+    "path": "images/link4/mobile/14-additional-options.png",
+    "description": "link4 mobile krok 14: „Potrzebujesz dodatkowej ochrony?” — dodatki, m.in. Auto Assistance, z podsumowaniem ceny",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "link4",
+    "device": "mobile",
+    "step": 15,
+    "tag": "your",
+    "tags": [
+      "your"
+    ],
+    "path": "images/link4/mobile/15-your-offer.png",
+    "description": "link4 mobile krok 15: Twoja oferta — OC + AC + NNW + MiniAssistance, 2 262,98 zł po rabacie 7% online (przed: 2 428,74 zł)",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "link4",
+    "device": "mobile",
+    "step": 16,
+    "tag": "registration",
+    "tags": [
+      "registration"
+    ],
+    "path": "images/link4/mobile/16-registration-vin.png",
+    "description": "link4 mobile krok 16: Potwierdzenie danych — wymagany numer rejestracyjny i VIN (koniec flow, bez wpisywania VIN)",
     "width": 1170,
     "height": 2532
   }

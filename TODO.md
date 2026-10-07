@@ -12,16 +12,16 @@ Zmiany w tym pliku **bez osobnego deployu** — wjeżdżają przy następnym dep
 - [x] Edycje samego TODO.md bez osobnego deployu (wchodzą z następnym deployem)
 - [x] **Długie ekrany (np. lista ofert):** 1–2 dodatkowe screeny po lekkim scrollu (nie za dużo)
 - [x] **Przy każdym nowym flow:** czyścić formularz/dane strony i zaczynać od zera (pełne flow widoczne) — zasada ogólna dla wszystkich porównywarek
+- [x] **Testowe PESEL-e:** użytkownik zgodził się na inne testowe numery PESEL (drugi: `65031012341`, obok `85051599019`)
 - [x] **Pierwszy ekran = strona główna (landing)**, nie ekran samej zgody na cookies — banner cookies najwyżej jako kolejny krok
 
 ## W toku
 
-- [ ] **Link4** — spróbować inny profil danych, żeby zobaczyć ofertę (przy okazji ponowić 3 ekrany mobile: walidacja właściciela, Zgody, kalendarz daty startu)
+- [ ] **The Zebra** — dokończenie (oferty + mobile)
 
 ## Kolejka
 
 1. [ ] **Mubi desktop** — ostra wersja 1920×1200 bez paska przeglądarki (ponowić, mubi.pl blokowało 403 przy wyborze marki)
-2. [ ] **The Zebra** — dokończyć (oferty + mobile) gdy Cloudflare puści
 
 ## Pominięte (wrócimy później)
 
@@ -29,8 +29,9 @@ Zmiany w tym pliku **bez osobnego deployu** — wjeżdżają przy następnym dep
 
 ## Zrobione
 
+- [x] **Link4 v2** — inny profil (Toyota Corolla 2019): desktop **14** + mobile **16** (1170×2532), doszło do oferty — wariant standardowy **2 262,98 zł** po rabacie 7% online (przed 2 428,74 zł), OC + AC + NNW + MiniAssistance; zatrzymane na „Potwierdzenie danych” (wymagany nr rejestracyjny i VIN), na produkcji
 - [x] **Poprawka landingów mobile:** Rankomat, Mubi, Lemonade — krok 1 to czysty landing bez banera cookies (1170×2532), na produkcji
-- [x] **Link4** — częściowo: desktop **14** (1920×1200) + mobile **10** (1170×2532; 3 ekrany mobile z błędnym zoomem pominięte, wersja tylko na desktopie). Po Zgodach Link4 odmówił sprzedaży online dla profilu testowego — modal „kontakt z infolinią”, brak ofert. Na produkcji
+- [x] **Link4** (v1, zastąpione przez v2) — częściowo: desktop **14** (1920×1200) + mobile **10** (1170×2532; 3 ekrany mobile z błędnym zoomem pominięte, wersja tylko na desktopie). Po Zgodach Link4 odmówił sprzedaży online dla profilu testowego — modal „kontakt z infolinią”, brak ofert. Na produkcji
 - [x] **Pierwszy ekran bez cookies** — usunięte ekrany zgody cookies jako krok 1: Mubi desktop (2 ekrany cookies → start od landingu), The Zebra (landing bez bannera ze starszej sesji), Beesafe. Rankomat mobile i Mubi mobile — poprawione osobno (nowe czyste landingi)
 - [x] **Beesafe** — częściowo: desktop **16** (1920×1200) + mobile **17** (1170×2532), od landingu do oferty i danych właściciela; zatrzymane na polu VIN (strona wymaga VIN przed podsumowaniem/płatnością), na produkcji
 - [x] **The Zebra** — opublikowane częściowo: desktop **16** (1920×1200, od landingu do pytania o płeć kierowcy; Cloudflare blokuje od roku auta w nowej sesji), mobile **0**, na produkcji
