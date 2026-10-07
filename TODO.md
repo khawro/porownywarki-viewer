@@ -13,7 +13,7 @@ Zmiany w tym pliku **bez osobnego deployu** — wjeżdżają przy następnym dep
 
 ## W toku
 
-- [ ] **Insurify** — świeże natywne mobile 1170×2532 (obecne na prod to upscale), bez DevTools; desktop już OK
+- [ ] **Lemonade** — desktop + mobile 1170×2532, bez DevTools
 
 ## Pominięte (wrócimy później)
 
@@ -21,14 +21,14 @@ Zmiany w tym pliku **bez osobnego deployu** — wjeżdżają przy następnym dep
 
 ## Kolejka
 
-1. [ ] **Lemonade** — desktop + mobile 1170×2532, bez DevTools
-2. [ ] **Mubi** — desktop + mobile 1170×2532, bez DevTools
-3. [ ] **GoCompare** — desktop + mobile 1170×2532, bez DevTools
-4. [ ] **Dark mode** — motyw ciemny z przełącznikiem
-5. [ ] **The Zebra** — wznowić później (oferty + mobile), gdy block opadnie
+1. [ ] **Mubi** — desktop + mobile 1170×2532, bez DevTools
+2. [ ] **GoCompare** — desktop + mobile 1170×2532, bez DevTools
+3. [ ] **Dark mode** — motyw ciemny z przełącznikiem
+4. [ ] **The Zebra** — wznowić później (oferty + mobile), gdy block opadnie
 
 ## Zrobione
 
+- [x] **Insurify** — desktop OK + natywne mobile **45 / 45** do ofert, 1170×2532, na produkcji
 - [x] **NerdWallet** — desktop 20 + mobile 21, 1920×1200 / 1170×2532, na produkcji
 - [x] **Kiosk Polis** — mobile 1170×2532 (**12 / 12**) na produkcji
 - [x] **Rankomat** mobile — 1170×2532 (**7 / 7**) na produkcji
