@@ -24,6 +24,8 @@ Zmiany w tym pliku **bez osobnego deployu** — wjeżdżają przy następnym dep
 3. [ ] **GoCompare** — desktop + mobile 1170×2532, bez DevTools
 4. [ ] **Dark mode** — motyw ciemny z przełącznikiem
 5. [ ] **The Zebra** — wznowić później (oferty + mobile), gdy block opadnie
+6. [ ] **Beesafe** — desktop + mobile 1170×2532, bez DevTools
+7. [ ] **Link4** — desktop + mobile 1170×2532, bez DevTools
 
 ## Pominięte (wrócimy później)
 
