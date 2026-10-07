@@ -68,9 +68,24 @@ img {
 .topbar-left {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 10px;
   min-width: 0;
   justify-self: start;
+}
+
+.app-title {
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  color: var(--ink);
+  text-decoration: none;
+  white-space: nowrap;
+  padding: 0 4px 0 8px;
+  flex-shrink: 0;
+}
+
+.app-title:hover {
+  color: var(--ink);
 }
 
 .topbar-center {
@@ -270,17 +285,18 @@ img {
   width: 280px;
   max-width: 100%;
   padding: 12px;
-  border: 1px solid #e0e0e0;
+  border: none;
+  outline: none;
   border-radius: var(--radius-card);
-  background: var(--canvas);
+  background: var(--surface);
   box-shadow: none;
   text-align: left;
-  transition: border-color 0.12s ease;
 }
 
 .site-card:hover {
-  border-color: #cfcfcf;
+  border: none;
   box-shadow: none;
+  background: #ebebeb;
 }
 
 .site-card-thumb {
@@ -289,8 +305,10 @@ img {
   object-fit: cover;
   object-position: top;
   border-radius: 12px;
-  border: 1px solid #e0e0e0;
-  background: var(--surface);
+  border: none;
+  outline: none;
+  box-shadow: none;
+  background: var(--canvas);
 }
 
 .site-card.is-mobile .site-card-thumb {
@@ -380,10 +398,11 @@ img {
 .stage-frame {
   width: 100%;
   max-width: 1100px;
-  background: transparent;
-  border-radius: 0;
+  background: var(--surface);
+  border-radius: var(--radius-card);
   border: none;
-  padding: 0;
+  outline: none;
+  padding: 20px;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -396,7 +415,8 @@ img {
   height: auto;
   border-radius: 12px;
   background: var(--canvas);
-  border: 1px solid #e0e0e0;
+  border: none;
+  outline: none;
   box-shadow: none;
   image-rendering: auto;
 }
@@ -520,17 +540,18 @@ img {
   width: 280px;
   max-width: 100%;
   padding: 12px;
-  border: 1px solid #e0e0e0;
+  border: none;
+  outline: none;
   border-radius: var(--radius-card);
-  background: var(--canvas);
+  background: var(--surface);
   box-shadow: none;
   text-align: left;
-  transition: border-color 0.12s ease;
 }
 
 .result-card:hover {
-  border-color: #cfcfcf;
+  border: none;
   box-shadow: none;
+  background: #ebebeb;
 }
 
 .result-card-thumb {
@@ -539,8 +560,10 @@ img {
   object-fit: cover;
   object-position: top;
   border-radius: 12px;
-  border: 1px solid #e0e0e0;
-  background: var(--surface);
+  border: none;
+  outline: none;
+  box-shadow: none;
+  background: var(--canvas);
   margin-bottom: 6px;
 }
 

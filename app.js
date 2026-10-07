@@ -393,6 +393,13 @@
       btn.addEventListener("click", () => setDevice(btn.dataset.device));
     });
     $("#back-btn").addEventListener("click", () => goHome());
+    const appTitle = $("#app-title");
+    if (appTitle) {
+      appTitle.addEventListener("click", (e) => {
+        e.preventDefault();
+        goHome();
+      });
+    }
     const searchInput = $("#tag-search");
     const searchBox = $("#tag-search-box");
     searchInput.addEventListener("focus", () => {
