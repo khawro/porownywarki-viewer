@@ -23,6 +23,7 @@
     images: [],
     sites: [],
     siteFilter: "",
+    sitePickerOpen: false,
     device: "desktop",
     site: null,
     stepIndex: 0,
@@ -36,6 +37,22 @@
   function siteLabel(id) {
     return SITE_LABELS[id] || id;
   }
+
+  function setSitePickerOpen(open) {
+    state.sitePickerOpen = Boolean(open);
+    const picker = $("#site-picker");
+    const panel = $("#site-picker-panel");
+    const toggle = $("#site-picker-toggle");
+    if (!picker || !panel || !toggle) return;
+    picker.classList.toggle("is-collapsed", !state.sitePickerOpen);
+    panel.hidden = !state.sitePickerOpen;
+    toggle.setAttribute("aria-expanded", state.sitePickerOpen ? "true" : "false");
+    const cur = $("#site-picker-current");
+    if (cur) {
+      cur.textContent = state.site ? siteLabel(state.site) : "Strony";
+    }
+  }
+
 
   function tagLabel(t) {
     return TAG_LABELS[t] || t;
@@ -266,6 +283,7 @@
     $("#flow-mode").hidden = compare;
     $("#compare-mode").hidden = !compare;
     document.body.classList.toggle("is-compare", compare);
+    setSitePickerOpen(state.sitePickerOpen);
     renderSiteList();
     renderTagChips();
     if (compare) renderCompare();
@@ -287,6 +305,7 @@
     state.search = "";
     state.activeTag = null;
     $("#tag-search").value = "";
+    setSitePickerOpen(true);
     syncMode();
   }
 
@@ -307,6 +326,9 @@
   function bind() {
     $$(".device-toggle .pill-btn").forEach((btn) => {
       btn.addEventListener("click", () => setDevice(btn.dataset.device));
+    });
+    $("#site-picker-toggle").addEventListener("click", () => {
+      setSitePickerOpen(!state.sitePickerOpen);
     });
     $("#site-list").addEventListener("click", (e) => {
       const btn = e.target.closest("[data-site]");
@@ -387,6 +409,7 @@
       ? "rankomat"
       : state.sites[0] || null;
     bind();
+    setSitePickerOpen(false);
     syncMode();
   }
 

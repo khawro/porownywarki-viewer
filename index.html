@@ -29,15 +29,25 @@
     </div>
   </header>
 
-  <aside class="site-picker" aria-label="Porównywarki">
-    <label class="site-search-wrap" for="site-search">
-      <svg class="search-icon" width="14" height="14" viewBox="0 0 16 16" aria-hidden="true">
-        <circle cx="7" cy="7" r="5.5" fill="none" stroke="currentColor" stroke-width="1.5"/>
-        <path d="M11.5 11.5 L14.5 14.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-      </svg>
-      <input id="site-search" type="search" placeholder="Szukaj strony…" autocomplete="off" />
-    </label>
-    <div class="site-list" id="site-list" role="listbox" aria-label="Lista porównywarek"></div>
+  <aside class="site-picker is-collapsed" id="site-picker" aria-label="Porównywarki">
+    <div class="site-picker-bar">
+      <button type="button" class="site-picker-toggle" id="site-picker-toggle" aria-expanded="false" aria-controls="site-picker-panel" title="Lista stron">
+        <svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true">
+          <path d="M3 5h12M3 9h12M3 13h12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+        </svg>
+        <span class="site-picker-current" id="site-picker-current">Strony</span>
+      </button>
+    </div>
+    <div class="site-picker-panel" id="site-picker-panel" hidden>
+      <label class="site-search-wrap" for="site-search">
+        <svg class="search-icon" width="14" height="14" viewBox="0 0 16 16" aria-hidden="true">
+          <circle cx="7" cy="7" r="5.5" fill="none" stroke="currentColor" stroke-width="1.5"/>
+          <path d="M11.5 11.5 L14.5 14.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+        <input id="site-search" type="search" placeholder="Szukaj strony…" autocomplete="off" />
+      </label>
+      <div class="site-list" id="site-list" role="listbox" aria-label="Lista porównywarek"></div>
+    </div>
   </aside>
 
   <div class="tag-chips" id="tag-chips" aria-label="Tagi"></div>

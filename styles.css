@@ -149,13 +149,58 @@ img {
 
 .pill-btn:hover:not(.is-active) { color: var(--ink); }
 
-/* ——— Site picker (scrollable list + search) ——— */
+/* ——— Site picker (collapsible list + search) ——— */
 .site-picker {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  padding: 16px 28px 0;
+  padding: 12px 28px 0;
   max-width: 360px;
+}
+
+.site-picker-bar {
+  display: flex;
+  align-items: center;
+}
+
+.site-picker-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  height: 36px;
+  padding: 0 14px 0 12px;
+  border-radius: var(--radius-pill);
+  border: 1px solid var(--hairline);
+  background: var(--canvas);
+  color: var(--ink);
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.site-picker-toggle:hover {
+  border-color: #d0d0d0;
+  background: var(--surface-2);
+}
+
+.site-picker-toggle[aria-expanded="true"] {
+  border-color: var(--ink);
+}
+
+.site-picker-current {
+  max-width: 220px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.site-picker-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.site-picker-panel[hidden] {
+  display: none !important;
 }
 
 .site-search-wrap {
