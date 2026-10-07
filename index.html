@@ -29,11 +29,16 @@
     </div>
   </header>
 
-  <nav class="site-nav" aria-label="Porównywarki">
-    <button type="button" class="site-chip is-active" data-site="rankomat">Rankomat</button>
-    <button type="button" class="site-chip" data-site="kioskpolis">Kiosk Polis</button>
-    <button type="button" class="site-chip" data-site="insurify">insurify.com</button>
-  </nav>
+  <aside class="site-picker" aria-label="Porównywarki">
+    <label class="site-search-wrap" for="site-search">
+      <svg class="search-icon" width="14" height="14" viewBox="0 0 16 16" aria-hidden="true">
+        <circle cx="7" cy="7" r="5.5" fill="none" stroke="currentColor" stroke-width="1.5"/>
+        <path d="M11.5 11.5 L14.5 14.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+      </svg>
+      <input id="site-search" type="search" placeholder="Szukaj strony…" autocomplete="off" />
+    </label>
+    <div class="site-list" id="site-list" role="listbox" aria-label="Lista porównywarek"></div>
+  </aside>
 
   <div class="tag-chips" id="tag-chips" aria-label="Tagi"></div>
 

@@ -3,8 +3,11 @@
     rankomat: "Rankomat",
     kioskpolis: "Kiosk Polis",
     insurify: "insurify.com",
+    thezebra: "The Zebra",
+    nerdwallet: "NerdWallet",
+    gocompare: "GoCompare",
   };
-  const SITES = ["rankomat", "kioskpolis", "insurify"];
+
   const TAG_LABELS = {
     home: "start",
     vehicle: "pojazd",
@@ -13,12 +16,15 @@
     loading: "ładowanie",
     offers: "oferty",
     checkout: "checkout",
+    payment: "płatność",
   };
 
   const state = {
     images: [],
+    sites: [],
+    siteFilter: "",
     device: "desktop",
-    site: "rankomat",
+    site: null,
     stepIndex: 0,
     search: "",
     activeTag: null,
@@ -27,12 +33,23 @@
   const $ = (sel) => document.querySelector(sel);
   const $$ = (sel) => [...document.querySelectorAll(sel)];
 
+  function siteLabel(id) {
+    return SITE_LABELS[id] || id;
+  }
+
   function tagLabel(t) {
     return TAG_LABELS[t] || t;
   }
 
   function normalizeTag(t) {
     return String(t || "").toLowerCase().trim();
+  }
+
+  function discoverSites() {
+    const set = new Set(state.images.map((i) => i.site).filter(Boolean));
+    return [...set].sort((a, b) =>
+      siteLabel(a).localeCompare(siteLabel(b), "pl")
+    );
   }
 
   function matchesSearch(item, q) {
@@ -70,6 +87,34 @@
     return state.activeTag || state.search;
   }
 
+  function renderSiteList() {
+    const el = $("#site-list");
+    if (!el) return;
+    const q = normalizeTag(state.siteFilter);
+    const filtered = state.sites.filter((id) => {
+      if (!q) return true;
+      return (
+        normalizeTag(id).includes(q) ||
+        normalizeTag(siteLabel(id)).includes(q)
+      );
+    });
+    if (!filtered.length) {
+      el.innerHTML = `<div class="site-list-empty">Brak stron</div>`;
+      return;
+    }
+    el.innerHTML = filtered
+      .map((id) => {
+        const n = state.images.filter((i) => i.site === id).length;
+        const active = id === state.site ? " is-active" : "";
+        return `<button type="button" class="site-list-item${active}" role="option" aria-selected="${
+          id === state.site
+        }" data-site="${id}"><span>${siteLabel(
+          id
+        )}</span><span class="site-count">${n}</span></button>`;
+      })
+      .join("");
+  }
+
   function renderTagChips() {
     const el = $("#tag-chips");
     const tags = allTagsForDevice();
@@ -78,7 +123,9 @@
         const active =
           state.activeTag === t ||
           (state.search && normalizeTag(t).includes(state.search));
-        return `<button type="button" class="tag-chip${active ? " is-active" : ""}" data-tag="${t}">${tagLabel(t)} · ${n}</button>`;
+        return `<button type="button" class="tag-chip${
+          active ? " is-active" : ""
+        }" data-tag="${t}">${tagLabel(t)} · ${n}</button>`;
       })
       .join("");
   }
@@ -117,11 +164,13 @@
     $("#sidebar-tags").innerHTML = (item.tags || [item.tag])
       .map(
         (t) =>
-          `<button type="button" class="sidebar-tag" data-tag="${t}">${tagLabel(t)}</button>`
+          `<button type="button" class="sidebar-tag" data-tag="${t}">${tagLabel(
+            t
+          )}</button>`
       )
       .join("");
     $("#sidebar-desc").textContent = item.description || "—";
-    $("#sidebar-site").textContent = SITE_LABELS[item.site] || item.site;
+    $("#sidebar-site").textContent = siteLabel(item.site);
     $("#sidebar-step").textContent = `${item.step}`;
     $("#sidebar-device").textContent =
       item.device === "mobile" ? "Mobile" : "Desktop";
@@ -129,7 +178,8 @@
 
   function renderFlow() {
     const items = flowItems();
-    if (state.stepIndex >= items.length) state.stepIndex = Math.max(0, items.length - 1);
+    if (state.stepIndex >= items.length)
+      state.stepIndex = Math.max(0, items.length - 1);
     const item = items[state.stepIndex];
     const frame = $("#stage-frame");
     const img = $("#main-shot");
@@ -165,22 +215,25 @@
       : `Szukaj: „${state.search}”`;
 
     let total = 0;
-    grid.innerHTML = SITES.map((site) => {
-      const matches = state.images
-        .filter((i) => i.site === site && i.device === state.device)
-        .filter((i) => {
-          if (state.activeTag) {
-            return (i.tags || [i.tag]).includes(state.activeTag);
-          }
-          return matchesSearch(i, q);
-        })
-        .sort((a, b) => a.step - b.step);
-      total += matches.length;
-      const cards = matches.length
-        ? matches
-            .map(
-              (item) => `
-          <button type="button" class="compare-card${state.device === "mobile" ? " is-mobile" : ""}" data-site="${item.site}" data-step="${item.step}">
+    grid.innerHTML = state.sites
+      .map((site) => {
+        const matches = state.images
+          .filter((i) => i.site === site && i.device === state.device)
+          .filter((i) => {
+            if (state.activeTag) {
+              return (i.tags || [i.tag]).includes(state.activeTag);
+            }
+            return matchesSearch(i, q);
+          })
+          .sort((a, b) => a.step - b.step);
+        total += matches.length;
+        const cards = matches.length
+          ? matches
+              .map(
+                (item) => `
+          <button type="button" class="compare-card${
+            state.device === "mobile" ? " is-mobile" : ""
+          }" data-site="${item.site}" data-step="${item.step}">
             <img src="${item.path}" alt="" loading="lazy" />
             <div class="compare-card-meta">
               <span class="step">Krok ${item.step}</span>
@@ -189,17 +242,22 @@
                 .join("")}</div>
             </div>
           </button>`
-            )
-            .join("")
-        : `<div class="compare-col-empty">Brak ekranów</div>`;
-      return `
+              )
+              .join("")
+          : `<div class="compare-col-empty">Brak ekranów</div>`;
+        return `
         <div class="compare-col">
-          <h2 class="compare-col-title">${SITE_LABELS[site]} · ${matches.length}</h2>
+          <h2 class="compare-col-title">${siteLabel(site)} · ${
+          matches.length
+        }</h2>
           ${cards}
         </div>`;
-    }).join("");
+      })
+      .join("");
 
-    sub.textContent = `${total} ekranów · ${state.device === "mobile" ? "Mobile" : "Desktop"} · Rankomat · Kiosk Polis · insurify.com`;
+    sub.textContent = `${total} ekranów · ${
+      state.device === "mobile" ? "Mobile" : "Desktop"
+    } · ${state.sites.map(siteLabel).join(" · ")}`;
     empty.hidden = total > 0;
   }
 
@@ -208,6 +266,7 @@
     $("#flow-mode").hidden = compare;
     $("#compare-mode").hidden = !compare;
     document.body.classList.toggle("is-compare", compare);
+    renderSiteList();
     renderTagChips();
     if (compare) renderCompare();
     else renderFlow();
@@ -228,9 +287,6 @@
     state.search = "";
     state.activeTag = null;
     $("#tag-search").value = "";
-    $$(".site-chip").forEach((b) =>
-      b.classList.toggle("is-active", b.dataset.site === site)
-    );
     syncMode();
   }
 
@@ -252,8 +308,14 @@
     $$(".device-toggle .pill-btn").forEach((btn) => {
       btn.addEventListener("click", () => setDevice(btn.dataset.device));
     });
-    $$(".site-chip").forEach((btn) => {
-      btn.addEventListener("click", () => setSite(btn.dataset.site));
+    $("#site-list").addEventListener("click", (e) => {
+      const btn = e.target.closest("[data-site]");
+      if (!btn) return;
+      setSite(btn.dataset.site);
+    });
+    $("#site-search").addEventListener("input", (e) => {
+      state.siteFilter = e.target.value;
+      renderSiteList();
     });
     $("#brand-link").addEventListener("click", (e) => {
       e.preventDefault();
@@ -290,9 +352,6 @@
       state.search = "";
       state.activeTag = null;
       $("#tag-search").value = "";
-      $$(".site-chip").forEach((b) =>
-        b.classList.toggle("is-active", b.dataset.site === state.site)
-      );
       const items = flowItems();
       const idx = items.findIndex((i) => String(i.step) === card.dataset.step);
       state.stepIndex = idx >= 0 ? idx : 0;
@@ -318,12 +377,15 @@
   async function init() {
     const res = await fetch("images.json");
     state.images = await res.json();
-    // Ensure "ranking ofert" never appears
     state.images.forEach((i) => {
       i.tags = (i.tags || []).filter((t) => t !== "ranking ofert");
       if (i.tag === "ranking ofert") i.tag = "offers";
       if (!i.tags.includes(i.tag)) i.tags.unshift(i.tag);
     });
+    state.sites = discoverSites();
+    state.site = state.sites.includes("rankomat")
+      ? "rankomat"
+      : state.sites[0] || null;
     bind();
     syncMode();
   }
