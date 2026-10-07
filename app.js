@@ -298,16 +298,18 @@
         return a.step - b.step;
       });
 
-    grid.className = "compare-list";
+    grid.className = "result-cards";
     grid.innerHTML = matches
       .map((item) => {
         const desc = (item.description || "").trim();
+        const mobile = state.device === "mobile" ? " is-mobile" : "";
         const descHtml = desc
-          ? `<span class="result-desc">${desc}</span>`
+          ? `<span class="result-card-desc">${desc}</span>`
           : "";
-        return `<button type="button" class="result-row" data-site="${item.site}" data-step="${item.step}">
-          <span class="result-app">${siteLabel(item.site)}</span>
-          <span class="result-step">krok ${item.step}</span>
+        return `<button type="button" class="result-card${mobile}" data-site="${item.site}" data-step="${item.step}">
+          <img class="result-card-thumb" src="${item.path}" alt="" loading="lazy" />
+          <span class="result-card-app">${siteLabel(item.site)}</span>
+          <span class="result-card-step">krok ${item.step}</span>
           ${descHtml}
         </button>`;
       })
