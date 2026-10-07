@@ -283,52 +283,40 @@
       ? `Tag: ${tagLabel(state.activeTag)}`
       : `Szukaj: „${state.search}”`;
 
-    let total = 0;
-    grid.innerHTML = state.sites
-      .map((site) => {
-        const matches = state.images
-          .filter((i) => i.site === site && i.device === state.device)
-          .filter((i) => {
-            if (state.activeTag) {
-              return (i.tags || [i.tag]).includes(state.activeTag);
-            }
-            if (siteMatchesQuery(site, q)) return true;
-            return matchesSearch(i, q);
-          })
-          .sort((a, b) => a.step - b.step);
-        total += matches.length;
-        const cards = matches.length
-          ? matches
-              .map(
-                (item) => `
-          <button type="button" class="compare-card${
-            state.device === "mobile" ? " is-mobile" : ""
-          }" data-site="${item.site}" data-step="${item.step}">
-            <img src="${item.path}" alt="" loading="lazy" />
-            <div class="compare-card-meta">
-              <span class="step">Krok ${item.step}</span>
-              <div class="tags">${(item.tags || [item.tag])
-                .map((t) => `<span>${tagLabel(t)}</span>`)
-                .join("")}</div>
-            </div>
-          </button>`
-              )
-              .join("")
-          : `<div class="compare-col-empty">Brak ekranów</div>`;
-        return `
-        <div class="compare-col">
-          <h2 class="compare-col-title">${siteLabel(site)} · ${
-          matches.length
-        }</h2>
-          ${cards}
-        </div>`;
+    const matches = state.images
+      .filter((i) => i.device === state.device)
+      .filter((i) => {
+        if (state.activeTag) {
+          return (i.tags || [i.tag]).includes(state.activeTag);
+        }
+        if (siteMatchesQuery(i.site, q)) return true;
+        return matchesSearch(i, q);
+      })
+      .sort((a, b) => {
+        const bySite = siteLabel(a.site).localeCompare(siteLabel(b.site), "pl");
+        if (bySite) return bySite;
+        return a.step - b.step;
+      });
+
+    grid.className = "compare-list";
+    grid.innerHTML = matches
+      .map((item) => {
+        const desc = (item.description || "").trim();
+        const descHtml = desc
+          ? `<span class="result-desc">${desc}</span>`
+          : "";
+        return `<button type="button" class="result-row" data-site="${item.site}" data-step="${item.step}">
+          <span class="result-app">${siteLabel(item.site)}</span>
+          <span class="result-step">krok ${item.step}</span>
+          ${descHtml}
+        </button>`;
       })
       .join("");
 
-    sub.textContent = `${total} ekranów · ${
+    sub.textContent = `${matches.length} ekranów · ${
       state.device === "mobile" ? "Mobile" : "Desktop"
-    } · ${state.sites.map(siteLabel).join(" · ")}`;
-    empty.hidden = total > 0;
+    }`;
+    empty.hidden = matches.length > 0;
   }
 
   function syncMode() {
