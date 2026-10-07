@@ -17,11 +17,12 @@ Zmiany w tym pliku **bez osobnego deployu** — wjeżdżają przy następnym dep
 
 ## W toku
 
-- [ ] **The Zebra** — dokończenie (oferty + mobile)
+Brak — nic aktywnego, wszystkie pozostałe punkty są zablokowane.
 
 ## Kolejka
 
-1. [ ] **Mubi desktop** — ostra wersja 1920×1200 bez paska przeglądarki (ponowić, mubi.pl blokowało 403 przy wyborze marki)
+1. [ ] **Mubi desktop** — ostra wersja 1920×1200 bez paska przeglądarki — **zablokowane — ponowić później / inna sieć**. Retry 8.10 00:17: cały formularz „Twoje dane” wypełniony, ale po „Kalkuluj” zawiesza się i pokazuje „Wystąpił problem z połączeniem internetowym” (2 próby) — wygląda na blokadę botów. Tylko 4 ostre ekrany (`/home/box/mubi-desktop-v2`), więc na produkcji zostaje obecny zestaw 36 ekranów.
+2. [ ] **The Zebra** — dokończenie (oferty + mobile) — **zablokowane — potrzebna inna sieć (np. US residential)**. Retry 8.10 00:04 nieudany: Cloudflare blokuje już pierwszą stronę lejka (zipentry), z DevTools i bez (Ray ID `a470330e9ab41df9`) — wygląda na blokadę IP. Złapany tylko landing desktop + mobile (`/home/box/zebra-v2`, nieopublikowane).
 
 ## Pominięte (wrócimy później)
 
