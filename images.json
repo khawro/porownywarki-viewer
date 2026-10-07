@@ -767,305 +767,6 @@
     "height": 1024
   },
   {
-    "site": "insurify",
-    "device": "mobile",
-    "step": 1,
-    "tag": "home.png",
-    "tags": [
-      "home.png"
-    ],
-    "path": "images/insurify/mobile/01-home.png",
-    "description": "insurify mobile krok 1: home",
-    "width": 399,
-    "height": 1024
-  },
-  {
-    "site": "insurify",
-    "device": "mobile",
-    "step": 2,
-    "tag": "vehicle",
-    "tags": [
-      "vehicle"
-    ],
-    "path": "images/insurify/mobile/02-vehicle-ubezpieczony.png",
-    "description": "insurify mobile krok 2: vehicle-ubezpieczony",
-    "width": 399,
-    "height": 1024
-  },
-  {
-    "site": "insurify",
-    "device": "mobile",
-    "step": 3,
-    "tag": "vehicle",
-    "tags": [
-      "vehicle"
-    ],
-    "path": "images/insurify/mobile/03-vehicle-termin-zakupu.png",
-    "description": "insurify mobile krok 3: vehicle-termin-zakupu",
-    "width": 399,
-    "height": 1024
-  },
-  {
-    "site": "insurify",
-    "device": "mobile",
-    "step": 4,
-    "tag": "vehicle",
-    "tags": [
-      "vehicle"
-    ],
-    "path": "images/insurify/mobile/04-vehicle-wlasciciel-domu.png",
-    "description": "insurify mobile krok 4: vehicle-wlasciciel-domu",
-    "width": 399,
-    "height": 1024
-  },
-  {
-    "site": "insurify",
-    "device": "mobile",
-    "step": 5,
-    "tag": "vehicle",
-    "tags": [
-      "vehicle"
-    ],
-    "path": "images/insurify/mobile/05-vehicle-liczba-aut.png",
-    "description": "insurify mobile krok 5: vehicle-liczba-aut",
-    "width": 399,
-    "height": 1024
-  },
-  {
-    "site": "insurify",
-    "device": "mobile",
-    "step": 6,
-    "tag": "vehicle",
-    "tags": [
-      "vehicle"
-    ],
-    "path": "images/insurify/mobile/06-vehicle-rok.png",
-    "description": "insurify mobile krok 6: vehicle-rok",
-    "width": 399,
-    "height": 1024
-  },
-  {
-    "site": "insurify",
-    "device": "mobile",
-    "step": 7,
-    "tag": "vehicle",
-    "tags": [
-      "vehicle"
-    ],
-    "path": "images/insurify/mobile/07-vehicle-marka.png",
-    "description": "insurify mobile krok 7: vehicle-marka",
-    "width": 399,
-    "height": 1024
-  },
-  {
-    "site": "insurify",
-    "device": "mobile",
-    "step": 8,
-    "tag": "vehicle",
-    "tags": [
-      "vehicle"
-    ],
-    "path": "images/insurify/mobile/08-vehicle-model.png",
-    "description": "insurify mobile krok 8: vehicle-model",
-    "width": 399,
-    "height": 1024
-  },
-  {
-    "site": "insurify",
-    "device": "mobile",
-    "step": 9,
-    "tag": "vehicle",
-    "tags": [
-      "vehicle"
-    ],
-    "path": "images/insurify/mobile/09-vehicle-wersja.png",
-    "description": "insurify mobile krok 9: vehicle-wersja",
-    "width": 399,
-    "height": 1024
-  },
-  {
-    "site": "insurify",
-    "device": "mobile",
-    "step": 10,
-    "tag": "vehicle",
-    "tags": [
-      "vehicle"
-    ],
-    "path": "images/insurify/mobile/10-vehicle-nadwozie.png",
-    "description": "insurify mobile krok 10: vehicle-nadwozie",
-    "width": 399,
-    "height": 1024
-  },
-  {
-    "site": "insurify",
-    "device": "mobile",
-    "step": 11,
-    "tag": "vehicle",
-    "tags": [
-      "vehicle"
-    ],
-    "path": "images/insurify/mobile/11-vehicle-uzytkowanie.png",
-    "description": "insurify mobile krok 11: vehicle-uzytkowanie",
-    "width": 399,
-    "height": 1024
-  },
-  {
-    "site": "insurify",
-    "device": "mobile",
-    "step": 12,
-    "tag": "vehicle",
-    "tags": [
-      "vehicle"
-    ],
-    "path": "images/insurify/mobile/12-vehicle-przebieg.png",
-    "description": "insurify mobile krok 12: vehicle-przebieg",
-    "width": 399,
-    "height": 1024
-  },
-  {
-    "site": "insurify",
-    "device": "mobile",
-    "step": 13,
-    "tag": "vehicle",
-    "tags": [
-      "vehicle"
-    ],
-    "path": "images/insurify/mobile/13-vehicle-wlasnosc.png",
-    "description": "insurify mobile krok 13: vehicle-wlasnosc",
-    "width": 399,
-    "height": 1024
-  },
-  {
-    "site": "insurify",
-    "device": "mobile",
-    "step": 14,
-    "tag": "vehicle",
-    "tags": [
-      "vehicle"
-    ],
-    "path": "images/insurify/mobile/14-vehicle-zakres.png",
-    "description": "insurify mobile krok 14: vehicle-zakres",
-    "width": 399,
-    "height": 1024
-  },
-  {
-    "site": "insurify",
-    "device": "mobile",
-    "step": 15,
-    "tag": "driver",
-    "tags": [
-      "driver"
-    ],
-    "path": "images/insurify/mobile/15-driver-data-urodzenia.png",
-    "description": "insurify mobile krok 15: driver-data-urodzenia",
-    "width": 399,
-    "height": 1024
-  },
-  {
-    "site": "insurify",
-    "device": "mobile",
-    "step": 16,
-    "tag": "driver",
-    "tags": [
-      "driver"
-    ],
-    "path": "images/insurify/mobile/16-driver-plec.png",
-    "description": "insurify mobile krok 16: driver-plec",
-    "width": 399,
-    "height": 1024
-  },
-  {
-    "site": "insurify",
-    "device": "mobile",
-    "step": 17,
-    "tag": "driver",
-    "tags": [
-      "driver"
-    ],
-    "path": "images/insurify/mobile/17-driver-prawo-jazdy.png",
-    "description": "insurify mobile krok 17: driver-prawo-jazdy",
-    "width": 399,
-    "height": 1024
-  },
-  {
-    "site": "insurify",
-    "device": "mobile",
-    "step": 18,
-    "tag": "driver",
-    "tags": [
-      "driver"
-    ],
-    "path": "images/insurify/mobile/18-driver-znizki.png",
-    "description": "insurify mobile krok 18: driver-znizki",
-    "width": 399,
-    "height": 1024
-  },
-  {
-    "site": "insurify",
-    "device": "mobile",
-    "step": 19,
-    "tag": "driver",
-    "tags": [
-      "driver"
-    ],
-    "path": "images/insurify/mobile/19-driver-zawod.png",
-    "description": "insurify mobile krok 19: driver-zawod",
-    "width": 399,
-    "height": 1024
-  },
-  {
-    "site": "insurify",
-    "device": "mobile",
-    "step": 20,
-    "tag": "driver",
-    "tags": [
-      "driver"
-    ],
-    "path": "images/insurify/mobile/20-driver-wypadki.png",
-    "description": "insurify mobile krok 20: driver-wypadki",
-    "width": 399,
-    "height": 1024
-  },
-  {
-    "site": "insurify",
-    "device": "mobile",
-    "step": 21,
-    "tag": "details",
-    "tags": [
-      "details"
-    ],
-    "path": "images/insurify/mobile/21-details-imie-nazwisko.png",
-    "description": "insurify mobile krok 21: details-imie-nazwisko",
-    "width": 399,
-    "height": 1024
-  },
-  {
-    "site": "insurify",
-    "device": "mobile",
-    "step": 22,
-    "tag": "details",
-    "tags": [
-      "details"
-    ],
-    "path": "images/insurify/mobile/22-details-kolejny-kierowca.png",
-    "description": "insurify mobile krok 22: details-kolejny-kierowca",
-    "width": 399,
-    "height": 1024
-  },
-  {
-    "site": "insurify",
-    "device": "mobile",
-    "step": 23,
-    "tag": "checkout",
-    "tags": [
-      "checkout"
-    ],
-    "path": "images/insurify/mobile/23-checkout-email-zgody.png",
-    "description": "insurify mobile krok 23: checkout-email-zgody",
-    "width": 399,
-    "height": 1024
-  },
-  {
     "site": "kioskpolis",
     "device": "desktop",
     "step": 8,
@@ -1283,6 +984,565 @@
     ],
     "path": "images/rankomat/desktop/11-payment-forma-platnosci.png",
     "description": "rankomat desktop krok 11: Płatność za polisę – wybór formy płatności (bez płatności, KUPUJĘ nie kliknięte)",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "insurify",
+    "device": "desktop",
+    "step": 34,
+    "tag": "checkout",
+    "tags": [
+      "checkout"
+    ],
+    "path": "images/insurify/desktop/34-checkout-telefon.png",
+    "description": "insurify desktop krok 34: checkout-telefon",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "insurify",
+    "device": "desktop",
+    "step": 35,
+    "tag": "loading",
+    "tags": [
+      "loading"
+    ],
+    "path": "images/insurify/desktop/35-loading-oferty.png",
+    "description": "insurify desktop krok 35: loading-oferty",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "insurify",
+    "device": "desktop",
+    "step": 36,
+    "tag": "offers",
+    "tags": [
+      "offers"
+    ],
+    "path": "images/insurify/desktop/36-offers-lista.png",
+    "description": "insurify desktop krok 36: offers-lista",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "insurify",
+    "device": "desktop",
+    "step": 37,
+    "tag": "checkout",
+    "tags": [
+      "checkout"
+    ],
+    "path": "images/insurify/desktop/37-checkout-przekierowanie-ubezpieczyciel.png",
+    "description": "insurify desktop krok 37: checkout-przekierowanie-ubezpieczyciel",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "insurify",
+    "device": "desktop",
+    "step": 38,
+    "tag": "checkout",
+    "tags": [
+      "checkout"
+    ],
+    "path": "images/insurify/desktop/38-checkout-progressive-weryfikacja.png",
+    "description": "insurify desktop krok 38: checkout-progressive-weryfikacja",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "insurify",
+    "device": "mobile",
+    "step": 1,
+    "tag": "home",
+    "tags": [
+      "home"
+    ],
+    "path": "images/insurify/mobile/01-home.png",
+    "description": "insurify mobile krok 1: home",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "insurify",
+    "device": "mobile",
+    "step": 2,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/insurify/mobile/02-vehicle-ubezpieczony.png",
+    "description": "insurify mobile krok 2: vehicle-ubezpieczony",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "insurify",
+    "device": "mobile",
+    "step": 3,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/insurify/mobile/03-vehicle-termin-zakupu.png",
+    "description": "insurify mobile krok 3: vehicle-termin-zakupu",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "insurify",
+    "device": "mobile",
+    "step": 4,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/insurify/mobile/04-vehicle-wlasciciel-domu.png",
+    "description": "insurify mobile krok 4: vehicle-wlasciciel-domu",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "insurify",
+    "device": "mobile",
+    "step": 5,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/insurify/mobile/05-vehicle-liczba-aut.png",
+    "description": "insurify mobile krok 5: vehicle-liczba-aut",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "insurify",
+    "device": "mobile",
+    "step": 6,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/insurify/mobile/06-vehicle-rok.png",
+    "description": "insurify mobile krok 6: vehicle-rok",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "insurify",
+    "device": "mobile",
+    "step": 7,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/insurify/mobile/07-vehicle-marka.png",
+    "description": "insurify mobile krok 7: vehicle-marka",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "insurify",
+    "device": "mobile",
+    "step": 8,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/insurify/mobile/08-vehicle-model.png",
+    "description": "insurify mobile krok 8: vehicle-model",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "insurify",
+    "device": "mobile",
+    "step": 9,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/insurify/mobile/09-vehicle-wersja.png",
+    "description": "insurify mobile krok 9: vehicle-wersja",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "insurify",
+    "device": "mobile",
+    "step": 10,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/insurify/mobile/10-vehicle-nadwozie.png",
+    "description": "insurify mobile krok 10: vehicle-nadwozie",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "insurify",
+    "device": "mobile",
+    "step": 11,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/insurify/mobile/11-vehicle-uzytkowanie.png",
+    "description": "insurify mobile krok 11: vehicle-uzytkowanie",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "insurify",
+    "device": "mobile",
+    "step": 12,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/insurify/mobile/12-vehicle-przebieg.png",
+    "description": "insurify mobile krok 12: vehicle-przebieg",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "insurify",
+    "device": "mobile",
+    "step": 13,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/insurify/mobile/13-vehicle-wlasnosc.png",
+    "description": "insurify mobile krok 13: vehicle-wlasnosc",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "insurify",
+    "device": "mobile",
+    "step": 14,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/insurify/mobile/14-vehicle-zakres.png",
+    "description": "insurify mobile krok 14: vehicle-zakres",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "insurify",
+    "device": "mobile",
+    "step": 15,
+    "tag": "driver",
+    "tags": [
+      "driver"
+    ],
+    "path": "images/insurify/mobile/15-driver-data-urodzenia.png",
+    "description": "insurify mobile krok 15: driver-data-urodzenia",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "insurify",
+    "device": "mobile",
+    "step": 16,
+    "tag": "driver",
+    "tags": [
+      "driver"
+    ],
+    "path": "images/insurify/mobile/16-driver-plec.png",
+    "description": "insurify mobile krok 16: driver-plec",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "insurify",
+    "device": "mobile",
+    "step": 17,
+    "tag": "driver",
+    "tags": [
+      "driver"
+    ],
+    "path": "images/insurify/mobile/17-driver-prawo-jazdy.png",
+    "description": "insurify mobile krok 17: driver-prawo-jazdy",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "insurify",
+    "device": "mobile",
+    "step": 18,
+    "tag": "driver",
+    "tags": [
+      "driver"
+    ],
+    "path": "images/insurify/mobile/18-driver-wiek-prawa-jazdy.png",
+    "description": "insurify mobile krok 18: driver-wiek-prawa-jazdy",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "insurify",
+    "device": "mobile",
+    "step": 19,
+    "tag": "driver",
+    "tags": [
+      "driver"
+    ],
+    "path": "images/insurify/mobile/19-driver-scoring-kredytowy.png",
+    "description": "insurify mobile krok 19: driver-scoring-kredytowy",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "insurify",
+    "device": "mobile",
+    "step": 20,
+    "tag": "driver",
+    "tags": [
+      "driver"
+    ],
+    "path": "images/insurify/mobile/20-driver-wyksztalcenie.png",
+    "description": "insurify mobile krok 20: driver-wyksztalcenie",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "insurify",
+    "device": "mobile",
+    "step": 21,
+    "tag": "driver",
+    "tags": [
+      "driver"
+    ],
+    "path": "images/insurify/mobile/21-driver-wojsko.png",
+    "description": "insurify mobile krok 21: driver-wojsko",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "insurify",
+    "device": "mobile",
+    "step": 22,
+    "tag": "driver",
+    "tags": [
+      "driver"
+    ],
+    "path": "images/insurify/mobile/22-driver-znizki.png",
+    "description": "insurify mobile krok 22: driver-znizki",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "insurify",
+    "device": "mobile",
+    "step": 23,
+    "tag": "driver",
+    "tags": [
+      "driver"
+    ],
+    "path": "images/insurify/mobile/23-driver-zawod.png",
+    "description": "insurify mobile krok 23: driver-zawod",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "insurify",
+    "device": "mobile",
+    "step": 24,
+    "tag": "driver",
+    "tags": [
+      "driver"
+    ],
+    "path": "images/insurify/mobile/24-driver-historia-ubezpieczenia.png",
+    "description": "insurify mobile krok 24: driver-historia-ubezpieczenia",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "insurify",
+    "device": "mobile",
+    "step": 25,
+    "tag": "driver",
+    "tags": [
+      "driver"
+    ],
+    "path": "images/insurify/mobile/25-driver-przerwa-w-ubezpieczeniu.png",
+    "description": "insurify mobile krok 25: driver-przerwa-w-ubezpieczeniu",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "insurify",
+    "device": "mobile",
+    "step": 26,
+    "tag": "driver",
+    "tags": [
+      "driver"
+    ],
+    "path": "images/insurify/mobile/26-driver-wypadki.png",
+    "description": "insurify mobile krok 26: driver-wypadki",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "insurify",
+    "device": "mobile",
+    "step": 27,
+    "tag": "driver",
+    "tags": [
+      "driver"
+    ],
+    "path": "images/insurify/mobile/27-driver-mandaty.png",
+    "description": "insurify mobile krok 27: driver-mandaty",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "insurify",
+    "device": "mobile",
+    "step": 28,
+    "tag": "driver",
+    "tags": [
+      "driver"
+    ],
+    "path": "images/insurify/mobile/28-driver-szkody.png",
+    "description": "insurify mobile krok 28: driver-szkody",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "insurify",
+    "device": "mobile",
+    "step": 29,
+    "tag": "driver",
+    "tags": [
+      "driver"
+    ],
+    "path": "images/insurify/mobile/29-driver-dui.png",
+    "description": "insurify mobile krok 29: driver-dui",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "insurify",
+    "device": "mobile",
+    "step": 30,
+    "tag": "details",
+    "tags": [
+      "details"
+    ],
+    "path": "images/insurify/mobile/30-details-imie-nazwisko.png",
+    "description": "insurify mobile krok 30: details-imie-nazwisko",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "insurify",
+    "device": "mobile",
+    "step": 31,
+    "tag": "details",
+    "tags": [
+      "details"
+    ],
+    "path": "images/insurify/mobile/31-details-kolejny-kierowca.png",
+    "description": "insurify mobile krok 31: details-kolejny-kierowca",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "insurify",
+    "device": "mobile",
+    "step": 32,
+    "tag": "details",
+    "tags": [
+      "details"
+    ],
+    "path": "images/insurify/mobile/32-details-adres.png",
+    "description": "insurify mobile krok 32: details-adres",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "insurify",
+    "device": "mobile",
+    "step": 33,
+    "tag": "checkout",
+    "tags": [
+      "checkout"
+    ],
+    "path": "images/insurify/mobile/33-checkout-email-zgody.png",
+    "description": "insurify mobile krok 33: checkout-email-zgody",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "insurify",
+    "device": "mobile",
+    "step": 34,
+    "tag": "checkout",
+    "tags": [
+      "checkout"
+    ],
+    "path": "images/insurify/mobile/34-checkout-telefon.png",
+    "description": "insurify mobile krok 34: checkout-telefon",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "insurify",
+    "device": "mobile",
+    "step": 35,
+    "tag": "checkout",
+    "tags": [
+      "checkout"
+    ],
+    "path": "images/insurify/mobile/35-checkout-podsumowanie-powrot.png",
+    "description": "insurify mobile krok 35: checkout-podsumowanie-powrot",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "insurify",
+    "device": "mobile",
+    "step": 36,
+    "tag": "loading",
+    "tags": [
+      "loading"
+    ],
+    "path": "images/insurify/mobile/36-loading-oferty.png",
+    "description": "insurify mobile krok 36: loading-oferty",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "insurify",
+    "device": "mobile",
+    "step": 37,
+    "tag": "offers",
+    "tags": [
+      "offers"
+    ],
+    "path": "images/insurify/mobile/37-offers-lista.png",
+    "description": "insurify mobile krok 37: offers-lista",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "insurify",
+    "device": "mobile",
+    "step": 38,
+    "tag": "offers",
+    "tags": [
+      "offers"
+    ],
+    "path": "images/insurify/mobile/38-offers-szczegoly.png",
+    "description": "insurify mobile krok 38: offers-szczegoly",
     "width": 1920,
     "height": 1200
   }
