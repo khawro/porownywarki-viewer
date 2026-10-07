@@ -15,21 +15,21 @@ Zmiany w tym pliku **bez osobnego deployu** — wjeżdżają przy następnym dep
 
 ## W toku
 
-Brak — następny punkt z kolejki.
+- [ ] **Beesafe** — desktop + mobile 1170×2532, bez DevTools
 
 ## Kolejka
 
-1. [ ] **The Zebra** — wznowić później (oferty + mobile), gdy block opadnie
-2. [ ] **Beesafe** — desktop + mobile 1170×2532, bez DevTools
-3. [ ] **Link4** — desktop + mobile 1170×2532, bez DevTools
-4. [ ] **Mubi desktop** — ostra wersja 1920×1200 bez paska przeglądarki (ponowić, mubi.pl blokowało 403 przy wyborze marki)
+1. [ ] **Link4** — desktop + mobile 1170×2532, bez DevTools
+2. [ ] **Mubi desktop** — ostra wersja 1920×1200 bez paska przeglądarki (ponowić, mubi.pl blokowało 403 przy wyborze marki)
+3. [ ] **The Zebra** — dokończyć (oferty + mobile) gdy Cloudflare puści
 
 ## Pominięte (wrócimy później)
 
-- [ ] **The Zebra** — Cloudflare hard block (Ray ID `a46e7db10c0f3224`); bez retry. ~30 desktop lokalnie, 0 mobile.
+- [ ] **The Zebra** — Cloudflare hard block (Ray ID `a46e7db10c0f3224`); bez retry. Opublikowane 16 desktop; lokalne pliki 17–30 w `thezebra/desktop` to błędnie podpisane zrzuty NerdWallet (pominięte), 0 mobile.
 
 ## Zrobione
 
+- [x] **The Zebra** — opublikowane częściowo: desktop **16** (1920×1200, do pytania o płeć kierowcy; Cloudflare blokuje od roku auta w nowej sesji), mobile **0**, na produkcji
 - [x] **Dark mode** — przełącznik motywu (słońce/księżyc) w topbarze i na /todo; domyślnie wg systemu, wybór zapamiętany w localStorage, bez mignięcia przy ładowaniu, na produkcji
 - [x] **GoCompare** — desktop **21** (1920×1200) + mobile **23 / 23** (1170×2532), do przekierowania do ubezpieczyciela, na produkcji
 - [x] **Mubi** — desktop **38** (z 39, bez duplikatu z błędem połączenia; przycięty pasek Chrome → 1920×1111) + mobile **28 / 28** (1170×2532), do dodatków po wyborze oferty, na produkcji

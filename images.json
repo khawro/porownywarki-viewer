@@ -4821,5 +4821,213 @@
     "description": "gocompare mobile krok 23: insurer-cookie-banner",
     "width": 1170,
     "height": 2532
+  },
+  {
+    "site": "thezebra",
+    "device": "desktop",
+    "step": 1,
+    "tag": "landing",
+    "tags": [
+      "landing"
+    ],
+    "path": "images/thezebra/desktop/01-landing-cookie-consent.png",
+    "description": "thezebra desktop krok 1: landing-cookie-consent",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "thezebra",
+    "device": "desktop",
+    "step": 2,
+    "tag": "zip",
+    "tags": [
+      "zip"
+    ],
+    "path": "images/thezebra/desktop/02-zip-entry.png",
+    "description": "thezebra desktop krok 2: zip-entry",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "thezebra",
+    "device": "desktop",
+    "step": 3,
+    "tag": "currently",
+    "tags": [
+      "currently"
+    ],
+    "path": "images/thezebra/desktop/03-currently-insured.png",
+    "description": "thezebra desktop krok 3: currently-insured",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "thezebra",
+    "device": "desktop",
+    "step": 4,
+    "tag": "policy",
+    "tags": [
+      "policy"
+    ],
+    "path": "images/thezebra/desktop/04-policy-start-timing.png",
+    "description": "thezebra desktop krok 4: policy-start-timing",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "thezebra",
+    "device": "desktop",
+    "step": 5,
+    "tag": "own",
+    "tags": [
+      "own"
+    ],
+    "path": "images/thezebra/desktop/05-own-or-rent-home.png",
+    "description": "thezebra desktop krok 5: own-or-rent-home",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "thezebra",
+    "device": "desktop",
+    "step": 6,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/thezebra/desktop/06-vehicle-count.png",
+    "description": "thezebra desktop krok 6: vehicle-count",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "thezebra",
+    "device": "desktop",
+    "step": 7,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/thezebra/desktop/07-vehicle-year.png",
+    "description": "thezebra desktop krok 7: vehicle-year",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "thezebra",
+    "device": "desktop",
+    "step": 8,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/thezebra/desktop/08-vehicle-make.png",
+    "description": "thezebra desktop krok 8: vehicle-make",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "thezebra",
+    "device": "desktop",
+    "step": 9,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/thezebra/desktop/09-vehicle-model.png",
+    "description": "thezebra desktop krok 9: vehicle-model",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "thezebra",
+    "device": "desktop",
+    "step": 10,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/thezebra/desktop/10-vehicle-trim.png",
+    "description": "thezebra desktop krok 10: vehicle-trim",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "thezebra",
+    "device": "desktop",
+    "step": 11,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/thezebra/desktop/11-vehicle-usage.png",
+    "description": "thezebra desktop krok 11: vehicle-usage",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "thezebra",
+    "device": "desktop",
+    "step": 12,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/thezebra/desktop/12-vehicle-miles.png",
+    "description": "thezebra desktop krok 12: vehicle-miles",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "thezebra",
+    "device": "desktop",
+    "step": 13,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/thezebra/desktop/13-vehicle-ownership.png",
+    "description": "thezebra desktop krok 13: vehicle-ownership",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "thezebra",
+    "device": "desktop",
+    "step": 14,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/thezebra/desktop/14-vehicle-ownership-length.png",
+    "description": "thezebra desktop krok 14: vehicle-ownership-length",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "thezebra",
+    "device": "desktop",
+    "step": 15,
+    "tag": "date",
+    "tags": [
+      "date"
+    ],
+    "path": "images/thezebra/desktop/15-date-of-birth.png",
+    "description": "thezebra desktop krok 15: date-of-birth",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "thezebra",
+    "device": "desktop",
+    "step": 16,
+    "tag": "gender",
+    "tags": [
+      "gender"
+    ],
+    "path": "images/thezebra/desktop/16-gender.png",
+    "description": "thezebra desktop krok 16: gender",
+    "width": 1920,
+    "height": 1200
   }
 ]
