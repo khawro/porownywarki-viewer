@@ -21,6 +21,7 @@ Zmiany w tym pliku **bez osobnego deployu** — wjeżdżają przy następnym dep
 2. [ ] **Lemonade** — zrzuty desktop i mobile 390×844 @3× (1170×2532), bez DevTools, w dobrej jakości
 3. [ ] **Mubi** — zrzuty desktop i mobile 390×844 @3× (1170×2532), bez DevTools, w dobrej jakości
 4. [ ] **GoCompare** — zrzuty desktop i mobile 390×844 @3× (1170×2532), bez DevTools, w dobrej jakości
+5. [ ] **Dark mode** — dodać motyw ciemny z przełącznikiem theme w aplikacji (viewer)
 
 ## Zrobione
 
