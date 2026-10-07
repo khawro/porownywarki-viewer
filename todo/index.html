@@ -1,10 +1,165 @@
 <!DOCTYPE html>
-<html lang="pl"><head>
-<meta charset="utf-8"/>
-<meta http-equiv="refresh" content="0;url=/roadmap"/>
-<meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Przekierowanie…</title>
-<link rel="canonical" href="/roadmap"/>
-</head><body>
-<p><a href="/roadmap">Roadmap</a></p>
-</body></html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>TODO — Porównywarki</title>
+  <style>
+    :root {
+      --bg: #f4f4f5;
+      --card: #fff;
+      --ink: #111;
+      --muted: #666;
+      --done: #0a7;
+      --open: #c60;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--ink);
+      line-height: 1.45;
+      padding: 16px 16px 48px;
+      padding-bottom: max(48px, env(safe-area-inset-bottom));
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 12px;
+      margin-bottom: 16px;
+    }
+    h1 { font-size: 22px; margin: 0; letter-spacing: -0.02em; }
+    a.back { color: var(--muted); text-decoration: none; font-size: 14px; white-space: nowrap; }
+    .card {
+      background: var(--card);
+      border-radius: 16px;
+      padding: 18px 16px;
+      box-shadow: 0 1px 2px rgba(0,0,0,.04);
+    }
+    #status { font-size: 13px; color: var(--muted); margin: 0 0 12px; }
+    #todo h1 { display: none; }
+    #todo h2 {
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--muted);
+      margin: 20px 0 10px;
+    }
+    #todo h2:first-child { margin-top: 0; }
+    #todo p { margin: 0 0 12px; color: var(--muted); font-size: 14px; }
+    #todo ul, #todo ol { margin: 0; padding: 0; list-style: none; }
+    #todo li {
+      position: relative;
+      padding: 12px 12px 12px 40px;
+      margin: 0 0 8px;
+      background: var(--bg);
+      border-radius: 12px;
+      font-size: 15px;
+    }
+    #todo li::before {
+      content: "";
+      position: absolute;
+      left: 12px;
+      top: 14px;
+      width: 18px;
+      height: 18px;
+      border-radius: 6px;
+      border: 2px solid #bbb;
+    }
+    #todo li.done::before {
+      background: var(--done);
+      border-color: var(--done);
+      content: "✓";
+      color: #fff;
+      font-size: 12px;
+      line-height: 18px;
+      text-align: center;
+      font-weight: 700;
+    }
+    #todo li.open::before { border-color: var(--open); }
+    #todo strong { font-weight: 650; }
+    #todo a { color: #06c; }
+    #todo code {
+      font-size: 13px;
+      background: #eee;
+      padding: 1px 5px;
+      border-radius: 4px;
+    }
+    .err { color: #c00; font-size: 14px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Kolejka zadań</h1>
+    <a class="back" href="/">← Viewer</a>
+  </header>
+  <div class="card">
+    <p id="status">Ładowanie…</p>
+    <div id="todo"></div>
+  </div>
+  <script>
+    function escapeHtml(s) {
+      return s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+    }
+    function inlineFmt(s) {
+      s = escapeHtml(s);
+      s = s.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>');
+      s = s.replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>");
+      s = s.replace(/`([^`]+)`/g, "<code>$1</code>");
+      return s;
+    }
+    function renderMarkdown(md) {
+      const lines = md.replace(/\r\n/g, "\n").split("\n");
+      let html = "";
+      let inList = null;
+      function closeList() {
+        if (inList) { html += "</" + inList + ">"; inList = null; }
+      }
+      for (const raw of lines) {
+        const line = raw.trimEnd();
+        if (!line.trim()) { closeList(); continue; }
+        if (line.startsWith("# ")) { closeList(); continue; }
+        if (line.startsWith("## ")) {
+          closeList();
+          html += "<h2>" + inlineFmt(line.slice(3)) + "</h2>";
+          continue;
+        }
+        const task = line.match(/^(\d+\.\s+)?\[([ xX])\]\s+(.*)$/);
+        if (task) {
+          const ordered = !!task[1];
+          const tag = ordered ? "ol" : "ul";
+          if (inList !== tag) { closeList(); html += "<" + tag + ">"; inList = tag; }
+          const done = task[2].toLowerCase() === "x";
+          html += '<li class="' + (done ? "done" : "open") + '">' + inlineFmt(task[3]) + "</li>";
+          continue;
+        }
+        if (line.match(/^[-*]\s+/)) {
+          if (inList !== "ul") { closeList(); html += "<ul>"; inList = "ul"; }
+          html += "<li class=\"open\">" + inlineFmt(line.replace(/^[-*]\s+/, "")) + "</li>";
+          continue;
+        }
+        closeList();
+        html += "<p>" + inlineFmt(line) + "</p>";
+      }
+      closeList();
+      return html;
+    }
+    async function load() {
+      const el = document.getElementById("todo");
+      const st = document.getElementById("status");
+      try {
+        const res = await fetch("/TODO.md?t=" + Date.now(), { cache: "no-store" });
+        if (!res.ok) throw new Error("HTTP " + res.status);
+        el.innerHTML = renderMarkdown(await res.text());
+        st.textContent = "Źródło: TODO.md · odśwież po aktualizacji";
+      } catch (e) {
+        st.innerHTML = '<span class="err">Nie udało się wczytać listy.</span>';
+        el.textContent = String(e);
+      }
+    }
+    load();
+  </script>
+</body>
+</html>
