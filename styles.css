@@ -324,7 +324,7 @@ body.is-home .app-title {
 }
 
 .site-card.is-mobile .site-card-thumb {
-  aspect-ratio: 9 / 14;
+  aspect-ratio: 390 / 844;
   max-height: 320px;
   object-fit: cover;
   margin: 0 auto;
@@ -391,7 +391,7 @@ body.is-home .app-title {
   border: 1px solid var(--hairline);
 }
 
-.step-thumb.is-mobile img { aspect-ratio: 9 / 14; }
+.step-thumb.is-mobile img { aspect-ratio: 390 / 844; }
 
 .step-meta {
   display: flex;
@@ -444,12 +444,12 @@ body.is-home .app-title {
 }
 
 .stage-frame.is-mobile {
-  max-width: 420px;
+  max-width: 400px;
   margin: 0 auto;
 }
 
 .stage-frame.is-mobile #main-shot {
-  max-width: 360px;
+  max-width: 390px;
 }
 
 .empty-state {
@@ -589,7 +589,7 @@ body.is-home .app-title {
 }
 
 .result-card.is-mobile .result-card-thumb {
-  aspect-ratio: 9 / 14;
+  aspect-ratio: 390 / 844;
   max-height: 320px;
   object-fit: cover;
   margin-left: auto;
