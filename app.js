@@ -23,7 +23,7 @@
     images: [],
     sites: [],
     siteFilter: "",
-    sitePickerOpen: false,
+    drawerOpen: false,
     device: "desktop",
     site: null,
     stepIndex: 0,
@@ -38,21 +38,32 @@
     return SITE_LABELS[id] || id;
   }
 
-  function setSitePickerOpen(open) {
-    state.sitePickerOpen = Boolean(open);
-    const picker = $("#site-picker");
-    const panel = $("#site-picker-panel");
-    const toggle = $("#site-picker-toggle");
-    if (!picker || !panel || !toggle) return;
-    picker.classList.toggle("is-collapsed", !state.sitePickerOpen);
-    panel.hidden = !state.sitePickerOpen;
-    toggle.setAttribute("aria-expanded", state.sitePickerOpen ? "true" : "false");
-    const cur = $("#site-picker-current");
-    if (cur) {
-      cur.textContent = state.site ? siteLabel(state.site) : "Strony";
+  function updateSiteTrigger() {
+    const label = $("#site-trigger-label");
+    const openBtn = $("#site-drawer-open");
+    if (label) label.textContent = state.site ? siteLabel(state.site) : "Strony";
+    if (openBtn) {
+      openBtn.setAttribute("aria-expanded", state.drawerOpen ? "true" : "false");
     }
   }
 
+  function setDrawerOpen(open) {
+    state.drawerOpen = Boolean(open);
+    const drawer = $("#site-drawer");
+    const backdrop = $("#site-drawer-backdrop");
+    if (!drawer || !backdrop) return;
+    drawer.classList.toggle("is-open", state.drawerOpen);
+    drawer.setAttribute("aria-hidden", state.drawerOpen ? "false" : "true");
+    backdrop.hidden = !state.drawerOpen;
+    document.body.classList.toggle("drawer-open", state.drawerOpen);
+    updateSiteTrigger();
+    if (state.drawerOpen) {
+      const input = $("#site-search");
+      if (input) {
+        requestAnimationFrame(() => input.focus());
+      }
+    }
+  }
 
   function tagLabel(t) {
     return TAG_LABELS[t] || t;
@@ -283,7 +294,7 @@
     $("#flow-mode").hidden = compare;
     $("#compare-mode").hidden = !compare;
     document.body.classList.toggle("is-compare", compare);
-    setSitePickerOpen(state.sitePickerOpen);
+    updateSiteTrigger();
     renderSiteList();
     renderTagChips();
     if (compare) renderCompare();
@@ -305,7 +316,7 @@
     state.search = "";
     state.activeTag = null;
     $("#tag-search").value = "";
-    setSitePickerOpen(true);
+    setDrawerOpen(false);
     syncMode();
   }
 
@@ -327,9 +338,11 @@
     $$(".device-toggle .pill-btn").forEach((btn) => {
       btn.addEventListener("click", () => setDevice(btn.dataset.device));
     });
-    $("#site-picker-toggle").addEventListener("click", () => {
-      setSitePickerOpen(!state.sitePickerOpen);
+    $("#site-drawer-open").addEventListener("click", () => {
+      setDrawerOpen(!state.drawerOpen);
     });
+    $("#site-drawer-close").addEventListener("click", () => setDrawerOpen(false));
+    $("#site-drawer-backdrop").addEventListener("click", () => setDrawerOpen(false));
     $("#site-list").addEventListener("click", (e) => {
       const btn = e.target.closest("[data-site]");
       if (!btn) return;
@@ -380,6 +393,11 @@
       syncMode();
     });
     document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape" && state.drawerOpen) {
+        e.preventDefault();
+        setDrawerOpen(false);
+        return;
+      }
       if (isCompareMode()) return;
       if (e.target.matches("input, textarea")) return;
       const items = flowItems();
@@ -409,7 +427,7 @@
       ? "rankomat"
       : state.sites[0] || null;
     bind();
-    setSitePickerOpen(false);
+    setDrawerOpen(false);
     syncMode();
   }
 
