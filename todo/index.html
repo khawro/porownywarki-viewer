@@ -6,12 +6,16 @@
   <title>TODO — Porównywarki</title>
   <style>
     :root {
-      --bg: #f4f4f5;
+      --bg: #f2f2f4;
       --card: #fff;
       --ink: #111;
-      --muted: #666;
-      --done: #0a7;
-      --open: #c60;
+      --muted: #6b6b76;
+      --done: #0a8f5a;
+      --done-bg: #e8f7ef;
+      --open: #e85d04;
+      --open-bg: #fff6ef;
+      --rule-bg: #eef0f7;
+      --rule-ink: #3a3f55;
     }
     * { box-sizing: border-box; }
     body {
@@ -28,62 +32,121 @@
       justify-content: space-between;
       align-items: baseline;
       gap: 12px;
-      margin-bottom: 16px;
+      margin-bottom: 14px;
     }
     h1 { font-size: 22px; margin: 0; letter-spacing: -0.02em; }
     a.back { color: var(--muted); text-decoration: none; font-size: 14px; white-space: nowrap; }
-    .card {
+    .panel {
       background: var(--card);
       border-radius: 16px;
-      padding: 18px 16px;
+      padding: 8px 12px 16px;
       box-shadow: 0 1px 2px rgba(0,0,0,.04);
     }
-    #status { font-size: 13px; color: var(--muted); margin: 0 0 12px; }
+    #status { font-size: 12px; color: var(--muted); margin: 8px 4px 4px; }
     #todo h1 { display: none; }
-    #todo h2 {
-      font-size: 13px;
-      text-transform: uppercase;
-      letter-spacing: 0.06em;
+    #todo .intro {
+      margin: 4px 4px 14px;
       color: var(--muted);
-      margin: 20px 0 10px;
+      font-size: 13px;
     }
-    #todo h2:first-child { margin-top: 0; }
-    #todo p { margin: 0 0 12px; color: var(--muted); font-size: 14px; }
-    #todo ul, #todo ol { margin: 0; padding: 0; list-style: none; }
-    #todo li {
-      position: relative;
-      padding: 12px 12px 12px 40px;
-      margin: 0 0 8px;
-      background: var(--bg);
-      border-radius: 12px;
-      font-size: 15px;
+    #todo section {
+      margin: 0 0 18px;
     }
-    #todo li::before {
-      content: "";
-      position: absolute;
-      left: 12px;
-      top: 14px;
-      width: 18px;
-      height: 18px;
-      border-radius: 6px;
-      border: 2px solid #bbb;
-    }
-    #todo li.done::before {
-      background: var(--done);
-      border-color: var(--done);
-      content: "✓";
-      color: #fff;
+    #todo section:last-child { margin-bottom: 4px; }
+    #todo h2 {
+      display: flex;
+      align-items: center;
+      gap: 8px;
       font-size: 12px;
-      line-height: 18px;
-      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      color: var(--muted);
+      margin: 0 4px 10px;
       font-weight: 700;
     }
-    #todo li.open::before { border-color: var(--open); }
+    #todo h2 .badge {
+      font-size: 11px;
+      letter-spacing: 0;
+      text-transform: none;
+      font-weight: 650;
+      padding: 2px 8px;
+      border-radius: 999px;
+      background: #ececf1;
+      color: var(--muted);
+    }
+    #todo section.rules h2 .badge { background: #dde3f5; color: #3a4a7a; }
+    #todo section.active h2 .badge { background: #ffe2cc; color: #a33d00; }
+    #todo section.queue h2 .badge { background: #ffe2cc; color: #a33d00; }
+    #todo section.done h2 .badge { background: #d8f3e5; color: #0a6b44; }
+    #todo ul, #todo ol {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    #todo li {
+      display: flex;
+      gap: 12px;
+      align-items: flex-start;
+      padding: 12px;
+      margin: 0 0 8px;
+      border-radius: 12px;
+      font-size: 15px;
+      background: var(--bg);
+    }
+    #todo li .mark {
+      flex: 0 0 22px;
+      width: 22px;
+      height: 22px;
+      margin-top: 1px;
+      border-radius: 7px;
+      border: 2px solid #c5c5ce;
+      display: grid;
+      place-items: center;
+      font-size: 13px;
+      font-weight: 700;
+      line-height: 1;
+      color: transparent;
+    }
+    #todo li .body { flex: 1; min-width: 0; }
+    #todo li.open {
+      background: var(--open-bg);
+      border: 1px solid #ffd2ad;
+    }
+    #todo li.open .mark {
+      border-color: var(--open);
+      background: #fff;
+    }
+    #todo li.done {
+      background: var(--done-bg);
+      border: 1px solid #bfe9d2;
+      color: #1a3d2c;
+    }
+    #todo li.done .mark {
+      border-color: var(--done);
+      background: var(--done);
+      color: #fff;
+    }
+    #todo li.done .mark::after { content: "✓"; }
+    #todo li.done .body { text-decoration: none; opacity: 0.92; }
+    #todo section.rules li {
+      background: var(--rule-bg);
+      border: 1px solid #d5dbeb;
+      color: var(--rule-ink);
+    }
+    #todo section.rules li .mark {
+      border-radius: 50%;
+      border-color: #7a88b8;
+      background: #7a88b8;
+      color: #fff;
+      font-size: 11px;
+    }
+    #todo section.rules li .mark::after { content: "i"; font-style: italic; font-family: Georgia, serif; }
+    #todo section.rules li.done .mark::after { content: "i"; }
     #todo strong { font-weight: 650; }
     #todo a { color: #06c; }
     #todo code {
-      font-size: 13px;
-      background: #eee;
+      font-size: 12px;
+      background: rgba(0,0,0,.06);
       padding: 1px 5px;
       border-radius: 4px;
     }
@@ -95,7 +158,7 @@
     <h1>Kolejka zadań</h1>
     <a class="back" href="/">← Viewer</a>
   </header>
-  <div class="card">
+  <div class="panel">
     <p id="status">Ładowanie…</p>
     <div id="todo"></div>
   </div>
@@ -110,40 +173,80 @@
       s = s.replace(/`([^`]+)`/g, "<code>$1</code>");
       return s;
     }
+    function sectionClass(title) {
+      const t = title.toLowerCase();
+      if (t.includes("zasada")) return "rules";
+      if (t.includes("toku") || t.includes("progress")) return "active";
+      if (t.includes("kolejka") || t.includes("queue")) return "queue";
+      if (t.includes("zrobione") || t.includes("done")) return "done";
+      return "";
+    }
+    function sectionBadge(cls) {
+      if (cls === "rules") return "zasady";
+      if (cls === "active") return "w toku";
+      if (cls === "queue") return "do zrobienia";
+      if (cls === "done") return "zrobione";
+      return "";
+    }
     function renderMarkdown(md) {
       const lines = md.replace(/\r\n/g, "\n").split("\n");
       let html = "";
+      let sectionOpen = false;
       let inList = null;
+      let itemCount = 0;
+
       function closeList() {
         if (inList) { html += "</" + inList + ">"; inList = null; }
       }
+      function closeSection() {
+        closeList();
+        if (sectionOpen) {
+          html = html.replace("__COUNT__", String(itemCount));
+          html += "</section>";
+          sectionOpen = false;
+          itemCount = 0;
+        }
+      }
+      function openSection(title) {
+        closeSection();
+        const cls = sectionClass(title);
+        const badge = sectionBadge(cls);
+        html += '<section class="' + cls + '"><h2>' + inlineFmt(title);
+        if (badge) html += '<span class="badge">' + badge + ' · __COUNT__</span>';
+        html += "</h2>";
+        sectionOpen = true;
+        itemCount = 0;
+      }
+      function addItem(done, text, ordered) {
+        const tag = ordered ? "ol" : "ul";
+        if (inList !== tag) { closeList(); html += "<" + tag + ">"; inList = tag; }
+        const kind = done ? "done" : "open";
+        html += '<li class="' + kind + '"><span class="mark" aria-hidden="true"></span><span class="body">' + inlineFmt(text) + "</span></li>";
+        itemCount += 1;
+      }
+
       for (const raw of lines) {
         const line = raw.trimEnd();
-        if (!line.trim()) { closeList(); continue; }
-        if (line.startsWith("# ")) { closeList(); continue; }
+        if (!line.trim()) { continue; }
+        if (line.startsWith("# ")) { continue; }
         if (line.startsWith("## ")) {
-          closeList();
-          html += "<h2>" + inlineFmt(line.slice(3)) + "</h2>";
+          openSection(line.slice(3).trim());
           continue;
         }
-        const task = line.match(/^(\d+\.\s+)?\[([ xX])\]\s+(.*)$/);
+        const task = line.match(/^(?:[-*]\s+|\d+\.\s+)\[([ xX])\]\s+(.*)$/);
         if (task) {
-          const ordered = !!task[1];
-          const tag = ordered ? "ol" : "ul";
-          if (inList !== tag) { closeList(); html += "<" + tag + ">"; inList = tag; }
-          const done = task[2].toLowerCase() === "x";
-          html += '<li class="' + (done ? "done" : "open") + '">' + inlineFmt(task[3]) + "</li>";
+          addItem(task[1].toLowerCase() === "x", task[2], /^\d+\./.test(line));
           continue;
         }
         if (line.match(/^[-*]\s+/)) {
-          if (inList !== "ul") { closeList(); html += "<ul>"; inList = "ul"; }
-          html += "<li class=\"open\">" + inlineFmt(line.replace(/^[-*]\s+/, "")) + "</li>";
+          addItem(false, line.replace(/^[-*]\s+/, ""), false);
           continue;
         }
         closeList();
-        html += "<p>" + inlineFmt(line) + "</p>";
+        if (!sectionOpen) html += '<p class="intro">' + inlineFmt(line) + "</p>";
+        else html += '<p class="intro">' + inlineFmt(line) + "</p>";
       }
-      closeList();
+      closeSection();
       return html;
     }
     async function load() {
