@@ -31,6 +31,7 @@
     jerry: "Jerry",
     hugo: "Hugo",
     cleverea: "Cleverea",
+    balcia: "Balcia",
   };
 
   // Rynek przechwyconego flow (kraj strony/aplikacji). Każdy nowy site → dopisz tutaj.
@@ -66,6 +67,7 @@
     jerry: "US",
     hugo: "US",
     cleverea: "ES",
+    balcia: "PL",
   };
 
   const COUNTRIES = {

@@ -13037,5 +13037,161 @@
     "description": "Cleverea mobile krok 8: oferty przewinięte — Terceros con lunas 744,19 €, Terceros con IRL 745,57 € (+27%), Terceros con IRL y PT 776,03 € (+32%); koniec ścieżki częściowej na liście ofert",
     "width": 1170,
     "height": 2532
+  },
+  {
+    "site": "balcia",
+    "device": "desktop",
+    "step": 1,
+    "tag": "landing",
+    "tags": [
+      "landing"
+    ],
+    "path": "images/balcia/desktop/01-landing.png",
+    "description": "Balcia desktop krok 1: strona główna Balcia Insurance — hasło „AC / OC / CITY COMBO do życia i do rzeczy”; przyciski „Kup” i „Zgłoś szkodę”; „Pobierz APPkę”; czat „Witaj! Potrzebujesz pomocy…”",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "balcia",
+    "device": "desktop",
+    "step": 2,
+    "tag": "form",
+    "tags": [
+      "form"
+    ],
+    "path": "images/balcia/desktop/02-oc-form-empty.png",
+    "description": "Balcia desktop krok 2: kalkulator OC (etap 1/4 Informacje) — puste pola: numer rejestracyjny i data urodzenia; zgoda na politykę prywatności; „Przelicz” lub „Wybierz pojazd ręcznie”; tylko auta użytkowane prywatnie",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "balcia",
+    "device": "desktop",
+    "step": 3,
+    "tag": "form",
+    "tags": [
+      "form"
+    ],
+    "path": "images/balcia/desktop/03-oc-form-filled.png",
+    "description": "Balcia desktop krok 3: kalkulator OC wypełniony — numer rejestracyjny i data urodzenia uzupełnione, zgoda zaznaczona; „Przelicz” / „Wybierz pojazd ręcznie”; bez danych w opisie",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "balcia",
+    "device": "desktop",
+    "step": 4,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/balcia/desktop/04-pojazd-recznie.png",
+    "description": "Balcia desktop krok 4: „Wybierz pojazd ręcznie” (wyszukiwanie po numerze w CEPiK/UFG zwracało błędy) — Dane pojazdu: Skoda Octavia 2019, benzyna 1498 cm³ / 110 kW, wielozadaniowy, manualna skrzynia, wersja wyposażenia",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "balcia",
+    "device": "desktop",
+    "step": 5,
+    "tag": "details",
+    "tags": [
+      "details"
+    ],
+    "path": "images/balcia/desktop/05-dane-osobowe.png",
+    "description": "Balcia desktop krok 5: Dane osobowe — imię, nazwisko, PESEL, data wydania prawa jazdy, adres (Wrocław), kierowca poniżej 28 lat: Nie, współwłaściciel, zgoda; „Dalej”; bez PII w opisie",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "balcia",
+    "device": "desktop",
+    "step": 6,
+    "tag": "error",
+    "tags": [
+      "error"
+    ],
+    "path": "images/balcia/desktop/06-blad-kalkulacji.png",
+    "description": "Balcia desktop krok 6: po „Dalej” loader „Pracujemy nad ofertą dla Ciebie”, a następnie modal „BSY-1857 – Wystąpił błąd w kalkulacji” (Close); koniec ścieżki częściowej, bez ceny",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "balcia",
+    "device": "mobile",
+    "step": 1,
+    "tag": "landing",
+    "tags": [
+      "landing"
+    ],
+    "path": "images/balcia/mobile/01-landing.png",
+    "description": "Balcia mobile krok 1: strona główna Balcia Insurance — hasło „AC / OC / CITY COMBO do życia i do rzeczy”; przyciski „Kup” i „Zgłoś szkodę”; „Pobierz APPkę”; czat „Witaj! Potrzebujesz pomocy…”",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "balcia",
+    "device": "mobile",
+    "step": 2,
+    "tag": "form",
+    "tags": [
+      "form"
+    ],
+    "path": "images/balcia/mobile/02-oc-form-empty.png",
+    "description": "Balcia mobile krok 2: kalkulator OC (etap 1/4 Informacje) — puste pola: numer rejestracyjny i data urodzenia; zgoda na politykę prywatności; „Przelicz” lub „Wybierz pojazd ręcznie”; tylko auta użytkowane prywatnie",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "balcia",
+    "device": "mobile",
+    "step": 3,
+    "tag": "form",
+    "tags": [
+      "form"
+    ],
+    "path": "images/balcia/mobile/03-oc-form-filled.png",
+    "description": "Balcia mobile krok 3: kalkulator OC wypełniony — numer rejestracyjny i data urodzenia uzupełnione, zgoda zaznaczona; „Przelicz” / „Wybierz pojazd ręcznie”; bez danych w opisie",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "balcia",
+    "device": "mobile",
+    "step": 4,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/balcia/mobile/04-pojazd-recznie.png",
+    "description": "Balcia mobile krok 4: „Wybierz pojazd ręcznie” (wyszukiwanie po numerze w CEPiK/UFG zwracało błędy) — Dane pojazdu: Skoda Octavia 2019, benzyna 1498 cm³ / 110 kW, wielozadaniowy, manualna skrzynia, wersja wyposażenia",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "balcia",
+    "device": "mobile",
+    "step": 5,
+    "tag": "details",
+    "tags": [
+      "details"
+    ],
+    "path": "images/balcia/mobile/05-dane-osobowe.png",
+    "description": "Balcia mobile krok 5: Dane osobowe — imię, nazwisko, PESEL, data wydania prawa jazdy, adres (Wrocław), kierowca poniżej 28 lat: Nie, współwłaściciel, zgoda; „Dalej”; bez PII w opisie",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "balcia",
+    "device": "mobile",
+    "step": 6,
+    "tag": "error",
+    "tags": [
+      "error"
+    ],
+    "path": "images/balcia/mobile/06-blad-kalkulacji.png",
+    "description": "Balcia mobile krok 6: po „Dalej” loader „Pracujemy nad ofertą dla Ciebie”, a następnie modal „BSY-1857 – Wystąpił błąd w kalkulacji” (Close); koniec ścieżki częściowej, bez ceny",
+    "width": 1170,
+    "height": 2532
   }
 ]
