@@ -14,6 +14,7 @@
     marshmallow: "Marshmallow",
     getsafe: "Getsafe",
     feather: "Feather",
+    comparethemarket: "Compare the Market",
   };
 
   // Rynek przechwyconego flow (kraj strony/aplikacji). Każdy nowy site → dopisz tutaj.
@@ -32,6 +33,7 @@
     marshmallow: "GB",
     getsafe: "DE",
     feather: "DE",
+    comparethemarket: "GB",
   };
 
   const COUNTRIES = {

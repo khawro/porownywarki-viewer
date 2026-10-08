@@ -7356,5 +7356,473 @@
     "description": "Feather mobile krok 8: wybór modelu (Skoda: Enyaq iV, Fabia, Karoq, Kodiaq, Kushaq, Octavia, Octavia RS, Slavia) — flow kończy się tutaj: wyszukiwarka wersji zwraca „No trims found” dla każdego testowanego auta (Skoda, VW Golf/Polo, BMW 3, Toyota Corolla), więc brak cen",
     "width": 1170,
     "height": 2532
+  },
+  {
+    "site": "comparethemarket",
+    "device": "desktop",
+    "step": 1,
+    "tag": "landing",
+    "tags": [
+      "landing"
+    ],
+    "path": "images/comparethemarket/desktop/01-landing.png",
+    "description": "Compare the Market desktop krok 1: strona „Drive down the cost of your car insurance quote” — oszczędność do £485, przyciski „Start a quote” i „Sign in to your account”",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "comparethemarket",
+    "device": "desktop",
+    "step": 2,
+    "tag": "registration",
+    "tags": [
+      "registration"
+    ],
+    "path": "images/comparethemarket/desktop/02-registration.png",
+    "description": "Compare the Market desktop krok 2: „What’s your car’s registration?” — numer rejestracyjny lub „Enter make and model”, ramka „Honesty’s the best policy”",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "comparethemarket",
+    "device": "desktop",
+    "step": 3,
+    "tag": "car",
+    "tags": [
+      "car"
+    ],
+    "path": "images/comparethemarket/desktop/03-car-details.png",
+    "description": "Compare the Market desktop krok 3: „Tell us about your car” — marka, model, paliwo, rok, drzwi, skrzynia, silnik, wersja; znaleziona Toyota Yaris Hybrid Icon HSD VVT-i (2019)",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "comparethemarket",
+    "device": "desktop",
+    "step": 4,
+    "tag": "car",
+    "tags": [
+      "car"
+    ],
+    "path": "images/comparethemarket/desktop/04-car-value.png",
+    "description": "Compare the Market desktop krok 4: szacowana wartość rynkowa auta — £12 000",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "comparethemarket",
+    "device": "desktop",
+    "step": 5,
+    "tag": "car",
+    "tags": [
+      "car"
+    ],
+    "path": "images/comparethemarket/desktop/05-car-usage.png",
+    "description": "Compare the Market desktop krok 5: data zakupu auta (06/2020), sposób użytkowania (Social and commuting) i roczny przebieg",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "comparethemarket",
+    "device": "desktop",
+    "step": 6,
+    "tag": "car",
+    "tags": [
+      "car"
+    ],
+    "path": "images/comparethemarket/desktop/06-car-storage.png",
+    "description": "Compare the Market desktop krok 6: gdzie auto stoi w nocy (garaż, ulica, parking itp.) i czy jest trzymane przy domu",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "comparethemarket",
+    "device": "desktop",
+    "step": 7,
+    "tag": "other",
+    "tags": [
+      "other"
+    ],
+    "path": "images/comparethemarket/desktop/07-other-cars.png",
+    "description": "Compare the Market desktop krok 7: liczba aut w gospodarstwie domowym (1) i inne używane pojazdy",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "comparethemarket",
+    "device": "desktop",
+    "step": 8,
+    "tag": "about",
+    "tags": [
+      "about"
+    ],
+    "path": "images/comparethemarket/desktop/08-about-you.png",
+    "description": "Compare the Market desktop krok 8: „About you” — tytuł, imię i nazwisko (James Carter), data urodzenia (15.05.1985), stan cywilny",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "comparethemarket",
+    "device": "desktop",
+    "step": 9,
+    "tag": "your",
+    "tags": [
+      "your"
+    ],
+    "path": "images/comparethemarket/desktop/09-your-household.png",
+    "description": "Compare the Market desktop krok 9: gospodarstwo domowe — dzieci poniżej 16 lat, nieprzerwane zamieszkanie w UK od urodzenia",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "comparethemarket",
+    "device": "desktop",
+    "step": 10,
+    "tag": "your",
+    "tags": [
+      "your"
+    ],
+    "path": "images/comparethemarket/desktop/10-your-employment.png",
+    "description": "Compare the Market desktop krok 10: status zatrudnienia (Employed), zawód (Software Engineer) i branża (Information Technology)",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "comparethemarket",
+    "device": "desktop",
+    "step": 11,
+    "tag": "licence",
+    "tags": [
+      "licence"
+    ],
+    "path": "images/comparethemarket/desktop/11-licence.png",
+    "description": "Compare the Market desktop krok 11: rodzaj prawa jazdy (Full UK Car Licence), miejsce wydania (Anglia, Szkocja lub Walia), staż",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "comparethemarket",
+    "device": "desktop",
+    "step": 12,
+    "tag": "licence",
+    "tags": [
+      "licence"
+    ],
+    "path": "images/comparethemarket/desktop/12-licence-restrictions.png",
+    "description": "Compare the Market desktop krok 12: choroby zgłaszane do DVLA, wcześniejsza odmowa/anulowanie polisy, niezatarte wyroki",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "comparethemarket",
+    "device": "desktop",
+    "step": 13,
+    "tag": "claims",
+    "tags": [
+      "claims"
+    ],
+    "path": "images/comparethemarket/desktop/13-claims-convictions.png",
+    "description": "Compare the Market desktop krok 13: szkody i wykroczenia drogowe z ostatnich 5 lat",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "comparethemarket",
+    "device": "desktop",
+    "step": 14,
+    "tag": "your",
+    "tags": [
+      "your"
+    ],
+    "path": "images/comparethemarket/desktop/14-your-policy.png",
+    "description": "Compare the Market desktop krok 14: „Your cover” — zakres (Comprehensive / TPFT / TPO), dobrowolny udział własny (None), płatność jednorazowa roczna",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "comparethemarket",
+    "device": "desktop",
+    "step": 15,
+    "tag": "check",
+    "tags": [
+      "check"
+    ],
+    "path": "images/comparethemarket/desktop/15-check-your-answers.png",
+    "description": "Compare the Market desktop krok 15: „Let’s check your answers” — podsumowanie danych (Toyota Yaris Hybrid Icon HSD VVT-i, wartość £12 000) przed pobraniem ofert",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "comparethemarket",
+    "device": "desktop",
+    "step": 16,
+    "tag": "results",
+    "tags": [
+      "results"
+    ],
+    "path": "images/comparethemarket/desktop/16-results.png",
+    "description": "Compare the Market desktop krok 16: wyniki: 58 ofert Comprehensive od 8 Oct 2026, posortowane od najtańszej (rocznie) — Allianz Online Bronze £901.84 (udział własny £350), Admiral Essential £938.85 (£150); filtry po lewej",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "comparethemarket",
+    "device": "desktop",
+    "step": 17,
+    "tag": "results",
+    "tags": [
+      "results"
+    ],
+    "path": "images/comparethemarket/desktop/17-results-scrolled.png",
+    "description": "Compare the Market desktop krok 17: wyniki po przewinięciu — Admiral Essential £938.85 (udział własny £150), Britannia Essentials £940.09 (£150), początek Britannia £957.01",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "comparethemarket",
+    "device": "desktop",
+    "step": 18,
+    "tag": "results",
+    "tags": [
+      "results"
+    ],
+    "path": "images/comparethemarket/desktop/18-results-scrolled-2.png",
+    "description": "Compare the Market desktop krok 18: wyniki dalej — Britannia Essentials £940.09 (udział własny £150), Britannia £957.01 (£125), Allianz Online Silver £965.48 (£250); flow kończy się na liście ofert",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "comparethemarket",
+    "device": "mobile",
+    "step": 1,
+    "tag": "landing",
+    "tags": [
+      "landing"
+    ],
+    "path": "images/comparethemarket/mobile/01-landing.png",
+    "description": "Compare the Market mobile krok 1: strona „Drive down the cost of your car insurance quote” — oszczędność do £485, przyciski „Start a quote” i „Sign in to your account”",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "comparethemarket",
+    "device": "mobile",
+    "step": 2,
+    "tag": "registration",
+    "tags": [
+      "registration"
+    ],
+    "path": "images/comparethemarket/mobile/02-registration.png",
+    "description": "Compare the Market mobile krok 2: „What’s your car’s registration?” — numer rejestracyjny lub „Enter make and model”, ramka „Honesty’s the best policy”",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "comparethemarket",
+    "device": "mobile",
+    "step": 3,
+    "tag": "car",
+    "tags": [
+      "car"
+    ],
+    "path": "images/comparethemarket/mobile/03-car-details.png",
+    "description": "Compare the Market mobile krok 3: „Tell us about your car” — marka, model, paliwo, rok, drzwi, skrzynia, silnik, wersja; znaleziona Toyota Yaris Hybrid Icon HSD VVT-i (2019)",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "comparethemarket",
+    "device": "mobile",
+    "step": 4,
+    "tag": "car",
+    "tags": [
+      "car"
+    ],
+    "path": "images/comparethemarket/mobile/04-car-value.png",
+    "description": "Compare the Market mobile krok 4: szacowana wartość rynkowa auta — £12 000",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "comparethemarket",
+    "device": "mobile",
+    "step": 5,
+    "tag": "car",
+    "tags": [
+      "car"
+    ],
+    "path": "images/comparethemarket/mobile/05-car-usage.png",
+    "description": "Compare the Market mobile krok 5: data zakupu auta (06/2020), sposób użytkowania (Social and commuting) i roczny przebieg",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "comparethemarket",
+    "device": "mobile",
+    "step": 6,
+    "tag": "car",
+    "tags": [
+      "car"
+    ],
+    "path": "images/comparethemarket/mobile/06-car-storage.png",
+    "description": "Compare the Market mobile krok 6: gdzie auto stoi w nocy (garaż, ulica, parking itp.) i czy jest trzymane przy domu",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "comparethemarket",
+    "device": "mobile",
+    "step": 7,
+    "tag": "other",
+    "tags": [
+      "other"
+    ],
+    "path": "images/comparethemarket/mobile/07-other-cars.png",
+    "description": "Compare the Market mobile krok 7: liczba aut w gospodarstwie domowym (1) i inne używane pojazdy",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "comparethemarket",
+    "device": "mobile",
+    "step": 8,
+    "tag": "about",
+    "tags": [
+      "about"
+    ],
+    "path": "images/comparethemarket/mobile/08-about-you.png",
+    "description": "Compare the Market mobile krok 8: „About you” — tytuł, imię i nazwisko (James Carter), data urodzenia (15.05.1985), stan cywilny",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "comparethemarket",
+    "device": "mobile",
+    "step": 9,
+    "tag": "your",
+    "tags": [
+      "your"
+    ],
+    "path": "images/comparethemarket/mobile/09-your-household.png",
+    "description": "Compare the Market mobile krok 9: gospodarstwo domowe — dzieci poniżej 16 lat, nieprzerwane zamieszkanie w UK od urodzenia",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "comparethemarket",
+    "device": "mobile",
+    "step": 10,
+    "tag": "your",
+    "tags": [
+      "your"
+    ],
+    "path": "images/comparethemarket/mobile/10-your-employment.png",
+    "description": "Compare the Market mobile krok 10: status zatrudnienia (Employed), zawód (Software Engineer) i branża (Information Technology)",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "comparethemarket",
+    "device": "mobile",
+    "step": 11,
+    "tag": "licence",
+    "tags": [
+      "licence"
+    ],
+    "path": "images/comparethemarket/mobile/11-licence.png",
+    "description": "Compare the Market mobile krok 11: rodzaj prawa jazdy (Full UK Car Licence), miejsce wydania (Anglia, Szkocja lub Walia), staż",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "comparethemarket",
+    "device": "mobile",
+    "step": 12,
+    "tag": "licence",
+    "tags": [
+      "licence"
+    ],
+    "path": "images/comparethemarket/mobile/12-licence-restrictions.png",
+    "description": "Compare the Market mobile krok 12: choroby zgłaszane do DVLA, wcześniejsza odmowa/anulowanie polisy, niezatarte wyroki",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "comparethemarket",
+    "device": "mobile",
+    "step": 13,
+    "tag": "claims",
+    "tags": [
+      "claims"
+    ],
+    "path": "images/comparethemarket/mobile/13-claims-convictions.png",
+    "description": "Compare the Market mobile krok 13: szkody i wykroczenia drogowe z ostatnich 5 lat",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "comparethemarket",
+    "device": "mobile",
+    "step": 14,
+    "tag": "your",
+    "tags": [
+      "your"
+    ],
+    "path": "images/comparethemarket/mobile/14-your-policy.png",
+    "description": "Compare the Market mobile krok 14: „Your cover” — zakres (Comprehensive / TPFT / TPO), dobrowolny udział własny (None), płatność jednorazowa roczna",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "comparethemarket",
+    "device": "mobile",
+    "step": 15,
+    "tag": "check",
+    "tags": [
+      "check"
+    ],
+    "path": "images/comparethemarket/mobile/15-check-your-answers.png",
+    "description": "Compare the Market mobile krok 15: „Let’s check your answers” — podsumowanie danych (Toyota Yaris Hybrid Icon HSD VVT-i, wartość £12 000) przed pobraniem ofert",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "comparethemarket",
+    "device": "mobile",
+    "step": 16,
+    "tag": "results",
+    "tags": [
+      "results"
+    ],
+    "path": "images/comparethemarket/mobile/16-results.png",
+    "description": "Compare the Market mobile krok 16: wyniki: 58 ofert Comprehensive od 8 Oct 2026, posortowane od najtańszej — Allianz Online Bronze £901.84 rocznie (udział własny £350)",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "comparethemarket",
+    "device": "mobile",
+    "step": 17,
+    "tag": "results",
+    "tags": [
+      "results"
+    ],
+    "path": "images/comparethemarket/mobile/17-results-scrolled.png",
+    "description": "Compare the Market mobile krok 17: wyniki po przewinięciu — Admiral Essential £938.85 rocznie (udział własny £150)",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "comparethemarket",
+    "device": "mobile",
+    "step": 18,
+    "tag": "results",
+    "tags": [
+      "results"
+    ],
+    "path": "images/comparethemarket/mobile/18-results-scrolled-2.png",
+    "description": "Compare the Market mobile krok 18: wyniki dalej — koniec karty Britannia Essentials (udział własny £150), Britannia £957.01 rocznie; flow kończy się na liście ofert",
+    "width": 1170,
+    "height": 2532
   }
 ]
