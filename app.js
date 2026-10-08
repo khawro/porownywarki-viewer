@@ -30,6 +30,7 @@
     pillow: "Pillow.cz",
     jerry: "Jerry",
     hugo: "Hugo",
+    cleverea: "Cleverea",
   };
 
   // Rynek przechwyconego flow (kraj strony/aplikacji). Każdy nowy site → dopisz tutaj.
@@ -64,6 +65,7 @@
     pillow: "CZ",
     jerry: "US",
     hugo: "US",
+    cleverea: "ES",
   };
 
   const COUNTRIES = {
@@ -74,6 +76,7 @@
     SE: { flag: "\u{1F1F8}\u{1F1EA}", name: "Szwecja" },
     CZ: { flag: "\u{1F1E8}\u{1F1FF}", name: "Czechy" },
     FR: { flag: "\u{1F1EB}\u{1F1F7}", name: "Francja" },
+    ES: { flag: "\u{1F1EA}\u{1F1F8}", name: "Hiszpania" },
   };
 
   const TAG_LABELS = {

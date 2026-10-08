@@ -12816,5 +12816,226 @@
     "description": "Hugo mobile krok 11: Root Insurance $103.83/mo — BI 25k/50k, PD 25k, deductibles $1,000; Continue with Root Insurance",
     "width": 1170,
     "height": 2532
+  },
+  {
+    "site": "cleverea",
+    "device": "desktop",
+    "step": 1,
+    "tag": "landing",
+    "tags": [
+      "landing"
+    ],
+    "path": "images/cleverea/desktop/01-landing.png",
+    "description": "Cleverea desktop krok 1: strona główna — „Seguros, fibra, móvil y energía. Todo en uno.”; Google ★4,5; kafle Seguro coche / moto / hogar…; „Calcular precio”",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "cleverea",
+    "device": "desktop",
+    "step": 2,
+    "tag": "type",
+    "tags": [
+      "type"
+    ],
+    "path": "images/cleverea/desktop/02-tipo-seguro.png",
+    "description": "Cleverea desktop krok 2: „¿Qué tipo de seguro necesitas?” — Seguro anual (ochrona przez cały rok) vs Seguro por días (1–30 dni)",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "cleverea",
+    "device": "desktop",
+    "step": 3,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/cleverea/desktop/03-vehiculo.png",
+    "description": "Cleverea desktop krok 3: 1/6 „Tu Vehículo” — pole Matrícula i Marka; pasek 6 kroków (pojazd, użytkowanie, dane, carnet, historia, finalizacja)",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "cleverea",
+    "device": "desktop",
+    "step": 4,
+    "tag": "usage",
+    "tags": [
+      "usage"
+    ],
+    "path": "images/cleverea/desktop/04-uso.png",
+    "description": "Cleverea desktop krok 4: 2/6 „Uso del Vehículo” — parkowanie na ulicy, do 10 000 km/rok, data zakupu 01/2023, kod pocztowy (Madryt)",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "cleverea",
+    "device": "desktop",
+    "step": 5,
+    "tag": "details",
+    "tags": [
+      "details"
+    ],
+    "path": "images/cleverea/desktop/05-datos.png",
+    "description": "Cleverea desktop krok 5: 3/6 dane tomador/conductor/propietario — imię, nazwiska, DNI/NIE, data urodzenia, płeć, stan cywilny, adres; bez PII w opisie",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "cleverea",
+    "device": "desktop",
+    "step": 6,
+    "tag": "contact",
+    "tags": [
+      "contact"
+    ],
+    "path": "images/cleverea/desktop/06-contacto.png",
+    "description": "Cleverea desktop krok 6: 6/6 „¡Último paso!” — dane kontaktowe (e-mail, telefon) przed wyliczeniem ceny; „Ver ofertas”; bez PII w opisie",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "cleverea",
+    "device": "desktop",
+    "step": 7,
+    "tag": "offers",
+    "tags": [
+      "offers"
+    ],
+    "path": "images/cleverea/desktop/07-ofertas.png",
+    "description": "Cleverea desktop krok 7: „Los mejores seguros para tu AUDI A4” — 17 ofert Axa wg najniższej ceny: Terceros Básico con Asistencia 588,55 €/rok (MEJOR PRECIO), Terceros con lunas 744,19 € (EL MÁS CONTRATADO); filtry modalidad/coberturas; „Contratar online” / „Que me llame un agente”",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "cleverea",
+    "device": "desktop",
+    "step": 8,
+    "tag": "offers",
+    "tags": [
+      "offers"
+    ],
+    "path": "images/cleverea/desktop/08-ofertas-scroll.png",
+    "description": "Cleverea desktop krok 8: oferty przewinięte — Terceros con lunas 744,19 €, Terceros con IRL 745,57 € (+27%), Terceros con IRL y PT 776,03 € (+32%); Todo riesgo fq. 1.200 € poniżej",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "cleverea",
+    "device": "desktop",
+    "step": 9,
+    "tag": "offers",
+    "tags": [
+      "offers"
+    ],
+    "path": "images/cleverea/desktop/09-ofertas-scroll.png",
+    "description": "Cleverea desktop krok 9: dalsze oferty — Terceros con IRL y PT 776,03 €, Todo riesgo fq. 1.200 € 913,32 € (+55%), Todo riesgo fq. 600 € 948,79 €/rok (+61%); koniec ścieżki częściowej na liście ofert",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "cleverea",
+    "device": "mobile",
+    "step": 1,
+    "tag": "landing",
+    "tags": [
+      "landing"
+    ],
+    "path": "images/cleverea/mobile/01-landing.png",
+    "description": "Cleverea mobile krok 1: strona główna — „Seguros, fibra, móvil y energía. Todo en uno.”; Google ★4,5; kafle Seguro coche / moto / hogar…; „Calcular precio”",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "cleverea",
+    "device": "mobile",
+    "step": 2,
+    "tag": "type",
+    "tags": [
+      "type"
+    ],
+    "path": "images/cleverea/mobile/02-tipo-seguro.png",
+    "description": "Cleverea mobile krok 2: „¿Qué tipo de seguro necesitas?” — Seguro anual (ochrona przez cały rok) vs Seguro por días (1–30 dni)",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "cleverea",
+    "device": "mobile",
+    "step": 3,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/cleverea/mobile/03-vehiculo.png",
+    "description": "Cleverea mobile krok 3: 1/6 „Tu Vehículo” — pole Matrícula i Marka; pasek 6 kroków (pojazd, użytkowanie, dane, carnet, historia, finalizacja)",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "cleverea",
+    "device": "mobile",
+    "step": 4,
+    "tag": "usage",
+    "tags": [
+      "usage"
+    ],
+    "path": "images/cleverea/mobile/04-uso.png",
+    "description": "Cleverea mobile krok 4: 2/6 „Uso del Vehículo” — parkowanie na ulicy, do 10 000 km/rok, data zakupu 01/2023, kod pocztowy (Madryt)",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "cleverea",
+    "device": "mobile",
+    "step": 5,
+    "tag": "details",
+    "tags": [
+      "details"
+    ],
+    "path": "images/cleverea/mobile/05-datos.png",
+    "description": "Cleverea mobile krok 5: 3/6 dane tomador/conductor/propietario — imię, nazwiska, DNI/NIE, data urodzenia, płeć, stan cywilny, adres; bez PII w opisie",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "cleverea",
+    "device": "mobile",
+    "step": 6,
+    "tag": "contact",
+    "tags": [
+      "contact"
+    ],
+    "path": "images/cleverea/mobile/06-contacto.png",
+    "description": "Cleverea mobile krok 6: 6/6 „¡Último paso!” — dane kontaktowe (e-mail, telefon) przed wyliczeniem ceny; „Ver ofertas”; bez PII w opisie",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "cleverea",
+    "device": "mobile",
+    "step": 7,
+    "tag": "offers",
+    "tags": [
+      "offers"
+    ],
+    "path": "images/cleverea/mobile/07-ofertas.png",
+    "description": "Cleverea mobile krok 7: „Los mejores seguros para tu AUDI A4” — 17 ofert Axa wg najniższej ceny: Terceros Básico con Asistencia 588,55 €/rok (MEJOR PRECIO), Terceros con lunas 744,19 € (EL MÁS CONTRATADO); filtry modalidad/coberturas; „Contratar online” / „Que me llame un agente”",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "cleverea",
+    "device": "mobile",
+    "step": 8,
+    "tag": "offers",
+    "tags": [
+      "offers"
+    ],
+    "path": "images/cleverea/mobile/08-ofertas-scroll.png",
+    "description": "Cleverea mobile krok 8: oferty przewinięte — Terceros con lunas 744,19 €, Terceros con IRL 745,57 € (+27%), Terceros con IRL y PT 776,03 € (+32%); koniec ścieżki częściowej na liście ofert",
+    "width": 1170,
+    "height": 2532
   }
 ]
