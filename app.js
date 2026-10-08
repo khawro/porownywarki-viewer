@@ -25,6 +25,7 @@
     pevno: "Pevno",
     redclick: "Redclick",
     klik: "Klik.cz",
+    rixo: "Rixo.cz",
   };
 
   // Rynek przechwyconego flow (kraj strony/aplikacji). Każdy nowy site → dopisz tutaj.
@@ -54,6 +55,7 @@
     pevno: "PL",
     redclick: "PL",
     klik: "CZ",
+    rixo: "CZ",
   };
 
   const COUNTRIES = {
