@@ -29,6 +29,7 @@
     lovys: "Lovys",
     pillow: "Pillow.cz",
     jerry: "Jerry",
+    hugo: "Hugo",
   };
 
   // Rynek przechwyconego flow (kraj strony/aplikacji). Każdy nowy site → dopisz tutaj.
@@ -62,6 +63,7 @@
     lovys: "FR",
     pillow: "CZ",
     jerry: "US",
+    hugo: "US",
   };
 
   const COUNTRIES = {

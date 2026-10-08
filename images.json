@@ -12530,5 +12530,291 @@
     "description": "Jerry mobile krok 11: kod SMS 4-cyfrowy — Enter the 4 digit confirmation code; Resend / Call me; koniec ścieżki częściowej (potrzebny numer US)",
     "width": 1170,
     "height": 2532
+  },
+  {
+    "site": "hugo",
+    "device": "desktop",
+    "step": 1,
+    "tag": "landing",
+    "tags": [
+      "landing"
+    ],
+    "path": "images/hugo/desktop/01-landing.png",
+    "description": "Hugo desktop krok 1: strona główna withhugo.com — „Car insurance that fits your paycheck”; six-month policy pay at your own pace; CTA „Get started”; proof of insurance under 6 minutes",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "hugo",
+    "device": "desktop",
+    "step": 2,
+    "tag": "compare",
+    "tags": [
+      "compare"
+    ],
+    "path": "images/hugo/desktop/02-compare.png",
+    "description": "Hugo desktop krok 2: „How Hugo Compares” — tabela Hugo vs Other insurance (pay at your pace, daily rate, no down payment, no upfront fees, instant POI, coverage extension; gig-work: nie)",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "hugo",
+    "device": "desktop",
+    "step": 3,
+    "tag": "address",
+    "tags": [
+      "address"
+    ],
+    "path": "images/hugo/desktop/03-address.png",
+    "description": "Hugo desktop krok 3: wprowadzanie adresu zamieszkania; bez adresu w opisie",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "hugo",
+    "device": "desktop",
+    "step": 4,
+    "tag": "address",
+    "tags": [
+      "address"
+    ],
+    "path": "images/hugo/desktop/04-address-confirm.png",
+    "description": "Hugo desktop krok 4: potwierdzenie adresu; bez adresu w opisie",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "hugo",
+    "device": "desktop",
+    "step": 5,
+    "tag": "ssn",
+    "tags": [
+      "ssn"
+    ],
+    "path": "images/hugo/desktop/05-ssn.png",
+    "description": "Hugo desktop krok 5: „Great! What's your Social Security Number?” — pole ###-##-####; Securely Encrypted; opcja pominięcia SSN; bez SSN w opisie",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "hugo",
+    "device": "desktop",
+    "step": 6,
+    "tag": "ssn",
+    "tags": [
+      "ssn"
+    ],
+    "path": "images/hugo/desktop/06-skip-ssn-modal.png",
+    "description": "Hugo desktop krok 6: modal „No problem!” — wycena bez SSN możliwa, ale rate may be higher; Continue / Go back and fill my SSN",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "hugo",
+    "device": "desktop",
+    "step": 7,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/hugo/desktop/07-vin-confirm.png",
+    "description": "Hugo desktop krok 7: „Is this your vehicle?” — 2019 Toyota Camry L; Yes / No, that's not my car; bez VIN w opisie",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "hugo",
+    "device": "desktop",
+    "step": 8,
+    "tag": "review",
+    "tags": [
+      "review"
+    ],
+    "path": "images/hugo/desktop/08-final-check.png",
+    "description": "Hugo desktop krok 8: „Final check” — przegląd personal / driving / vehicle (2019 Toyota Camry L, brak naruszeń, brak prior insurance); bez nazwisk, SSN, adresu i VIN w opisie",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "hugo",
+    "device": "desktop",
+    "step": 9,
+    "tag": "quote",
+    "tags": [
+      "quote"
+    ],
+    "path": "images/hugo/desktop/09-quote-basic.png",
+    "description": "Hugo desktop krok 9: zakładka Basic — $34.30 every week / Continue $4.90 per day; BI 25k/50k, PD 25k; flexible payments, no upfront fees, instant POI",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "hugo",
+    "device": "desktop",
+    "step": 10,
+    "tag": "plans",
+    "tags": [
+      "plans"
+    ],
+    "path": "images/hugo/desktop/10-plans-full.png",
+    "description": "Hugo desktop krok 10: zakładka Full — Root Insurance $104/mo i Bristol West $201/mo; przyciski View quote",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "hugo",
+    "device": "desktop",
+    "step": 11,
+    "tag": "detail",
+    "tags": [
+      "detail"
+    ],
+    "path": "images/hugo/desktop/11-root-detail.png",
+    "description": "Hugo desktop krok 11: detal oferty Root Insurance $103.83/mo — BI 25k/50k, PD 25k, deductibles $1,000; „Continue with Root Insurance” (handoff do quote.root.com)",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "hugo",
+    "device": "mobile",
+    "step": 1,
+    "tag": "landing",
+    "tags": [
+      "landing"
+    ],
+    "path": "images/hugo/mobile/01-landing.png",
+    "description": "Hugo mobile krok 1: strona główna — „Car insurance that fits your paycheck”; CTA „Get started”; proof of insurance under 6 minutes",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "hugo",
+    "device": "mobile",
+    "step": 2,
+    "tag": "compare",
+    "tags": [
+      "compare"
+    ],
+    "path": "images/hugo/mobile/02-compare.png",
+    "description": "Hugo mobile krok 2: „How Hugo Compares” — Hugo vs Other insurance (pay at your pace, daily rate, no down payment…)",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "hugo",
+    "device": "mobile",
+    "step": 3,
+    "tag": "address",
+    "tags": [
+      "address"
+    ],
+    "path": "images/hugo/mobile/03-address.png",
+    "description": "Hugo mobile krok 3: wprowadzanie adresu; bez adresu w opisie",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "hugo",
+    "device": "mobile",
+    "step": 4,
+    "tag": "address",
+    "tags": [
+      "address"
+    ],
+    "path": "images/hugo/mobile/04-address-confirm.png",
+    "description": "Hugo mobile krok 4: potwierdzenie adresu; bez adresu w opisie",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "hugo",
+    "device": "mobile",
+    "step": 5,
+    "tag": "ssn",
+    "tags": [
+      "ssn"
+    ],
+    "path": "images/hugo/mobile/05-ssn.png",
+    "description": "Hugo mobile krok 5: prompt SSN — pole ###-##-####; Securely Encrypted; bez SSN w opisie",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "hugo",
+    "device": "mobile",
+    "step": 6,
+    "tag": "ssn",
+    "tags": [
+      "ssn"
+    ],
+    "path": "images/hugo/mobile/06-skip-ssn-modal.png",
+    "description": "Hugo mobile krok 6: modal pominięcia SSN — „No problem!”; rate may be higher; Continue / Go back",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "hugo",
+    "device": "mobile",
+    "step": 7,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/hugo/mobile/07-vin-confirm.png",
+    "description": "Hugo mobile krok 7: „Is this your vehicle?” — 2019 Toyota Camry L; Yes / No; bez VIN w opisie",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "hugo",
+    "device": "mobile",
+    "step": 8,
+    "tag": "review",
+    "tags": [
+      "review"
+    ],
+    "path": "images/hugo/mobile/08-final-check.png",
+    "description": "Hugo mobile krok 8: „Final check” — personal / driving / vehicle; bez PII w opisie",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "hugo",
+    "device": "mobile",
+    "step": 9,
+    "tag": "quote",
+    "tags": [
+      "quote"
+    ],
+    "path": "images/hugo/mobile/09-quote-basic.png",
+    "description": "Hugo mobile krok 9: Basic — $34.30/week lub $4.90/day; limity BI/PD",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "hugo",
+    "device": "mobile",
+    "step": 10,
+    "tag": "plans",
+    "tags": [
+      "plans"
+    ],
+    "path": "images/hugo/mobile/10-plans-full.png",
+    "description": "Hugo mobile krok 10: Full — Root Insurance $104/mo, Bristol West $201/mo",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "hugo",
+    "device": "mobile",
+    "step": 11,
+    "tag": "detail",
+    "tags": [
+      "detail"
+    ],
+    "path": "images/hugo/mobile/11-root-detail.png",
+    "description": "Hugo mobile krok 11: Root Insurance $103.83/mo — BI 25k/50k, PD 25k, deductibles $1,000; Continue with Root Insurance",
+    "width": 1170,
+    "height": 2532
   }
 ]
