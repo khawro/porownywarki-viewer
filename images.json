@@ -9982,5 +9982,161 @@
     "description": "Trasti mobile krok 6: modal blokady CEPiK — „Zauważyliśmy niezgodności z bazą CEPiK i nie możemy przedstawić Ci oferty. Oddzwonimy w kilka minut”; infolinia 22 250 93 73 (pn–pt 8:00–17:00); flow kończy się bez oferty",
     "width": 1170,
     "height": 2532
+  },
+  {
+    "site": "warta",
+    "device": "desktop",
+    "step": 1,
+    "tag": "landing",
+    "tags": [
+      "landing"
+    ],
+    "path": "images/warta/desktop/01-landing.png",
+    "description": "Warta desktop krok 1: strona główna warta.pl — „Warto dobrze się ubezpieczyć”, kalkulator „Kup online polisę OC/AC” (numer rejestracyjny + data urodzenia), przycisk „Oblicz składkę”; kategorie Podróż / Szkoła / Życie; karty produktów (auto, turystyczne, mieszkanie, życie)",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "warta",
+    "device": "desktop",
+    "step": 2,
+    "tag": "pojazd",
+    "tags": [
+      "pojazd"
+    ],
+    "path": "images/warta/desktop/02-pojazd-wlasciciel.png",
+    "description": "Warta desktop krok 2: kalkulator „Pojazd i właściciel” — dane pojazdu z CEPiK (Volvo V70, 2003, benzyna 2435 cm³ / 140 KM); zaznaczone OC i AC; leasing i taksówka: Nie; właściciel osoba fizyczna (imię, nazwisko, PESEL, kod pocztowy wypełnione); zgody",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "warta",
+    "device": "desktop",
+    "step": 3,
+    "tag": "oferta",
+    "tags": [
+      "oferta"
+    ],
+    "path": "images/warta/desktop/03-oferta-ac-niedostepna.png",
+    "description": "Warta desktop krok 3: czerwony komunikat: „Oferta AC jest niedostępna online. Zamów rozmowę lub zmień wybraną opcję, aby zobaczyć ofertę tylko na OC.”; zaznaczone OC+AC; opcje Zamów rozmowę / przejście do OC",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "warta",
+    "device": "desktop",
+    "step": 4,
+    "tag": "oferta",
+    "tags": [
+      "oferta"
+    ],
+    "path": "images/warta/desktop/04-oferta-oc.png",
+    "description": "Warta desktop krok 4: oferta tylko OC — trzy warianty na 12 mies.: OC 2 291 zł, OC+Assistance (Polecany) 2 337 zł, OC+Assistance rozszerzony 2 407 zł; przełącznik zniżki Warta4U; panel „Twoje ubezpieczenie” (Volvo V70, zakres OC)",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "warta",
+    "device": "desktop",
+    "step": 5,
+    "tag": "oferta",
+    "tags": [
+      "oferta"
+    ],
+    "path": "images/warta/desktop/05-oferta-scroll.png",
+    "description": "Warta desktop krok 5: strona oferty przewinięta — porównanie zakresów pakietów OC / OC+Assistance (ochrona zniżek, holowanie); FAQ i zachęta do aplikacji Warta4U; cena bazowa OC 2 291 zł",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "warta",
+    "device": "desktop",
+    "step": 6,
+    "tag": "dane",
+    "tags": [
+      "dane"
+    ],
+    "path": "images/warta/desktop/06-dane-do-polisy.png",
+    "description": "Warta desktop krok 6: „Dane do polisy” — wymagane uzupełnienie pełnego numeru VIN (pole częściowo wypełnione); okres ochrony od 08.10.2026; zgody i oświadczenia; podsumowanie HDI OC 2 291 zł; flow kończy się na obowiązkowym VIN (częściowy)",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "warta",
+    "device": "mobile",
+    "step": 1,
+    "tag": "landing",
+    "tags": [
+      "landing"
+    ],
+    "path": "images/warta/mobile/01-landing.png",
+    "description": "Warta mobile krok 1: strona główna warta.pl — „Warto dobrze się ubezpieczyć”, kalkulator „Kup online polisę OC/AC” (numer rejestracyjny + data urodzenia), przycisk „Oblicz składkę”; kategorie Podróż / Szkoła / Życie; karty produktów (auto, turystyczne, mieszkanie, życie)",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "warta",
+    "device": "mobile",
+    "step": 2,
+    "tag": "pojazd",
+    "tags": [
+      "pojazd"
+    ],
+    "path": "images/warta/mobile/02-pojazd-wlasciciel.png",
+    "description": "Warta mobile krok 2: kalkulator „Pojazd i właściciel” — dane pojazdu z CEPiK (Volvo V70, 2003, benzyna 2435 cm³ / 140 KM); zaznaczone OC i AC; leasing i taksówka: Nie; właściciel osoba fizyczna (imię, nazwisko, PESEL, kod pocztowy wypełnione); zgody",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "warta",
+    "device": "mobile",
+    "step": 3,
+    "tag": "oferta",
+    "tags": [
+      "oferta"
+    ],
+    "path": "images/warta/mobile/03-oferta-ac-niedostepna.png",
+    "description": "Warta mobile krok 3: czerwony komunikat: „Oferta AC jest niedostępna online. Zamów rozmowę lub zmień wybraną opcję, aby zobaczyć ofertę tylko na OC.”; zaznaczone OC+AC; opcje Zamów rozmowę / przejście do OC",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "warta",
+    "device": "mobile",
+    "step": 4,
+    "tag": "oferta",
+    "tags": [
+      "oferta"
+    ],
+    "path": "images/warta/mobile/04-oferta-oc.png",
+    "description": "Warta mobile krok 4: oferta tylko OC — trzy warianty na 12 mies.: OC 2 291 zł, OC+Assistance (Polecany) 2 337 zł, OC+Assistance rozszerzony 2 407 zł; przełącznik zniżki Warta4U; panel „Twoje ubezpieczenie” (Volvo V70, zakres OC)",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "warta",
+    "device": "mobile",
+    "step": 5,
+    "tag": "oferta",
+    "tags": [
+      "oferta"
+    ],
+    "path": "images/warta/mobile/05-oferta-scroll.png",
+    "description": "Warta mobile krok 5: strona oferty przewinięta — porównanie zakresów pakietów OC / OC+Assistance (ochrona zniżek, holowanie); FAQ i zachęta do aplikacji Warta4U; cena bazowa OC 2 291 zł",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "warta",
+    "device": "mobile",
+    "step": 6,
+    "tag": "dane",
+    "tags": [
+      "dane"
+    ],
+    "path": "images/warta/mobile/06-dane-do-polisy.png",
+    "description": "Warta mobile krok 6: „Dane do polisy” — wymagane uzupełnienie pełnego numeru VIN (pole częściowo wypełnione); okres ochrony od 08.10.2026; zgody i oświadczenia; podsumowanie HDI OC 2 291 zł; flow kończy się na obowiązkowym VIN (częściowy)",
+    "width": 1170,
+    "height": 2532
   }
 ]

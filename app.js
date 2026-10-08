@@ -20,6 +20,7 @@
     progressive: "Progressive",
     hedvig: "Hedvig",
     trasti: "Trasti",
+    warta: "Warta",
   };
 
   // Rynek przechwyconego flow (kraj strony/aplikacji). Każdy nowy site → dopisz tutaj.
@@ -44,6 +45,7 @@
     progressive: "US",
     hedvig: "SE",
     trasti: "PL",
+    warta: "PL",
   };
 
   const COUNTRIES = {
