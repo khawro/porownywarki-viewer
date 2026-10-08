@@ -6048,12 +6048,12 @@
     "site": "policygenius",
     "device": "mobile",
     "step": 1,
-    "tag": "policy",
+    "tag": "landing",
     "tags": [
-      "policy"
+      "landing"
     ],
-    "path": "images/policygenius/mobile/01-policy-check.png",
-    "description": "policygenius mobile krok 1: pytanie, czy masz już aktywną polisę domu lub auta w Policygenius",
+    "path": "images/policygenius/mobile/01-landing.png",
+    "description": "policygenius mobile krok 1: strona główna Policygenius — „A human approach to buying insurance”, wybór rodzaju ubezpieczenia",
     "width": 1170,
     "height": 2532
   },
@@ -6061,12 +6061,12 @@
     "site": "policygenius",
     "device": "mobile",
     "step": 2,
-    "tag": "zip",
+    "tag": "policy",
     "tags": [
-      "zip"
+      "policy"
     ],
-    "path": "images/policygenius/mobile/02-zip-basics.png",
-    "description": "policygenius mobile krok 2: „Let’s start with the basics” — kod ZIP i opcja pakietu z ubezpieczeniem domu",
+    "path": "images/policygenius/mobile/02-policy-check.png",
+    "description": "policygenius mobile krok 2: pytanie, czy masz już aktywną polisę domu lub auta w Policygenius",
     "width": 1170,
     "height": 2532
   },
@@ -6074,12 +6074,12 @@
     "site": "policygenius",
     "device": "mobile",
     "step": 3,
-    "tag": "current",
+    "tag": "zip",
     "tags": [
-      "current"
+      "zip"
     ],
-    "path": "images/policygenius/mobile/03-current-policy.png",
-    "description": "policygenius mobile krok 3: „See all the ways you could save” — obecny ubezpieczyciel auta i długość polisy",
+    "path": "images/policygenius/mobile/03-zip-basics.png",
+    "description": "policygenius mobile krok 3: „Let’s start with the basics” — kod ZIP i opcja pakietu z ubezpieczeniem domu",
     "width": 1170,
     "height": 2532
   },
@@ -6087,12 +6087,12 @@
     "site": "policygenius",
     "device": "mobile",
     "step": 4,
-    "tag": "property",
+    "tag": "current",
     "tags": [
-      "property"
+      "current"
     ],
-    "path": "images/policygenius/mobile/04-property-address.png",
-    "description": "policygenius mobile krok 4: adres zamieszkania i pytanie, czy mieszkasz tam ponad 3 lata",
+    "path": "images/policygenius/mobile/04-current-policy.png",
+    "description": "policygenius mobile krok 4: „See all the ways you could save” — obecny ubezpieczyciel auta i długość polisy",
     "width": 1170,
     "height": 2532
   },
@@ -6100,12 +6100,12 @@
     "site": "policygenius",
     "device": "mobile",
     "step": 5,
-    "tag": "claims",
+    "tag": "property",
     "tags": [
-      "claims"
+      "property"
     ],
-    "path": "images/policygenius/mobile/05-claims-history.png",
-    "description": "policygenius mobile krok 5: historia szkód — liczba roszczeń z ostatnich 5 lat",
+    "path": "images/policygenius/mobile/05-property-address.png",
+    "description": "policygenius mobile krok 5: adres zamieszkania i pytanie, czy mieszkasz tam ponad 3 lata",
     "width": 1170,
     "height": 2532
   },
@@ -6113,12 +6113,12 @@
     "site": "policygenius",
     "device": "mobile",
     "step": 6,
-    "tag": "incidents",
+    "tag": "claims",
     "tags": [
-      "incidents"
+      "claims"
     ],
-    "path": "images/policygenius/mobile/06-incidents.png",
-    "description": "policygenius mobile krok 6: zdarzenia z ostatnich 3 lat — wypadki z winy, mandaty, zawieszenie prawa jazdy, DUI",
+    "path": "images/policygenius/mobile/06-claims-history.png",
+    "description": "policygenius mobile krok 6: historia szkód — liczba roszczeń z ostatnich 5 lat",
     "width": 1170,
     "height": 2532
   },
@@ -6126,12 +6126,12 @@
     "site": "policygenius",
     "device": "mobile",
     "step": 7,
-    "tag": "applicant",
+    "tag": "incidents",
     "tags": [
-      "applicant"
+      "incidents"
     ],
-    "path": "images/policygenius/mobile/07-applicant-info.png",
-    "description": "policygenius mobile krok 7: „Tell us about yourself” — imię, nazwisko, płeć, data urodzenia, stan cywilny",
+    "path": "images/policygenius/mobile/07-incidents.png",
+    "description": "policygenius mobile krok 7: zdarzenia z ostatnich 3 lat — wypadki z winy, mandaty, zawieszenie prawa jazdy, DUI",
     "width": 1170,
     "height": 2532
   },
@@ -6139,12 +6139,12 @@
     "site": "policygenius",
     "device": "mobile",
     "step": 8,
-    "tag": "drivers",
+    "tag": "applicant",
     "tags": [
-      "drivers"
+      "applicant"
     ],
-    "path": "images/policygenius/mobile/08-drivers.png",
-    "description": "policygenius mobile krok 8: dodatkowi kierowcy — lista kierowców i przycisk „Add additional driver”",
+    "path": "images/policygenius/mobile/08-applicant-info.png",
+    "description": "policygenius mobile krok 8: „Tell us about yourself” — imię, nazwisko, płeć, data urodzenia, stan cywilny",
     "width": 1170,
     "height": 2532
   },
@@ -6152,12 +6152,12 @@
     "site": "policygenius",
     "device": "mobile",
     "step": 9,
-    "tag": "driver",
+    "tag": "drivers",
     "tags": [
-      "driver"
+      "drivers"
     ],
-    "path": "images/policygenius/mobile/09-driver-license.png",
-    "description": "policygenius mobile krok 9: prawo jazdy — status, stan i numer licencji (opcjonalnie)",
+    "path": "images/policygenius/mobile/09-drivers.png",
+    "description": "policygenius mobile krok 9: dodatkowi kierowcy — lista kierowców i przycisk „Add additional driver”",
     "width": 1170,
     "height": 2532
   },
@@ -6165,12 +6165,12 @@
     "site": "policygenius",
     "device": "mobile",
     "step": 10,
-    "tag": "vehicles",
+    "tag": "driver",
     "tags": [
-      "vehicles"
+      "driver"
     ],
-    "path": "images/policygenius/mobile/10-vehicles.png",
-    "description": "policygenius mobile krok 10: dodanie pojazdu — przez VIN albo markę i model",
+    "path": "images/policygenius/mobile/10-driver-license.png",
+    "description": "policygenius mobile krok 10: prawo jazdy — status, stan i numer licencji (opcjonalnie)",
     "width": 1170,
     "height": 2532
   },
@@ -6178,12 +6178,12 @@
     "site": "policygenius",
     "device": "mobile",
     "step": 11,
-    "tag": "vehicle",
+    "tag": "vehicles",
     "tags": [
-      "vehicle"
+      "vehicles"
     ],
-    "path": "images/policygenius/mobile/11-vehicle-details.png",
-    "description": "policygenius mobile krok 11: szczegóły pojazdu 2019 Toyota Camry L — główny kierowca, własność/leasing, użytkowanie, przebieg",
+    "path": "images/policygenius/mobile/11-vehicles.png",
+    "description": "policygenius mobile krok 11: dodanie pojazdu — przez VIN albo markę i model",
     "width": 1170,
     "height": 2532
   },
@@ -6191,12 +6191,12 @@
     "site": "policygenius",
     "device": "mobile",
     "step": 12,
-    "tag": "discounts",
+    "tag": "vehicle",
     "tags": [
-      "discounts"
+      "vehicle"
     ],
-    "path": "images/policygenius/mobile/12-discounts.png",
-    "description": "policygenius mobile krok 12: zniżki — właściciel domu, śledzenie jazdy, nowe auto, kurs bezpiecznej jazdy",
+    "path": "images/policygenius/mobile/12-vehicle-details.png",
+    "description": "policygenius mobile krok 12: szczegóły pojazdu 2019 Toyota Camry L — główny kierowca, własność/leasing, użytkowanie, przebieg",
     "width": 1170,
     "height": 2532
   },
@@ -6204,12 +6204,12 @@
     "site": "policygenius",
     "device": "mobile",
     "step": 13,
-    "tag": "coverages",
+    "tag": "discounts",
     "tags": [
-      "coverages"
+      "discounts"
     ],
-    "path": "images/policygenius/mobile/13-coverages.png",
-    "description": "policygenius mobile krok 13: „Let’s calculate your auto coverage” — czy zachować obecne limity ochrony",
+    "path": "images/policygenius/mobile/13-discounts.png",
+    "description": "policygenius mobile krok 13: zniżki — właściciel domu, śledzenie jazdy, nowe auto, kurs bezpiecznej jazdy",
     "width": 1170,
     "height": 2532
   },
@@ -6217,12 +6217,12 @@
     "site": "policygenius",
     "device": "mobile",
     "step": 14,
-    "tag": "coverage",
+    "tag": "coverages",
     "tags": [
-      "coverage"
+      "coverages"
     ],
-    "path": "images/policygenius/mobile/14-coverage-deductibles.png",
-    "description": "policygenius mobile krok 14: limity i udziały własne — OC osobowe 100/300 tys. $, OC majątkowe 100 tys. $, udział własny 500 $",
+    "path": "images/policygenius/mobile/14-coverages.png",
+    "description": "policygenius mobile krok 14: „Let’s calculate your auto coverage” — czy zachować obecne limity ochrony",
     "width": 1170,
     "height": 2532
   },
@@ -6230,12 +6230,12 @@
     "site": "policygenius",
     "device": "mobile",
     "step": 15,
-    "tag": "contact",
+    "tag": "coverage",
     "tags": [
-      "contact"
+      "coverage"
     ],
-    "path": "images/policygenius/mobile/15-contact-info.png",
-    "description": "policygenius mobile krok 15: „Where should we send your estimates?” — e-mail, źródło polecenia i przycisk „Request quotes”",
+    "path": "images/policygenius/mobile/15-coverage-deductibles.png",
+    "description": "policygenius mobile krok 15: limity i udziały własne — OC osobowe 100/300 tys. $, OC majątkowe 100 tys. $, udział własny 500 $",
     "width": 1170,
     "height": 2532
   },
@@ -6243,12 +6243,25 @@
     "site": "policygenius",
     "device": "mobile",
     "step": 16,
+    "tag": "contact",
+    "tags": [
+      "contact"
+    ],
+    "path": "images/policygenius/mobile/16-contact-info.png",
+    "description": "policygenius mobile krok 16: „Where should we send your estimates?” — e-mail, źródło polecenia i przycisk „Request quotes”",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "policygenius",
+    "device": "mobile",
+    "step": 17,
     "tag": "partner",
     "tags": [
       "partner"
     ],
-    "path": "images/policygenius/mobile/16-partner-offers.png",
-    "description": "policygenius mobile krok 16: „We didn’t find an option on our site” — przyciski Get Quote partnerów: Progressive, Farmers, Liberty Mutual, Kin (Policygenius nie wycenia auta sam)",
+    "path": "images/policygenius/mobile/17-partner-offers.png",
+    "description": "policygenius mobile krok 17: „We didn’t find an option on our site” — przyciski Get Quote partnerów: Progressive, Farmers, Liberty Mutual, Kin (Policygenius nie wycenia auta sam)",
     "width": 1170,
     "height": 2532
   }
