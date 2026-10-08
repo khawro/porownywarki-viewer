@@ -12270,5 +12270,265 @@
     "description": "Pillow.cz mobile krok 10: Platba a počátek — data początku ochrony, pierwsza płatność przelewem z konta pojistníka, kolejne: Bankovní převod / Inkaso; „Pokračovat”",
     "width": 1170,
     "height": 2532
+  },
+  {
+    "site": "jerry",
+    "device": "desktop",
+    "step": 1,
+    "tag": "landing",
+    "tags": [
+      "landing"
+    ],
+    "path": "images/jerry/desktop/01-landing.png",
+    "description": "Jerry desktop krok 1: strona główna jerry.ai — „SPEND LESS TIME AND MONEY ON YOUR CAR AND HOME”; CTA „Get started”; App Store 4.7 / Google Play 4.5",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "jerry",
+    "device": "desktop",
+    "step": 2,
+    "tag": "policy",
+    "tags": [
+      "policy"
+    ],
+    "path": "images/jerry/desktop/02-current-policy.png",
+    "description": "Jerry desktop krok 2: „Do you currently have a car insurance policy?” — Yes, I have an active insurance policy / No, I am not insured; STEP 1/5 • ABOUT YOU; DataLock™",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "jerry",
+    "device": "desktop",
+    "step": 3,
+    "tag": "living",
+    "tags": [
+      "living"
+    ],
+    "path": "images/jerry/desktop/03-living-situation.png",
+    "description": "Jerry desktop krok 3: „What best describes your living situation?” — rent / live with family or friends / own a home / own a mobile home",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "jerry",
+    "device": "desktop",
+    "step": 4,
+    "tag": "bundle",
+    "tags": [
+      "bundle"
+    ],
+    "path": "images/jerry/desktop/04-bundle-offer.png",
+    "description": "Jerry desktop krok 4: upsell bundla — „Bundle for potential savings: combine your car and renters insurance”; renters od ok. $8/mo; „Yes, show me bundle options” / „Skip for now”",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "jerry",
+    "device": "desktop",
+    "step": 5,
+    "tag": "violations",
+    "tags": [
+      "violations"
+    ],
+    "path": "images/jerry/desktop/05-violations-count.png",
+    "description": "Jerry desktop krok 5: „How many tickets or violations in the last 7 years?” — None / 1–2 / 3–4 / 5+ / I don’t remember; parking tickets nie liczą się",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "jerry",
+    "device": "desktop",
+    "step": 6,
+    "tag": "credit",
+    "tags": [
+      "credit"
+    ],
+    "path": "images/jerry/desktop/06-credit-range.png",
+    "description": "Jerry desktop krok 6: „What is your credit range?” — <550 / 550–659 / 660–750 / >750 / I am not sure; bez hard pull; State Specific Credit Disclosures",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "jerry",
+    "device": "desktop",
+    "step": 7,
+    "tag": "name",
+    "tags": [
+      "name"
+    ],
+    "path": "images/jerry/desktop/07-name.png",
+    "description": "Jerry desktop krok 7: „We’re Jerry. What’s your full name?” — pole imienia i nazwiska; prośba o dane jak w prawie jazdy; bez PII w opisie",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "jerry",
+    "device": "desktop",
+    "step": 8,
+    "tag": "phone",
+    "tags": [
+      "phone"
+    ],
+    "path": "images/jerry/desktop/08-phone.png",
+    "description": "Jerry desktop krok 8: „Let’s confirm your phone number” — pole numeru US, kod weryfikacyjny SMS; bez spamu; bez numeru w opisie",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "jerry",
+    "device": "desktop",
+    "step": 9,
+    "tag": "sms",
+    "tags": [
+      "sms"
+    ],
+    "path": "images/jerry/desktop/09-sms-code.png",
+    "description": "Jerry desktop krok 9: weryfikacja SMS — „Enter the 4 digit confirmation code below”; 4 pola kodu; Resend / Call me; koniec ścieżki częściowej (potrzebny numer US)",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "jerry",
+    "device": "mobile",
+    "step": 1,
+    "tag": "landing",
+    "tags": [
+      "landing"
+    ],
+    "path": "images/jerry/mobile/01-landing.png",
+    "description": "Jerry mobile krok 1: strona główna — „SPEND LESS TIME AND MONEY ON YOUR CAR AND HOME”; CTA „Get started”",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "jerry",
+    "device": "mobile",
+    "step": 2,
+    "tag": "services",
+    "tags": [
+      "services"
+    ],
+    "path": "images/jerry/mobile/02-services.png",
+    "description": "Jerry mobile krok 2: SELECT SERVICES — „Which services are you interested in?”; zaznaczone Insurance Shopping (MOST POPULAR); Car Maintenance Reminders; Drive Well, Save More; Continue",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "jerry",
+    "device": "mobile",
+    "step": 3,
+    "tag": "insurance",
+    "tags": [
+      "insurance"
+    ],
+    "path": "images/jerry/mobile/03-insurance-type.png",
+    "description": "Jerry mobile krok 3: „What type of insurance are you looking for?” — Bundle and Save (Car + Home or Renters), Car, Motorcycle, Home, Renters",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "jerry",
+    "device": "mobile",
+    "step": 4,
+    "tag": "policy",
+    "tags": [
+      "policy"
+    ],
+    "path": "images/jerry/mobile/04-current-policy.png",
+    "description": "Jerry mobile krok 4: „Do you currently have a car insurance policy?” — Yes / No; informacja o dowodzie poprzedniej polisy",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "jerry",
+    "device": "mobile",
+    "step": 5,
+    "tag": "living",
+    "tags": [
+      "living"
+    ],
+    "path": "images/jerry/mobile/05-living-situation.png",
+    "description": "Jerry mobile krok 5: „What best describes your living situation?” — rent / family or friends / own a home / own a mobile home",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "jerry",
+    "device": "mobile",
+    "step": 6,
+    "tag": "bundle",
+    "tags": [
+      "bundle"
+    ],
+    "path": "images/jerry/mobile/06-bundle-offer.png",
+    "description": "Jerry mobile krok 6: upsell bundla car + renters — potencjalne oszczędności; renters od ok. $8/mo; Yes / Skip for now",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "jerry",
+    "device": "mobile",
+    "step": 7,
+    "tag": "violations",
+    "tags": [
+      "violations"
+    ],
+    "path": "images/jerry/mobile/07-violations-count.png",
+    "description": "Jerry mobile krok 7: liczba ticketów/violations z 7 lat — None / 1–2 / 3–4 / 5+ / I don’t remember",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "jerry",
+    "device": "mobile",
+    "step": 8,
+    "tag": "credit",
+    "tags": [
+      "credit"
+    ],
+    "path": "images/jerry/mobile/08-credit-range.png",
+    "description": "Jerry mobile krok 8: zakres kredytu — <550 / 550–659 / 660–750 / >750 / I am not sure; bez hard pull",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "jerry",
+    "device": "mobile",
+    "step": 9,
+    "tag": "name",
+    "tags": [
+      "name"
+    ],
+    "path": "images/jerry/mobile/09-name.png",
+    "description": "Jerry mobile krok 9: „What’s your full name?” — pole imienia i nazwiska; bez PII w opisie",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "jerry",
+    "device": "mobile",
+    "step": 10,
+    "tag": "phone",
+    "tags": [
+      "phone"
+    ],
+    "path": "images/jerry/mobile/10-phone.png",
+    "description": "Jerry mobile krok 10: potwierdzenie numeru telefonu US pod kod SMS; bez numeru w opisie",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "jerry",
+    "device": "mobile",
+    "step": 11,
+    "tag": "sms",
+    "tags": [
+      "sms"
+    ],
+    "path": "images/jerry/mobile/11-sms-code.png",
+    "description": "Jerry mobile krok 11: kod SMS 4-cyfrowy — Enter the 4 digit confirmation code; Resend / Call me; koniec ścieżki częściowej (potrzebny numer US)",
+    "width": 1170,
+    "height": 2532
   }
 ]
