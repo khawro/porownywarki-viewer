@@ -11139,5 +11139,317 @@
     "description": "Redclick mobile krok 19: błąd bazy danych — „Ups… W tej chwili bazy dane wydają się nie odpowiadać. Nasi technicy już nad tym pracują.”; ilustracja ekipy; „WRÓĆ DO STRONY GŁÓWNEJ”; flow częściowy (brak ceny)",
     "width": 1170,
     "height": 2532
+  },
+  {
+    "site": "klik",
+    "device": "desktop",
+    "step": 1,
+    "tag": "landing",
+    "tags": [
+      "landing"
+    ],
+    "path": "images/klik/desktop/01-landing.png",
+    "description": "Klik.cz desktop krok 1: strona główna klik.cz — „Agent s povolením srovnávat”; karta Povinné ručení z polem SPZ i „Spočítat ceny”; inne produkty (havarijní, cestovní, majetek…); badge Nejdůvěryhodnější značka 2025; partnerzy (Pillow, Allianz, UNIQA…)",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "klik",
+    "device": "desktop",
+    "step": 2,
+    "tag": "plate",
+    "tags": [
+      "plate"
+    ],
+    "path": "images/klik/desktop/02-plate-entered.png",
+    "description": "Klik.cz desktop krok 2: landing z wypełnionym numerem rejestracyjnym w kalkulatorze Povinné ručení; „Spočítat ceny”; pozostałe kafelki produktów",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "klik",
+    "device": "desktop",
+    "step": 3,
+    "tag": "car",
+    "tags": [
+      "car"
+    ],
+    "path": "images/klik/desktop/03-car-found.png",
+    "description": "Klik.cz desktop krok 3: „Typ pojištění” — zaznaczone Povinné ručení; „Vozidlo nalezeno”: Škoda Rapid, osobowy, 1197 cm³ / 66 kW; sekcja Pojistník (osoba fizyczna), puste wiek/PSČ",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "klik",
+    "device": "desktop",
+    "step": 4,
+    "tag": "form",
+    "tags": [
+      "form"
+    ],
+    "path": "images/klik/desktop/04-form-filled.png",
+    "description": "Klik.cz desktop krok 4: pojazd znaleziony (Škoda Rapid) + Pojistník wypełniony — osoba fizyczna, wiek, kod pocztowy i Vinohrady, kontakt; „Spočítat cenu”",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "klik",
+    "device": "desktop",
+    "step": 5,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/klik/desktop/05-vehicle-details.png",
+    "description": "Klik.cz desktop krok 5: dane pojazdu według dowodu — Škoda Rapid, benzyna, 1197 cm³, pierwsza rejestracja 03.2015; typ Povinné ručení; SPZ z wyszukiwaniem",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "klik",
+    "device": "desktop",
+    "step": 6,
+    "tag": "owner",
+    "tags": [
+      "owner"
+    ],
+    "path": "images/klik/desktop/06-owner-data.png",
+    "description": "Klik.cz desktop krok 6: dane właściciela — rodné číslo, imię i nazwisko; opcjonalne zgody (profilowanie ČSOB, marketing); „Zobrazit nabídky”; blok „Raději telefonujete?”",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "klik",
+    "device": "desktop",
+    "step": 7,
+    "tag": "offers",
+    "tags": [
+      "offers"
+    ],
+    "path": "images/klik/desktop/07-offers-list.png",
+    "description": "Klik.cz desktop krok 7: „Garantovaná nabídka povinného ručení” — 31 ofert; m.in. Kooperativa POV 100: 5 469 Kč/rok (100/100 mln), Pillow POV 150: 7 356 Kč/rok (150/150 mln); filtry i partnerzy",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "klik",
+    "device": "desktop",
+    "step": 8,
+    "tag": "offers",
+    "tags": [
+      "offers"
+    ],
+    "path": "images/klik/desktop/08-offers-scroll.png",
+    "description": "Klik.cz desktop krok 8: lista ofert przewinięta — Pillow POV 150 7 356 Kč/rok i ČPP SPECIÁLPOV 7 655 Kč/rok; etykiety Doporučujeme; przełączniki przyłączy",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "klik",
+    "device": "desktop",
+    "step": 9,
+    "tag": "offer",
+    "tags": [
+      "offer"
+    ],
+    "path": "images/klik/desktop/09-offer-detail.png",
+    "description": "Klik.cz desktop krok 9: szczegóły Pillow POV 150 — limity 150/150 mln Kč, 7 356 Kč/rok; assistance w cenie (holowanie do 50 km), bezpośrednia likwidacja; tabela POV 70/150/250; info o rozliczeniu przebiegu",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "klik",
+    "device": "desktop",
+    "step": 10,
+    "tag": "addons",
+    "tags": [
+      "addons"
+    ],
+    "path": "images/klik/desktop/10-addons.png",
+    "description": "Klik.cz desktop krok 10: „Doplňková připojištění” — szyby, ryzyka naturalne, NNW, zderzenie ze zwierzęciem, bagaż, rozszerzone assistance, kradzież, wandalizm, prawna asysta; sidebar Pillow POV 150, 7 356 Kč/rok; „Pokračovat bez připojištění”",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "klik",
+    "device": "desktop",
+    "step": 11,
+    "tag": "contract",
+    "tags": [
+      "contract"
+    ],
+    "path": "images/klik/desktop/11-contract-form.png",
+    "description": "Klik.cz desktop krok 11: formularz umowy — dane pojazdu (SPZ, VIN, technický průkaz), data początku ochrony, dane pojistníka (zablokowane pola); bez płatności",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "klik",
+    "device": "desktop",
+    "step": 12,
+    "tag": "summary",
+    "tags": [
+      "summary"
+    ],
+    "path": "images/klik/desktop/12-summary-before-signing.png",
+    "description": "Klik.cz desktop krok 12: „Přehled objednávky před uzavřením smlouvy” — Pillow POV 150, 150/150 mln Kč, 7 356 Kč/rok, serwis + podstawowe assistance; Škoda Rapid; promo kód; „Objednat online”; opcja wypowiedzenia poprzedniej polisy",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "klik",
+    "device": "mobile",
+    "step": 1,
+    "tag": "landing",
+    "tags": [
+      "landing"
+    ],
+    "path": "images/klik/mobile/01-landing.png",
+    "description": "Klik.cz mobile krok 1: strona główna klik.cz — „Agent s povolením srovnávat”; karta Povinné ručení z polem SPZ i „Spočítat ceny”; inne produkty (havarijní, cestovní, majetek…); badge Nejdůvěryhodnější značka 2025; partnerzy (Pillow, Allianz, UNIQA…)",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "klik",
+    "device": "mobile",
+    "step": 2,
+    "tag": "plate",
+    "tags": [
+      "plate"
+    ],
+    "path": "images/klik/mobile/02-plate-entered.png",
+    "description": "Klik.cz mobile krok 2: landing z wypełnionym numerem rejestracyjnym w kalkulatorze Povinné ručení; „Spočítat ceny”; pozostałe kafelki produktów",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "klik",
+    "device": "mobile",
+    "step": 3,
+    "tag": "car",
+    "tags": [
+      "car"
+    ],
+    "path": "images/klik/mobile/03-car-found.png",
+    "description": "Klik.cz mobile krok 3: „Typ pojištění” — zaznaczone Povinné ručení; „Vozidlo nalezeno”: Škoda Rapid, osobowy, 1197 cm³ / 66 kW; sekcja Pojistník (osoba fizyczna), puste wiek/PSČ",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "klik",
+    "device": "mobile",
+    "step": 4,
+    "tag": "form",
+    "tags": [
+      "form"
+    ],
+    "path": "images/klik/mobile/04-form-filled.png",
+    "description": "Klik.cz mobile krok 4: pojazd znaleziony (Škoda Rapid) + Pojistník wypełniony — osoba fizyczna, wiek, kod pocztowy i Vinohrady, kontakt; „Spočítat cenu”",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "klik",
+    "device": "mobile",
+    "step": 5,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/klik/mobile/05-vehicle-details.png",
+    "description": "Klik.cz mobile krok 5: dane pojazdu według dowodu — Škoda Rapid, benzyna, 1197 cm³, pierwsza rejestracja 03.2015; typ Povinné ručení; SPZ z wyszukiwaniem",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "klik",
+    "device": "mobile",
+    "step": 6,
+    "tag": "owner",
+    "tags": [
+      "owner"
+    ],
+    "path": "images/klik/mobile/06-owner-data.png",
+    "description": "Klik.cz mobile krok 6: dane właściciela — rodné číslo, imię i nazwisko; opcjonalne zgody (profilowanie ČSOB, marketing); „Zobrazit nabídky”; blok „Raději telefonujete?”",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "klik",
+    "device": "mobile",
+    "step": 7,
+    "tag": "offers",
+    "tags": [
+      "offers"
+    ],
+    "path": "images/klik/mobile/07-offers-list.png",
+    "description": "Klik.cz mobile krok 7: „Garantovaná nabídka povinného ručení” — 31 ofert; m.in. Kooperativa POV 100: 5 469 Kč/rok (100/100 mln), Pillow POV 150: 7 356 Kč/rok (150/150 mln); filtry i partnerzy",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "klik",
+    "device": "mobile",
+    "step": 8,
+    "tag": "offers",
+    "tags": [
+      "offers"
+    ],
+    "path": "images/klik/mobile/08-offers-scroll.png",
+    "description": "Klik.cz mobile krok 8: lista ofert przewinięta — Pillow POV 150 7 356 Kč/rok i ČPP SPECIÁLPOV 7 655 Kč/rok; etykiety Doporučujeme; przełączniki przyłączy",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "klik",
+    "device": "mobile",
+    "step": 9,
+    "tag": "offer",
+    "tags": [
+      "offer"
+    ],
+    "path": "images/klik/mobile/09-offer-detail.png",
+    "description": "Klik.cz mobile krok 9: szczegóły Pillow POV 150 — limity 150/150 mln Kč, 7 356 Kč/rok; assistance w cenie (holowanie do 50 km), bezpośrednia likwidacja; tabela POV 70/150/250; info o rozliczeniu przebiegu",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "klik",
+    "device": "mobile",
+    "step": 10,
+    "tag": "addons",
+    "tags": [
+      "addons"
+    ],
+    "path": "images/klik/mobile/10-addons.png",
+    "description": "Klik.cz mobile krok 10: „Doplňková připojištění” — szyby, ryzyka naturalne, NNW, zderzenie ze zwierzęciem, bagaż, rozszerzone assistance, kradzież, wandalizm, prawna asysta; sidebar Pillow POV 150, 7 356 Kč/rok; „Pokračovat bez připojištění”",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "klik",
+    "device": "mobile",
+    "step": 11,
+    "tag": "contract",
+    "tags": [
+      "contract"
+    ],
+    "path": "images/klik/mobile/11-contract-form.png",
+    "description": "Klik.cz mobile krok 11: formularz umowy — dane pojazdu (SPZ, VIN, technický průkaz), data początku ochrony, dane pojistníka (zablokowane pola); bez płatności",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "klik",
+    "device": "mobile",
+    "step": 12,
+    "tag": "summary",
+    "tags": [
+      "summary"
+    ],
+    "path": "images/klik/mobile/12-summary-before-signing.png",
+    "description": "Klik.cz mobile krok 12: „Přehled objednávky před uzavřením smlouvy” — Pillow POV 150, 150/150 mln Kč, 7 356 Kč/rok, serwis + podstawowe assistance; Škoda Rapid; promo kód; „Objednat online”; opcja wypowiedzenia poprzedniej polisy",
+    "width": 1170,
+    "height": 2532
   }
 ]

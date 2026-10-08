@@ -24,6 +24,7 @@
     ominimo: "Ominimo",
     pevno: "Pevno",
     redclick: "Redclick",
+    klik: "Klik.cz",
   };
 
   // Rynek przechwyconego flow (kraj strony/aplikacji). Każdy nowy site → dopisz tutaj.
@@ -52,6 +53,7 @@
     ominimo: "PL",
     pevno: "PL",
     redclick: "PL",
+    klik: "CZ",
   };
 
   const COUNTRIES = {
@@ -60,6 +62,7 @@
     GB: { flag: "\u{1F1EC}\u{1F1E7}", name: "UK" },
     DE: { flag: "\u{1F1E9}\u{1F1EA}", name: "Niemcy" },
     SE: { flag: "\u{1F1F8}\u{1F1EA}", name: "Szwecja" },
+    CZ: { flag: "\u{1F1E8}\u{1F1FF}", name: "Czechy" },
   };
 
   const TAG_LABELS = {
