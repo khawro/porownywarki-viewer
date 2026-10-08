@@ -10645,5 +10645,499 @@
     "description": "Pevno mobile krok 11: wybór formy płatności — BLIK lub ePrzelew; „KUP TERAZ”; szczegóły wyliczenia (Škoda Octavia III, wartość 46 300 zł, okres 09.10.2026–08.10.2027); łącznie 2 430 zł z dodatkami",
     "width": 1170,
     "height": 2532
+  },
+  {
+    "site": "redclick",
+    "device": "desktop",
+    "step": 1,
+    "tag": "landing",
+    "tags": [
+      "landing"
+    ],
+    "path": "images/redclick/desktop/01-landing.png",
+    "description": "Redclick desktop krok 1: strona główna — „Polisa online Redclick. Odkryj najlepszą stronę ubezpieczenia”; wybór: samochód (zaznaczony, zniżka 50 zł), motocykl, dostawczy; „OBLICZ SKŁADKĘ”; maskotka słoń; Redclick by Generali",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "redclick",
+    "device": "desktop",
+    "step": 2,
+    "tag": "plate",
+    "tags": [
+      "plate"
+    ],
+    "path": "images/redclick/desktop/02-plate-entry.png",
+    "description": "Redclick desktop krok 2: „Zaczynamy? Wprowadź numer rejestracyjny” — pole numer rejestracyjny; linki: pojazd niezarejestrowany / nie pamiętam numeru; „DALEJ”",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "redclick",
+    "device": "desktop",
+    "step": 3,
+    "tag": "dob",
+    "tags": [
+      "dob"
+    ],
+    "path": "images/redclick/desktop/03-dob.png",
+    "description": "Redclick desktop krok 3: „Podaj datę urodzenia…” — pole data urodzenia właściciela (DD/MM/RRRR); link „Właścicielem jest firma”; „DALEJ”",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "redclick",
+    "device": "desktop",
+    "step": 4,
+    "tag": "start",
+    "tags": [
+      "start"
+    ],
+    "path": "images/redclick/desktop/04-start-date.png",
+    "description": "Redclick desktop krok 4: „Czy potwierdzasz datę, od której ma obowiązywać nowa polisa?” — data rozpoczęcia ochrony; dymek o płatności i umowie e-mail; „DALEJ”",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "redclick",
+    "device": "desktop",
+    "step": 5,
+    "tag": "vintage",
+    "tags": [
+      "vintage"
+    ],
+    "path": "images/redclick/desktop/05-vintage-check.png",
+    "description": "Redclick desktop krok 5: „Wow! Samochód kolekcjonerski. Czy jest to pojazd zabytkowy?” — Tak / Jeszcze nie; „DALEJ”",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "redclick",
+    "device": "desktop",
+    "step": 6,
+    "tag": "car",
+    "tags": [
+      "car"
+    ],
+    "path": "images/redclick/desktop/06-car-make.png",
+    "description": "Redclick desktop krok 6: „Wprowadź dane swojego samochodu” — Marka, Model, Wersja wyposażenia; zaznaczone ABS i poduszki powietrzne; „DALEJ”",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "redclick",
+    "device": "desktop",
+    "step": 7,
+    "tag": "garage",
+    "tags": [
+      "garage"
+    ],
+    "path": "images/redclick/desktop/07-garage.png",
+    "description": "Redclick desktop krok 7: „Gdzie parkujesz samochód w nocy?” — zadaszony garaż / niezadaszony ogrodzony teren / Inne; „DALEJ”",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "redclick",
+    "device": "desktop",
+    "step": 8,
+    "tag": "importance",
+    "tags": [
+      "importance"
+    ],
+    "path": "images/redclick/desktop/08-importance.png",
+    "description": "Redclick desktop krok 8: „Samochód to coś wyjątkowego! Jak ważny jest dla Ciebie?” — suwak ważności (np. „Dosyć ważny…”); ilustracja auta z serduszkami; „DALEJ”",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "redclick",
+    "device": "desktop",
+    "step": 9,
+    "tag": "km",
+    "tags": [
+      "km"
+    ],
+    "path": "images/redclick/desktop/09-km-per-year.png",
+    "description": "Redclick desktop krok 9: „Ile kilometrów pokonujesz w ciągu roku?” — lista rozwijana przebiegu; „DALEJ”",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "redclick",
+    "device": "desktop",
+    "step": 10,
+    "tag": "usage",
+    "tags": [
+      "usage"
+    ],
+    "path": "images/redclick/desktop/10-usage.png",
+    "description": "Redclick desktop krok 10: „Wybierz rodzaj użytkowania pojazdu” — wybrane „Wyłącznie prywatny”; „DALEJ”",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "redclick",
+    "device": "desktop",
+    "step": 11,
+    "tag": "policyholder",
+    "tags": [
+      "policyholder"
+    ],
+    "path": "images/redclick/desktop/11-policyholder.png",
+    "description": "Redclick desktop krok 11: „Wprowadź dane ubezpieczającego” — pola imię, nazwisko, PESEL; link ubezpieczenie jako firma; „DALEJ”",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "redclick",
+    "device": "desktop",
+    "step": 12,
+    "tag": "occupation",
+    "tags": [
+      "occupation"
+    ],
+    "path": "images/redclick/desktop/12-occupation.png",
+    "description": "Redclick desktop krok 12: „Czym się zajmujesz zawodowo?” — lista rozwijana zawodu; „DALEJ”",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "redclick",
+    "device": "desktop",
+    "step": 13,
+    "tag": "owner",
+    "tags": [
+      "owner"
+    ],
+    "path": "images/redclick/desktop/13-owner-identity.png",
+    "description": "Redclick desktop krok 13: „Czy jest tylko jeden właściciel i jest on tożsamy z ubezpieczającym?” — jeden właściciel = ubezpieczający / kilku właścicieli / jeden, ale inny; „DALEJ”",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "redclick",
+    "device": "desktop",
+    "step": 14,
+    "tag": "address",
+    "tags": [
+      "address"
+    ],
+    "path": "images/redclick/desktop/14-address.png",
+    "description": "Redclick desktop krok 14: „Gdzie mieszkasz?” — adres zameldowania: kod pocztowy, miejscowość, ulica, nr domu/mieszkania; podpowiedź o wsparciu technicznym; „DALEJ”",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "redclick",
+    "device": "desktop",
+    "step": 15,
+    "tag": "driver",
+    "tags": [
+      "driver"
+    ],
+    "path": "images/redclick/desktop/15-driver.png",
+    "description": "Redclick desktop krok 15: „Kto będzie prowadził samochód?” — głównie ja / ja i osoby 25+ / ja i osoby poniżej 25 lat; dymek o OC; „DALEJ”",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "redclick",
+    "device": "desktop",
+    "step": 16,
+    "tag": "household",
+    "tags": [
+      "household"
+    ],
+    "path": "images/redclick/desktop/16-household.png",
+    "description": "Redclick desktop krok 16: „Z kim mieszkasz?” — partner, dzieci, pies/kot, sam(-a), inne; „DALEJ”",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "redclick",
+    "device": "desktop",
+    "step": 17,
+    "tag": "transport",
+    "tags": [
+      "transport"
+    ],
+    "path": "images/redclick/desktop/17-transport.png",
+    "description": "Redclick desktop krok 17: „Jakimi środkami transportu poruszasz się zazwyczaj?” — własny samochód (zaznaczony), car sharing, motocykl, rower, pieszo, transport publiczny; „DALEJ”",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "redclick",
+    "device": "desktop",
+    "step": 18,
+    "tag": "contact",
+    "tags": [
+      "contact"
+    ],
+    "path": "images/redclick/desktop/18-contact.png",
+    "description": "Redclick desktop krok 18: „Nasza propozycja jest prawie gotowa!” — telefon i e-mail; zgody na przetwarzanie danych / marketing; bez ceny",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "redclick",
+    "device": "desktop",
+    "step": 19,
+    "tag": "error",
+    "tags": [
+      "error"
+    ],
+    "path": "images/redclick/desktop/19-db-error.png",
+    "description": "Redclick desktop krok 19: błąd bazy danych — „Ups… W tej chwili bazy dane wydają się nie odpowiadać. Nasi technicy już nad tym pracują.”; ilustracja ekipy; „WRÓĆ DO STRONY GŁÓWNEJ”; flow częściowy (brak ceny)",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "redclick",
+    "device": "mobile",
+    "step": 1,
+    "tag": "landing",
+    "tags": [
+      "landing"
+    ],
+    "path": "images/redclick/mobile/01-landing.png",
+    "description": "Redclick mobile krok 1: strona główna — „Polisa online Redclick. Odkryj najlepszą stronę ubezpieczenia”; wybór: samochód (zaznaczony, zniżka 50 zł), motocykl, dostawczy; „OBLICZ SKŁADKĘ”; maskotka słoń; Redclick by Generali",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "redclick",
+    "device": "mobile",
+    "step": 2,
+    "tag": "plate",
+    "tags": [
+      "plate"
+    ],
+    "path": "images/redclick/mobile/02-plate-entry.png",
+    "description": "Redclick mobile krok 2: „Zaczynamy? Wprowadź numer rejestracyjny” — pole numer rejestracyjny; linki: pojazd niezarejestrowany / nie pamiętam numeru; „DALEJ”",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "redclick",
+    "device": "mobile",
+    "step": 3,
+    "tag": "dob",
+    "tags": [
+      "dob"
+    ],
+    "path": "images/redclick/mobile/03-dob.png",
+    "description": "Redclick mobile krok 3: „Podaj datę urodzenia…” — pole data urodzenia właściciela (DD/MM/RRRR); link „Właścicielem jest firma”; „DALEJ”",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "redclick",
+    "device": "mobile",
+    "step": 4,
+    "tag": "start",
+    "tags": [
+      "start"
+    ],
+    "path": "images/redclick/mobile/04-start-date.png",
+    "description": "Redclick mobile krok 4: „Czy potwierdzasz datę, od której ma obowiązywać nowa polisa?” — data rozpoczęcia ochrony; dymek o płatności i umowie e-mail; „DALEJ”",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "redclick",
+    "device": "mobile",
+    "step": 5,
+    "tag": "vintage",
+    "tags": [
+      "vintage"
+    ],
+    "path": "images/redclick/mobile/05-vintage-check.png",
+    "description": "Redclick mobile krok 5: „Wow! Samochód kolekcjonerski. Czy jest to pojazd zabytkowy?” — Tak / Jeszcze nie; „DALEJ”",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "redclick",
+    "device": "mobile",
+    "step": 6,
+    "tag": "car",
+    "tags": [
+      "car"
+    ],
+    "path": "images/redclick/mobile/06-car-make.png",
+    "description": "Redclick mobile krok 6: „Wprowadź dane swojego samochodu” — Marka, Model, Wersja wyposażenia; zaznaczone ABS i poduszki powietrzne; „DALEJ”",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "redclick",
+    "device": "mobile",
+    "step": 7,
+    "tag": "garage",
+    "tags": [
+      "garage"
+    ],
+    "path": "images/redclick/mobile/07-garage.png",
+    "description": "Redclick mobile krok 7: „Gdzie parkujesz samochód w nocy?” — zadaszony garaż / niezadaszony ogrodzony teren / Inne; „DALEJ”",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "redclick",
+    "device": "mobile",
+    "step": 8,
+    "tag": "importance",
+    "tags": [
+      "importance"
+    ],
+    "path": "images/redclick/mobile/08-importance.png",
+    "description": "Redclick mobile krok 8: „Samochód to coś wyjątkowego! Jak ważny jest dla Ciebie?” — suwak ważności (np. „Dosyć ważny…”); ilustracja auta z serduszkami; „DALEJ”",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "redclick",
+    "device": "mobile",
+    "step": 9,
+    "tag": "km",
+    "tags": [
+      "km"
+    ],
+    "path": "images/redclick/mobile/09-km-per-year.png",
+    "description": "Redclick mobile krok 9: „Ile kilometrów pokonujesz w ciągu roku?” — lista rozwijana przebiegu; „DALEJ”",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "redclick",
+    "device": "mobile",
+    "step": 10,
+    "tag": "usage",
+    "tags": [
+      "usage"
+    ],
+    "path": "images/redclick/mobile/10-usage.png",
+    "description": "Redclick mobile krok 10: „Wybierz rodzaj użytkowania pojazdu” — wybrane „Wyłącznie prywatny”; „DALEJ”",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "redclick",
+    "device": "mobile",
+    "step": 11,
+    "tag": "policyholder",
+    "tags": [
+      "policyholder"
+    ],
+    "path": "images/redclick/mobile/11-policyholder.png",
+    "description": "Redclick mobile krok 11: „Wprowadź dane ubezpieczającego” — pola imię, nazwisko, PESEL; link ubezpieczenie jako firma; „DALEJ”",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "redclick",
+    "device": "mobile",
+    "step": 12,
+    "tag": "occupation",
+    "tags": [
+      "occupation"
+    ],
+    "path": "images/redclick/mobile/12-occupation.png",
+    "description": "Redclick mobile krok 12: „Czym się zajmujesz zawodowo?” — lista rozwijana zawodu; „DALEJ”",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "redclick",
+    "device": "mobile",
+    "step": 13,
+    "tag": "owner",
+    "tags": [
+      "owner"
+    ],
+    "path": "images/redclick/mobile/13-owner-identity.png",
+    "description": "Redclick mobile krok 13: „Czy jest tylko jeden właściciel i jest on tożsamy z ubezpieczającym?” — jeden właściciel = ubezpieczający / kilku właścicieli / jeden, ale inny; „DALEJ”",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "redclick",
+    "device": "mobile",
+    "step": 14,
+    "tag": "address",
+    "tags": [
+      "address"
+    ],
+    "path": "images/redclick/mobile/14-address.png",
+    "description": "Redclick mobile krok 14: „Gdzie mieszkasz?” — adres zameldowania: kod pocztowy, miejscowość, ulica, nr domu/mieszkania; podpowiedź o wsparciu technicznym; „DALEJ”",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "redclick",
+    "device": "mobile",
+    "step": 15,
+    "tag": "driver",
+    "tags": [
+      "driver"
+    ],
+    "path": "images/redclick/mobile/15-driver.png",
+    "description": "Redclick mobile krok 15: „Kto będzie prowadził samochód?” — głównie ja / ja i osoby 25+ / ja i osoby poniżej 25 lat; dymek o OC; „DALEJ”",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "redclick",
+    "device": "mobile",
+    "step": 16,
+    "tag": "household",
+    "tags": [
+      "household"
+    ],
+    "path": "images/redclick/mobile/16-household.png",
+    "description": "Redclick mobile krok 16: „Z kim mieszkasz?” — partner, dzieci, pies/kot, sam(-a), inne; „DALEJ”",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "redclick",
+    "device": "mobile",
+    "step": 17,
+    "tag": "transport",
+    "tags": [
+      "transport"
+    ],
+    "path": "images/redclick/mobile/17-transport.png",
+    "description": "Redclick mobile krok 17: „Jakimi środkami transportu poruszasz się zazwyczaj?” — własny samochód (zaznaczony), car sharing, motocykl, rower, pieszo, transport publiczny; „DALEJ”",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "redclick",
+    "device": "mobile",
+    "step": 18,
+    "tag": "contact",
+    "tags": [
+      "contact"
+    ],
+    "path": "images/redclick/mobile/18-contact.png",
+    "description": "Redclick mobile krok 18: „Nasza propozycja jest prawie gotowa!” — telefon i e-mail; zgody na przetwarzanie danych / marketing; bez ceny",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "redclick",
+    "device": "mobile",
+    "step": 19,
+    "tag": "error",
+    "tags": [
+      "error"
+    ],
+    "path": "images/redclick/mobile/19-db-error.png",
+    "description": "Redclick mobile krok 19: błąd bazy danych — „Ups… W tej chwili bazy dane wydają się nie odpowiadać. Nasi technicy już nad tym pracują.”; ilustracja ekipy; „WRÓĆ DO STRONY GŁÓWNEJ”; flow częściowy (brak ceny)",
+    "width": 1170,
+    "height": 2532
   }
 ]

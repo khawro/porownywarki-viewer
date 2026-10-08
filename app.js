@@ -23,6 +23,7 @@
     warta: "Warta",
     ominimo: "Ominimo",
     pevno: "Pevno",
+    redclick: "Redclick",
   };
 
   // Rynek przechwyconego flow (kraj strony/aplikacji). Każdy nowy site → dopisz tutaj.
@@ -50,6 +51,7 @@
     warta: "PL",
     ominimo: "PL",
     pevno: "PL",
+    redclick: "PL",
   };
 
   const COUNTRIES = {
