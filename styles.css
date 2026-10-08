@@ -480,7 +480,11 @@ body.is-home .app-title {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  min-height: 0;
+  /* Nie kurcz ramki do wysokości .stage (flex column + min-height:0 powodowało, że wysoki screenshot
+     wystawał poza szare tło). Ramka rośnie z obrazem, a przewija się .stage; overflow przycina rogi. */
+  flex: 0 0 auto;
+  min-height: auto;
+  overflow: hidden;
   box-shadow: none;
 }
 

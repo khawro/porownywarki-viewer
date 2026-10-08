@@ -353,6 +353,11 @@
 
     empty.hidden = true;
     $("#shot-open").hidden = false;
+    if (img.getAttribute("src") !== item.path) {
+      // nowy ekran = start od góry (wysoki screenshot przewija się wewnątrz .stage)
+      const stage = frame.closest(".stage");
+      if (stage) stage.scrollTop = 0;
+    }
     img.src = item.path;
     img.alt = item.description || `${item.site} krok ${item.step}`;
     renderSidebar(item);
