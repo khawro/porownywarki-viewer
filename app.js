@@ -10,6 +10,7 @@
     mubi: "Mubi",
     beesafe: "Beesafe",
     link4: "Link4",
+    policygenius: "Policygenius",
   };
 
   const TAG_LABELS = {
