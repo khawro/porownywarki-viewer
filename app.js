@@ -30,6 +30,7 @@
   const state = {
     images: [],
     sites: [],
+    siteCounts: {}, // { site: { desktop: n, mobile: n } } z images.json
     tagsOpen: false,
     device: "desktop",
     site: null,
@@ -60,6 +61,26 @@
     return [...set].sort((a, b) =>
       siteLabel(a).localeCompare(siteLabel(b), "pl")
     );
+  }
+
+  function countSites() {
+    const counts = {};
+    state.images.forEach((i) => {
+      if (!i.site || !i.device) return;
+      const c = (counts[i.site] = counts[i.site] || { desktop: 0, mobile: 0 });
+      c[i.device] = (c[i.device] || 0) + 1;
+    });
+    return counts;
+  }
+
+  function siteHasDevice(siteId, device = state.device) {
+    const c = state.siteCounts[siteId];
+    return Boolean(c && c[device] > 0);
+  }
+
+  // strony, które mają choć jeden ekran dla bieżącego urządzenia
+  function visibleSites() {
+    return state.sites.filter((id) => siteHasDevice(id));
   }
 
   function matchesSearch(item, q) {
@@ -160,7 +181,7 @@
   function renderSiteCards() {
     const el = $("#site-cards");
     if (!el) return;
-    el.innerHTML = state.sites
+    el.innerHTML = visibleSites()
       .map((id) => {
         const cover = coverForSite(id);
         const mobile = state.device === "mobile" ? " is-mobile" : "";
@@ -179,7 +200,7 @@
     const el = $("#tag-chips");
     if (!el) return;
     const q = state.search;
-    const siteChips = state.sites
+    const siteChips = visibleSites()
       .filter((id) => !q || siteMatchesQuery(id, q))
       .map((id) => {
         const active = q && siteMatchesQuery(id, q);
@@ -445,6 +466,11 @@
   }
 
   function syncMode() {
+    // strona bez ekranów dla bieżącego urządzenia → powrót do siatki
+    if (state.site && !siteHasDevice(state.site)) {
+      state.site = null;
+      state.stepIndex = 0;
+    }
     if (isCompareMode()) {
       state.view = "compare";
     } else if (state.site) {
@@ -658,6 +684,7 @@
       if (!i.tags.includes(i.tag)) i.tags.unshift(i.tag);
     });
     state.sites = discoverSites();
+    state.siteCounts = countSites();
     state.site = null;
     bind();
     setTagsOpen(false);
