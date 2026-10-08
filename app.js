@@ -16,6 +16,7 @@
     feather: "Feather",
     comparethemarket: "Compare the Market",
     confused: "Confused.com",
+    root: "Root Insurance",
   };
 
   // Rynek przechwyconego flow (kraj strony/aplikacji). Każdy nowy site → dopisz tutaj.
@@ -36,6 +37,7 @@
     feather: "DE",
     comparethemarket: "GB",
     confused: "GB",
+    root: "US",
   };
 
   const COUNTRIES = {

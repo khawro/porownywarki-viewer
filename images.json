@@ -8552,5 +8552,590 @@
     "description": "The Zebra mobile krok 34: oferty po przewinięciu — rabaty Progressive, Allstate (High claims satisfaction) i Direct Auto z przyciskami „View deal”, bez cen; flow kończy się na liście ofert (brak płatności)",
     "width": 1170,
     "height": 2532
+  },
+  {
+    "site": "root",
+    "device": "desktop",
+    "step": 1,
+    "tag": "landing",
+    "tags": [
+      "landing"
+    ],
+    "path": "images/root/desktop/01-landing.png",
+    "description": "Root Insurance desktop krok 1: strona główna „Car insurance made simple” — przycisk „Check our prices”, ponad 3 mln kierowców już przeszło",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "root",
+    "device": "desktop",
+    "step": 2,
+    "tag": "name",
+    "tags": [
+      "name"
+    ],
+    "path": "images/root/desktop/02-name.png",
+    "description": "Root Insurance desktop krok 2: „Get a quote in less than 5 minutes” — imię i nazwisko (Taylor Brooks), zgoda na regulamin, „Continue”",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "root",
+    "device": "desktop",
+    "step": 3,
+    "tag": "dob",
+    "tags": [
+      "dob"
+    ],
+    "path": "images/root/desktop/03-dob.png",
+    "description": "Root Insurance desktop krok 3: „When’s your birthday?” — data urodzenia 03 / 22 / 1988",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "root",
+    "device": "desktop",
+    "step": 4,
+    "tag": "address",
+    "tags": [
+      "address"
+    ],
+    "path": "images/root/desktop/04-address.png",
+    "description": "Root Insurance desktop krok 4: „What’s your home address?” — 100 N High St, Columbus, OH 43215, USA; pole na numer mieszkania",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "root",
+    "device": "desktop",
+    "step": 5,
+    "tag": "homeowner",
+    "tags": [
+      "homeowner"
+    ],
+    "path": "images/root/desktop/05-homeowner.png",
+    "description": "Root Insurance desktop krok 5: „Do you rent or own your home?” — zaznaczone Own",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "root",
+    "device": "desktop",
+    "step": 6,
+    "tag": "recently",
+    "tags": [
+      "recently"
+    ],
+    "path": "images/root/desktop/06-recently-moved.png",
+    "description": "Root Insurance desktop krok 6: „Have you moved in the last 6 months?” — zaznaczone No",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "root",
+    "device": "desktop",
+    "step": 7,
+    "tag": "marital",
+    "tags": [
+      "marital"
+    ],
+    "path": "images/root/desktop/07-marital-status.png",
+    "description": "Root Insurance desktop krok 7: „What’s your marital status?” — zaznaczone Single",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "root",
+    "device": "desktop",
+    "step": 8,
+    "tag": "phone",
+    "tags": [
+      "phone"
+    ],
+    "path": "images/root/desktop/08-phone-number.png",
+    "description": "Root Insurance desktop krok 8: „What’s your phone number?” — (614) 555-0142, zgoda na SMS-y",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "root",
+    "device": "desktop",
+    "step": 9,
+    "tag": "license",
+    "tags": [
+      "license"
+    ],
+    "path": "images/root/desktop/09-license.png",
+    "description": "Root Insurance desktop krok 9: „What’s your driver’s license number?” — stan Ohio i numer prawa jazdy; dane posłużą do sprawdzenia rejestrów publicznych",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "root",
+    "device": "desktop",
+    "step": 10,
+    "tag": "vin",
+    "tags": [
+      "vin"
+    ],
+    "path": "images/root/desktop/10-vin-required.png",
+    "description": "Root Insurance desktop krok 10: okno „What’s the VIN?” — puste pole VIN i podpowiedzi, gdzie go znaleźć (deska rozdzielcza, słupek drzwi kierowcy)",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "root",
+    "device": "desktop",
+    "step": 11,
+    "tag": "vin",
+    "tags": [
+      "vin"
+    ],
+    "path": "images/root/desktop/11-vin-entered.png",
+    "description": "Root Insurance desktop krok 11: okno „What’s the VIN?” — wpisany VIN 4T1B21HK4KU519641, przycisk „Add vehicle”",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "root",
+    "device": "desktop",
+    "step": 12,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/root/desktop/12-vehicle-added.png",
+    "description": "Root Insurance desktop krok 12: „Which vehicles do you want to insure?” — dodane auto (VIN 4T1B21HK4KU519641), pytanie o przewóz osób / dostawy (Uber, DoorDash)",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "root",
+    "device": "desktop",
+    "step": 13,
+    "tag": "finance",
+    "tags": [
+      "finance"
+    ],
+    "path": "images/root/desktop/13-finance-lease.png",
+    "description": "Root Insurance desktop krok 13: „Are you financing or leasing any of the vehicles on your policy?” — zaznaczone No",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "root",
+    "device": "desktop",
+    "step": 14,
+    "tag": "which",
+    "tags": [
+      "which"
+    ],
+    "path": "images/root/desktop/14-which-drivers.png",
+    "description": "Root Insurance desktop krok 14: „Which drivers will be covered on your policy?” — Taylor Brooks (Covered), wskazówka Root o jeździe testowej dla wszystkich kierowców",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "root",
+    "device": "desktop",
+    "step": 15,
+    "tag": "moving",
+    "tags": [
+      "moving"
+    ],
+    "path": "images/root/desktop/15-moving-violations.png",
+    "description": "Root Insurance desktop krok 15: „In the past 3 years, have you or any other drivers… been in an accident or gotten a ticket?” — zaznaczone No",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "root",
+    "device": "desktop",
+    "step": 16,
+    "tag": "profile",
+    "tags": [
+      "profile"
+    ],
+    "path": "images/root/desktop/16-profile-review.png",
+    "description": "Root Insurance desktop krok 16: „How does your profile look?” — adres korespondencyjny (100 N High St, Columbus, OH), kierowca Taylor Brooks, pojazd (VIN), dodatkowe ubezpieczenie przewozu osób/dostaw: Not covered",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "root",
+    "device": "desktop",
+    "step": 17,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/root/desktop/17-vehicle-usage.png",
+    "description": "Root Insurance desktop krok 17: „How do you typically use this vehicle?” — Commute to work or school",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "root",
+    "device": "desktop",
+    "step": 18,
+    "tag": "commute",
+    "tags": [
+      "commute"
+    ],
+    "path": "images/root/desktop/18-commute-distance.png",
+    "description": "Root Insurance desktop krok 18: „What is the usual distance in miles?” — dojazd w jedną stronę: 12 mil",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "root",
+    "device": "desktop",
+    "step": 19,
+    "tag": "annual",
+    "tags": [
+      "annual"
+    ],
+    "path": "images/root/desktop/19-annual-mileage.png",
+    "description": "Root Insurance desktop krok 19: „Great! Here’s your estimated annual mileage” — szacunek 11,240 mil rocznie, „Looks good”",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "root",
+    "device": "desktop",
+    "step": 20,
+    "tag": "create",
+    "tags": [
+      "create"
+    ],
+    "path": "images/root/desktop/20-create-account.png",
+    "description": "Root Insurance desktop krok 20: „Create an account to save your progress.” — Root wymaga założenia konta przed pokazaniem wycen (e-mail + hasło)",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "root",
+    "device": "desktop",
+    "step": 21,
+    "tag": "telematics",
+    "tags": [
+      "telematics"
+    ],
+    "path": "images/root/desktop/21-telematics-optin.png",
+    "description": "Root Insurance desktop krok 21: „Safe Driver Program” — 5% zniżki z góry za udział w programie telematycznym: „I’m in, keep my discount” lub „No thanks, I’ll pass”",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "root",
+    "device": "desktop",
+    "step": 22,
+    "tag": "quotes",
+    "tags": [
+      "quotes"
+    ],
+    "path": "images/root/desktop/22-quotes-overview.png",
+    "description": "Root Insurance desktop krok 22: „Pick the plan that’s right for you” (miesięcznie, szacunkowo) — State Minimum $113.99/mies. (OC osobowe $25K/$50K, rzeczowe $25K); Great $334.66/mies. (OC $100K/$300K, rzeczowe $100K, udziały własne Collision $500 i Comprehensive $500, +2 ochrony); zakładka „6 months (save $137+)”; flow kończy się na stronie wycen, brak płatności",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "root",
+    "device": "mobile",
+    "step": 1,
+    "tag": "landing",
+    "tags": [
+      "landing"
+    ],
+    "path": "images/root/mobile/01-landing.png",
+    "description": "Root Insurance mobile krok 1: strona główna „Car insurance made simple” — przycisk „Check our prices”, ponad 3 mln kierowców już przeszło",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "root",
+    "device": "mobile",
+    "step": 2,
+    "tag": "name",
+    "tags": [
+      "name"
+    ],
+    "path": "images/root/mobile/02-name.png",
+    "description": "Root Insurance mobile krok 2: „Get a quote in less than 5 minutes” — imię i nazwisko (Taylor Brooks), zgoda na regulamin, „Continue”",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "root",
+    "device": "mobile",
+    "step": 3,
+    "tag": "dob",
+    "tags": [
+      "dob"
+    ],
+    "path": "images/root/mobile/03-dob.png",
+    "description": "Root Insurance mobile krok 3: „When’s your birthday?” — data urodzenia 03 / 22 / 1988",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "root",
+    "device": "mobile",
+    "step": 4,
+    "tag": "address",
+    "tags": [
+      "address"
+    ],
+    "path": "images/root/mobile/04-address.png",
+    "description": "Root Insurance mobile krok 4: „What’s your home address?” — 100 N High St, Columbus, OH 43215, USA; pole na numer mieszkania",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "root",
+    "device": "mobile",
+    "step": 5,
+    "tag": "homeowner",
+    "tags": [
+      "homeowner"
+    ],
+    "path": "images/root/mobile/05-homeowner.png",
+    "description": "Root Insurance mobile krok 5: „Do you rent or own your home?” — zaznaczone Own",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "root",
+    "device": "mobile",
+    "step": 6,
+    "tag": "recently",
+    "tags": [
+      "recently"
+    ],
+    "path": "images/root/mobile/06-recently-moved.png",
+    "description": "Root Insurance mobile krok 6: „Have you moved in the last 6 months?” — zaznaczone No",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "root",
+    "device": "mobile",
+    "step": 7,
+    "tag": "marital",
+    "tags": [
+      "marital"
+    ],
+    "path": "images/root/mobile/07-marital-status.png",
+    "description": "Root Insurance mobile krok 7: „What’s your marital status?” — zaznaczone Single",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "root",
+    "device": "mobile",
+    "step": 8,
+    "tag": "phone",
+    "tags": [
+      "phone"
+    ],
+    "path": "images/root/mobile/08-phone-number.png",
+    "description": "Root Insurance mobile krok 8: „What’s your phone number?” — (614) 555-0142, zgoda na SMS-y",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "root",
+    "device": "mobile",
+    "step": 9,
+    "tag": "license",
+    "tags": [
+      "license"
+    ],
+    "path": "images/root/mobile/09-license.png",
+    "description": "Root Insurance mobile krok 9: „What’s your driver’s license number?” — stan Ohio i numer prawa jazdy; dane posłużą do sprawdzenia rejestrów publicznych",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "root",
+    "device": "mobile",
+    "step": 10,
+    "tag": "vin",
+    "tags": [
+      "vin"
+    ],
+    "path": "images/root/mobile/10-vin-required.png",
+    "description": "Root Insurance mobile krok 10: okno „What’s the VIN?” — puste pole VIN i podpowiedzi, gdzie go znaleźć (deska rozdzielcza, słupek drzwi kierowcy)",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "root",
+    "device": "mobile",
+    "step": 11,
+    "tag": "vin",
+    "tags": [
+      "vin"
+    ],
+    "path": "images/root/mobile/11-vin-entered.png",
+    "description": "Root Insurance mobile krok 11: okno „What’s the VIN?” — wpisany VIN 4T1B21HK4KU519641, przycisk „Add vehicle”",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "root",
+    "device": "mobile",
+    "step": 12,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/root/mobile/12-vehicle-added.png",
+    "description": "Root Insurance mobile krok 12: „Which vehicles do you want to insure?” — dodane auto (VIN 4T1B21HK4KU519641), pytanie o przewóz osób / dostawy (Uber, DoorDash)",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "root",
+    "device": "mobile",
+    "step": 13,
+    "tag": "finance",
+    "tags": [
+      "finance"
+    ],
+    "path": "images/root/mobile/13-finance-lease.png",
+    "description": "Root Insurance mobile krok 13: „Are you financing or leasing any of the vehicles on your policy?” — zaznaczone No",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "root",
+    "device": "mobile",
+    "step": 14,
+    "tag": "which",
+    "tags": [
+      "which"
+    ],
+    "path": "images/root/mobile/14-which-drivers.png",
+    "description": "Root Insurance mobile krok 14: „Which drivers will be covered on your policy?” — Taylor Brooks (Covered), wskazówka Root o jeździe testowej dla wszystkich kierowców",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "root",
+    "device": "mobile",
+    "step": 15,
+    "tag": "moving",
+    "tags": [
+      "moving"
+    ],
+    "path": "images/root/mobile/15-moving-violations.png",
+    "description": "Root Insurance mobile krok 15: „In the past 3 years, have you or any other drivers… been in an accident or gotten a ticket?” — zaznaczone No",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "root",
+    "device": "mobile",
+    "step": 16,
+    "tag": "profile",
+    "tags": [
+      "profile"
+    ],
+    "path": "images/root/mobile/16-profile-review.png",
+    "description": "Root Insurance mobile krok 16: „How does your profile look?” — adres korespondencyjny (100 N High St, Columbus, OH), kierowca Taylor Brooks, przyciski dodania i wykluczenia kierowcy",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "root",
+    "device": "mobile",
+    "step": 17,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/root/mobile/17-vehicle-usage.png",
+    "description": "Root Insurance mobile krok 17: „How do you typically use this vehicle?” — Commute to work or school",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "root",
+    "device": "mobile",
+    "step": 18,
+    "tag": "commute",
+    "tags": [
+      "commute"
+    ],
+    "path": "images/root/mobile/18-commute-distance.png",
+    "description": "Root Insurance mobile krok 18: „What is the usual distance in miles?” — dojazd w jedną stronę: 12 mil",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "root",
+    "device": "mobile",
+    "step": 19,
+    "tag": "annual",
+    "tags": [
+      "annual"
+    ],
+    "path": "images/root/mobile/19-annual-mileage.png",
+    "description": "Root Insurance mobile krok 19: „Great! Here’s your estimated annual mileage” — szacunek 11,240 mil rocznie, „Looks good”",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "root",
+    "device": "mobile",
+    "step": 20,
+    "tag": "create",
+    "tags": [
+      "create"
+    ],
+    "path": "images/root/mobile/20-create-account.png",
+    "description": "Root Insurance mobile krok 20: „Create an account to save your progress.” — Root wymaga założenia konta przed pokazaniem wycen (e-mail + hasło)",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "root",
+    "device": "mobile",
+    "step": 21,
+    "tag": "telematics",
+    "tags": [
+      "telematics"
+    ],
+    "path": "images/root/mobile/21-telematics-optin.png",
+    "description": "Root Insurance mobile krok 21: „Safe Driver Program” — 5% zniżki z góry za udział w programie telematycznym: „I’m in, keep my discount” lub „No thanks, I’ll pass”",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "root",
+    "device": "mobile",
+    "step": 22,
+    "tag": "quotes",
+    "tags": [
+      "quotes"
+    ],
+    "path": "images/root/mobile/22-quotes-overview.png",
+    "description": "Root Insurance mobile krok 22: „Pick the plan that’s right for you” — zakładki Monthly / „6 months (save $137+)”; State Minimum $113.99/mies. i Great $334.66/mies. (ceny szacunkowe)",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "root",
+    "device": "mobile",
+    "step": 23,
+    "tag": "quotes",
+    "tags": [
+      "quotes"
+    ],
+    "path": "images/root/mobile/23-quotes-scroll-1.png",
+    "description": "Root Insurance mobile krok 23: wyceny po przewinięciu — State Minimum $113.99/mies. i Great $334.66/mies., przyciski „View this plan”; flow kończy się na stronie wycen, brak płatności",
+    "width": 1170,
+    "height": 2532
   }
 ]
