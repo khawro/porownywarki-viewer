@@ -21,6 +21,7 @@
     hedvig: "Hedvig",
     trasti: "Trasti",
     warta: "Warta",
+    ominimo: "Ominimo",
   };
 
   // Rynek przechwyconego flow (kraj strony/aplikacji). Każdy nowy site → dopisz tutaj.
@@ -46,6 +47,7 @@
     hedvig: "SE",
     trasti: "PL",
     warta: "PL",
+    ominimo: "PL",
   };
 
   const COUNTRIES = {

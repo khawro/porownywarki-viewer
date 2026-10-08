@@ -10138,5 +10138,239 @@
     "description": "Warta mobile krok 6: „Dane do polisy” — wymagane uzupełnienie pełnego numeru VIN (pole częściowo wypełnione); okres ochrony od 08.10.2026; zgody i oświadczenia; podsumowanie HDI OC 2 291 zł; flow kończy się na obowiązkowym VIN (częściowy)",
     "width": 1170,
     "height": 2532
+  },
+  {
+    "site": "ominimo",
+    "device": "desktop",
+    "step": 1,
+    "tag": "landing",
+    "tags": [
+      "landing"
+    ],
+    "path": "images/ominimo/desktop/01-landing.png",
+    "description": "Ominimo desktop krok 1: strona główna — „Nie jesteśmy (jeszcze) największym graczem w ubezpieczeniach komunikacyjnych…”, Powered by Zurich; korzyści (niższe składki, szybka likwidacja szkód, elastyczność); przycisk „OBLICZ SWOJĄ SKŁADKĘ”; ilustracja Warszawy",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "ominimo",
+    "device": "desktop",
+    "step": 2,
+    "tag": "start",
+    "tags": [
+      "start"
+    ],
+    "path": "images/ominimo/desktop/02-start-form.png",
+    "description": "Ominimo desktop krok 2: start kalkulatora (KROK 1/6, Szczegóły) — puste pola numer rejestracyjny, PESEL, data startu polisy; wybór OC/AC; przycisk „NASTĘPNA”; koszt w kroku 3",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "ominimo",
+    "device": "desktop",
+    "step": 3,
+    "tag": "form",
+    "tags": [
+      "form"
+    ],
+    "path": "images/ominimo/desktop/03-form-filled.png",
+    "description": "Ominimo desktop krok 3: formularz startowy wypełniony (KROK 1/6) — numer rejestracyjny, PESEL, data startu polisy, zaznaczone OC i AC; „NASTĘPNA”",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "ominimo",
+    "device": "desktop",
+    "step": 4,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/ominimo/desktop/04-vehicle-vin-required.png",
+    "description": "Ominimo desktop krok 4: dane pojazdu wprowadzone ręcznie (Škoda Octavia III 1.0 TSI 85 kW 2019, KROK 2/6) — sprowadzony z zagranicy: Nie; puste pole Numer VIN z czerwoną ramką (wymagane); „NASTĘPNA”",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "ominimo",
+    "device": "desktop",
+    "step": 5,
+    "tag": "vin",
+    "tags": [
+      "vin"
+    ],
+    "path": "images/ominimo/desktop/05-vin-entered.png",
+    "description": "Ominimo desktop krok 5: dane pojazdu z uzupełnionym numerem VIN (Škoda Octavia III 1.0 TSI 2019, KROK 2/6); „NASTĘPNA”",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "ominimo",
+    "device": "desktop",
+    "step": 6,
+    "tag": "usage",
+    "tags": [
+      "usage"
+    ],
+    "path": "images/ominimo/desktop/06-vehicle-usage-empty.png",
+    "description": "Ominimo desktop krok 6: użytkowanie pojazdu (KROK 2/6) — przebieg, parking nocny, użytkowanie, uszkodzenia (puste); leasing i cesja: Nie; „NASTĘPNA”",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "ominimo",
+    "device": "desktop",
+    "step": 7,
+    "tag": "usage",
+    "tags": [
+      "usage"
+    ],
+    "path": "images/ominimo/desktop/07-vehicle-usage-filled.png",
+    "description": "Ominimo desktop krok 7: użytkowanie pojazdu wypełnione (KROK 2/6) — przebieg, parking w garażu indywidualnym, użytek prywatny, brak uszkodzeń; leasing i cesja: Nie; „NASTĘPNA”",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "ominimo",
+    "device": "desktop",
+    "step": 8,
+    "tag": "driver",
+    "tags": [
+      "driver"
+    ],
+    "path": "images/ominimo/desktop/08-driver-owner-details.png",
+    "description": "Ominimo desktop krok 8: Kierowca (KROK 3/6) — właściciel osoba fizyczna, dane właściciela, prawo jazdy, liczba właścicieli, główny kierowca; pytanie o dzieci poniżej 26 lat; koszt w tym kroku",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "ominimo",
+    "device": "desktop",
+    "step": 9,
+    "tag": "quote",
+    "tags": [
+      "quote"
+    ],
+    "path": "images/ominimo/desktop/09-quote-blocked.png",
+    "description": "Ominimo desktop krok 9: blokada oferty online — „W oparciu o przekazane informacje nie jesteśmy w stanie wygenerować oferty online”; przycisk „POWRÓT DO STRONY GŁÓWNEJ”; flow częściowy (bez oferty)",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "ominimo",
+    "device": "mobile",
+    "step": 1,
+    "tag": "landing",
+    "tags": [
+      "landing"
+    ],
+    "path": "images/ominimo/mobile/01-landing.png",
+    "description": "Ominimo mobile krok 1: strona główna — „Nie jesteśmy (jeszcze) największym graczem w ubezpieczeniach komunikacyjnych…”, Powered by Zurich; menu hamburger; dalej kalkulator składki",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "ominimo",
+    "device": "mobile",
+    "step": 2,
+    "tag": "start",
+    "tags": [
+      "start"
+    ],
+    "path": "images/ominimo/mobile/02-start-form.png",
+    "description": "Ominimo mobile krok 2: start kalkulatora (1/6, Szczegóły) — puste pola numer rejestracyjny, PESEL, data startu polisy; wybór OC/AC; przycisk „NASTĘPNA”",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "ominimo",
+    "device": "mobile",
+    "step": 3,
+    "tag": "form",
+    "tags": [
+      "form"
+    ],
+    "path": "images/ominimo/mobile/03-form-filled.png",
+    "description": "Ominimo mobile krok 3: dane pojazdu wprowadzone ręcznie (2/6, Pojazd) — sprowadzony z zagranicy: Nie; data pierwszej rejestracji, marka/model (Škoda Octavia III 1.0 TSI 2019) i pozostałe pola auta",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "ominimo",
+    "device": "mobile",
+    "step": 4,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/ominimo/mobile/04-vehicle-vin-required.png",
+    "description": "Ominimo mobile krok 4: dane pojazdu (2/6) — puste pole Numer VIN z czerwoną ramką (wymagane); „NASTĘPNA”",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "ominimo",
+    "device": "mobile",
+    "step": 5,
+    "tag": "vin",
+    "tags": [
+      "vin"
+    ],
+    "path": "images/ominimo/mobile/05-vin-entered.png",
+    "description": "Ominimo mobile krok 5: dane pojazdu z uzupełnionym numerem VIN (Škoda Octavia III, 2/6); „NASTĘPNA”",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "ominimo",
+    "device": "mobile",
+    "step": 6,
+    "tag": "usage",
+    "tags": [
+      "usage"
+    ],
+    "path": "images/ominimo/mobile/06-vehicle-usage-empty.png",
+    "description": "Ominimo mobile krok 6: użytkowanie pojazdu (2/6) — przebieg, parking nocny, użytkowanie (puste); leasing i cesja: Nie; „NASTĘPNA”",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "ominimo",
+    "device": "mobile",
+    "step": 7,
+    "tag": "usage",
+    "tags": [
+      "usage"
+    ],
+    "path": "images/ominimo/mobile/07-vehicle-usage-filled.png",
+    "description": "Ominimo mobile krok 7: użytkowanie pojazdu wypełnione (2/6) — przebieg, parking w garażu, użytek prywatny, brak uszkodzeń; leasing i cesja: Nie; „NASTĘPNA”",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "ominimo",
+    "device": "mobile",
+    "step": 8,
+    "tag": "driver",
+    "tags": [
+      "driver"
+    ],
+    "path": "images/ominimo/mobile/08-driver-owner-details.png",
+    "description": "Ominimo mobile krok 8: Kierowca (3/6) — właściciel osoba fizyczna, dane właściciela, prawo jazdy, główny kierowca; pytanie o dzieci poniżej 26 lat",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "ominimo",
+    "device": "mobile",
+    "step": 9,
+    "tag": "quote",
+    "tags": [
+      "quote"
+    ],
+    "path": "images/ominimo/mobile/09-quote-blocked.png",
+    "description": "Ominimo mobile krok 9: blokada oferty online — „W oparciu o przekazane informacje nie jesteśmy w stanie wygenerować oferty online”; „POWRÓT DO STRONY GŁÓWNEJ”; flow częściowy (bez oferty)",
+    "width": 1170,
+    "height": 2532
   }
 ]
