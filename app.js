@@ -13,6 +13,7 @@
     policygenius: "Policygenius",
     marshmallow: "Marshmallow",
     getsafe: "Getsafe",
+    feather: "Feather",
   };
 
   const TAG_LABELS = {

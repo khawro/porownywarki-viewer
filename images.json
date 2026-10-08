@@ -7148,5 +7148,213 @@
     "description": "Getsafe mobile krok 8: wybór metody płatności (SEPA, karta, PayPal) i zgody, przycisk „Buy now for €6,44/month” — flow kończy się przed zakupem",
     "width": 1170,
     "height": 2532
+  },
+  {
+    "site": "feather",
+    "device": "desktop",
+    "step": 1,
+    "tag": "landing",
+    "tags": [
+      "landing"
+    ],
+    "path": "images/feather/desktop/01-landing.png",
+    "description": "Feather desktop krok 1: strona „Car insurance in Germany” — „New to Germany? You start at our lowest rate”, przyciski „Get a quote” i „Book a call”",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "feather",
+    "device": "desktop",
+    "step": 2,
+    "tag": "intro",
+    "tags": [
+      "intro"
+    ],
+    "path": "images/feather/desktop/02-intro.png",
+    "description": "Feather desktop krok 2: „Hey! Let’s get you a quote.” — start formularza, przycisk „Continue”",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "feather",
+    "device": "desktop",
+    "step": 3,
+    "tag": "already",
+    "tags": [
+      "already"
+    ],
+    "path": "images/feather/desktop/03-already-insured.png",
+    "description": "Feather desktop krok 3: czy auto jest już ubezpieczone na Ciebie (wcześniej w Niemczech / w innym kraju / pierwsze ubezpieczenie)",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "feather",
+    "device": "desktop",
+    "step": 4,
+    "tag": "insurer",
+    "tags": [
+      "insurer"
+    ],
+    "path": "images/feather/desktop/04-insurer-name.png",
+    "description": "Feather desktop krok 4: nazwa poprzedniego/obecnego ubezpieczyciela",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "feather",
+    "device": "desktop",
+    "step": 5,
+    "tag": "hsn",
+    "tags": [
+      "hsn"
+    ],
+    "path": "images/feather/desktop/05-hsn-tsn.png",
+    "description": "Feather desktop krok 5: identyfikacja auta po numerach HSN/TSN z dowodu rejestracyjnego lub „I do not know the HSN/TSN”",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "feather",
+    "device": "desktop",
+    "step": 6,
+    "tag": "car",
+    "tags": [
+      "car"
+    ],
+    "path": "images/feather/desktop/06-car-make.png",
+    "description": "Feather desktop krok 6: wybór marki (Audi, BMW, Hyundai, Kia, Peugeot, Renault, Skoda, Toyota, Volkswagen lub inna)",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "feather",
+    "device": "desktop",
+    "step": 7,
+    "tag": "car",
+    "tags": [
+      "car"
+    ],
+    "path": "images/feather/desktop/07-car-year.png",
+    "description": "Feather desktop krok 7: rok produkcji auta",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "feather",
+    "device": "desktop",
+    "step": 8,
+    "tag": "car",
+    "tags": [
+      "car"
+    ],
+    "path": "images/feather/desktop/08-car-model.png",
+    "description": "Feather desktop krok 8: wybór modelu (Skoda: Enyaq iV, Fabia, Karoq, Kodiaq, Kushaq, Octavia, Octavia RS, Slavia) — flow kończy się tutaj: wyszukiwarka wersji zwraca „No trims found” dla każdego testowanego auta (Skoda, VW Golf/Polo, BMW 3, Toyota Corolla), więc brak cen",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "feather",
+    "device": "mobile",
+    "step": 1,
+    "tag": "landing",
+    "tags": [
+      "landing"
+    ],
+    "path": "images/feather/mobile/01-landing.png",
+    "description": "Feather mobile krok 1: strona „Car insurance in Germany” — „New to Germany? You start at our lowest rate”, przyciski „Get a quote” i „Book a call”",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "feather",
+    "device": "mobile",
+    "step": 2,
+    "tag": "intro",
+    "tags": [
+      "intro"
+    ],
+    "path": "images/feather/mobile/02-intro.png",
+    "description": "Feather mobile krok 2: „Hey! Let’s get you a quote.” — start formularza, przycisk „Continue”",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "feather",
+    "device": "mobile",
+    "step": 3,
+    "tag": "already",
+    "tags": [
+      "already"
+    ],
+    "path": "images/feather/mobile/03-already-insured.png",
+    "description": "Feather mobile krok 3: czy auto jest już ubezpieczone na Ciebie (wcześniej w Niemczech / w innym kraju / pierwsze ubezpieczenie)",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "feather",
+    "device": "mobile",
+    "step": 4,
+    "tag": "insurer",
+    "tags": [
+      "insurer"
+    ],
+    "path": "images/feather/mobile/04-insurer-name.png",
+    "description": "Feather mobile krok 4: nazwa poprzedniego/obecnego ubezpieczyciela",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "feather",
+    "device": "mobile",
+    "step": 5,
+    "tag": "hsn",
+    "tags": [
+      "hsn"
+    ],
+    "path": "images/feather/mobile/05-hsn-tsn.png",
+    "description": "Feather mobile krok 5: identyfikacja auta po numerach HSN/TSN z dowodu rejestracyjnego lub „I do not know the HSN/TSN”",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "feather",
+    "device": "mobile",
+    "step": 6,
+    "tag": "car",
+    "tags": [
+      "car"
+    ],
+    "path": "images/feather/mobile/06-car-make.png",
+    "description": "Feather mobile krok 6: wybór marki (Audi, BMW, Hyundai, Kia, Peugeot, Renault, Skoda, Toyota, Volkswagen lub inna)",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "feather",
+    "device": "mobile",
+    "step": 7,
+    "tag": "car",
+    "tags": [
+      "car"
+    ],
+    "path": "images/feather/mobile/07-car-year.png",
+    "description": "Feather mobile krok 7: rok produkcji auta",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "feather",
+    "device": "mobile",
+    "step": 8,
+    "tag": "car",
+    "tags": [
+      "car"
+    ],
+    "path": "images/feather/mobile/08-car-model.png",
+    "description": "Feather mobile krok 8: wybór modelu (Skoda: Enyaq iV, Fabia, Karoq, Kodiaq, Kushaq, Octavia, Octavia RS, Slavia) — flow kończy się tutaj: wyszukiwarka wersji zwraca „No trims found” dla każdego testowanego auta (Skoda, VW Golf/Polo, BMW 3, Toyota Corolla), więc brak cen",
+    "width": 1170,
+    "height": 2532
   }
 ]
