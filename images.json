@@ -6264,5 +6264,681 @@
     "description": "policygenius mobile krok 17: „We didn’t find an option on our site” — przyciski Get Quote partnerów: Progressive, Farmers, Liberty Mutual, Kin (Policygenius nie wycenia auta sam)",
     "width": 1170,
     "height": 2532
+  },
+  {
+    "site": "marshmallow",
+    "device": "desktop",
+    "step": 1,
+    "tag": "landing",
+    "tags": [
+      "landing"
+    ],
+    "path": "images/marshmallow/desktop/01-landing.png",
+    "description": "Marshmallow desktop krok 1: strona główna — „Insurance priced on you”, przycisk „Get a free quote”",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "marshmallow",
+    "device": "desktop",
+    "step": 2,
+    "tag": "choose",
+    "tags": [
+      "choose"
+    ],
+    "path": "images/marshmallow/desktop/02-choose-product.png",
+    "description": "Marshmallow desktop krok 2: „Get a quote” — wybór produktu: ubezpieczenie auta, domu/najemcy",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "marshmallow",
+    "device": "desktop",
+    "step": 3,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/marshmallow/desktop/03-vehicle-reg-entry.png",
+    "description": "Marshmallow desktop krok 3: „Let’s add the vehicle you want to insure” — pole numeru rejestracyjnego (GB) lub wyszukiwanie po marce i modelu",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "marshmallow",
+    "device": "desktop",
+    "step": 4,
+    "tag": "make",
+    "tags": [
+      "make"
+    ],
+    "path": "images/marshmallow/desktop/04-make-question.png",
+    "description": "Marshmallow desktop krok 4: wyszukiwanie po marce — pytanie o markę pojazdu",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "marshmallow",
+    "device": "desktop",
+    "step": 5,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/marshmallow/desktop/05-vehicle-kind.png",
+    "description": "Marshmallow desktop krok 5: rodzaj/model pojazdu (Toyota Yaris Hybrid)",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "marshmallow",
+    "device": "desktop",
+    "step": 6,
+    "tag": "fuel",
+    "tags": [
+      "fuel"
+    ],
+    "path": "images/marshmallow/desktop/06-fuel-type.png",
+    "description": "Marshmallow desktop krok 6: rodzaj paliwa",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "marshmallow",
+    "device": "desktop",
+    "step": 7,
+    "tag": "transmission",
+    "tags": [
+      "transmission"
+    ],
+    "path": "images/marshmallow/desktop/07-transmission.png",
+    "description": "Marshmallow desktop krok 7: skrzynia biegów",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "marshmallow",
+    "device": "desktop",
+    "step": 8,
+    "tag": "manufacture",
+    "tags": [
+      "manufacture"
+    ],
+    "path": "images/marshmallow/desktop/08-manufacture-year.png",
+    "description": "Marshmallow desktop krok 8: rok produkcji",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "marshmallow",
+    "device": "desktop",
+    "step": 9,
+    "tag": "engine",
+    "tags": [
+      "engine"
+    ],
+    "path": "images/marshmallow/desktop/09-engine-size.png",
+    "description": "Marshmallow desktop krok 9: pojemność silnika",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "marshmallow",
+    "device": "desktop",
+    "step": 10,
+    "tag": "trim",
+    "tags": [
+      "trim"
+    ],
+    "path": "images/marshmallow/desktop/10-trim.png",
+    "description": "Marshmallow desktop krok 10: wersja wyposażenia (trim)",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "marshmallow",
+    "device": "desktop",
+    "step": 11,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/marshmallow/desktop/11-vehicle-found.png",
+    "description": "Marshmallow desktop krok 11: „We found 1 vehicle” — znaleziona Toyota Yaris Hybrid, przycisk „Select”",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "marshmallow",
+    "device": "desktop",
+    "step": 12,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/marshmallow/desktop/12-vehicle-confirm.png",
+    "description": "Marshmallow desktop krok 12: potwierdzenie danych pojazdu (producent, model, wersja, rok, paliwo, pojemność)",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "marshmallow",
+    "device": "desktop",
+    "step": 13,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/marshmallow/desktop/13-vehicle-details.png",
+    "description": "Marshmallow desktop krok 13: „Let’s talk about your TOYOTA YARIS” — data zakupu, zarejestrowany właściciel, modyfikacje",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "marshmallow",
+    "device": "desktop",
+    "step": 14,
+    "tag": "drivers",
+    "tags": [
+      "drivers"
+    ],
+    "path": "images/marshmallow/desktop/14-drivers-name.png",
+    "description": "Marshmallow desktop krok 14: „We never got introduced!” — imię, nazwisko i e-mail kierowcy",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "marshmallow",
+    "device": "desktop",
+    "step": 15,
+    "tag": "add",
+    "tags": [
+      "add"
+    ],
+    "path": "images/marshmallow/desktop/15-add-driver.png",
+    "description": "Marshmallow desktop krok 15: czy dodać kolejnych kierowców",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "marshmallow",
+    "device": "desktop",
+    "step": 16,
+    "tag": "licence",
+    "tags": [
+      "licence"
+    ],
+    "path": "images/marshmallow/desktop/16-licence-type.png",
+    "description": "Marshmallow desktop krok 16: „A little bit about your driver’s licence” — rodzaj prawa jazdy",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "marshmallow",
+    "device": "desktop",
+    "step": 17,
+    "tag": "driving",
+    "tags": [
+      "driving"
+    ],
+    "path": "images/marshmallow/desktop/17-driving-history.png",
+    "description": "Marshmallow desktop krok 17: „On to your driving history” — szkody i wykroczenia z ostatnich 5 lat",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "marshmallow",
+    "device": "desktop",
+    "step": 18,
+    "tag": "claim",
+    "tags": [
+      "claim"
+    ],
+    "path": "images/marshmallow/desktop/18-claim-free-discount.png",
+    "description": "Marshmallow desktop krok 18: „Claim-free driving discount” — lata zniżki za bezszkodową jazdę (NCD)",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "marshmallow",
+    "device": "desktop",
+    "step": 19,
+    "tag": "usage",
+    "tags": [
+      "usage"
+    ],
+    "path": "images/marshmallow/desktop/19-usage.png",
+    "description": "Marshmallow desktop krok 19: „Tell us what you use your car for” — sposób użytkowania auta",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "marshmallow",
+    "device": "desktop",
+    "step": 20,
+    "tag": "previous",
+    "tags": [
+      "previous"
+    ],
+    "path": "images/marshmallow/desktop/20-previous-cancellation.png",
+    "description": "Marshmallow desktop krok 20: wcześniejsze anulowanie lub unieważnienie polisy",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "marshmallow",
+    "device": "desktop",
+    "step": 21,
+    "tag": "policy",
+    "tags": [
+      "policy"
+    ],
+    "path": "images/marshmallow/desktop/21-policy-start.png",
+    "description": "Marshmallow desktop krok 21: „One last thing” — data startu polisy i płatność roczna/miesięczna, przycisk „Get my quote”",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "marshmallow",
+    "device": "desktop",
+    "step": 22,
+    "tag": "plan",
+    "tags": [
+      "plan"
+    ],
+    "path": "images/marshmallow/desktop/22-plan-move.png",
+    "description": "Marshmallow desktop krok 22: „Choose your plan” — plany Move (telematyka): Move £136.04/mies., Move essential £132.60, Move original £142.32, Move plus £152.58",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "marshmallow",
+    "device": "desktop",
+    "step": 23,
+    "tag": "plan",
+    "tags": [
+      "plan"
+    ],
+    "path": "images/marshmallow/desktop/23-plan-standard.png",
+    "description": "Marshmallow desktop krok 23: „Choose your plan” — plany Standard bez urządzenia: Lightest £142.55/mies. (pierwsza rata £143.45), Essential £143.06, Original £153.55, Plus £164.35",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "marshmallow",
+    "device": "desktop",
+    "step": 24,
+    "tag": "plan",
+    "tags": [
+      "plan"
+    ],
+    "path": "images/marshmallow/desktop/24-plan-overview.png",
+    "description": "Marshmallow desktop krok 24: „Nice to meet you” — podsumowanie Marshmallow Move £136.04/mies. (pierwsza rata £136.93, potem 11×£136.04), cover do £2,000, łączny udział własny £575, start 8 Oct 2026",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "marshmallow",
+    "device": "desktop",
+    "step": 25,
+    "tag": "number",
+    "tags": [
+      "number"
+    ],
+    "path": "images/marshmallow/desktop/25-number-plate.png",
+    "description": "Marshmallow desktop krok 25: „Got the number plate?” — prośba o numer rejestracyjny przed zakupem",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "marshmallow",
+    "device": "desktop",
+    "step": 26,
+    "tag": "no",
+    "tags": [
+      "no"
+    ],
+    "path": "images/marshmallow/desktop/26-no-plate-guide.png",
+    "description": "Marshmallow desktop krok 26: komunikat: bez tablicy rejestracyjnej cena jest tylko orientacyjna — wrócić z numerem (koniec flow, brak płatności)",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "marshmallow",
+    "device": "mobile",
+    "step": 1,
+    "tag": "landing",
+    "tags": [
+      "landing"
+    ],
+    "path": "images/marshmallow/mobile/01-landing.png",
+    "description": "Marshmallow mobile krok 1: strona główna — „Insurance priced on you”, przycisk „Get a free quote”",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "marshmallow",
+    "device": "mobile",
+    "step": 2,
+    "tag": "choose",
+    "tags": [
+      "choose"
+    ],
+    "path": "images/marshmallow/mobile/02-choose-product.png",
+    "description": "Marshmallow mobile krok 2: „Get a quote” — wybór produktu: ubezpieczenie auta, domu/najemcy",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "marshmallow",
+    "device": "mobile",
+    "step": 3,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/marshmallow/mobile/03-vehicle-reg-entry.png",
+    "description": "Marshmallow mobile krok 3: „Let’s add the vehicle you want to insure” — pole numeru rejestracyjnego (GB) lub wyszukiwanie po marce i modelu",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "marshmallow",
+    "device": "mobile",
+    "step": 4,
+    "tag": "make",
+    "tags": [
+      "make"
+    ],
+    "path": "images/marshmallow/mobile/04-make-question.png",
+    "description": "Marshmallow mobile krok 4: wyszukiwanie po marce — pytanie o markę pojazdu",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "marshmallow",
+    "device": "mobile",
+    "step": 5,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/marshmallow/mobile/05-vehicle-kind.png",
+    "description": "Marshmallow mobile krok 5: rodzaj/model pojazdu (Toyota Yaris Hybrid)",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "marshmallow",
+    "device": "mobile",
+    "step": 6,
+    "tag": "fuel",
+    "tags": [
+      "fuel"
+    ],
+    "path": "images/marshmallow/mobile/06-fuel-type.png",
+    "description": "Marshmallow mobile krok 6: rodzaj paliwa",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "marshmallow",
+    "device": "mobile",
+    "step": 7,
+    "tag": "transmission",
+    "tags": [
+      "transmission"
+    ],
+    "path": "images/marshmallow/mobile/07-transmission.png",
+    "description": "Marshmallow mobile krok 7: skrzynia biegów",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "marshmallow",
+    "device": "mobile",
+    "step": 8,
+    "tag": "manufacture",
+    "tags": [
+      "manufacture"
+    ],
+    "path": "images/marshmallow/mobile/08-manufacture-year.png",
+    "description": "Marshmallow mobile krok 8: rok produkcji",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "marshmallow",
+    "device": "mobile",
+    "step": 9,
+    "tag": "engine",
+    "tags": [
+      "engine"
+    ],
+    "path": "images/marshmallow/mobile/09-engine-size.png",
+    "description": "Marshmallow mobile krok 9: pojemność silnika",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "marshmallow",
+    "device": "mobile",
+    "step": 10,
+    "tag": "trim",
+    "tags": [
+      "trim"
+    ],
+    "path": "images/marshmallow/mobile/10-trim.png",
+    "description": "Marshmallow mobile krok 10: wersja wyposażenia (trim)",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "marshmallow",
+    "device": "mobile",
+    "step": 11,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/marshmallow/mobile/11-vehicle-found.png",
+    "description": "Marshmallow mobile krok 11: „We found 1 vehicle” — znaleziona Toyota Yaris Hybrid, przycisk „Select”",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "marshmallow",
+    "device": "mobile",
+    "step": 12,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/marshmallow/mobile/12-vehicle-confirm.png",
+    "description": "Marshmallow mobile krok 12: potwierdzenie danych pojazdu (producent, model, wersja, rok, paliwo, pojemność)",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "marshmallow",
+    "device": "mobile",
+    "step": 13,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/marshmallow/mobile/13-vehicle-details.png",
+    "description": "Marshmallow mobile krok 13: „Let’s talk about your TOYOTA YARIS” — data zakupu, zarejestrowany właściciel, modyfikacje",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "marshmallow",
+    "device": "mobile",
+    "step": 14,
+    "tag": "drivers",
+    "tags": [
+      "drivers"
+    ],
+    "path": "images/marshmallow/mobile/14-drivers-name.png",
+    "description": "Marshmallow mobile krok 14: „We never got introduced!” — imię, nazwisko i e-mail kierowcy",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "marshmallow",
+    "device": "mobile",
+    "step": 15,
+    "tag": "add",
+    "tags": [
+      "add"
+    ],
+    "path": "images/marshmallow/mobile/15-add-driver.png",
+    "description": "Marshmallow mobile krok 15: czy dodać kolejnych kierowców",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "marshmallow",
+    "device": "mobile",
+    "step": 16,
+    "tag": "licence",
+    "tags": [
+      "licence"
+    ],
+    "path": "images/marshmallow/mobile/16-licence-type.png",
+    "description": "Marshmallow mobile krok 16: „A little bit about your driver’s licence” — rodzaj prawa jazdy",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "marshmallow",
+    "device": "mobile",
+    "step": 17,
+    "tag": "driving",
+    "tags": [
+      "driving"
+    ],
+    "path": "images/marshmallow/mobile/17-driving-history.png",
+    "description": "Marshmallow mobile krok 17: „On to your driving history” — szkody i wykroczenia z ostatnich 5 lat",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "marshmallow",
+    "device": "mobile",
+    "step": 18,
+    "tag": "claim",
+    "tags": [
+      "claim"
+    ],
+    "path": "images/marshmallow/mobile/18-claim-free-discount.png",
+    "description": "Marshmallow mobile krok 18: „Claim-free driving discount” — lata zniżki za bezszkodową jazdę (NCD)",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "marshmallow",
+    "device": "mobile",
+    "step": 19,
+    "tag": "usage",
+    "tags": [
+      "usage"
+    ],
+    "path": "images/marshmallow/mobile/19-usage.png",
+    "description": "Marshmallow mobile krok 19: „Tell us what you use your car for” — sposób użytkowania auta",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "marshmallow",
+    "device": "mobile",
+    "step": 20,
+    "tag": "previous",
+    "tags": [
+      "previous"
+    ],
+    "path": "images/marshmallow/mobile/20-previous-cancellation.png",
+    "description": "Marshmallow mobile krok 20: wcześniejsze anulowanie lub unieważnienie polisy",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "marshmallow",
+    "device": "mobile",
+    "step": 21,
+    "tag": "policy",
+    "tags": [
+      "policy"
+    ],
+    "path": "images/marshmallow/mobile/21-policy-start.png",
+    "description": "Marshmallow mobile krok 21: „One last thing” — data startu polisy i płatność roczna/miesięczna, przycisk „Get my quote”",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "marshmallow",
+    "device": "mobile",
+    "step": 22,
+    "tag": "plan",
+    "tags": [
+      "plan"
+    ],
+    "path": "images/marshmallow/mobile/22-plan-move.png",
+    "description": "Marshmallow mobile krok 22: „Choose your plan” — plany Move (telematyka): Move £136.04/mies., Move essential £132.60, Move original £142.32, Move plus £152.58",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "marshmallow",
+    "device": "mobile",
+    "step": 23,
+    "tag": "plan",
+    "tags": [
+      "plan"
+    ],
+    "path": "images/marshmallow/mobile/23-plan-standard.png",
+    "description": "Marshmallow mobile krok 23: „Choose your plan” — plany Standard bez urządzenia: Lightest £142.55/mies. (pierwsza rata £143.45), Essential £143.06, Original £153.55, Plus £164.35",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "marshmallow",
+    "device": "mobile",
+    "step": 24,
+    "tag": "plan",
+    "tags": [
+      "plan"
+    ],
+    "path": "images/marshmallow/mobile/24-plan-overview.png",
+    "description": "Marshmallow mobile krok 24: „Nice to meet you” — podsumowanie Marshmallow Move £136.04/mies. (pierwsza rata £136.93, potem 11×£136.04), cover do £2,000, łączny udział własny £575, start 8 Oct 2026",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "marshmallow",
+    "device": "mobile",
+    "step": 25,
+    "tag": "number",
+    "tags": [
+      "number"
+    ],
+    "path": "images/marshmallow/mobile/25-number-plate.png",
+    "description": "Marshmallow mobile krok 25: „Got the number plate?” — prośba o numer rejestracyjny przed zakupem",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "marshmallow",
+    "device": "mobile",
+    "step": 26,
+    "tag": "no",
+    "tags": [
+      "no"
+    ],
+    "path": "images/marshmallow/mobile/26-no-plate-guide.png",
+    "description": "Marshmallow mobile krok 26: komunikat: bez tablicy rejestracyjnej cena jest tylko orientacyjna — wrócić z numerem (koniec flow, brak płatności)",
+    "width": 1170,
+    "height": 2532
   }
 ]

@@ -11,6 +11,7 @@
     beesafe: "Beesafe",
     link4: "Link4",
     policygenius: "Policygenius",
+    marshmallow: "Marshmallow",
   };
 
   const TAG_LABELS = {
