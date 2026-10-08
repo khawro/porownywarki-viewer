@@ -22,6 +22,7 @@
     trasti: "Trasti",
     warta: "Warta",
     ominimo: "Ominimo",
+    pevno: "Pevno",
   };
 
   // Rynek przechwyconego flow (kraj strony/aplikacji). Każdy nowy site → dopisz tutaj.
@@ -48,6 +49,7 @@
     trasti: "PL",
     warta: "PL",
     ominimo: "PL",
+    pevno: "PL",
   };
 
   const COUNTRIES = {

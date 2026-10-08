@@ -10372,5 +10372,278 @@
     "description": "Ominimo mobile krok 9: blokada oferty online — „W oparciu o przekazane informacje nie jesteśmy w stanie wygenerować oferty online”; „POWRÓT DO STRONY GŁÓWNEJ”; flow częściowy (bez oferty)",
     "width": 1170,
     "height": 2532
+  },
+  {
+    "site": "pevno",
+    "device": "desktop",
+    "step": 1,
+    "tag": "landing",
+    "tags": [
+      "landing"
+    ],
+    "path": "images/pevno/desktop/01-landing.png",
+    "description": "Pevno desktop krok 1: strona główna — „ŁATWO. TANIO. PEVNO.”, pakiet OC już od 322 zł/rok; formularz numer rejestracyjny + data urodzenia; „OBLICZ SKŁADKĘ”; badge 15% zniżki za zakup online; hero z żółtym autem",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "pevno",
+    "device": "desktop",
+    "step": 2,
+    "tag": "plate",
+    "tags": [
+      "plate"
+    ],
+    "path": "images/pevno/desktop/02-plate-dob.png",
+    "description": "Pevno desktop krok 2: ten sam landing z wypełnionym formularzem wyceny — numer rejestracyjny i data urodzenia; „OBLICZ SKŁADKĘ”; 15% zniżki za zakup online",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "pevno",
+    "device": "desktop",
+    "step": 3,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/pevno/desktop/03-vehicle-make-model-year.png",
+    "description": "Pevno desktop krok 3: „Dane pojazdu” (Pojazd i kierowcy) — chipy Škoda Octavia III 2019, benzyna 116 KM / 85 kW, kombi; wersja Ambition Manual; właściciel osoba fizyczna; data startu polisy i pierwszej rejestracji; przebieg w uzupełnianiu; parking i roczny przebieg puste",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "pevno",
+    "device": "desktop",
+    "step": 4,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/pevno/desktop/04-vehicle-complete.png",
+    "description": "Pevno desktop krok 4: pełne dane pojazdu — Škoda Octavia III Ambition 2019; przebieg, użytek wyłącznie prywatnie; sprowadzony i leasing: Nie; parking / roczny przebieg jeszcze do wyboru",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "pevno",
+    "device": "desktop",
+    "step": 5,
+    "tag": "owner",
+    "tags": [
+      "owner"
+    ],
+    "path": "images/pevno/desktop/05-vehicle-owner-complete.png",
+    "description": "Pevno desktop krok 5: dane pojazdu i właściciela uzupełnione — roczny przebieg 15–19,9 tys. km, parking ulica/niestrzeżone; zielony komunikat: historia ubezpieczenia pobrana z UFG; początek sekcji dodatkowi kierowcy",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "pevno",
+    "device": "desktop",
+    "step": 6,
+    "tag": "contact",
+    "tags": [
+      "contact"
+    ],
+    "path": "images/pevno/desktop/06-contact-drivers.png",
+    "description": "Pevno desktop krok 6: dodatkowi kierowcy — brak młodych/niedoświadczonych (Nie); dane kontaktowe ubezpieczającego (e-mail); historia UFG; zniżka 15% online",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "pevno",
+    "device": "desktop",
+    "step": 7,
+    "tag": "offer",
+    "tags": [
+      "offer"
+    ],
+    "path": "images/pevno/desktop/07-offer-packages.png",
+    "description": "Pevno desktop krok 7: „Wybór pakietu” — trzy warianty: OC 1 529 zł, OC+AC Polecamy 2 430 zł, OC+AC najwyższy 3 544 zł / rok; wartość pojazdu 46 300 zł; przyciski WYBIERZ; okres 09.10.2026–08.10.2027",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "pevno",
+    "device": "desktop",
+    "step": 8,
+    "tag": "addons",
+    "tags": [
+      "addons"
+    ],
+    "path": "images/pevno/desktop/08-addons.png",
+    "description": "Pevno desktop krok 8: „Opcje dodatkowe” — Assistance Rozszerzony +293 zł, NNW 50 tys. +96 zł, opony 29 zł, auto zastępcze 24 zł; Pakiet OC+AC 1 988 zł; do zapłaty 2 430 zł",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "pevno",
+    "device": "desktop",
+    "step": 9,
+    "tag": "dane",
+    "tags": [
+      "dane"
+    ],
+    "path": "images/pevno/desktop/09-dane-do-polisy-owner.png",
+    "description": "Pevno desktop krok 9: „Dane do polisy” — dane ubezpieczającego i adres zamieszkania (Wrocław); adres korespondencyjny taki sam: Tak; podsumowanie OC+AC + dodatki, do zapłaty 2 430 zł",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "pevno",
+    "device": "desktop",
+    "step": 10,
+    "tag": "zgody",
+    "tags": [
+      "zgody"
+    ],
+    "path": "images/pevno/desktop/10-dane-do-polisy-zgody-pojazd.png",
+    "description": "Pevno desktop krok 10: „Dane do polisy” — wymagane oświadczenia zaznaczone; dane uzupełniające pojazdu (numer rejestracyjny, VIN, liczba kluczyków: 2); do zapłaty 2 430 zł",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "pevno",
+    "device": "mobile",
+    "step": 1,
+    "tag": "landing",
+    "tags": [
+      "landing"
+    ],
+    "path": "images/pevno/mobile/01-landing.png",
+    "description": "Pevno mobile krok 1: strona główna — „ŁATWO. TANIO. PEVNO.”, pakiet OC już od 322 zł/rok; badge 15% zniżki za zakup online; menu hamburger",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "pevno",
+    "device": "mobile",
+    "step": 2,
+    "tag": "plate",
+    "tags": [
+      "plate"
+    ],
+    "path": "images/pevno/mobile/02-plate-dob.png",
+    "description": "Pevno mobile krok 2: landing z wypełnionym formularzem wyceny — numer rejestracyjny i data urodzenia; „OBLICZ SKŁADKĘ”",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "pevno",
+    "device": "mobile",
+    "step": 3,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/pevno/mobile/03-vehicle-make-model-year.png",
+    "description": "Pevno mobile krok 3: „Dane pojazdu” — chipy Škoda Octavia III 2019, benzyna 116 KM, kombi; wersja Ambition; właściciel osoba fizyczna; daty i przebieg w uzupełnianiu",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "pevno",
+    "device": "mobile",
+    "step": 4,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/pevno/mobile/04-vehicle-complete.png",
+    "description": "Pevno mobile krok 4: pełne dane pojazdu — Škoda Octavia III Ambition 2019; przebieg, użytek prywatny; sprowadzony i leasing: Nie",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "pevno",
+    "device": "mobile",
+    "step": 5,
+    "tag": "owner",
+    "tags": [
+      "owner"
+    ],
+    "path": "images/pevno/mobile/05-vehicle-owner-complete.png",
+    "description": "Pevno mobile krok 5: dane pojazdu i właściciela — roczny przebieg i parking uzupełnione; historia ubezpieczenia pobrana z UFG; dodatkowi kierowcy",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "pevno",
+    "device": "mobile",
+    "step": 6,
+    "tag": "contact",
+    "tags": [
+      "contact"
+    ],
+    "path": "images/pevno/mobile/06-contact-drivers.png",
+    "description": "Pevno mobile krok 6: dodatkowi kierowcy (Nie) oraz dane kontaktowe ubezpieczającego; historia UFG",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "pevno",
+    "device": "mobile",
+    "step": 7,
+    "tag": "offer",
+    "tags": [
+      "offer"
+    ],
+    "path": "images/pevno/mobile/07-offer-packages.png",
+    "description": "Pevno mobile krok 7: „Wybór pakietu” — OC 1 529 zł, OC+AC Polecamy 2 430 zł, OC+AC 3 544 zł / rok; wartość pojazdu 46 300 zł; WYBIERZ",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "pevno",
+    "device": "mobile",
+    "step": 8,
+    "tag": "addons",
+    "tags": [
+      "addons"
+    ],
+    "path": "images/pevno/mobile/08-addons.png",
+    "description": "Pevno mobile krok 8: „Opcje dodatkowe” — Assistance Rozszerzony +293 zł, NNW, opony, auto zastępcze; Pakiet OC+AC 1 988 zł → łącznie 2 430 zł",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "pevno",
+    "device": "mobile",
+    "step": 9,
+    "tag": "dane",
+    "tags": [
+      "dane"
+    ],
+    "path": "images/pevno/mobile/09-dane-do-polisy-owner.png",
+    "description": "Pevno mobile krok 9: „Dane do polisy” — dane ubezpieczającego i adres zamieszkania; korespondencyjny taki sam: Tak; do zapłaty 2 430 zł",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "pevno",
+    "device": "mobile",
+    "step": 10,
+    "tag": "zgody",
+    "tags": [
+      "zgody"
+    ],
+    "path": "images/pevno/mobile/10-dane-do-polisy-zgody-pojazd.png",
+    "description": "Pevno mobile krok 10: oświadczenia wymagane; dane uzupełniające pojazdu (rejestracja, VIN, 2 kluczyki); do zapłaty 2 430 zł",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "pevno",
+    "device": "mobile",
+    "step": 11,
+    "tag": "platnosc",
+    "tags": [
+      "platnosc"
+    ],
+    "path": "images/pevno/mobile/11-dane-do-polisy-platnosc.png",
+    "description": "Pevno mobile krok 11: wybór formy płatności — BLIK lub ePrzelew; „KUP TERAZ”; szczegóły wyliczenia (Škoda Octavia III, wartość 46 300 zł, okres 09.10.2026–08.10.2027); łącznie 2 430 zł z dodatkami",
+    "width": 1170,
+    "height": 2532
   }
 ]
