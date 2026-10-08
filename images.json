@@ -6940,5 +6940,213 @@
     "description": "Marshmallow mobile krok 26: komunikat: bez tablicy rejestracyjnej cena jest tylko orientacyjna — wrócić z numerem (koniec flow, brak płatności)",
     "width": 1170,
     "height": 2532
+  },
+  {
+    "site": "getsafe",
+    "device": "desktop",
+    "step": 1,
+    "tag": "landing",
+    "tags": [
+      "landing"
+    ],
+    "path": "images/getsafe/desktop/01-landing.png",
+    "description": "Getsafe desktop krok 1: strona produktu „Contents Insurance” (Hausratversicherung) — od €2.90/mies., przycisk „Get offer”",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "getsafe",
+    "device": "desktop",
+    "step": 2,
+    "tag": "quote",
+    "tags": [
+      "quote"
+    ],
+    "path": "images/getsafe/desktop/02-quote-form.png",
+    "description": "Getsafe desktop krok 2: „Answer 4 questions, get an instant quote!” — metraż mieszkania, adres w Niemczech, data urodzenia, wcześniejsza polisa",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "getsafe",
+    "device": "desktop",
+    "step": 3,
+    "tag": "offer",
+    "tags": [
+      "offer"
+    ],
+    "path": "images/getsafe/desktop/03-offer.png",
+    "description": "Getsafe desktop krok 3: oferta Hausrat dla 65 m² (10119 Berlin): plan Comfort €6.44/mies. (Premium €7.58), start 08/10/2026, wybór udziału własnego",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "getsafe",
+    "device": "desktop",
+    "step": 4,
+    "tag": "offer",
+    "tags": [
+      "offer"
+    ],
+    "path": "images/getsafe/desktop/04-offer-scrolled.png",
+    "description": "Getsafe desktop krok 4: oferta po przewinięciu — Comfort €6.44/mies., udział własny €0, suma ubezpieczenia €42 250, rozszerzenia (np. Bike Theft od +€0.25/mies.)",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "getsafe",
+    "device": "desktop",
+    "step": 5,
+    "tag": "primary",
+    "tags": [
+      "primary"
+    ],
+    "path": "images/getsafe/desktop/05-primary-residence.png",
+    "description": "Getsafe desktop krok 5: czy to główne miejsce zamieszkania — podsumowanie Comfort €6.44/mies.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "getsafe",
+    "device": "desktop",
+    "step": 6,
+    "tag": "personal",
+    "tags": [
+      "personal"
+    ],
+    "path": "images/getsafe/desktop/06-personal-details.png",
+    "description": "Getsafe desktop krok 6: „Profile details” — e-mail, imię, nazwisko, telefon i zgody (Comfort €6.44/mies.)",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "getsafe",
+    "device": "desktop",
+    "step": 7,
+    "tag": "gender",
+    "tags": [
+      "gender"
+    ],
+    "path": "images/getsafe/desktop/07-gender.png",
+    "description": "Getsafe desktop krok 7: wybór płci (Male/Female/Diverse) — Comfort €6.44/mies.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "getsafe",
+    "device": "desktop",
+    "step": 8,
+    "tag": "payment",
+    "tags": [
+      "payment"
+    ],
+    "path": "images/getsafe/desktop/08-payment-methods.png",
+    "description": "Getsafe desktop krok 8: wybór metody płatności (SEPA, karta, PayPal) i zgody, przycisk „Buy now for €6,44/month” — flow kończy się przed zakupem",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "getsafe",
+    "device": "mobile",
+    "step": 1,
+    "tag": "landing",
+    "tags": [
+      "landing"
+    ],
+    "path": "images/getsafe/mobile/01-landing.png",
+    "description": "Getsafe mobile krok 1: strona produktu „Contents Insurance” (Hausratversicherung) — od €2.90/mies., przycisk „Get offer”",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "getsafe",
+    "device": "mobile",
+    "step": 2,
+    "tag": "quote",
+    "tags": [
+      "quote"
+    ],
+    "path": "images/getsafe/mobile/02-quote-form.png",
+    "description": "Getsafe mobile krok 2: „Answer 4 questions, get an instant quote!” — metraż mieszkania, adres w Niemczech, data urodzenia, wcześniejsza polisa",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "getsafe",
+    "device": "mobile",
+    "step": 3,
+    "tag": "offer",
+    "tags": [
+      "offer"
+    ],
+    "path": "images/getsafe/mobile/03-offer.png",
+    "description": "Getsafe mobile krok 3: oferta Hausrat dla 65 m² (10119 Berlin): plan Comfort €6.44/mies. (Premium €7.58), start 08/10/2026, wybór udziału własnego",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "getsafe",
+    "device": "mobile",
+    "step": 4,
+    "tag": "offer",
+    "tags": [
+      "offer"
+    ],
+    "path": "images/getsafe/mobile/04-offer-scrolled.png",
+    "description": "Getsafe mobile krok 4: oferta po przewinięciu — Comfort €6.44/mies., udział własny €0, suma ubezpieczenia €42 250, rozszerzenia (np. Bike Theft od +€0.25/mies.)",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "getsafe",
+    "device": "mobile",
+    "step": 5,
+    "tag": "primary",
+    "tags": [
+      "primary"
+    ],
+    "path": "images/getsafe/mobile/05-primary-residence.png",
+    "description": "Getsafe mobile krok 5: czy to główne miejsce zamieszkania — podsumowanie Comfort €6.44/mies.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "getsafe",
+    "device": "mobile",
+    "step": 6,
+    "tag": "personal",
+    "tags": [
+      "personal"
+    ],
+    "path": "images/getsafe/mobile/06-personal-details.png",
+    "description": "Getsafe mobile krok 6: „Profile details” — e-mail, imię, nazwisko, telefon i zgody (Comfort €6.44/mies.)",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "getsafe",
+    "device": "mobile",
+    "step": 7,
+    "tag": "gender",
+    "tags": [
+      "gender"
+    ],
+    "path": "images/getsafe/mobile/07-gender.png",
+    "description": "Getsafe mobile krok 7: wybór płci (Male/Female/Diverse) — Comfort €6.44/mies.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "getsafe",
+    "device": "mobile",
+    "step": 8,
+    "tag": "payment",
+    "tags": [
+      "payment"
+    ],
+    "path": "images/getsafe/mobile/08-payment-methods.png",
+    "description": "Getsafe mobile krok 8: wybór metody płatności (SEPA, karta, PayPal) i zgody, przycisk „Buy now for €6,44/month” — flow kończy się przed zakupem",
+    "width": 1170,
+    "height": 2532
   }
 ]
