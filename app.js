@@ -16,6 +16,31 @@
     feather: "Feather",
   };
 
+  // Rynek przechwyconego flow (kraj strony/aplikacji). Każdy nowy site → dopisz tutaj.
+  const SITE_COUNTRIES = {
+    rankomat: "PL",
+    kioskpolis: "PL",
+    mubi: "PL",
+    beesafe: "PL",
+    link4: "PL",
+    insurify: "US",
+    thezebra: "US",
+    nerdwallet: "US",
+    lemonade: "US",
+    policygenius: "US",
+    gocompare: "GB",
+    marshmallow: "GB",
+    getsafe: "DE",
+    feather: "DE",
+  };
+
+  const COUNTRIES = {
+    PL: { flag: "\u{1F1F5}\u{1F1F1}", name: "Polska" },
+    US: { flag: "\u{1F1FA}\u{1F1F8}", name: "USA" },
+    GB: { flag: "\u{1F1EC}\u{1F1E7}", name: "UK" },
+    DE: { flag: "\u{1F1E9}\u{1F1EA}", name: "Niemcy" },
+  };
+
   const TAG_LABELS = {
     home: "start",
     vehicle: "pojazd",
@@ -46,6 +71,28 @@
 
   function siteLabel(id) {
     return SITE_LABELS[id] || id;
+  }
+
+  function escapeHtml(str) {
+    return String(str).replace(/[&<>"']/g, (c) => ({
+      "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;",
+    })[c]);
+  }
+
+  function siteCountry(id) {
+    const code = SITE_COUNTRIES[id];
+    return code && COUNTRIES[code] ? { code, ...COUNTRIES[code] } : null;
+  }
+
+  // flaga (emoji) z dostępną etykietą; przy braku obsługi emoji CSS pokazuje kod kraju
+  function siteFlag(id) {
+    const c = siteCountry(id);
+    if (!c) return "";
+    return `<span class="site-flag" role="img" aria-label="${c.name}" title="${c.name}" data-code="${c.code}">${c.flag}</span>`;
+  }
+
+  function siteName(id) {
+    return `${siteFlag(id)}<span class="site-name">${escapeHtml(siteLabel(id))}</span>`;
   }
 
   function tagLabel(t) {
@@ -170,7 +217,7 @@
     if (siteLabelEl) {
       if (onFlow && state.site) {
         siteLabelEl.hidden = false;
-        siteLabelEl.textContent = siteLabel(state.site);
+        siteLabelEl.innerHTML = siteName(state.site);
       } else {
         siteLabelEl.hidden = true;
       }
@@ -190,7 +237,7 @@
           : `<div class="site-card-thumb" style="display:flex;align-items:center;justify-content:center;color:var(--faint);font-size:13px">Brak zrzutu</div>`;
         return `<button type="button" class="site-card${mobile}" data-site="${id}">
           ${img}
-          <span class="site-card-label">${siteLabel(id)}</span>
+          <span class="site-card-label">${siteName(id)}</span>
         </button>`;
       })
       .join("");
@@ -206,7 +253,7 @@
         const active = q && siteMatchesQuery(id, q);
         return `<button type="button" class="tag-chip is-site${
           active ? " is-active" : ""
-        }" data-site-chip="${id}">${siteLabel(id)}</button>`;
+        }" data-site-chip="${id}">${siteName(id)}</button>`;
       })
       .join("");
     const tags = allTagsForDevice().filter(([t]) => {
@@ -269,7 +316,7 @@
       )
       .join("");
     $("#sidebar-desc").textContent = item.description || "—";
-    $("#sidebar-site").textContent = siteLabel(item.site);
+    $("#sidebar-site").innerHTML = siteName(item.site);
     $("#sidebar-step").textContent = `${item.step}`;
     $("#sidebar-device").textContent =
       item.device === "mobile" ? "Mobile" : "Desktop";
@@ -362,9 +409,9 @@
     box.classList.toggle("is-mobile", item.device === "mobile");
     img.src = item.path;
     img.alt = item.description || `${item.site} krok ${item.step}`;
-    $("#lightbox-title").textContent = `${siteLabel(item.site)} · krok ${
+    $("#lightbox-title").innerHTML = `${siteName(item.site)} · krok ${
       item.step
-    } · ${tagLabel(item.tag)}`;
+    } · ${escapeHtml(tagLabel(item.tag))}`;
   }
 
   function openLightbox() {
@@ -452,7 +499,7 @@
           : "";
         return `<button type="button" class="result-card${mobile}" data-site="${item.site}" data-step="${item.step}">
           <img class="result-card-thumb" src="${item.path}" alt="" loading="lazy" />
-          <span class="result-card-app">${siteLabel(item.site)}</span>
+          <span class="result-card-app">${siteName(item.site)}</span>
           <span class="result-card-step">krok ${item.step}</span>
           ${descHtml}
         </button>`;
@@ -675,7 +722,35 @@
     });
   }
 
+  // Czy przeglądarka rysuje flagi (kolorowe piksele)? Jeśli nie → body.flags-text (kod kraju).
+  async function detectFlagSupport() {
+    try {
+      if (document.fonts && document.fonts.load) {
+        await document.fonts.load('20px "Twemoji Country Flags"', "\u{1F1F5}\u{1F1F1}");
+      }
+      const cv = document.createElement("canvas");
+      cv.width = cv.height = 24;
+      const ctx = cv.getContext("2d", { willReadFrequently: true });
+      ctx.font = '20px "Twemoji Country Flags", "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", sans-serif';
+      ctx.textBaseline = "top";
+      ctx.fillStyle = "#000";
+      ctx.fillText("\u{1F1F5}\u{1F1F1}", 0, 0);
+      const d = ctx.getImageData(0, 0, 24, 24).data;
+      let colored = false;
+      for (let i = 0; i < d.length; i += 4) {
+        if (d[i + 3] && (Math.abs(d[i] - d[i + 1]) > 40 || Math.abs(d[i] - d[i + 2]) > 40)) {
+          colored = true;
+          break;
+        }
+      }
+      document.documentElement.classList.toggle("flags-text", !colored);
+    } catch (e) {
+      document.documentElement.classList.add("flags-text");
+    }
+  }
+
   async function init() {
+    detectFlagSupport();
     const res = await fetch("images.json");
     state.images = await res.json();
     state.images.forEach((i) => {
