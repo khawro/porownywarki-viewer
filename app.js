@@ -17,6 +17,7 @@
     comparethemarket: "Compare the Market",
     confused: "Confused.com",
     root: "Root Insurance",
+    progressive: "Progressive",
   };
 
   // Rynek przechwyconego flow (kraj strony/aplikacji). Każdy nowy site → dopisz tutaj.
@@ -38,6 +39,7 @@
     comparethemarket: "GB",
     confused: "GB",
     root: "US",
+    progressive: "US",
   };
 
   const COUNTRIES = {

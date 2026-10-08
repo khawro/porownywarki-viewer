@@ -9137,5 +9137,421 @@
     "description": "Root Insurance mobile krok 23: wyceny po przewinięciu — State Minimum $113.99/mies. i Great $334.66/mies., przyciski „View this plan”; flow kończy się na stronie wycen, brak płatności",
     "width": 1170,
     "height": 2532
+  },
+  {
+    "site": "progressive",
+    "device": "desktop",
+    "step": 1,
+    "tag": "landing",
+    "tags": [
+      "landing"
+    ],
+    "path": "images/progressive/desktop/01-landing.png",
+    "description": "Progressive desktop krok 1: strona główna Progressive — „Drivers who save by switching save an average of $900*”, karta „Quote auto insurance” z polem ZIP i przyciskiem „Get a quote”, opcje Bundle / Property",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "progressive",
+    "device": "desktop",
+    "step": 2,
+    "tag": "zip",
+    "tags": [
+      "zip"
+    ],
+    "path": "images/progressive/desktop/02-zip.png",
+    "description": "Progressive desktop krok 2: strona główna z wpisanym kodem pocztowym 43215 (Columbus, OH) w polu lokalizacji i przyciskiem „Get a quote”",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "progressive",
+    "device": "desktop",
+    "step": 3,
+    "tag": "name",
+    "tags": [
+      "name"
+    ],
+    "path": "images/progressive/desktop/03-name.png",
+    "description": "Progressive desktop krok 3: „Let's talk about you!” — imię Taylor, nazwisko Brooks, data urodzenia 03/22/1988, pole e-mail wypełnione; pasek postępu na etapie Start",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "progressive",
+    "device": "desktop",
+    "step": 4,
+    "tag": "address",
+    "tags": [
+      "address"
+    ],
+    "path": "images/progressive/desktop/04-address.png",
+    "description": "Progressive desktop krok 4: „Glad to meet you!” — adres korespondencyjny 100 N High St, Columbus, OH 43215; przycisk „Ok, start my quote”",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "progressive",
+    "device": "desktop",
+    "step": 5,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/progressive/desktop/05-vehicle.png",
+    "description": "Progressive desktop krok 5: szczegóły pojazdu — body type 4DR 4CYL, Commute (to/from work or school) 5 dni/tydzień, 12 mil w jedną stronę, ZIP 43215, Own, 3–5 lat własności, przebieg 12,000–13,999 mil/rok",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "progressive",
+    "device": "desktop",
+    "step": 6,
+    "tag": "drivers",
+    "tags": [
+      "drivers"
+    ],
+    "path": "images/progressive/desktop/06-drivers.png",
+    "description": "Progressive desktop krok 6: dane kierowcy — zawód Administrative Assistant, puste pole SSN, Own home, prawo jazdy Personal / Valid / 3 years or more; brak wypadków (7 lat) i mandatów (5 lat)",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "progressive",
+    "device": "desktop",
+    "step": 7,
+    "tag": "drivers",
+    "tags": [
+      "drivers"
+    ],
+    "path": "images/progressive/desktop/07-drivers-list.png",
+    "description": "Progressive desktop krok 7: „Here's who is listed on your quote” — Policyholder Taylor Brooks, „Add another person”, Continue; etap Drivers",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "progressive",
+    "device": "desktop",
+    "step": 8,
+    "tag": "verify",
+    "tags": [
+      "verify"
+    ],
+    "path": "images/progressive/desktop/08-verify-info.png",
+    "description": "Progressive desktop krok 8: „Can you review & verify your personal information?” — Taylor Brooks, DOB 03/22/1988, adres 100 N High St Columbus OH 43215; komunikat o braku raportu kredytowego",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "progressive",
+    "device": "desktop",
+    "step": 9,
+    "tag": "insurance",
+    "tags": [
+      "insurance"
+    ],
+    "path": "images/progressive/desktop/09-insurance-history.png",
+    "description": "Progressive desktop krok 9: „Tell us about your insurance” — obecnie ubezpieczony (Yes), 1–3 lata u obecnego ubezpieczyciela, limity BI $100,000/$300,000; brak innych polis Progressive",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "progressive",
+    "device": "desktop",
+    "step": 10,
+    "tag": "snapshot",
+    "tags": [
+      "snapshot"
+    ],
+    "path": "images/progressive/desktop/10-snapshot.png",
+    "description": "Progressive desktop krok 10: program Snapshot (telematyka) — „Are you a good driver?”; wybrana opcja „No, thanks” (odmowa udziału), Continue",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "progressive",
+    "device": "desktop",
+    "step": 11,
+    "tag": "quote",
+    "tags": [
+      "quote"
+    ],
+    "path": "images/progressive/desktop/11-quote.png",
+    "description": "Progressive desktop krok 11: „HERE'S YOUR QUOTE!” — pakiet Choice $30.76 dziś + 5×$78.85 (łącznie $425 za 6 mies.), płatność z góry $389 (−$36); widoczne Basic $12.75 i Recommended $20.01; Finish & Buy",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "progressive",
+    "device": "desktop",
+    "step": 12,
+    "tag": "quote",
+    "tags": [
+      "quote"
+    ],
+    "path": "images/progressive/desktop/12-quote-scroll-1.png",
+    "description": "Progressive desktop krok 12: przewinięcie wyceny Choice — Policy Coverages: Liability $100k/$300k/$100k ($197), UM/UIM BI $100k/$300k ($22), Medical Payments No coverage; Vehicle Coverages 2019 Toyota Camry (Comprehensive/Collision $500); panel Quote Summary (adres, kierowca, zniżki)",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "progressive",
+    "device": "desktop",
+    "step": 13,
+    "tag": "quote",
+    "tags": [
+      "quote"
+    ],
+    "path": "images/progressive/desktop/13-quote-scroll-2.png",
+    "description": "Progressive desktop krok 13: dół wyceny Choice — Vehicle Coverages (Comprehensive $500 / Collision $500, Rental/Roadside No coverage), Safe Driving Rewards (Snapshot Not enrolled); blok ceny $30.76 dziś + 5×$78.85 ($425) i Finish & Buy",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "progressive",
+    "device": "desktop",
+    "step": 14,
+    "tag": "basic",
+    "tags": [
+      "basic"
+    ],
+    "path": "images/progressive/desktop/14-basic-package.png",
+    "description": "Progressive desktop krok 14: pakiet Basic wybrany — $12.75 dziś + 5×$33.85 (łącznie $182 za 6 mies.), płatność z góry $161 (−$21); Finish & Buy",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "progressive",
+    "device": "desktop",
+    "step": 15,
+    "tag": "recommended",
+    "tags": [
+      "recommended"
+    ],
+    "path": "images/progressive/desktop/15-recommended-package.png",
+    "description": "Progressive desktop krok 15: pakiet Recommended wybrany — $20.01 dziś + 5×$52.00 (łącznie $280 za 6 mies.), płatność z góry $249 (−$31); Finish & Buy",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "progressive",
+    "device": "desktop",
+    "step": 16,
+    "tag": "edit",
+    "tags": [
+      "edit"
+    ],
+    "path": "images/progressive/desktop/16-edit-coverage-liability.png",
+    "description": "Progressive desktop krok 16: edycja limitów Liability (BI/PD) — lista wariantów z różnicą składki za 6 mies.; bieżący „Current” $100k/$300k/$100k, Update",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "progressive",
+    "device": "mobile",
+    "step": 1,
+    "tag": "landing",
+    "tags": [
+      "landing"
+    ],
+    "path": "images/progressive/mobile/01-landing.png",
+    "description": "Progressive mobile krok 1: strona główna Progressive — „Drivers who save by switching save an average of $900*”, karta „Quote auto insurance” z polem ZIP i przyciskiem „Get a quote”, opcje Bundle / Property",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "progressive",
+    "device": "mobile",
+    "step": 2,
+    "tag": "zip",
+    "tags": [
+      "zip"
+    ],
+    "path": "images/progressive/mobile/02-zip.png",
+    "description": "Progressive mobile krok 2: strona główna z wpisanym kodem pocztowym 43215 (Columbus, OH) w polu lokalizacji i przyciskiem „Get a quote”",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "progressive",
+    "device": "mobile",
+    "step": 3,
+    "tag": "name",
+    "tags": [
+      "name"
+    ],
+    "path": "images/progressive/mobile/03-name.png",
+    "description": "Progressive mobile krok 3: „Let's talk about you!” — imię Taylor, nazwisko Brooks, data urodzenia 03/22/1988, pole e-mail wypełnione; pasek postępu na etapie Start",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "progressive",
+    "device": "mobile",
+    "step": 4,
+    "tag": "address",
+    "tags": [
+      "address"
+    ],
+    "path": "images/progressive/mobile/04-address.png",
+    "description": "Progressive mobile krok 4: „Glad to meet you!” — adres korespondencyjny 100 N High St, Columbus, OH 43215; przycisk „Ok, start my quote”",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "progressive",
+    "device": "mobile",
+    "step": 5,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/progressive/mobile/05-vehicle.png",
+    "description": "Progressive mobile krok 5: szczegóły pojazdu — body type 4DR 4CYL, Commute (to/from work or school) 5 dni/tydzień, 12 mil w jedną stronę, ZIP 43215, Own, 3–5 lat własności, przebieg 12,000–13,999 mil/rok",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "progressive",
+    "device": "mobile",
+    "step": 6,
+    "tag": "drivers",
+    "tags": [
+      "drivers"
+    ],
+    "path": "images/progressive/mobile/06-drivers.png",
+    "description": "Progressive mobile krok 6: dane kierowcy — zawód Administrative Assistant, puste pole SSN, Own home, prawo jazdy Personal / Valid / 3 years or more; brak wypadków (7 lat) i mandatów (5 lat)",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "progressive",
+    "device": "mobile",
+    "step": 7,
+    "tag": "drivers",
+    "tags": [
+      "drivers"
+    ],
+    "path": "images/progressive/mobile/07-drivers-list.png",
+    "description": "Progressive mobile krok 7: „Here's who is listed on your quote” — Policyholder Taylor Brooks, „Add another person”, Continue; etap Drivers",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "progressive",
+    "device": "mobile",
+    "step": 8,
+    "tag": "verify",
+    "tags": [
+      "verify"
+    ],
+    "path": "images/progressive/mobile/08-verify-info.png",
+    "description": "Progressive mobile krok 8: „Can you review & verify your personal information?” — Taylor Brooks, DOB 03/22/1988, adres 100 N High St Columbus OH 43215; komunikat o braku raportu kredytowego",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "progressive",
+    "device": "mobile",
+    "step": 9,
+    "tag": "insurance",
+    "tags": [
+      "insurance"
+    ],
+    "path": "images/progressive/mobile/09-insurance-history.png",
+    "description": "Progressive mobile krok 9: „Tell us about your insurance” — obecnie ubezpieczony (Yes), 1–3 lata u obecnego ubezpieczyciela, limity BI $100,000/$300,000; brak innych polis Progressive",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "progressive",
+    "device": "mobile",
+    "step": 10,
+    "tag": "snapshot",
+    "tags": [
+      "snapshot"
+    ],
+    "path": "images/progressive/mobile/10-snapshot.png",
+    "description": "Progressive mobile krok 10: program Snapshot (telematyka) — „Are you a good driver?”; wybrana opcja „No, thanks” (odmowa udziału), Continue",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "progressive",
+    "device": "mobile",
+    "step": 11,
+    "tag": "quote",
+    "tags": [
+      "quote"
+    ],
+    "path": "images/progressive/mobile/11-quote.png",
+    "description": "Progressive mobile krok 11: „HERE'S YOUR QUOTE!” — pakiet Choice $30.76 dziś + 5×$78.85 (łącznie $425 za 6 mies.), płatność z góry $389 (−$36); widoczne Basic $12.75 i Recommended $20.01; Finish & Buy",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "progressive",
+    "device": "mobile",
+    "step": 12,
+    "tag": "quote",
+    "tags": [
+      "quote"
+    ],
+    "path": "images/progressive/mobile/12-quote-scroll-1.png",
+    "description": "Progressive mobile krok 12: przewinięcie wyceny — baner zaufania, AutoQuote Explorer, Quick Tip; Policy Coverages Liability $100k/$300k/$100k i UM/UIM BI $100k/$300k; początek Vehicle Coverages 2019 Toyota Camry (Comprehensive/Collision $500)",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "progressive",
+    "device": "mobile",
+    "step": 13,
+    "tag": "quote",
+    "tags": [
+      "quote"
+    ],
+    "path": "images/progressive/mobile/13-quote-scroll-2.png",
+    "description": "Progressive mobile krok 13: Vehicle Coverages 2019 Toyota Camry — Comprehensive/Collision $500, Uninsured Motorist PD / Rental / Roadside: No coverage; Safe Driving Rewards (Snapshot, Accident Forgiveness, Deductible Savings Bank — Not enrolled); zniżki $276",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "progressive",
+    "device": "mobile",
+    "step": 14,
+    "tag": "basic",
+    "tags": [
+      "basic"
+    ],
+    "path": "images/progressive/mobile/14-basic-package.png",
+    "description": "Progressive mobile krok 14: pakiet Basic wybrany — $12.75 dziś + 5×$33.85 (łącznie $182 za 6 mies.), płatność z góry $161 (−$21); Finish & Buy",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "progressive",
+    "device": "mobile",
+    "step": 15,
+    "tag": "recommended",
+    "tags": [
+      "recommended"
+    ],
+    "path": "images/progressive/mobile/15-recommended-package.png",
+    "description": "Progressive mobile krok 15: pakiet Recommended wybrany — $20.01 dziś + 5×$52.00 (łącznie $280 za 6 mies.), płatność z góry $249 (−$31); Finish & Buy",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "progressive",
+    "device": "mobile",
+    "step": 16,
+    "tag": "edit",
+    "tags": [
+      "edit"
+    ],
+    "path": "images/progressive/mobile/16-edit-coverage-liability.png",
+    "description": "Progressive mobile krok 16: edycja limitów Liability (BI/PD) — lista wariantów z różnicą składki za 6 mies.; bieżący „Current” $100k/$300k/$100k, Update",
+    "width": 1170,
+    "height": 2532
   }
 ]
