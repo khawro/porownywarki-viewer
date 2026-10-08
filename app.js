@@ -33,6 +33,7 @@
     search: "",
     activeTag: null,
     view: "home", // home | flow | compare
+    lightbox: false,
   };
 
   const $ = (sel) => document.querySelector(sel);
@@ -261,19 +262,133 @@
     frame.classList.toggle("is-mobile", state.device === "mobile");
     renderStepStrip(items);
 
+    renderStepNav(items);
+
     if (!item) {
-      img.hidden = true;
+      $("#shot-open").hidden = true;
       img.removeAttribute("src");
       empty.hidden = false;
       renderSidebar(null);
+      closeLightbox();
       return;
     }
 
     empty.hidden = true;
-    img.hidden = false;
+    $("#shot-open").hidden = false;
     img.src = item.path;
     img.alt = item.description || `${item.site} krok ${item.step}`;
     renderSidebar(item);
+    revealActiveThumb();
+    preloadNeighbours(items);
+    if (state.lightbox) renderLightbox();
+  }
+
+  function renderStepNav(items) {
+    const total = items.length;
+    const atStart = state.stepIndex <= 0;
+    const atEnd = state.stepIndex >= total - 1;
+    const counter = total ? `${state.stepIndex + 1} / ${total}` : "—";
+    $("#stage-nav").hidden = !total;
+    $("#stage-counter").textContent = counter;
+    $("#stage-prev").disabled = !total || atStart;
+    $("#stage-next").disabled = !total || atEnd;
+    $("#lightbox-counter").textContent = counter;
+    $("#lightbox-prev").disabled = !total || atStart;
+    $("#lightbox-next").disabled = !total || atEnd;
+  }
+
+  function revealActiveThumb() {
+    const strip = $("#step-strip");
+    const el = strip && strip.querySelector(".step-thumb.is-active");
+    if (!el) return;
+    const s = strip.getBoundingClientRect();
+    const r = el.getBoundingClientRect();
+    if (r.left < s.left) strip.scrollLeft += r.left - s.left - 8;
+    else if (r.right > s.right) strip.scrollLeft += r.right - s.right + 8;
+    if (r.top < s.top) strip.scrollTop += r.top - s.top - 8;
+    else if (r.bottom > s.bottom) strip.scrollTop += r.bottom - s.bottom + 8;
+  }
+
+  function preloadNeighbours(items) {
+    [state.stepIndex - 1, state.stepIndex + 1].forEach((i) => {
+      if (items[i]) new Image().src = items[i].path;
+    });
+  }
+
+  function goStep(delta) {
+    const items = flowItems();
+    if (!items.length) return;
+    const next = Math.min(
+      items.length - 1,
+      Math.max(0, state.stepIndex + delta)
+    );
+    if (next === state.stepIndex) return;
+    state.stepIndex = next;
+    renderFlow();
+  }
+
+  /* ——— Lightbox (pojedynczy ekran powiększony) ——— */
+  function renderLightbox() {
+    const items = flowItems();
+    const item = items[state.stepIndex];
+    if (!item) return;
+    const box = $("#lightbox");
+    const img = $("#lightbox-img");
+    box.classList.toggle("is-mobile", item.device === "mobile");
+    img.src = item.path;
+    img.alt = item.description || `${item.site} krok ${item.step}`;
+    $("#lightbox-title").textContent = `${siteLabel(item.site)} · krok ${
+      item.step
+    } · ${tagLabel(item.tag)}`;
+  }
+
+  function openLightbox() {
+    if (state.view !== "flow" || !flowItems().length) return;
+    state.lightbox = true;
+    $("#lightbox").hidden = false;
+    document.body.classList.add("lightbox-open");
+    renderLightbox();
+    renderStepNav(flowItems());
+    $("#lightbox-close").focus();
+  }
+
+  function closeLightbox() {
+    if (!state.lightbox) return;
+    state.lightbox = false;
+    $("#lightbox").hidden = true;
+    document.body.classList.remove("lightbox-open");
+    const opener = $("#shot-open");
+    if (opener && !opener.hidden) opener.focus({ preventScroll: true });
+  }
+
+  function bindSwipe(el) {
+    let start = null;
+    el.addEventListener(
+      "touchstart",
+      (e) => {
+        if (e.touches.length !== 1) {
+          start = null;
+          return;
+        }
+        start = { x: e.touches[0].clientX, y: e.touches[0].clientY };
+      },
+      { passive: true }
+    );
+    el.addEventListener(
+      "touchend",
+      (e) => {
+        if (!start) return;
+        const t = e.changedTouches[0];
+        const dx = t.clientX - start.x;
+        const dy = t.clientY - start.y;
+        start = null;
+        if (Math.abs(dx) < 50 || Math.abs(dx) < Math.abs(dy) * 1.5) return;
+        el.dataset.swiped = "1";
+        setTimeout(() => delete el.dataset.swiped, 400);
+        goStep(dx < 0 ? 1 : -1);
+      },
+      { passive: true }
+    );
   }
 
   function renderCompare() {
@@ -347,6 +462,7 @@
     if (state.view === "home") renderSiteCards();
     else if (state.view === "compare") renderCompare();
     else renderFlow();
+    if (state.view !== "flow") closeLightbox();
   }
 
   function setDevice(device) {
@@ -451,6 +567,25 @@
       state.stepIndex = Number(btn.dataset.idx);
       renderFlow();
     });
+    $$("[data-nav]").forEach((btn) => {
+      btn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        goStep(Number(btn.dataset.nav));
+      });
+    });
+    $("#shot-open").addEventListener("click", () => {
+      if ($("#stage-frame").dataset.swiped) return;
+      openLightbox();
+    });
+    $("#lightbox-close").addEventListener("click", () => closeLightbox());
+    $("#lightbox").addEventListener("click", (e) => {
+      // klik w tło (poza obrazem i przyciskami) zamyka podgląd
+      if (e.target.closest("button, img")) return;
+      if ($("#lightbox-stage").dataset.swiped) return;
+      closeLightbox();
+    });
+    bindSwipe($("#stage-frame"));
+    bindSwipe($("#lightbox-stage"));
     $("#sidebar-tags").addEventListener("click", (e) => {
       const btn = e.target.closest("[data-tag]");
       if (!btn) return;
@@ -469,6 +604,29 @@
       syncMode();
     });
     document.addEventListener("keydown", (e) => {
+      if (state.lightbox) {
+        if (e.key === "Escape") {
+          e.preventDefault();
+          closeLightbox();
+        } else if (e.key === "ArrowRight" || e.key === "ArrowDown") {
+          e.preventDefault();
+          goStep(1);
+        } else if (e.key === "ArrowLeft" || e.key === "ArrowUp") {
+          e.preventDefault();
+          goStep(-1);
+        } else if (e.key === "Tab") {
+          // fokus zostaje w oknie podglądu
+          const f = $$("#lightbox button:not([disabled])");
+          if (!f.length) return;
+          const i = f.indexOf(document.activeElement);
+          const n = e.shiftKey
+            ? (i <= 0 ? f.length - 1 : i - 1)
+            : (i + 1) % f.length;
+          e.preventDefault();
+          f[n].focus();
+        }
+        return;
+      }
       if (e.key === "Escape" && state.tagsOpen) {
         e.preventDefault();
         setTagsOpen(false);
@@ -476,16 +634,13 @@
       }
       if (state.view !== "flow") return;
       if (e.target.matches("input, textarea")) return;
-      const items = flowItems();
-      if (!items.length) return;
+      if (!flowItems().length) return;
       if (e.key === "ArrowDown" || e.key === "ArrowRight") {
         e.preventDefault();
-        state.stepIndex = Math.min(items.length - 1, state.stepIndex + 1);
-        renderFlow();
+        goStep(1);
       } else if (e.key === "ArrowUp" || e.key === "ArrowLeft") {
         e.preventDefault();
-        state.stepIndex = Math.max(0, state.stepIndex - 1);
-        renderFlow();
+        goStep(-1);
       }
     });
   }

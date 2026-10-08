@@ -1,4 +1,4 @@
-/* Motyw jasny/ciemny — wspólny dla / i /todo.
+/* Motyw jasny/ciemny dla viewera.
    Atrybut data-theme ustawia już inline skrypt w <head> (bez mignięcia). */
 (() => {
   const KEY = "theme";
