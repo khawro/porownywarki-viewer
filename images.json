@@ -9826,5 +9826,161 @@
     "description": "Hedvig mobile krok 10: „Complete your purchase” / „Sign securely with BankID” — order summary Rental Insurance 139 kr/mies., formularz kontaktowy (numer personalny zamaskowany, imię, nazwisko, e-mail); Sign insurance (BankID) — nie kliknięte; No binding time",
     "width": 1170,
     "height": 2532
+  },
+  {
+    "site": "trasti",
+    "device": "desktop",
+    "step": 1,
+    "tag": "landing",
+    "tags": [
+      "landing"
+    ],
+    "path": "images/trasti/desktop/01-landing.png",
+    "description": "Trasti desktop krok 1: strona główna — „Najprostsze ubezpieczenie auta w Polsce”, przycisk „Oblicz składkę”; wyróżnienie Najlepszy Cyfrowy Ubezpieczyciel 2024; statystyki 57 tys. odszkodowań / 1 mln klientów / 23 tys. agentów / 400 warsztatów",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "trasti",
+    "device": "desktop",
+    "step": 2,
+    "tag": "plate",
+    "tags": [
+      "plate"
+    ],
+    "path": "images/trasti/desktop/02-plate-dob.png",
+    "description": "Trasti desktop krok 2: „Sprawdź cenę OC AC już w 5 sekund!” — pola numer rejestracyjny i data urodzenia właściciela; zgoda BIG (niezaznaczona) i akceptacja regulaminu (zaznaczona); „Sprawdź cenę”",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "trasti",
+    "device": "desktop",
+    "step": 3,
+    "tag": "owner",
+    "tags": [
+      "owner"
+    ],
+    "path": "images/trasti/desktop/03-owner-data.png",
+    "description": "Trasti desktop krok 3: „Dane właściciela” — imię, nazwisko, PESEL, kod pocztowy; Dodaj współwłaściciela; dodatkowi kierowcy <26 lat / prawo jazdy <3 lata: Nie; użytkowanie Prywatny",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "trasti",
+    "device": "desktop",
+    "step": 4,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/trasti/desktop/04-car-vin.png",
+    "description": "Trasti desktop krok 4: „Zweryfikuj dane” pojazdu po VIN — Škoda Octavia III kombi 1.0 TSI 85 kW 2019, wersja Active (benzyna, 999 cm³, 5 drzwi); kierownica lewa strona; data startu ubezpieczenia 18.10.2026",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "trasti",
+    "device": "desktop",
+    "step": 5,
+    "tag": "contact",
+    "tags": [
+      "contact"
+    ],
+    "path": "images/trasti/desktop/05-contact.png",
+    "description": "Trasti desktop krok 5: „Dane kontaktowe ubezpieczającego” — telefon i e-mail z zgodami marketingowymi; „Dalej” (reCAPTCHA)",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "trasti",
+    "device": "desktop",
+    "step": 6,
+    "tag": "error",
+    "tags": [
+      "error"
+    ],
+    "path": "images/trasti/desktop/06-cepik-block.png",
+    "description": "Trasti desktop krok 6: modal blokady CEPiK — „Zauważyliśmy niezgodności z bazą CEPiK i nie możemy przedstawić Ci oferty. Oddzwonimy w kilka minut”; infolinia 22 250 93 73 (pn–pt 8:00–17:00); flow kończy się bez oferty",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "trasti",
+    "device": "mobile",
+    "step": 1,
+    "tag": "landing",
+    "tags": [
+      "landing"
+    ],
+    "path": "images/trasti/mobile/01-landing.png",
+    "description": "Trasti mobile krok 1: strona główna — „Najprostsze ubezpieczenie auta w Polsce”, przycisk „Oblicz składkę”; wyróżnienie Najlepszy Cyfrowy Ubezpieczyciel 2024; statystyki 57 tys. odszkodowań / 1 mln klientów / 23 tys. agentów / 400 warsztatów",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "trasti",
+    "device": "mobile",
+    "step": 2,
+    "tag": "plate",
+    "tags": [
+      "plate"
+    ],
+    "path": "images/trasti/mobile/02-plate-dob.png",
+    "description": "Trasti mobile krok 2: „Sprawdź cenę OC AC już w 5 sekund!” — pola numer rejestracyjny i data urodzenia właściciela; zgoda BIG (niezaznaczona) i akceptacja regulaminu (zaznaczona); „Sprawdź cenę”",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "trasti",
+    "device": "mobile",
+    "step": 3,
+    "tag": "owner",
+    "tags": [
+      "owner"
+    ],
+    "path": "images/trasti/mobile/03-owner-data.png",
+    "description": "Trasti mobile krok 3: „Dane właściciela” — imię, nazwisko, PESEL, kod pocztowy; Dodaj współwłaściciela; dodatkowi kierowcy <26 lat / prawo jazdy <3 lata: Nie; użytkowanie Prywatny",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "trasti",
+    "device": "mobile",
+    "step": 4,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/trasti/mobile/04-car-vin.png",
+    "description": "Trasti mobile krok 4: „Zweryfikuj dane” pojazdu po VIN — Škoda Octavia III kombi 1.0 TSI 85 kW 2019, wersja Active (benzyna, 999 cm³, 5 drzwi); kierownica lewa strona; data startu ubezpieczenia 18.10.2026",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "trasti",
+    "device": "mobile",
+    "step": 5,
+    "tag": "contact",
+    "tags": [
+      "contact"
+    ],
+    "path": "images/trasti/mobile/05-contact.png",
+    "description": "Trasti mobile krok 5: „Dane kontaktowe ubezpieczającego” — telefon i e-mail z zgodami marketingowymi; „Dalej” (reCAPTCHA)",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "trasti",
+    "device": "mobile",
+    "step": 6,
+    "tag": "error",
+    "tags": [
+      "error"
+    ],
+    "path": "images/trasti/mobile/06-cepik-block.png",
+    "description": "Trasti mobile krok 6: modal blokady CEPiK — „Zauważyliśmy niezgodności z bazą CEPiK i nie możemy przedstawić Ci oferty. Oddzwonimy w kilka minut”; infolinia 22 250 93 73 (pn–pt 8:00–17:00); flow kończy się bez oferty",
+    "width": 1170,
+    "height": 2532
   }
 ]

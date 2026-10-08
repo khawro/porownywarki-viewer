@@ -19,6 +19,7 @@
     root: "Root Insurance",
     progressive: "Progressive",
     hedvig: "Hedvig",
+    trasti: "Trasti",
   };
 
   // Rynek przechwyconego flow (kraj strony/aplikacji). Każdy nowy site → dopisz tutaj.
@@ -42,6 +43,7 @@
     root: "US",
     progressive: "US",
     hedvig: "SE",
+    trasti: "PL",
   };
 
   const COUNTRIES = {
