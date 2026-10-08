@@ -18,6 +18,7 @@
     confused: "Confused.com",
     root: "Root Insurance",
     progressive: "Progressive",
+    hedvig: "Hedvig",
   };
 
   // Rynek przechwyconego flow (kraj strony/aplikacji). Każdy nowy site → dopisz tutaj.
@@ -40,6 +41,7 @@
     confused: "GB",
     root: "US",
     progressive: "US",
+    hedvig: "SE",
   };
 
   const COUNTRIES = {
@@ -47,6 +49,7 @@
     US: { flag: "\u{1F1FA}\u{1F1F8}", name: "USA" },
     GB: { flag: "\u{1F1EC}\u{1F1E7}", name: "UK" },
     DE: { flag: "\u{1F1E9}\u{1F1EA}", name: "Niemcy" },
+    SE: { flag: "\u{1F1F8}\u{1F1EA}", name: "Szwecja" },
   };
 
   const TAG_LABELS = {

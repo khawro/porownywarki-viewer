@@ -9553,5 +9553,278 @@
     "description": "Progressive mobile krok 16: edycja limitów Liability (BI/PD) — lista wariantów z różnicą składki za 6 mies.; bieżący „Current” $100k/$300k/$100k, Update",
     "width": 1170,
     "height": 2532
+  },
+  {
+    "site": "hedvig",
+    "device": "desktop",
+    "step": 1,
+    "tag": "landing",
+    "tags": [
+      "landing"
+    ],
+    "path": "images/hedvig/desktop/01-landing.png",
+    "description": "Hedvig desktop krok 1: strona główna — „Insurance that's easy to use”, przycisk „Check your price”, kategorie Home / Car / Pet / Student / House / Accident; karty Flexible protection, Fast support, No lock-in period",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "hedvig",
+    "device": "desktop",
+    "step": 2,
+    "tag": "home",
+    "tags": [
+      "home"
+    ],
+    "path": "images/hedvig/desktop/02-home-insurance.png",
+    "description": "Hedvig desktop krok 2: „Home Insurance” — wybór typu: Rental, Homeowner, Student Home, House, Vacation Home; przycisk „See your price”",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "hedvig",
+    "device": "desktop",
+    "step": 3,
+    "tag": "rental",
+    "tags": [
+      "rental"
+    ],
+    "path": "images/hedvig/desktop/03-rental-landing.png",
+    "description": "Hedvig desktop krok 3: „Home Insurance Rental” — ubezpieczenie dla najemców (hyresrätt); pole na numer personalny (placeholder yymmdd-xxxx), „See your price”",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "hedvig",
+    "device": "desktop",
+    "step": 4,
+    "tag": "your",
+    "tags": [
+      "your"
+    ],
+    "path": "images/hedvig/desktop/04-your-home.png",
+    "description": "Hedvig desktop krok 4: formularz „Your home” (2 of 2) — ubezpieczenie na adres zameldowania (Yes), adres / kod pocztowy / metraż, liczba osób Just you, pytanie o obecną polisę; Calculate price",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "hedvig",
+    "device": "desktop",
+    "step": 5,
+    "tag": "price",
+    "tags": [
+      "price"
+    ],
+    "path": "images/hedvig/desktop/05-price-offers.png",
+    "description": "Hedvig desktop krok 5: „Choose insurance” — Home Max 179 kr/mies. (all-risk do 100 000 kr), Home Standard 139 kr/mies. (Popular, wybrany, all-risk do 50 000 kr), Home Bas 99 kr/mies.; udział własny 1 750 kr; zniżka 15% przy bundlingu",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "hedvig",
+    "device": "desktop",
+    "step": 6,
+    "tag": "deductible",
+    "tags": [
+      "deductible"
+    ],
+    "path": "images/hedvig/desktop/06-deductible-scroll.png",
+    "description": "Hedvig desktop krok 6: wybór udziału własnego (Choose deductible) — 1 750 kr → 139 kr/mies. (wybrane), 3 000 → 129, 10 000 → 99 kr/mies.; widoczny też Home Bas 99 kr/mies.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "hedvig",
+    "device": "desktop",
+    "step": 7,
+    "tag": "compare",
+    "tags": [
+      "compare"
+    ],
+    "path": "images/hedvig/desktop/07-compare-coverage.png",
+    "description": "Hedvig desktop krok 7: modal „Compare coverage” — limity Max / Standard / Bas (mienie w domu, poza domem, rower, AGD, OC, ochrona prawna, podróż 45 dni, all-risk, ID protection…)",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "hedvig",
+    "device": "desktop",
+    "step": 8,
+    "tag": "summary",
+    "tags": [
+      "summary"
+    ],
+    "path": "images/hedvig/desktop/08-summary-start-date.png",
+    "description": "Hedvig desktop krok 8: częściowo przewinięty ekran Standard 139 kr/mies. — widać koniec opcji deductible 10 000 kr, Travel Insurance (Included, 45 dni), upsell Travel Insurance Plus +49 kr/mies., początek sekcji Summary / start date",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "hedvig",
+    "device": "desktop",
+    "step": 9,
+    "tag": "added",
+    "tags": [
+      "added"
+    ],
+    "path": "images/hedvig/desktop/09-added-to-cart.png",
+    "description": "Hedvig desktop krok 9: ubezpieczenie Rental Standard 139 kr/mies. dodane do koszyka; Bundle and get discount (Car / Pet −15%), Continue to cart",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "hedvig",
+    "device": "desktop",
+    "step": 10,
+    "tag": "cart",
+    "tags": [
+      "cart"
+    ],
+    "path": "images/hedvig/desktop/10-cart.png",
+    "description": "Hedvig desktop krok 10: „Your cart (1)” — Rental Insurance Standard, Drottninggatan 50, start today, 139 kr/mies.; Accident Insurance (Popular, 119 kr/mies.) nie dodane; Bundle Car/Pet",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "hedvig",
+    "device": "desktop",
+    "step": 11,
+    "tag": "contact",
+    "tags": [
+      "contact"
+    ],
+    "path": "images/hedvig/desktop/11-contact-details.png",
+    "description": "Hedvig desktop krok 11: „Complete your purchase” / „Sign securely with BankID” — order summary Rental Insurance 139 kr/mies., formularz kontaktowy (numer personalny zamaskowany, imię, nazwisko, e-mail); Sign insurance (BankID) — nie kliknięte; No binding time",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "hedvig",
+    "device": "mobile",
+    "step": 1,
+    "tag": "landing",
+    "tags": [
+      "landing"
+    ],
+    "path": "images/hedvig/mobile/01-landing.png",
+    "description": "Hedvig mobile krok 1: strona główna — „Insurance that's easy to use”, przycisk „Check your price”, kategorie Home / Car / Pet / Student / House / Accident; karty Flexible protection, Fast support, No lock-in period",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "hedvig",
+    "device": "mobile",
+    "step": 2,
+    "tag": "home",
+    "tags": [
+      "home"
+    ],
+    "path": "images/hedvig/mobile/02-home-insurance.png",
+    "description": "Hedvig mobile krok 2: „Home Insurance” — wybór typu: Rental, Homeowner, Student Home, House, Vacation Home; przycisk „See your price”",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "hedvig",
+    "device": "mobile",
+    "step": 3,
+    "tag": "rental",
+    "tags": [
+      "rental"
+    ],
+    "path": "images/hedvig/mobile/03-rental-landing.png",
+    "description": "Hedvig mobile krok 3: „Home Insurance Rental” — ubezpieczenie dla najemców (hyresrätt); pole na numer personalny (placeholder yymmdd-xxxx), „See your price”",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "hedvig",
+    "device": "mobile",
+    "step": 4,
+    "tag": "your",
+    "tags": [
+      "your"
+    ],
+    "path": "images/hedvig/mobile/04-your-home.png",
+    "description": "Hedvig mobile krok 4: formularz „Your home” (2 of 2) — ubezpieczenie na adres zameldowania (Yes), adres / kod pocztowy / metraż, liczba osób Just you, pytanie o obecną polisę; Calculate price",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "hedvig",
+    "device": "mobile",
+    "step": 5,
+    "tag": "price",
+    "tags": [
+      "price"
+    ],
+    "path": "images/hedvig/mobile/05-price-offers.png",
+    "description": "Hedvig mobile krok 5: „Choose insurance” — Home Max 179 kr/mies. (all-risk do 100 000 kr), Home Standard 139 kr/mies. (Popular, wybrany, all-risk do 50 000 kr), Home Bas 99 kr/mies.; udział własny 1 750 kr; zniżka 15% przy bundlingu",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "hedvig",
+    "device": "mobile",
+    "step": 6,
+    "tag": "deductible",
+    "tags": [
+      "deductible"
+    ],
+    "path": "images/hedvig/mobile/06-deductible-scroll.png",
+    "description": "Hedvig mobile krok 6: wybór udziału własnego (Choose deductible) — 1 750 kr → 139 kr/mies. (wybrane), 3 000 → 129, 10 000 → 99 kr/mies.; widoczny też Home Bas 99 kr/mies.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "hedvig",
+    "device": "mobile",
+    "step": 7,
+    "tag": "compare",
+    "tags": [
+      "compare"
+    ],
+    "path": "images/hedvig/mobile/07-compare-coverage.png",
+    "description": "Hedvig mobile krok 7: modal „Compare coverage” — limity Max / Standard / Bas (mienie w domu, poza domem, rower, AGD, OC, ochrona prawna, podróż 45 dni, all-risk, ID protection…)",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "hedvig",
+    "device": "mobile",
+    "step": 8,
+    "tag": "added",
+    "tags": [
+      "added"
+    ],
+    "path": "images/hedvig/mobile/08-added-to-cart.png",
+    "description": "Hedvig mobile krok 8: ubezpieczenie Rental Standard 139 kr/mies. dodane do koszyka; Bundle and get discount (Car / Pet −15%), Continue to cart",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "hedvig",
+    "device": "mobile",
+    "step": 9,
+    "tag": "cart",
+    "tags": [
+      "cart"
+    ],
+    "path": "images/hedvig/mobile/09-cart.png",
+    "description": "Hedvig mobile krok 9: „Your cart (1)” — Rental Insurance Standard, Drottninggatan 50, start today, 139 kr/mies.; Accident Insurance (Popular, 119 kr/mies.) nie dodane; Bundle Car/Pet",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "hedvig",
+    "device": "mobile",
+    "step": 10,
+    "tag": "contact",
+    "tags": [
+      "contact"
+    ],
+    "path": "images/hedvig/mobile/10-contact-details.png",
+    "description": "Hedvig mobile krok 10: „Complete your purchase” / „Sign securely with BankID” — order summary Rental Insurance 139 kr/mies., formularz kontaktowy (numer personalny zamaskowany, imię, nazwisko, e-mail); Sign insurance (BankID) — nie kliknięte; No binding time",
+    "width": 1170,
+    "height": 2532
   }
 ]
