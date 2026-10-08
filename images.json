@@ -11685,5 +11685,343 @@
     "description": "Rixo.cz mobile krok 9: „Shrnutí objednávky” przed „Dokončit žádost” — Generali Sdružené pojištění vozidel 19 044 Kč/rok; Hyundai i30 1.6 99 kW 2017; dane pojazdu i ubezpieczającego",
     "width": 1170,
     "height": 2532
+  },
+  {
+    "site": "lovys",
+    "device": "desktop",
+    "step": 1,
+    "tag": "landing",
+    "tags": [
+      "landing"
+    ],
+    "path": "images/lovys/desktop/01-landing.png",
+    "description": "Lovys desktop krok 1: strona główna — „Protégez ce et ceux que vous aimez”; zaznaczone HABITATION (od 3,99 €/mies.); inne produkty AUTO, CHIEN & CHAT, SMARTPHONE…; „EN SAVOIR PLUS”",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "lovys",
+    "device": "desktop",
+    "step": 2,
+    "tag": "quote",
+    "tags": [
+      "quote"
+    ],
+    "path": "images/lovys/desktop/02-quote-start.png",
+    "description": "Lovys desktop krok 2: start wyceny — „Protégeons votre maison ou votre appartement”; pola imię, nazwisko, e-mail; zgoda CGU; „CONTINUER”",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "lovys",
+    "device": "desktop",
+    "step": 3,
+    "tag": "address",
+    "tags": [
+      "address"
+    ],
+    "path": "images/lovys/desktop/03-address-confirm.png",
+    "description": "Lovys desktop krok 3: „Confirmez l’adresse du bien à protéger” — ulica, uzupełnienie, kod pocztowy, miasto (Paris); pasek Votre adresse; „CONTINUER”",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "lovys",
+    "device": "desktop",
+    "step": 4,
+    "tag": "property",
+    "tags": [
+      "property"
+    ],
+    "path": "images/lovys/desktop/04-property-details.png",
+    "description": "Lovys desktop krok 4: „Dites-nous en plus sur votre appartement” — powierzchnia 45 m², 2 pièces; sekcja Votre logement; „CONTINUER”",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "lovys",
+    "device": "desktop",
+    "step": 5,
+    "tag": "dependances",
+    "tags": [
+      "dependances"
+    ],
+    "path": "images/lovys/desktop/05-dependances.png",
+    "description": "Lovys desktop krok 5: „Votre logement a-t-il des dépendances ?” — zaznaczone Non; definicja dépendances; „CONTINUER”",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "lovys",
+    "device": "desktop",
+    "step": 6,
+    "tag": "ownership",
+    "tags": [
+      "ownership"
+    ],
+    "path": "images/lovys/desktop/06-ownership.png",
+    "description": "Lovys desktop krok 6: „Êtes-vous propriétaire ou locataire…?” — Locataire / Propriétaire je vis ici / Propriétaire je loue",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "lovys",
+    "device": "desktop",
+    "step": 7,
+    "tag": "residence",
+    "tags": [
+      "residence"
+    ],
+    "path": "images/lovys/desktop/07-residence-type.png",
+    "description": "Lovys desktop krok 7: „C’est votre résidence principale ou secondaire ?” — Résidence principale / secondaire; Son utilisation",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "lovys",
+    "device": "desktop",
+    "step": 8,
+    "tag": "legal",
+    "tags": [
+      "legal"
+    ],
+    "path": "images/lovys/desktop/08-legal-questions.png",
+    "description": "Lovys desktop krok 8: „Dernières questions” — już ubezpieczony?, wcześniejsza rezylacja?, szkoda w 2 lata?; „DÉCOUVRIR MES OFFRES”",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "lovys",
+    "device": "desktop",
+    "step": 9,
+    "tag": "formulas",
+    "tags": [
+      "formulas"
+    ],
+    "path": "images/lovys/desktop/09-formulas.png",
+    "description": "Lovys desktop krok 9: „Il est temps de choisir votre formule” — Essentiel 13,39 €/mies., Équilibre 16,41 € (RECOMMANDÉE), Parfait 20,02 €; franchise i capital mobilier; dokumenty",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "lovys",
+    "device": "desktop",
+    "step": 10,
+    "tag": "formulas",
+    "tags": [
+      "formulas"
+    ],
+    "path": "images/lovys/desktop/10-formulas-scroll.png",
+    "description": "Lovys desktop krok 10: formuły przewinięte — porównanie Essentiel / Équilibre / Parfait (kradzież, bris de glace, dommages électriques, valeur à neuf); linki do dokumentów",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "lovys",
+    "device": "desktop",
+    "step": 11,
+    "tag": "coverage",
+    "tags": [
+      "coverage"
+    ],
+    "path": "images/lovys/desktop/11-coverage-edit.png",
+    "description": "Lovys desktop krok 11: edycja ochrony — suwak franchise 75–500 € (300 €), capital mobilier 2–30 tys. € (16 000 €); bijoux / home cinema; sidebar Équilibre 16,41 €/mies., „CHOISIR”",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "lovys",
+    "device": "desktop",
+    "step": 12,
+    "tag": "assistance",
+    "tags": [
+      "assistance"
+    ],
+    "path": "images/lovys/desktop/12-assistance.png",
+    "description": "Lovys desktop krok 12: upsell assistance (Europ Assistance) — Sans 0 €, Essentielle 1,86 €, Confort 2,84 € (POPULAIRE); cena Équilibre 16,41 €/mies.; „CONTINUER”",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "lovys",
+    "device": "desktop",
+    "step": 13,
+    "tag": "recap",
+    "tags": [
+      "recap"
+    ],
+    "path": "images/lovys/desktop/13-recap-before-signature.png",
+    "description": "Lovys desktop krok 13: „Récapitulatif et paiement” — Équilibre, franchise 300 €, capital 16 000 €; 16,41 €/mies. lub 193,22 €/rok; do zapłaty dziś 207,12 €; „SIGNER MON CONTRAT”",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "lovys",
+    "device": "mobile",
+    "step": 1,
+    "tag": "landing",
+    "tags": [
+      "landing"
+    ],
+    "path": "images/lovys/mobile/01-landing.png",
+    "description": "Lovys mobile krok 1: strona główna — „Protégez ce et ceux que vous aimez”; HABITATION od 3,99 €/mies.; menu produktów",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "lovys",
+    "device": "mobile",
+    "step": 2,
+    "tag": "quote",
+    "tags": [
+      "quote"
+    ],
+    "path": "images/lovys/mobile/02-quote-start.png",
+    "description": "Lovys mobile krok 2: start wyceny — imię, nazwisko, e-mail; zgoda CGU; „CONTINUER”",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "lovys",
+    "device": "mobile",
+    "step": 3,
+    "tag": "address",
+    "tags": [
+      "address"
+    ],
+    "path": "images/lovys/mobile/03-address-confirm.png",
+    "description": "Lovys mobile krok 3: potwierdzenie adresu mieszkania (Paris); „CONTINUER”",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "lovys",
+    "device": "mobile",
+    "step": 4,
+    "tag": "property",
+    "tags": [
+      "property"
+    ],
+    "path": "images/lovys/mobile/04-property-details.png",
+    "description": "Lovys mobile krok 4: szczegóły apartamentu — 45 m², 2 pièces; „CONTINUER”",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "lovys",
+    "device": "mobile",
+    "step": 5,
+    "tag": "dependances",
+    "tags": [
+      "dependances"
+    ],
+    "path": "images/lovys/mobile/05-dependances.png",
+    "description": "Lovys mobile krok 5: dépendances — zaznaczone Non; „CONTINUER”",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "lovys",
+    "device": "mobile",
+    "step": 6,
+    "tag": "ownership",
+    "tags": [
+      "ownership"
+    ],
+    "path": "images/lovys/mobile/06-ownership.png",
+    "description": "Lovys mobile krok 6: status: locataire / propriétaire (mieszka / wynajmuje)",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "lovys",
+    "device": "mobile",
+    "step": 7,
+    "tag": "residence",
+    "tags": [
+      "residence"
+    ],
+    "path": "images/lovys/mobile/07-residence-type.png",
+    "description": "Lovys mobile krok 7: résidence principale lub secondaire",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "lovys",
+    "device": "mobile",
+    "step": 8,
+    "tag": "legal",
+    "tags": [
+      "legal"
+    ],
+    "path": "images/lovys/mobile/08-legal-questions.png",
+    "description": "Lovys mobile krok 8: ostatnie pytania prawne (ubezpieczenie, rezylacja, szkody); „DÉCOUVRIR MES OFFRES”",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "lovys",
+    "device": "mobile",
+    "step": 9,
+    "tag": "formulas",
+    "tags": [
+      "formulas"
+    ],
+    "path": "images/lovys/mobile/09-formulas.png",
+    "description": "Lovys mobile krok 9: formuły — Essentiel 13,39 €, Équilibre 16,41 € (RECOMMANDÉE), Parfait 20,02 € /mies.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "lovys",
+    "device": "mobile",
+    "step": 10,
+    "tag": "formulas",
+    "tags": [
+      "formulas"
+    ],
+    "path": "images/lovys/mobile/10-formulas-scroll.png",
+    "description": "Lovys mobile krok 10: formuły przewinięte — zakres gwarancji i dokumenty produktowe",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "lovys",
+    "device": "mobile",
+    "step": 11,
+    "tag": "assistance",
+    "tags": [
+      "assistance"
+    ],
+    "path": "images/lovys/mobile/11-assistance.png",
+    "description": "Lovys mobile krok 11: upsell assistance — Sans / Essentielle / Confort; formuła Équilibre 16,41 €/mies.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "lovys",
+    "device": "mobile",
+    "step": 12,
+    "tag": "legal",
+    "tags": [
+      "legal"
+    ],
+    "path": "images/lovys/mobile/12-protection-juridique.png",
+    "description": "Lovys mobile krok 12: upsell protection juridique (l’Équité) — „Découvrez notre service de protection juridique”; opcja Sans protection juridique",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "lovys",
+    "device": "mobile",
+    "step": 13,
+    "tag": "recap",
+    "tags": [
+      "recap"
+    ],
+    "path": "images/lovys/mobile/13-recap-before-signature.png",
+    "description": "Lovys mobile krok 13: récapitulatif przed podpisem — Équilibre 16,41 €/mies. / 193,22 €/rok; „SIGNER MON CONTRAT”",
+    "width": 1170,
+    "height": 2532
   }
 ]

@@ -26,6 +26,7 @@
     redclick: "Redclick",
     klik: "Klik.cz",
     rixo: "Rixo.cz",
+    lovys: "Lovys",
   };
 
   // Rynek przechwyconego flow (kraj strony/aplikacji). Każdy nowy site → dopisz tutaj.
@@ -56,6 +57,7 @@
     redclick: "PL",
     klik: "CZ",
     rixo: "CZ",
+    lovys: "FR",
   };
 
   const COUNTRIES = {
@@ -65,6 +67,7 @@
     DE: { flag: "\u{1F1E9}\u{1F1EA}", name: "Niemcy" },
     SE: { flag: "\u{1F1F8}\u{1F1EA}", name: "Szwecja" },
     CZ: { flag: "\u{1F1E8}\u{1F1FF}", name: "Czechy" },
+    FR: { flag: "\u{1F1EB}\u{1F1F7}", name: "Francja" },
   };
 
   const TAG_LABELS = {
