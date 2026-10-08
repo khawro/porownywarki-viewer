@@ -70,6 +70,9 @@
     balcia: "PL",
   };
 
+  // Strony ukryte w galerii (pliki i wpisy w images.json zostają). Aby przywrócić — usuń id z listy.
+  const HIDDEN_SITES = new Set(["balcia"]);
+
   const COUNTRIES = {
     PL: { flag: "\u{1F1F5}\u{1F1F1}", name: "Polska" },
     US: { flag: "\u{1F1FA}\u{1F1F8}", name: "USA" },
@@ -797,7 +800,7 @@
   async function init() {
     detectFlagSupport();
     const res = await fetch("images.json");
-    state.images = await res.json();
+    state.images = (await res.json()).filter((i) => !HIDDEN_SITES.has(i.site));
     state.images.forEach((i) => {
       i.tags = (i.tags || []).filter((t) => t !== "ranking ofert");
       if (i.tag === "ranking ofert") i.tag = "offers";
