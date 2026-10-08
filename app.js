@@ -15,6 +15,7 @@
     getsafe: "Getsafe",
     feather: "Feather",
     comparethemarket: "Compare the Market",
+    confused: "Confused.com",
   };
 
   // Rynek przechwyconego flow (kraj strony/aplikacji). Każdy nowy site → dopisz tutaj.
@@ -34,6 +35,7 @@
     getsafe: "DE",
     feather: "DE",
     comparethemarket: "GB",
+    confused: "GB",
   };
 
   const COUNTRIES = {

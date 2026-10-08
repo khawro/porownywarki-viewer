@@ -7824,5 +7824,291 @@
     "description": "Compare the Market mobile krok 18: wyniki dalej — koniec karty Britannia Essentials (udział własny £150), Britannia £957.01 rocznie; flow kończy się na liście ofert",
     "width": 1170,
     "height": 2532
+  },
+  {
+    "site": "confused",
+    "device": "desktop",
+    "step": 1,
+    "tag": "landing",
+    "tags": [
+      "landing"
+    ],
+    "path": "images/confused/desktop/01-landing.png",
+    "description": "Confused.com desktop krok 1: strona główna „What can we help you save money on today?” — karta Car insurance (oszczędność do £527, eGift card £20), przycisk „Get a car quote”; obok Home, Van, Travel, Life",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "confused",
+    "device": "desktop",
+    "step": 2,
+    "tag": "car",
+    "tags": [
+      "car"
+    ],
+    "path": "images/confused/desktop/02-car-details-reg.png",
+    "description": "Confused.com desktop krok 2: „Car details” (krok 1 z 4) — numer rejestracyjny (GB) i „Find car” lub „Search for car by make or model”; ramka logowania dla powracających",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "confused",
+    "device": "desktop",
+    "step": 3,
+    "tag": "search",
+    "tags": [
+      "search"
+    ],
+    "path": "images/confused/desktop/03-search-make-model.png",
+    "description": "Confused.com desktop krok 3: „Search for vehicle by make and model” — wybór marki pojazdu",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "confused",
+    "device": "desktop",
+    "step": 4,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/confused/desktop/04-vehicle-confirmed.png",
+    "description": "Confused.com desktop krok 4: „Make and model” — potwierdzone auto: Toyota Yaris Icon, 5-drzwiowy hatchback, 2019, automat, benzyna, 1496 cm³; dalej „Car specification”",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "confused",
+    "device": "desktop",
+    "step": 5,
+    "tag": "cover",
+    "tags": [
+      "cover"
+    ],
+    "path": "images/confused/desktop/05-cover.png",
+    "description": "Confused.com desktop krok 5: zakres ochrony — start od Fri 09 October 2026, Comprehensive, dobrowolny udział własny £0",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "confused",
+    "device": "desktop",
+    "step": 6,
+    "tag": "driver",
+    "tags": [
+      "driver"
+    ],
+    "path": "images/confused/desktop/06-driver-summary.png",
+    "description": "Confused.com desktop krok 6: „Driver details” (krok 3 z 4) — James Carter, ur. 15/05/1985, Married, Software Engineer, Full UK Manual; bez dodatkowego kierowcy; dane ubezpieczającego (telefon, e-mail)",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "confused",
+    "device": "desktop",
+    "step": 7,
+    "tag": "policy",
+    "tags": [
+      "policy"
+    ],
+    "path": "images/confused/desktop/07-policy-details.png",
+    "description": "Confused.com desktop krok 7: „Policy details” — wcześniejsze anulowanie polisy / specjalne warunki (No), zgoda na kontakt dwóch najtańszych ubezpieczycieli, akceptacja regulaminu, „Continue”",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "confused",
+    "device": "desktop",
+    "step": 8,
+    "tag": "create",
+    "tags": [
+      "create"
+    ],
+    "path": "images/confused/desktop/08-create-account-gate.png",
+    "description": "Confused.com desktop krok 8: wymuszone zakładanie konta: „Finish creating your account to view your motor insurance prices” — Google lub e-mail i hasło",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "confused",
+    "device": "desktop",
+    "step": 9,
+    "tag": "marketing",
+    "tags": [
+      "marketing"
+    ],
+    "path": "images/confused/desktop/09-marketing-preferences.png",
+    "description": "Confused.com desktop krok 9: „Stay informed and save money” — zgody marketingowe: e-mail No, SMS No",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "confused",
+    "device": "desktop",
+    "step": 10,
+    "tag": "results",
+    "tags": [
+      "results"
+    ],
+    "path": "images/confused/desktop/10-results-quotes.png",
+    "description": "Confused.com desktop krok 10: wyniki: 49 cen, rocznie, Comprehensive, od Fri 09 Oct 2026, udział dobrowolny £0 — Admiral LittleBox £1,050.47 (udział własny £150, black box), Picnic Essentials £1,304.93 (£350), Picnic £1,305.95 (£250), Quote Detective (broker telefoniczny) £1,332.80 (£1,000)",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "confused",
+    "device": "desktop",
+    "step": 11,
+    "tag": "results",
+    "tags": [
+      "results"
+    ],
+    "path": "images/confused/desktop/11-results-scroll-1.png",
+    "description": "Confused.com desktop krok 11: wyniki po przewinięciu — Picnic £1,305.95 (£250), Quote Detective £1,332.80 (£1,000), Picnic Premier £1,348.40 (£250), 1st Central Value £1,393.72 (£350), 1st Central £1,394.80; flow kończy się na liście ofert (brak płatności)",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "confused",
+    "device": "mobile",
+    "step": 1,
+    "tag": "landing",
+    "tags": [
+      "landing"
+    ],
+    "path": "images/confused/mobile/01-landing.png",
+    "description": "Confused.com mobile krok 1: strona główna „What can we help you save money on today?” — karta Car insurance (oszczędność do £527, eGift card £20), przycisk „Get a car quote”; obok Home, Van, Travel, Life",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "confused",
+    "device": "mobile",
+    "step": 2,
+    "tag": "car",
+    "tags": [
+      "car"
+    ],
+    "path": "images/confused/mobile/02-car-details-reg.png",
+    "description": "Confused.com mobile krok 2: „Car details” (krok 1 z 4) — numer rejestracyjny (GB) i „Find car” lub „Search for car by make or model”; ramka logowania dla powracających",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "confused",
+    "device": "mobile",
+    "step": 3,
+    "tag": "search",
+    "tags": [
+      "search"
+    ],
+    "path": "images/confused/mobile/03-search-make-model.png",
+    "description": "Confused.com mobile krok 3: „Search for vehicle by make and model” — wybór marki pojazdu",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "confused",
+    "device": "mobile",
+    "step": 4,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/confused/mobile/04-vehicle-confirmed.png",
+    "description": "Confused.com mobile krok 4: „Make and model” — potwierdzone auto: Toyota Yaris Icon, 5-drzwiowy hatchback, 2019, automat, benzyna, 1496 cm³",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "confused",
+    "device": "mobile",
+    "step": 5,
+    "tag": "cover",
+    "tags": [
+      "cover"
+    ],
+    "path": "images/confused/mobile/05-cover.png",
+    "description": "Confused.com mobile krok 5: zakres ochrony — start „Tomorrow, Fri 09 October 2026”, Comprehensive; początek wyboru dobrowolnego udziału własnego",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "confused",
+    "device": "mobile",
+    "step": 6,
+    "tag": "driver",
+    "tags": [
+      "driver"
+    ],
+    "path": "images/confused/mobile/06-driver-summary.png",
+    "description": "Confused.com mobile krok 6: „Driver details” (krok 3 z 4) — James Carter, ur. 15/05/1985, Married, Software Engineer, Full UK Manual; bez dodatkowego kierowcy",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "confused",
+    "device": "mobile",
+    "step": 7,
+    "tag": "policy",
+    "tags": [
+      "policy"
+    ],
+    "path": "images/confused/mobile/07-policy-details.png",
+    "description": "Confused.com mobile krok 7: „Policy details” — wcześniejsze anulowanie polisy / specjalne warunki (No), zgoda na kontakt dwóch najtańszych ubezpieczycieli, akceptacja regulaminu",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "confused",
+    "device": "mobile",
+    "step": 8,
+    "tag": "create",
+    "tags": [
+      "create"
+    ],
+    "path": "images/confused/mobile/08-create-account-gate.png",
+    "description": "Confused.com mobile krok 8: wymuszone zakładanie konta: „Finish creating your account to view your motor insurance prices” — Google lub e-mail i hasło",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "confused",
+    "device": "mobile",
+    "step": 9,
+    "tag": "marketing",
+    "tags": [
+      "marketing"
+    ],
+    "path": "images/confused/mobile/09-marketing-preferences.png",
+    "description": "Confused.com mobile krok 9: „Stay informed and save money” — zgody marketingowe: e-mail No, SMS No",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "confused",
+    "device": "mobile",
+    "step": 10,
+    "tag": "results",
+    "tags": [
+      "results"
+    ],
+    "path": "images/confused/mobile/10-results-quotes.png",
+    "description": "Confused.com mobile krok 10: wyniki: 49 cen, rocznie — Admiral LittleBox £1,050.47 (udział własny £150, black box), cechy polisy; początek karty Picnic",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "confused",
+    "device": "mobile",
+    "step": 11,
+    "tag": "results",
+    "tags": [
+      "results"
+    ],
+    "path": "images/confused/mobile/11-results-scroll-1.png",
+    "description": "Confused.com mobile krok 11: wyniki po przewinięciu — Picnic Essentials £1,304.93 (udział własny £350, oferta specjalna); flow kończy się na liście ofert (brak płatności)",
+    "width": 1170,
+    "height": 2532
   }
 ]
