@@ -4805,7 +4805,7 @@
       "home"
     ],
     "path": "images/thezebra/desktop/01-home.png",
-    "description": "thezebra desktop krok 1: home",
+    "description": "The Zebra desktop krok 1: strona główna „Your one-stop shop for all things insurance.” — pole „Ask us anything”, wybór Car / Home / Bundle, karta „Let us do the shopping for you”",
     "width": 1920,
     "height": 1200
   },
@@ -4818,7 +4818,7 @@
       "zip"
     ],
     "path": "images/thezebra/desktop/02-zip-entry.png",
-    "description": "thezebra desktop krok 2: zip-entry",
+    "description": "The Zebra desktop krok 2: „Let’s get your auto quotes” — pole ZIP Code, przycisk „Next”, ocena Trustpilot 4.7",
     "width": 1920,
     "height": 1200
   },
@@ -4831,7 +4831,7 @@
       "currently"
     ],
     "path": "images/thezebra/desktop/03-currently-insured.png",
-    "description": "thezebra desktop krok 3: currently-insured",
+    "description": "The Zebra desktop krok 3: „Are you currently insured?” — Yes / No, informacja o prywatności danych",
     "width": 1920,
     "height": 1200
   },
@@ -4844,7 +4844,7 @@
       "policy"
     ],
     "path": "images/thezebra/desktop/04-policy-start-timing.png",
-    "description": "thezebra desktop krok 4: policy-start-timing",
+    "description": "The Zebra desktop krok 4: „When do you plan to purchase your new insurance policy?” — As soon as possible / Sometime in the future; baner oszczędności dla kierowców z Los Angeles, CA",
     "width": 1920,
     "height": 1200
   },
@@ -4857,7 +4857,7 @@
       "own"
     ],
     "path": "images/thezebra/desktop/05-own-or-rent-home.png",
-    "description": "thezebra desktop krok 5: own-or-rent-home",
+    "description": "The Zebra desktop krok 5: „Do you own or rent your home?” — dom, mieszkanie (condo), wynajem, inne",
     "width": 1920,
     "height": 1200
   },
@@ -4870,7 +4870,7 @@
       "vehicle"
     ],
     "path": "images/thezebra/desktop/06-vehicle-count.png",
-    "description": "thezebra desktop krok 6: vehicle-count",
+    "description": "The Zebra desktop krok 6: „How many cars are you looking to insure?” — 1–6 aut, przy 2 autach znaczek „Save 20%”",
     "width": 1920,
     "height": 1200
   },
@@ -4883,7 +4883,7 @@
       "vehicle"
     ],
     "path": "images/thezebra/desktop/07-vehicle-year.png",
-    "description": "thezebra desktop krok 7: vehicle-year",
+    "description": "The Zebra desktop krok 7: „What’s your car year?” — lista roczników od 2027 w dół z wyszukiwarką; baner dla New York, NY",
     "width": 1920,
     "height": 1200
   },
@@ -4896,7 +4896,7 @@
       "vehicle"
     ],
     "path": "images/thezebra/desktop/08-vehicle-make.png",
-    "description": "thezebra desktop krok 8: vehicle-make",
+    "description": "The Zebra desktop krok 8: „What’s your car make?” — popularne marki (BMW, Chevrolet, Chrysler, Dodge, Ford, GMC, Honda, Hyundai, Jeep, Kia, Nissan, Toyota) i „Show more”",
     "width": 1920,
     "height": 1200
   },
@@ -4909,7 +4909,7 @@
       "vehicle"
     ],
     "path": "images/thezebra/desktop/09-vehicle-model.png",
-    "description": "thezebra desktop krok 9: vehicle-model",
+    "description": "The Zebra desktop krok 9: „What’s your car model?” — modele Toyoty dla rocznika 2020 (4Runner, Avalon, Camry, Corolla, Highlander…)",
     "width": 1920,
     "height": 1200
   },
@@ -4922,7 +4922,7 @@
       "vehicle"
     ],
     "path": "images/thezebra/desktop/10-vehicle-trim.png",
-    "description": "thezebra desktop krok 10: vehicle-trim",
+    "description": "The Zebra desktop krok 10: „What’s your car trim?” — wersje 2020 Toyota Camry (AWD LE/SE/XLE/XSE, L, LE, SE, TRD, XLE, XSE…)",
     "width": 1920,
     "height": 1200
   },
@@ -4935,7 +4935,7 @@
       "vehicle"
     ],
     "path": "images/thezebra/desktop/11-vehicle-usage.png",
-    "description": "thezebra desktop krok 11: vehicle-usage",
+    "description": "The Zebra desktop krok 11: „What’s the main use of your car?” — dojazdy/użytek prywatny, dojazd do szkoły, rekreacja, firma",
     "width": 1920,
     "height": 1200
   },
@@ -4948,7 +4948,7 @@
       "vehicle"
     ],
     "path": "images/thezebra/desktop/12-vehicle-miles.png",
-    "description": "thezebra desktop krok 12: vehicle-miles",
+    "description": "The Zebra desktop krok 12: „How many miles do you drive this car daily?” — 5 do 75+ mil, 25 mil oznaczone jako średnia krajowa",
     "width": 1920,
     "height": 1200
   },
@@ -4961,7 +4961,7 @@
       "vehicle"
     ],
     "path": "images/thezebra/desktop/13-vehicle-ownership.png",
-    "description": "thezebra desktop krok 13: vehicle-ownership",
+    "description": "The Zebra desktop krok 13: „Do you own or lease this car?” — Own / Finance / Lease (2020 Toyota Camry)",
     "width": 1920,
     "height": 1200
   },
@@ -4974,7 +4974,7 @@
       "vehicle"
     ],
     "path": "images/thezebra/desktop/14-vehicle-ownership-length.png",
-    "description": "thezebra desktop krok 14: vehicle-ownership-length",
+    "description": "The Zebra desktop krok 14: „How long have you had this vehicle?” — od „Not yet purchased” do „5+ years”",
     "width": 1920,
     "height": 1200
   },
@@ -4987,7 +4987,7 @@
       "date"
     ],
     "path": "images/thezebra/desktop/15-date-of-birth.png",
-    "description": "thezebra desktop krok 15: date-of-birth",
+    "description": "The Zebra desktop krok 15: „What’s your date of birth?” — puste pola MM / DD / YYYY, znaczki zaufania",
     "width": 1920,
     "height": 1200
   },
@@ -5000,7 +5000,7 @@
       "gender"
     ],
     "path": "images/thezebra/desktop/16-gender.png",
-    "description": "thezebra desktop krok 16: gender",
+    "description": "The Zebra desktop krok 16: „What’s your gender?” — Male / Female / X (Non-binary); desktopowy zestaw kończy się na tym kroku",
     "width": 1920,
     "height": 1200
   },
@@ -8108,6 +8108,448 @@
     ],
     "path": "images/confused/mobile/11-results-scroll-1.png",
     "description": "Confused.com mobile krok 11: wyniki po przewinięciu — Picnic Essentials £1,304.93 (udział własny £350, oferta specjalna); flow kończy się na liście ofert (brak płatności)",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "thezebra",
+    "device": "mobile",
+    "step": 1,
+    "tag": "home",
+    "tags": [
+      "home"
+    ],
+    "path": "images/thezebra/mobile/01-home.png",
+    "description": "The Zebra mobile krok 1: strona główna „Your one-stop shop for bundling” — pole „Ask us anything”, wybór Car (Popular) / Home / Bundle",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "thezebra",
+    "device": "mobile",
+    "step": 2,
+    "tag": "zip",
+    "tags": [
+      "zip"
+    ],
+    "path": "images/thezebra/mobile/02-zip-entry.png",
+    "description": "The Zebra mobile krok 2: „Let’s get your auto quotes” — ZIP Code 43215, przycisk „Next”, Trustpilot 4.7",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "thezebra",
+    "device": "mobile",
+    "step": 3,
+    "tag": "currently",
+    "tags": [
+      "currently"
+    ],
+    "path": "images/thezebra/mobile/03-currently-insured.png",
+    "description": "The Zebra mobile krok 3: „Are you currently insured?” — Yes / No, informacja o prywatności danych",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "thezebra",
+    "device": "mobile",
+    "step": 4,
+    "tag": "policy",
+    "tags": [
+      "policy"
+    ],
+    "path": "images/thezebra/mobile/04-policy-start-timing.png",
+    "description": "The Zebra mobile krok 4: „When do you plan to purchase your new insurance policy?” — As soon as possible / Sometime in the future; baner: kierowcy z Columbus, OH mogą zaoszczędzić średnio $630/rok",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "thezebra",
+    "device": "mobile",
+    "step": 5,
+    "tag": "own",
+    "tags": [
+      "own"
+    ],
+    "path": "images/thezebra/mobile/05-own-or-rent-home.png",
+    "description": "The Zebra mobile krok 5: „Do you own or rent your home?” — dom, mieszkanie (condo), wynajem, inne",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "thezebra",
+    "device": "mobile",
+    "step": 6,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/thezebra/mobile/06-vehicle-count.png",
+    "description": "The Zebra mobile krok 6: „How many cars are you looking to insure?” — 1–6 aut, przy 2 autach „Save 20%”",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "thezebra",
+    "device": "mobile",
+    "step": 7,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/thezebra/mobile/07-vehicle-year.png",
+    "description": "The Zebra mobile krok 7: „What’s your car year?” — siatka roczników z wyszukiwarką",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "thezebra",
+    "device": "mobile",
+    "step": 8,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/thezebra/mobile/08-vehicle-make.png",
+    "description": "The Zebra mobile krok 8: „What’s your car make?” — popularne marki z logo (BMW, Chevrolet, Chrysler, Dodge, Ford, GMC, Honda, Hyundai, Jeep, Kia, Nissan, Toyota)",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "thezebra",
+    "device": "mobile",
+    "step": 9,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/thezebra/mobile/09-vehicle-model.png",
+    "description": "The Zebra mobile krok 9: „What’s your car model?” — modele dla 2019 Toyota (4Runner, 86, Avalon, Camry…)",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "thezebra",
+    "device": "mobile",
+    "step": 10,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/thezebra/mobile/10-vehicle-trim.png",
+    "description": "The Zebra mobile krok 10: „What’s your car trim?” — wersje 2019 Toyota Camry (L, LE, SE, XLE, XLE V6, XSE…)",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "thezebra",
+    "device": "mobile",
+    "step": 11,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/thezebra/mobile/11-vehicle-usage.png",
+    "description": "The Zebra mobile krok 11: „What’s the main use of your car?” — dojazdy/użytek prywatny, dojazd do szkoły, rekreacja, firma",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "thezebra",
+    "device": "mobile",
+    "step": 12,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/thezebra/mobile/12-vehicle-miles.png",
+    "description": "The Zebra mobile krok 12: „How many miles do you drive this car daily?” — 5 do 75+ mil, 25 mil jako średnia krajowa",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "thezebra",
+    "device": "mobile",
+    "step": 13,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/thezebra/mobile/13-vehicle-ownership.png",
+    "description": "The Zebra mobile krok 13: „Do you own or lease this car?” — Own / Finance / Lease (2019 Toyota Camry)",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "thezebra",
+    "device": "mobile",
+    "step": 14,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/thezebra/mobile/14-vehicle-ownership-length.png",
+    "description": "The Zebra mobile krok 14: „How long have you had this vehicle?” — od „Not yet purchased” do „5+ years”",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "thezebra",
+    "device": "mobile",
+    "step": 15,
+    "tag": "date",
+    "tags": [
+      "date"
+    ],
+    "path": "images/thezebra/mobile/15-date-of-birth.png",
+    "description": "The Zebra mobile krok 15: „What’s your date of birth?” — wpisane 05 / 15 / 1985",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "thezebra",
+    "device": "mobile",
+    "step": 16,
+    "tag": "gender",
+    "tags": [
+      "gender"
+    ],
+    "path": "images/thezebra/mobile/16-gender.png",
+    "description": "The Zebra mobile krok 16: „What’s your gender?” — Male / Female, link „Why only two?”",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "thezebra",
+    "device": "mobile",
+    "step": 17,
+    "tag": "license",
+    "tags": [
+      "license"
+    ],
+    "path": "images/thezebra/mobile/17-license-age.png",
+    "description": "The Zebra mobile krok 17: „At what age were you first licensed?” — 16–19 i „Show more”",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "thezebra",
+    "device": "mobile",
+    "step": 18,
+    "tag": "credit",
+    "tags": [
+      "credit"
+    ],
+    "path": "images/thezebra/mobile/18-credit-score.png",
+    "description": "The Zebra mobile krok 18: „What’s your credit score?” — Excellent (720+) do Poor (poniżej 580) lub Unsure, informacja o użyciu historii kredytowej",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "thezebra",
+    "device": "mobile",
+    "step": 19,
+    "tag": "education",
+    "tags": [
+      "education"
+    ],
+    "path": "images/thezebra/mobile/19-education.png",
+    "description": "The Zebra mobile krok 19: „What’s your highest level of education?” — od braku dyplomu do doktoratu",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "thezebra",
+    "device": "mobile",
+    "step": 20,
+    "tag": "military",
+    "tags": [
+      "military"
+    ],
+    "path": "images/thezebra/mobile/20-military.png",
+    "description": "The Zebra mobile krok 20: „Have you or an immediate family member served in the U.S. military?” — Yes / No",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "thezebra",
+    "device": "mobile",
+    "step": 21,
+    "tag": "discounts",
+    "tags": [
+      "discounts"
+    ],
+    "path": "images/thezebra/mobile/21-discounts.png",
+    "description": "The Zebra mobile krok 21: „Do any of these discounts apply to you?” — zatrudniony, żonaty, student, e-dokumenty, autopay, zakupy przed końcem polisy",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "thezebra",
+    "device": "mobile",
+    "step": 22,
+    "tag": "current",
+    "tags": [
+      "current"
+    ],
+    "path": "images/thezebra/mobile/22-current-insurer.png",
+    "description": "The Zebra mobile krok 22: „Who is your current insurance company?” — lista ubezpieczycieli z wyszukiwarką (21st Century, AAA, AARP, Acceptance, Affirmative, AIG…)",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "thezebra",
+    "device": "mobile",
+    "step": 23,
+    "tag": "insured",
+    "tags": [
+      "insured"
+    ],
+    "path": "images/thezebra/mobile/23-insured-duration.png",
+    "description": "The Zebra mobile krok 23: „How long have you been insured by AAA?” — od mniej niż 6 miesięcy do ponad 3 lat",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "thezebra",
+    "device": "mobile",
+    "step": 24,
+    "tag": "bi",
+    "tags": [
+      "bi"
+    ],
+    "path": "images/thezebra/mobile/24-bi-limits.png",
+    "description": "The Zebra mobile krok 24: „Which bodily injury limits are closest to your current coverage?” — $25k/$50k do $250k/$500k lub „I don’t know”",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "thezebra",
+    "device": "mobile",
+    "step": 25,
+    "tag": "accidents",
+    "tags": [
+      "accidents"
+    ],
+    "path": "images/thezebra/mobile/25-accidents.png",
+    "description": "The Zebra mobile krok 25: „How many at-fault accidents in the past 3 years?” — 0 zaznaczone",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "thezebra",
+    "device": "mobile",
+    "step": 26,
+    "tag": "claims",
+    "tags": [
+      "claims"
+    ],
+    "path": "images/thezebra/mobile/26-claims.png",
+    "description": "The Zebra mobile krok 26: „How many insurance claims in the past 3 years?” — 0 zaznaczone",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "thezebra",
+    "device": "mobile",
+    "step": 27,
+    "tag": "tickets",
+    "tags": [
+      "tickets"
+    ],
+    "path": "images/thezebra/mobile/27-tickets.png",
+    "description": "The Zebra mobile krok 27: „Any tickets or violations in the past 3 years?” — No",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "thezebra",
+    "device": "mobile",
+    "step": 28,
+    "tag": "name",
+    "tags": [
+      "name"
+    ],
+    "path": "images/thezebra/mobile/28-name.png",
+    "description": "The Zebra mobile krok 28: „Nearly done! Let’s wrap up.” — imię i nazwisko: Jordan Miller",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "thezebra",
+    "device": "mobile",
+    "step": 29,
+    "tag": "add",
+    "tags": [
+      "add"
+    ],
+    "path": "images/thezebra/mobile/29-add-driver.png",
+    "description": "The Zebra mobile krok 29: „Need to add another driver?” (Jordan Miller) — Yes / No",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "thezebra",
+    "device": "mobile",
+    "step": 30,
+    "tag": "address",
+    "tags": [
+      "address"
+    ],
+    "path": "images/thezebra/mobile/30-address.png",
+    "description": "The Zebra mobile krok 30: „Where do you park your car overnight?” — 100 N High St, ZIP 43215, wyjaśnienie, po co adres",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "thezebra",
+    "device": "mobile",
+    "step": 31,
+    "tag": "email",
+    "tags": [
+      "email"
+    ],
+    "path": "images/thezebra/mobile/31-email.png",
+    "description": "The Zebra mobile krok 31: „Where would you like to receive a copy of your quotes?” — e-mail redito.mrktg@gmail.com; „Thank you! Your deals are ready!”",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "thezebra",
+    "device": "mobile",
+    "step": 32,
+    "tag": "phone",
+    "tags": [
+      "phone"
+    ],
+    "path": "images/thezebra/mobile/32-phone.png",
+    "description": "The Zebra mobile krok 32: „One final step” — telefon (614) 555-0142, przycisk „View my quotes”",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "thezebra",
+    "device": "mobile",
+    "step": 33,
+    "tag": "quotes",
+    "tags": [
+      "quotes"
+    ],
+    "path": "images/thezebra/mobile/33-quotes-list.png",
+    "description": "The Zebra mobile krok 33: oferty: „Jordan, we’ve pulled your options from top insurance companies” — Progressive (Accident forgiveness, Customer favorite), „Get my quote” / „Continue on Progressive’s website”; bez cen",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "thezebra",
+    "device": "mobile",
+    "step": 34,
+    "tag": "quotes",
+    "tags": [
+      "quotes"
+    ],
+    "path": "images/thezebra/mobile/34-quotes-scroll-1.png",
+    "description": "The Zebra mobile krok 34: oferty po przewinięciu — rabaty Progressive, Allstate (High claims satisfaction) i Direct Auto z przyciskami „View deal”, bez cen; flow kończy się na liście ofert (brak płatności)",
     "width": 1170,
     "height": 2532
   }
