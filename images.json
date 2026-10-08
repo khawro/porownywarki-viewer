@@ -12023,5 +12023,252 @@
     "description": "Lovys mobile krok 13: récapitulatif przed podpisem — Équilibre 16,41 €/mies. / 193,22 €/rok; „SIGNER MON CONTRAT”",
     "width": 1170,
     "height": 2532
+  },
+  {
+    "site": "pillow",
+    "device": "desktop",
+    "step": 1,
+    "tag": "landing",
+    "tags": [
+      "landing"
+    ],
+    "path": "images/pillow/desktop/01-landing.png",
+    "description": "Pillow.cz desktop krok 1: strona główna — „Pro váš klidný spánek. Pojištění, jak má být…”; CTA „Spočítat cenu”; bez e-maila/telefonu; gwarancja najlepszej ceny Pillow; kafle Auto / Majetek / Úraz a nemoc",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "pillow",
+    "device": "desktop",
+    "step": 2,
+    "tag": "products",
+    "tags": [
+      "products"
+    ],
+    "path": "images/pillow/desktop/02-product-choice.png",
+    "description": "Pillow.cz desktop krok 2: wybór produktu — „Zjistěte cenu pojištění… Nyní se slevou 20 %”; kafle Pojištění vozidla / majetku / osob z przyciskami „Spočítat”",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "pillow",
+    "device": "desktop",
+    "step": 3,
+    "tag": "client",
+    "tags": [
+      "client"
+    ],
+    "path": "images/pillow/desktop/03-calculation-client.png",
+    "description": "Pillow.cz desktop krok 3: Výpočet (krok 1/3) — sekcja Klient: typ Klient s RČ, puste pola (RČ, imię, e-mail, telefon), państwo Česko, PSČ–obec; bez PII w opisie",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "pillow",
+    "device": "desktop",
+    "step": 4,
+    "tag": "needs",
+    "tags": [
+      "needs"
+    ],
+    "path": "images/pillow/desktop/04-needs.png",
+    "description": "Pillow.cz desktop krok 4: dane pojazdu (Škoda Octavia combi, 999 cm³ / 85 kW, 2019, 10 tys. km/rok, Běžný provoz) + sekcja Potřeby — povinné ručení / skla / szkody niezawinione: ano",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "pillow",
+    "device": "desktop",
+    "step": 5,
+    "tag": "settings",
+    "tags": [
+      "settings"
+    ],
+    "path": "images/pillow/desktop/05-price-settings.png",
+    "description": "Pillow.cz desktop krok 5: Nastavení ceny — warsztat Pouze smluvní neznačkové, płatność Roční, sleva 20 % na celou smlouvu; tabela Varianty: Zákonné minimum / Naše doporučení / Naducané (limity OC, ryzyka)",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "pillow",
+    "device": "desktop",
+    "step": 6,
+    "tag": "variants",
+    "tags": [
+      "variants"
+    ],
+    "path": "images/pillow/desktop/06-variants-scrolled.png",
+    "description": "Pillow.cz desktop krok 6: warianty przewinięte — Zákonné minimum 6 720 Kč/rok (0,31 Kč/km), Naše doporučení 20 748 Kč/rok (0,87 Kč/km), Naducané pojištění 27 132 Kč/rok (1,04 Kč/km); udział 5 000 Kč; przyciski Vybrat; pricing za km",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "pillow",
+    "device": "desktop",
+    "step": 7,
+    "tag": "addons",
+    "tags": [
+      "addons"
+    ],
+    "path": "images/pillow/desktop/07-addons.png",
+    "description": "Pillow.cz desktop krok 7: „Může se Vám hodit” — Zavazadla, Nulová spoluúčast, Úraz, Právní asistence; wybrane Naše doporučení 20 748 Kč/rok (0,87 Kč/km); „Pokračovat”",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "pillow",
+    "device": "desktop",
+    "step": 8,
+    "tag": "contract",
+    "tags": [
+      "contract"
+    ],
+    "path": "images/pillow/desktop/08-contract-client-address.png",
+    "description": "Pillow.cz desktop krok 8: formularz umowy — dane klienta i trvalá adresa (Česko, PSČ–obec, ulice); korespondencja / właściciel / provozovatel = shodný s klientem; bez PII w opisie",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "pillow",
+    "device": "desktop",
+    "step": 9,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/pillow/desktop/09-contract-vehicle.png",
+    "description": "Pillow.cz desktop krok 9: sekcja Vozidlo — puste pola VIN i TP / nové osvědčení; opcja „TP zatím nepřidělen”; poniżej nagłówek Platba a počátek",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "pillow",
+    "device": "mobile",
+    "step": 1,
+    "tag": "landing",
+    "tags": [
+      "landing"
+    ],
+    "path": "images/pillow/mobile/01-landing.png",
+    "description": "Pillow.cz mobile krok 1: strona główna — „Pro váš klidný spánek”; CTA „Spočítat cenu”; bez e-maila/telefonu; gwarancja ceny Pillow",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "pillow",
+    "device": "mobile",
+    "step": 2,
+    "tag": "products",
+    "tags": [
+      "products"
+    ],
+    "path": "images/pillow/mobile/02-product-choice.png",
+    "description": "Pillow.cz mobile krok 2: wybór produktu — zniżka 20 %; kafle Pojištění vozidla / majetku / osob z „Spočítat”",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "pillow",
+    "device": "mobile",
+    "step": 3,
+    "tag": "client",
+    "tags": [
+      "client"
+    ],
+    "path": "images/pillow/mobile/03-calculation-client.png",
+    "description": "Pillow.cz mobile krok 3: Výpočet — sekcja Klient (RČ, imię, e-mail, telefon, Česko, PSČ); pola puste; bez PII w opisie",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "pillow",
+    "device": "mobile",
+    "step": 4,
+    "tag": "needs",
+    "tags": [
+      "needs"
+    ],
+    "path": "images/pillow/mobile/04-needs.png",
+    "description": "Pillow.cz mobile krok 4: pojazd + Potřeby — povinné ručení / skla / szkody niezawinione zaznaczone ano; przebieg 10 tys. km/rok",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "pillow",
+    "device": "mobile",
+    "step": 5,
+    "tag": "settings",
+    "tags": [
+      "settings"
+    ],
+    "path": "images/pillow/mobile/05-price-settings.png",
+    "description": "Pillow.cz mobile krok 5: Nastavení ceny (warsztat, Roční, sleva 20 %) i początek tabeli wariantów Zákonné minimum / Naše doporučení / Naducané",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "pillow",
+    "device": "mobile",
+    "step": 6,
+    "tag": "variants",
+    "tags": [
+      "variants"
+    ],
+    "path": "images/pillow/mobile/06-variants-scrolled.png",
+    "description": "Pillow.cz mobile krok 6: warianty z cenami — Zákonné minimum 6 720 Kč/rok (0,31 Kč/km), Naše doporučení 20 748 Kč/rok (0,87 Kč/km); udział 5 000 Kč; cena za km",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "pillow",
+    "device": "mobile",
+    "step": 7,
+    "tag": "addons",
+    "tags": [
+      "addons"
+    ],
+    "path": "images/pillow/mobile/07-addons.png",
+    "description": "Pillow.cz mobile krok 7: „Může se Vám hodit” — Zavazadla, Nulová spoluúčast, Úraz, Právní asistence; rekomendacja 20 748 Kč/rok; „Pokračovat”",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "pillow",
+    "device": "mobile",
+    "step": 8,
+    "tag": "contract",
+    "tags": [
+      "contract"
+    ],
+    "path": "images/pillow/mobile/08-contract-client-address.png",
+    "description": "Pillow.cz mobile krok 8: formularz umowy — klient + trvalá adresa; właściciel/provozovatel shodný s klientem; bez PII w opisie",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "pillow",
+    "device": "mobile",
+    "step": 9,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/pillow/mobile/09-contract-vehicle.png",
+    "description": "Pillow.cz mobile krok 9: Vozidlo — VIN i TP / nové osvědčení; opcja TP zatím nepřidělen",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "pillow",
+    "device": "mobile",
+    "step": 10,
+    "tag": "payment",
+    "tags": [
+      "payment"
+    ],
+    "path": "images/pillow/mobile/10-payment-start.png",
+    "description": "Pillow.cz mobile krok 10: Platba a počátek — data początku ochrony, pierwsza płatność przelewem z konta pojistníka, kolejne: Bankovní převod / Inkaso; „Pokračovat”",
+    "width": 1170,
+    "height": 2532
   }
 ]

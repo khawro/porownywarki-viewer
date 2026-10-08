@@ -27,6 +27,7 @@
     klik: "Klik.cz",
     rixo: "Rixo.cz",
     lovys: "Lovys",
+    pillow: "Pillow.cz",
   };
 
   // Rynek przechwyconego flow (kraj strony/aplikacji). Każdy nowy site → dopisz tutaj.
@@ -58,6 +59,7 @@
     klik: "CZ",
     rixo: "CZ",
     lovys: "FR",
+    pillow: "CZ",
   };
 
   const COUNTRIES = {
