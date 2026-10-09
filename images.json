@@ -13349,5 +13349,283 @@
     "description": "CHECK24 mobile krok 7: koniec formularza (Automobilclub, zgody § 15 VersVermV) — Cloudflare Turnstile „Bestätigen Sie, dass Sie ein Mensch sind” blokuje „Ergebnis anzeigen”; koniec ścieżki częściowej, bez taryf",
     "width": 1170,
     "height": 2532
+  },
+  {
+    "site": "check24",
+    "device": "desktop",
+    "step": 6,
+    "tag": "login",
+    "tags": [
+      "konto",
+      "panel klienta",
+      "login"
+    ],
+    "path": "images/check24/desktop/06-konto-login.png",
+    "description": "Logowanie do konta klienta CHECK24 („Anmelden oder Konto erstellen”) — pole na adres e-mail lub numer telefonu komórkowego, przyciski „Weiter” / „Zurück”; logowanie kodem wysyłanym na e-mail.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "check24",
+    "device": "desktop",
+    "step": 7,
+    "tag": "dashboard",
+    "tags": [
+      "konto",
+      "panel klienta",
+      "dashboard"
+    ],
+    "path": "images/check24/desktop/07-konto-uebersicht.png",
+    "description": "Panel klienta „Mein Konto” (przegląd) — skróty Aktivitäten / Gutscheine / Smily Punkte, program lojalnościowy Smily, pasek „Konto vervollständigen 2 von 5” oraz sekcje: Konto (dane osobowe, logowanie i bezpieczeństwo, metody płatności, Merkzettel, powiadomienia), Services i Optimierungscenter.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "check24",
+    "device": "desktop",
+    "step": 8,
+    "tag": "dane osobowe",
+    "tags": [
+      "konto",
+      "panel klienta",
+      "dane osobowe"
+    ],
+    "path": "images/check24/desktop/08-persoenliche-daten.png",
+    "description": "Dane osobowe („Persönliche Daten”) — sekcje Name, Geburtsdatum, Adresse i numery kontaktowe (w większości „bitte hinzufügen”); zmiany dotyczą tylko przyszłych porównań i wniosków.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "check24",
+    "device": "desktop",
+    "step": 9,
+    "tag": "umowy",
+    "tags": [
+      "konto",
+      "panel klienta",
+      "umowy",
+      "polisy"
+    ],
+    "path": "images/check24/desktop/09-vertraege-versicherungscenter.png",
+    "description": "Umowy — Versicherungscenter: zakładki centrów (Alle, Versicherungscenter, Kreditcenter, Reisecenter…), przycisk „Vertrag hinzufügen & optimieren”, asystent ubezpieczeniowy AI z podpowiedziami oraz pusty stan „Schutzschild vergessen?” z CTA „Versicherung finden”.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "check24",
+    "device": "desktop",
+    "step": 10,
+    "tag": "zapisane oferty",
+    "tags": [
+      "konto",
+      "panel klienta",
+      "zapisane oferty",
+      "merkzettel"
+    ],
+    "path": "images/check24/desktop/10-merkzettel-angebote.png",
+    "description": "Merkzettel — lista zapisanych ofert (pusty stan „Verlieren Sie Ihre Favoriten nicht aus dem Blick”) z CTA „Jetzt vergleichen”.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "check24",
+    "device": "desktop",
+    "step": 11,
+    "tag": "ustawienia",
+    "tags": [
+      "konto",
+      "panel klienta",
+      "ustawienia",
+      "bezpieczeństwo"
+    ],
+    "path": "images/check24/desktop/11-einstellungen-anmelden-sicherheit.png",
+    "description": "Ustawienia: logowanie i bezpieczeństwo („Anmelden und Sicherheit”) — login e-mail (zweryfikowany), numer telefonu do logowania, hasło, passkeys, uwierzytelnianie dwuskładnikowe i aktywne sesje; link „Kundenkonto löschen”.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "check24",
+    "device": "desktop",
+    "step": 12,
+    "tag": "powiadomienia",
+    "tags": [
+      "konto",
+      "panel klienta",
+      "powiadomienia"
+    ],
+    "path": "images/check24/desktop/12-mitteilungen.png",
+    "description": "Powiadomienia („Mitteilungen”) — pusty stan „Sie sind auf dem neuesten Stand” z linkiem „aktualisieren”.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "check24",
+    "device": "desktop",
+    "step": 13,
+    "tag": "payment",
+    "tags": [
+      "konto",
+      "panel klienta",
+      "payment",
+      "ustawienia"
+    ],
+    "path": "images/check24/desktop/13-zahlungsarten-ansicht.png",
+    "description": "Metody płatności („Meine Zahlungsarten”) — wybór Bankverbindung (SEPA) lub karta kredytowa/debetowa oraz formularz „Bankverbindung hinzufügen” (Kontoinhaber, IBAN, Kreditinstitut, „Speichern”).",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "check24",
+    "device": "mobile",
+    "step": 8,
+    "tag": "login",
+    "tags": [
+      "konto",
+      "panel klienta",
+      "login"
+    ],
+    "path": "images/check24/mobile/08-konto-login.png",
+    "description": "Logowanie do konta klienta CHECK24 („Anmelden oder Konto erstellen”) — pole na adres e-mail lub numer telefonu komórkowego, przyciski „Weiter” / „Zurück”; logowanie kodem wysyłanym na e-mail.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "check24",
+    "device": "mobile",
+    "step": 9,
+    "tag": "dashboard",
+    "tags": [
+      "konto",
+      "panel klienta",
+      "dashboard"
+    ],
+    "path": "images/check24/mobile/09-konto-uebersicht.png",
+    "description": "Panel klienta „Mein Konto” (przegląd) — skróty Aktivitäten / Gutscheine / Smily Punkte, program lojalnościowy Smily, pasek „Konto vervollständigen 2 von 5” oraz sekcje: Konto (dane osobowe, logowanie i bezpieczeństwo, metody płatności, Merkzettel, powiadomienia), Services i Optimierungscenter.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "check24",
+    "device": "mobile",
+    "step": 10,
+    "tag": "dashboard",
+    "tags": [
+      "konto",
+      "panel klienta",
+      "dashboard"
+    ],
+    "path": "images/check24/mobile/10-konto-uebersicht-scroll.png",
+    "description": "Panel klienta „Mein Konto” — dalsza część po przewinięciu: sekcje Konto, Services (zmiana danych umowy, wypowiedzenie, Sparalarm, obsługa klienta), Gutscheine und Punkte oraz Optimierungscenter (Versicherungscenter, Kreditcenter i inne).",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "check24",
+    "device": "mobile",
+    "step": 11,
+    "tag": "dane osobowe",
+    "tags": [
+      "konto",
+      "panel klienta",
+      "dane osobowe"
+    ],
+    "path": "images/check24/mobile/11-persoenliche-daten.png",
+    "description": "Dane osobowe („Persönliche Daten”) — sekcje Name, Geburtsdatum, Adresse i numery kontaktowe (w większości „bitte hinzufügen”); zmiany dotyczą tylko przyszłych porównań i wniosków.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "check24",
+    "device": "mobile",
+    "step": 12,
+    "tag": "umowy",
+    "tags": [
+      "konto",
+      "panel klienta",
+      "umowy",
+      "polisy"
+    ],
+    "path": "images/check24/mobile/12-vertraege-versicherungscenter.png",
+    "description": "Umowy — Versicherungscenter: zakładki centrów (Alle, Versicherungscenter, Kreditcenter, Reisecenter…), przycisk „Vertrag hinzufügen & optimieren”, asystent ubezpieczeniowy AI z podpowiedziami oraz pusty stan „Schutzschild vergessen?” z CTA „Versicherung finden”.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "check24",
+    "device": "mobile",
+    "step": 13,
+    "tag": "zapisane oferty",
+    "tags": [
+      "konto",
+      "panel klienta",
+      "zapisane oferty",
+      "merkzettel"
+    ],
+    "path": "images/check24/mobile/13-merkzettel-angebote.png",
+    "description": "Merkzettel — lista zapisanych ofert (pusty stan „Verlieren Sie Ihre Favoriten nicht aus dem Blick”) z CTA „Jetzt vergleichen”.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "check24",
+    "device": "mobile",
+    "step": 14,
+    "tag": "ustawienia",
+    "tags": [
+      "konto",
+      "panel klienta",
+      "ustawienia",
+      "bezpieczeństwo"
+    ],
+    "path": "images/check24/mobile/14-einstellungen-anmelden-sicherheit.png",
+    "description": "Ustawienia: logowanie i bezpieczeństwo („Anmelden und Sicherheit”) — login e-mail (zweryfikowany), numer telefonu do logowania, hasło, passkeys, uwierzytelnianie dwuskładnikowe i aktywne sesje; link „Kundenkonto löschen”.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "check24",
+    "device": "mobile",
+    "step": 15,
+    "tag": "powiadomienia",
+    "tags": [
+      "konto",
+      "panel klienta",
+      "powiadomienia"
+    ],
+    "path": "images/check24/mobile/15-mitteilungen.png",
+    "description": "Powiadomienia („Mitteilungen”) — pusty stan „Sie sind auf dem neuesten Stand” z linkiem „aktualisieren”.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "check24",
+    "device": "mobile",
+    "step": 16,
+    "tag": "payment",
+    "tags": [
+      "konto",
+      "panel klienta",
+      "payment",
+      "ustawienia"
+    ],
+    "path": "images/check24/mobile/16-zahlungsarten-ansicht.png",
+    "description": "Metody płatności („Meine Zahlungsarten”) — wybór Bankverbindung (SEPA) lub karta kredytowa/debetowa oraz formularz „Bankverbindung hinzufügen” (Kontoinhaber, IBAN, Kreditinstitut, „Speichern”).",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "check24",
+    "device": "mobile",
+    "step": 17,
+    "tag": "menu",
+    "tags": [
+      "konto",
+      "panel klienta",
+      "menu"
+    ],
+    "path": "images/check24/mobile/17-mobile-menu.png",
+    "description": "Menu profilu w wersji mobilnej — liczniki 0 Aktivitäten / 0 Merkzettel / 0 Smily Punkte, program Smily, lista pozycji konta (dane osobowe, bezpieczeństwo, płatności, Merkzettel, powiadomienia) i „Abmelden”.",
+    "width": 1170,
+    "height": 2532
   }
 ]
