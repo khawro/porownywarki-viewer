@@ -13485,7 +13485,7 @@
       "login"
     ],
     "path": "images/check24/mobile/08-konto-login.png",
-    "description": "Logowanie do konta klienta CHECK24 („Anmelden oder Konto erstellen”) — pole na adres e-mail lub numer telefonu komórkowego, przyciski „Weiter” / „Zurück”; logowanie kodem wysyłanym na e-mail.",
+    "description": "Logowanie do konta klienta CHECK24 („Anmelden”) — po podaniu adresu e-mail pole hasła, opcja „Angemeldet bleiben”, link „Passwort vergessen?”, przycisk „Anmelden” oraz alternatywa „Mit Einmalcode anmelden” (jednorazowy kod).",
     "width": 1170,
     "height": 2532
   },
@@ -13500,7 +13500,7 @@
       "dashboard"
     ],
     "path": "images/check24/mobile/09-konto-uebersicht.png",
-    "description": "Panel klienta „Mein Konto” (przegląd) — skróty Aktivitäten / Gutscheine / Smily Punkte, program lojalnościowy Smily, pasek „Konto vervollständigen 2 von 5” oraz sekcje: Konto (dane osobowe, logowanie i bezpieczeństwo, metody płatności, Merkzettel, powiadomienia), Services i Optimierungscenter.",
+    "description": "Panel klienta „Mein Konto” (przegląd) — skróty Aktivitäten / Merkzettel / Gutscheine / Smily Punkte, baner włączenia powiadomień, pole asystentki „Sophie”, program lojalnościowy Smily i pasek „Konto vervollständigen 2 von 5”.",
     "width": 1170,
     "height": 2532
   },
@@ -13515,7 +13515,7 @@
       "dashboard"
     ],
     "path": "images/check24/mobile/10-konto-uebersicht-scroll.png",
-    "description": "Panel klienta „Mein Konto” — dalsza część po przewinięciu: sekcje Konto, Services (zmiana danych umowy, wypowiedzenie, Sparalarm, obsługa klienta), Gutscheine und Punkte oraz Optimierungscenter (Versicherungscenter, Kreditcenter i inne).",
+    "description": "Panel klienta „Mein Konto” — dalsza część po przewinięciu: „Konto vervollständigen” (dodanie numeru telefonu), sekcja Konto (dane osobowe, logowanie i bezpieczeństwo, metody płatności, Merkzettel, powiadomienia, oceny) i początek sekcji Services (zmiana danych umowy, wypowiedzenie, Sparalarm).",
     "width": 1170,
     "height": 2532
   },
@@ -13546,7 +13546,7 @@
       "polisy"
     ],
     "path": "images/check24/mobile/12-vertraege-versicherungscenter.png",
-    "description": "Umowy — Versicherungscenter: zakładki centrów (Alle, Versicherungscenter, Kreditcenter, Reisecenter…), przycisk „Vertrag hinzufügen & optimieren”, asystent ubezpieczeniowy AI z podpowiedziami oraz pusty stan „Schutzschild vergessen?” z CTA „Versicherung finden”.",
+    "description": "Umowy — Versicherungscenter (widok „Aktivitäten”): zakładki Versicherung, Kredit, Reise, Geldanlage, przycisk „Vertrag hinzufügen & optimieren”, asystent ubezpieczeniowy AI z podpowiedziami oraz pusty stan „Schutzschild vergessen?” z CTA „Versicherung finden”.",
     "width": 1170,
     "height": 2532
   },
@@ -13609,7 +13609,7 @@
       "ustawienia"
     ],
     "path": "images/check24/mobile/16-zahlungsarten-ansicht.png",
-    "description": "Metody płatności („Meine Zahlungsarten”) — wybór Bankverbindung (SEPA) lub karta kredytowa/debetowa oraz formularz „Bankverbindung hinzufügen” (Kontoinhaber, IBAN, Kreditinstitut, „Speichern”).",
+    "description": "Metody płatności („Zahlungsarten”) — lista zapisanych metod do dodania: Bankverbindung (SEPA) oraz karta kredytowa/debetowa, każda z przyciskiem „+”.",
     "width": 1170,
     "height": 2532
   },
