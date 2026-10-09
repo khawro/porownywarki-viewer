@@ -32,6 +32,7 @@
     hugo: "Hugo",
     cleverea: "Cleverea",
     balcia: "Balcia",
+    check24: "CHECK24",
   };
 
   // Rynek przechwyconego flow (kraj strony/aplikacji). Każdy nowy site → dopisz tutaj.
@@ -68,6 +69,7 @@
     hugo: "US",
     cleverea: "ES",
     balcia: "PL",
+    check24: "DE",
   };
 
   // Strony ukryte w galerii (pliki i wpisy w images.json zostają). Aby przywrócić — usuń id z listy.

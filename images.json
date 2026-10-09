@@ -13193,5 +13193,161 @@
     "description": "Balcia mobile krok 6: po „Dalej” loader „Pracujemy nad ofertą dla Ciebie”, a następnie modal „BSY-1857 – Wystąpił błąd w kalkulacji” (Close); koniec ścieżki częściowej, bez ceny",
     "width": 1170,
     "height": 2532
+  },
+  {
+    "site": "check24",
+    "device": "desktop",
+    "step": 1,
+    "tag": "landing",
+    "tags": [
+      "landing"
+    ],
+    "path": "images/check24/desktop/01-landing.png",
+    "description": "CHECK24 desktop krok 1: strona Kfz-Versicherung — „Deutschlands bester Vergleich für Kfz-Versicherungen”; wybór Neu angeschafftes Auto / Bestehendes Auto + „wechseln”; asystentka AI Sophie; 330 taryf, Nirgendwo Günstiger Garantie; badge „Bis 850 € sparen”",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "check24",
+    "device": "desktop",
+    "step": 2,
+    "tag": "situation",
+    "tags": [
+      "situation"
+    ],
+    "path": "images/check24/desktop/02-situation.png",
+    "description": "CHECK24 desktop krok 2: „Situation” — zaznaczone Bestehendes Auto (zmiana ubezpieczenia), Versicherungsbeginn 01.01.2027; opcja FotoCHECK (dane z dokumentu polisy); „weiter”",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "check24",
+    "device": "desktop",
+    "step": 3,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/check24/desktop/03-fahrzeug.png",
+    "description": "CHECK24 desktop krok 3: „Ihr Auto” — wybór pojazdu przez Fahrzeugschein (HSN/TSN) lub Marke & Modell (zaznaczone): VW Golf 1.0 TSI, benzyna, hatchback, 110 KM / 81 kW, HSN/TSN 0603/CKL; pierwsza rejestracja 03/2018, wartość ok. 22 000 €; finansowanie",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "check24",
+    "device": "desktop",
+    "step": 4,
+    "tag": "usage",
+    "tags": [
+      "usage"
+    ],
+    "path": "images/check24/desktop/04-nutzung.png",
+    "description": "CHECK24 desktop krok 4: „Nutzung Ihres Autos” — nur privat (z dojazdami do pracy), 12 000 km/rok, nocny postój Einzelgarage; podsumowanie „Ihr Auto” (Eigenfinanziert)",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "check24",
+    "device": "desktop",
+    "step": 5,
+    "tag": "driver",
+    "tags": [
+      "driver"
+    ],
+    "path": "images/check24/desktop/05-fahrer.png",
+    "description": "CHECK24 desktop krok 5: ubezpieczający i kierowcy — podsumowanie Versicherungsnehmer (mężczyzna, ur. 1985, prawo jazdy od 2005, kawaler, Angestellte/r, Berlin, brak punktów we Flensburgu); „Fahrer Ihres Autos” i Halter; bez PII w opisie",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "check24",
+    "device": "mobile",
+    "step": 1,
+    "tag": "landing",
+    "tags": [
+      "landing"
+    ],
+    "path": "images/check24/mobile/01-landing.png",
+    "description": "CHECK24 mobile krok 1: strona Kfz-Versicherung — „Deutschlands bester Vergleich für Kfz-Versicherungen”; wybór Neu angeschafftes Auto / Bestehendes Auto + „wechseln”; asystentka AI Sophie; 330 taryf, Nirgendwo Günstiger Garantie; badge „Bis 850 € sparen”",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "check24",
+    "device": "mobile",
+    "step": 2,
+    "tag": "situation",
+    "tags": [
+      "situation"
+    ],
+    "path": "images/check24/mobile/02-situation.png",
+    "description": "CHECK24 mobile krok 2: „Situation” — zaznaczone Bestehendes Auto (zmiana ubezpieczenia), Versicherungsbeginn 01.01.2027; opcja FotoCHECK (dane z dokumentu polisy); „weiter”",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "check24",
+    "device": "mobile",
+    "step": 3,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle"
+    ],
+    "path": "images/check24/mobile/03-fahrzeug.png",
+    "description": "CHECK24 mobile krok 3: „Ihr Auto” — wybór Fahrzeugschein (HSN/TSN) lub Marke & Modell (zaznaczone): VW Golf, benzyna, hatchback, 110–119 KM",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "check24",
+    "device": "mobile",
+    "step": 4,
+    "tag": "usage",
+    "tags": [
+      "usage"
+    ],
+    "path": "images/check24/mobile/04-nutzung.png",
+    "description": "CHECK24 mobile krok 4: „Nutzung Ihres Autos” — nur privat (z dojazdami do pracy), 12 000 km/rok, nocny postój Einzelgarage; podsumowanie „Ihr Auto” (Eigenfinanziert)",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "check24",
+    "device": "mobile",
+    "step": 5,
+    "tag": "driver",
+    "tags": [
+      "driver"
+    ],
+    "path": "images/check24/mobile/05-fahrer.png",
+    "description": "CHECK24 mobile krok 5: „Fahrer des Autos” — Versicherungsnehmer / z dodatkowymi kierowcami; Halter des Autos; data rejestracji na posiadacza; „weiter”; dalej sekcje aktualne ubezpieczenie, SF-Rabatt, Rabatte",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "check24",
+    "device": "mobile",
+    "step": 6,
+    "tag": "insurance",
+    "tags": [
+      "insurance"
+    ],
+    "path": "images/check24/mobile/06-vorversicherung.png",
+    "description": "CHECK24 mobile krok 6: „Ihre aktuelle Versicherung” — obecny ubezpieczyciel Allianz, ponad 3 lata, umowa niewypowiedziana; 1-Klick-Kündigungsservice; aktualna składka (opcjonalnie)",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "check24",
+    "device": "mobile",
+    "step": 7,
+    "tag": "captcha",
+    "tags": [
+      "captcha"
+    ],
+    "path": "images/check24/mobile/07-captcha-blocked.png",
+    "description": "CHECK24 mobile krok 7: koniec formularza (Automobilclub, zgody § 15 VersVermV) — Cloudflare Turnstile „Bestätigen Sie, dass Sie ein Mensch sind” blokuje „Ergebnis anzeigen”; koniec ścieżki częściowej, bez taryf",
+    "width": 1170,
+    "height": 2532
   }
 ]
