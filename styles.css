@@ -1023,3 +1023,33 @@ body.lightbox-open { overflow: hidden; }
 }
 
 .tag-chip .site-flag { margin-right: 0.35em; }
+
+/* ——— Wiele flowów na stronę ——— */
+.flow-tabs {
+  display: inline-flex;
+  padding: 3px;
+  background: var(--surface);
+  border-radius: var(--radius-pill);
+  gap: 2px;
+  flex-shrink: 0;
+  align-self: center;
+  margin: 0 auto 12px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.flow-tabs[hidden] { display: none; }
+.flow-count {
+  margin-left: 4px;
+  color: var(--faint);
+  font-variant-numeric: tabular-nums;
+}
+.flow-badge {
+  margin-left: 8px;
+  padding: 1px 8px;
+  border-radius: var(--radius-pill);
+  background: var(--surface);
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 500;
+  white-space: nowrap;
+}

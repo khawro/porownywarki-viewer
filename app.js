@@ -75,6 +75,16 @@
   // Strony ukryte w galerii (pliki i wpisy w images.json zostają). Aby przywrócić — usuń id z listy.
   const HIDDEN_SITES = new Set(["balcia"]);
 
+  // Flowy w obrębie strony: wpis bez pola "flow" należy do flow domyślnego.
+  // Nowy flow = nowy klucz tutaj + "flow": "<klucz>" w images.json.
+  const DEFAULT_FLOW = "main";
+  const FLOW_LABELS = {
+    main: "Kalkulator",
+    profil: "Profil",
+  };
+  // kolejność zakładek (nieznane flowy na końcu, alfabetycznie)
+  const FLOW_ORDER = ["main", "profil"];
+
   const COUNTRIES = {
     PL: { flag: "\u{1F1F5}\u{1F1F1}", name: "Polska" },
     US: { flag: "\u{1F1FA}\u{1F1F8}", name: "USA" },
@@ -104,6 +114,7 @@
     tagsOpen: false,
     device: "desktop",
     site: null,
+    flow: DEFAULT_FLOW,
     stepIndex: 0,
     search: "",
     activeTag: null,
@@ -113,6 +124,29 @@
 
   const $ = (sel) => document.querySelector(sel);
   const $$ = (sel) => [...document.querySelectorAll(sel)];
+
+  function flowOf(item) {
+    return item.flow || DEFAULT_FLOW;
+  }
+
+  function flowLabel(f) {
+    return FLOW_LABELS[f] || f;
+  }
+
+  // flowy strony dla urządzenia: [{ id, count }]
+  function siteFlows(siteId, device = state.device) {
+    const m = new Map();
+    state.images
+      .filter((i) => i.site === siteId && i.device === device)
+      .forEach((i) => m.set(flowOf(i), (m.get(flowOf(i)) || 0) + 1));
+    const rank = (f) => {
+      const k = FLOW_ORDER.indexOf(f);
+      return k < 0 ? FLOW_ORDER.length : k;
+    };
+    return [...m.entries()]
+      .map(([id, count]) => ({ id, count }))
+      .sort((a, b) => rank(a.id) - rank(b.id) || a.id.localeCompare(b.id));
+  }
 
   function siteLabel(id) {
     return SITE_LABELS[id] || id;
@@ -184,6 +218,8 @@
       item.description,
       item.site,
       siteLabel(item.site),
+      item.flow,
+      flowLabel(flowOf(item)),
     ]
       .map(normalizeTag)
       .join(" ");
@@ -200,14 +236,19 @@
 
   function flowItems() {
     return state.images
-      .filter((i) => i.site === state.site && i.device === state.device)
+      .filter(
+        (i) =>
+          i.site === state.site &&
+          i.device === state.device &&
+          flowOf(i) === state.flow
+      )
       .sort((a, b) => a.step - b.step);
   }
 
   function coverForSite(siteId) {
     const forDevice = state.images
       .filter((i) => i.site === siteId && i.device === state.device)
-      .sort((a, b) => a.step - b.step);
+      .sort((a, b) => (flowOf(a) !== DEFAULT_FLOW) - (flowOf(b) !== DEFAULT_FLOW) || a.step - b.step);
     if (forDevice.length) return forDevice[0];
     const any = state.images
       .filter((i) => i.site === siteId)
@@ -280,9 +321,14 @@
         const img = cover
           ? `<img class="site-card-thumb" src="${cover.path}" alt="" loading="lazy" />`
           : `<div class="site-card-thumb" style="display:flex;align-items:center;justify-content:center;color:var(--faint);font-size:13px">Brak zrzutu</div>`;
+        const nFlows = siteFlows(id).length;
+        const badge =
+          nFlows > 1
+            ? `<span class="flow-badge" title="${escapeHtml(siteFlows(id).map((f) => flowLabel(f.id)).join(", "))}">${nFlows} ${nFlows < 5 ? "flowy" : "flowów"}</span>`
+            : "";
         return `<button type="button" class="site-card${mobile}" data-site="${id}">
           ${img}
-          <span class="site-card-label">${siteName(id)}</span>
+          <span class="site-card-label">${siteName(id)}${badge}</span>
         </button>`;
       })
       .join("");
@@ -367,7 +413,27 @@
       item.device === "mobile" ? "Mobile" : "Desktop";
   }
 
+  function renderFlowTabs() {
+    const el = $("#flow-tabs");
+    if (!el) return;
+    const flows = siteFlows(state.site);
+    el.hidden = flows.length < 2;
+    el.innerHTML = flows
+      .map(
+        (f) =>
+          `<button type="button" class="pill-btn${
+            f.id === state.flow ? " is-active" : ""
+          }" data-flow="${escapeHtml(f.id)}">${escapeHtml(flowLabel(f.id))} <span class="flow-count">${f.count}</span></button>`
+      )
+      .join("");
+  }
+
   function renderFlow() {
+    // wybrany flow niedostępny dla urządzenia → pierwszy dostępny
+    const flows = siteFlows(state.site);
+    if (flows.length && !flows.some((f) => f.id === state.flow))
+      state.flow = flows[0].id;
+    renderFlowTabs();
     const items = flowItems();
     if (state.stepIndex >= items.length)
       state.stepIndex = Math.max(0, items.length - 1);
@@ -400,6 +466,7 @@
     img.src = item.path;
     img.alt = item.description || `${item.site} krok ${item.step}`;
     renderSidebar(item);
+    writeHash();
     revealActiveThumb();
     preloadNeighbours(items);
     if (state.lightbox) renderLightbox();
@@ -536,6 +603,8 @@
       .sort((a, b) => {
         const bySite = siteLabel(a.site).localeCompare(siteLabel(b.site), "pl");
         if (bySite) return bySite;
+        const byFlow = flowOf(a).localeCompare(flowOf(b));
+        if (byFlow) return byFlow;
         return a.step - b.step;
       });
 
@@ -547,10 +616,10 @@
         const descHtml = desc
           ? `<span class="result-card-desc">${desc}</span>`
           : "";
-        return `<button type="button" class="result-card${mobile}" data-site="${item.site}" data-step="${item.step}">
+        return `<button type="button" class="result-card${mobile}" data-site="${item.site}" data-flow="${escapeHtml(flowOf(item))}" data-step="${item.step}">
           <img class="result-card-thumb" src="${item.path}" alt="" loading="lazy" />
           <span class="result-card-app">${siteName(item.site)}</span>
-          <span class="result-card-step">krok ${item.step}</span>
+          <span class="result-card-step">${siteFlows(item.site).length > 1 ? escapeHtml(flowLabel(flowOf(item))) + " · " : ""}krok ${item.step}</span>
           ${descHtml}
         </button>`;
       })
@@ -568,6 +637,7 @@
       state.site = null;
       state.stepIndex = 0;
     }
+    if (state.view !== "flow" || !state.site) writeHash();
     if (isCompareMode()) {
       state.view = "compare";
     } else if (state.site) {
@@ -611,8 +681,9 @@
     syncMode();
   }
 
-  function setSite(site) {
+  function setSite(site, flow = DEFAULT_FLOW) {
     state.site = site;
+    state.flow = flow;
     state.stepIndex = 0;
     state.search = "";
     state.activeTag = null;
@@ -635,7 +706,54 @@
     syncMode();
   }
 
+  /* ——— Deep link: #site / #site/step / #site/flow/step ——— */
+  function writeHash() {
+    let h = "";
+    if (state.site && !isCompareMode()) {
+      const step = flowItems()[state.stepIndex];
+      const parts = [state.site];
+      if (state.flow !== DEFAULT_FLOW) parts.push(state.flow);
+      if (step) parts.push(step.step);
+      h = "#" + parts.map(encodeURIComponent).join("/");
+    }
+    if (location.hash !== h)
+      history.replaceState(null, "", h || location.pathname + location.search);
+  }
+
+  function readHash() {
+    const parts = location.hash.replace(/^#/, "").split("/").filter(Boolean).map(decodeURIComponent);
+    if (!parts.length || !state.sites.includes(parts[0])) return false;
+    let flow = DEFAULT_FLOW;
+    let step = null;
+    if (parts[1] && !/^\d+$/.test(parts[1])) {
+      flow = parts[1];
+      step = parts[2];
+    } else step = parts[1];
+    state.site = parts[0];
+    state.flow = flow;
+    if (!siteHasDevice(state.site) && siteHasDevice(state.site, "mobile")) {
+      state.device = "mobile";
+      $$(".device-toggle .pill-btn").forEach((b) =>
+        b.classList.toggle("is-active", b.dataset.device === "mobile")
+      );
+    }
+    const items = flowItems();
+    const idx = step ? items.findIndex((i) => String(i.step) === String(step)) : 0;
+    state.stepIndex = idx >= 0 ? idx : 0;
+    return true;
+  }
+
   function bind() {
+    $("#flow-tabs").addEventListener("click", (e) => {
+      const btn = e.target.closest("[data-flow]");
+      if (!btn || btn.dataset.flow === state.flow) return;
+      state.flow = btn.dataset.flow;
+      state.stepIndex = 0;
+      renderFlow();
+    });
+    window.addEventListener("hashchange", () => {
+      if (readHash()) syncMode();
+    });
     $$(".device-toggle .pill-btn").forEach((btn) => {
       btn.addEventListener("click", () => setDevice(btn.dataset.device));
     });
@@ -722,6 +840,7 @@
       const card = e.target.closest("[data-site][data-step]");
       if (!card) return;
       state.site = card.dataset.site;
+      state.flow = card.dataset.flow || DEFAULT_FLOW;
       state.search = "";
       state.activeTag = null;
       $("#tag-search").value = "";
@@ -812,6 +931,7 @@
     state.siteCounts = countSites();
     state.site = null;
     bind();
+    readHash();
     setTagsOpen(false);
     syncMode();
   }

@@ -47,3 +47,31 @@ Obecne przypisanie: PL — Rankomat, Kiosk Polis, Mubi, Beesafe, Link4, Trasti, 
 **Ukryte strony:** `HIDDEN_SITES` w `app.js` odfiltrowuje wpisy z `images.json` przy ładowaniu (galeria, tagi, wyszukiwarka, flow). Obecnie ukryta: **Balcia** (`balcia`) — za mało ekranów, do uzupełnienia. Pliki `images/balcia/` i wpisy w `images.json` zostają; aby przywrócić, usuń `"balcia"` z `HIDDEN_SITES` i dopisz ją z powrotem do listy stron na górze README.
 
 Flagi rysuje dołączony font `fonts/TwemojiCountryFlags.woff2` (z [country-flag-emoji-polyfill](https://github.com/talkjs/country-flag-emoji-polyfill), grafiki Twemoji © Twitter/X, CC-BY 4.0), bo np. Windows nie ma flag w systemowych emoji. Gdy flagi i tak się nie wyrenderują, zamiast nich pokazuje się mały badge z kodem kraju (`PL`, `US`…).
+
+## Kilka flowów na stronę (np. Kalkulator + Profil)
+
+Strona może mieć kilka flowów. Wpis w `images.json` bez pola `flow` należy do flow
+domyślnego (`main`, etykieta „Kalkulator”). Dodatkowy flow:
+
+1. Zrzuty do `images/<site>/<flow>/<device>/NN-slug.png`, np.
+   `images/gocompare/profil/desktop/01-login.png` (flow domyślny zostaje w `images/<site>/<device>/`).
+2. Wpisy w `images.json` z polem `"flow"`. Numeracja `step` od 1 osobno w każdym flow i urządzeniu:
+   ```json
+   {
+     "site": "gocompare",
+     "flow": "profil",
+     "device": "desktop",
+     "step": 1,
+     "tag": "login",
+     "tags": ["login", "konto"],
+     "path": "images/gocompare/profil/desktop/01-login.png",
+     "description": "Logowanie do konta…",
+     "width": 1920,
+     "height": 1200
+   }
+   ```
+3. Etykieta w `FLOW_LABELS` w `app.js` (np. `profil: "Profil"`); kolejność zakładek w `FLOW_ORDER`.
+
+Gdy strona ma ponad 1 flow, widok strony pokazuje przełącznik flowów z liczbą kroków,
+a karta w siatce plakietkę „N flowy”. Wyszukiwarka obejmuje nazwy flowów.
+Deep link: `#<site>`, `#<site>/<krok>`, `#<site>/<flow>/<krok>` (np. `#gocompare/profil/3`).
