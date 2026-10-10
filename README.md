@@ -75,3 +75,10 @@ domyślnego (`main`, etykieta „Kalkulator”). Dodatkowy flow:
 Gdy strona ma ponad 1 flow, widok strony pokazuje przełącznik flowów z liczbą kroków,
 a karta w siatce plakietkę „N flowy”. Wyszukiwarka obejmuje nazwy flowów.
 Deep link: `#<site>`, `#<site>/<krok>`, `#<site>/<flow>/<krok>` (np. `#gocompare/profil/3`).
+
+### Go.Compare — Profil
+
+`gocompare` ma dwa flowy: Kalkulator (wycena auta) i Profil (konto klienta: logowanie
+kodem jednorazowym z maila — bez hasła, panel z poprzednimi wycenami, dane osobowe,
+bezpieczeństwo, preferencje komunikacji, nagrody; na mobile także menu i zapisane wyceny).
+Desktop 8 kroków, mobile 11 — `images/gocompare/profil/{desktop,mobile}/`.

@@ -13627,5 +13627,303 @@
     "description": "Menu profilu w wersji mobilnej — liczniki 0 Aktivitäten / 0 Merkzettel / 0 Smily Punkte, program Smily, lista pozycji konta (dane osobowe, bezpieczeństwo, płatności, Merkzettel, powiadomienia) i „Abmelden”.",
     "width": 1170,
     "height": 2532
+  },
+  {
+    "site": "gocompare",
+    "flow": "profil",
+    "device": "desktop",
+    "step": 1,
+    "tag": "login",
+    "tags": [
+      "login",
+      "konto"
+    ],
+    "path": "images/gocompare/profil/desktop/01-login.png",
+    "description": "Logowanie do konta Go.Compare — podanie adresu e-mail; bez hasła, logowanie kodem jednorazowym wysyłanym mailem.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "gocompare",
+    "flow": "profil",
+    "device": "desktop",
+    "step": 2,
+    "tag": "login",
+    "tags": [
+      "login",
+      "konto",
+      "kod jednorazowy"
+    ],
+    "path": "images/gocompare/profil/desktop/02-code-step.png",
+    "description": "Wpisanie jednorazowego kodu z maila, który potwierdza logowanie.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "gocompare",
+    "flow": "profil",
+    "device": "desktop",
+    "step": 3,
+    "tag": "panel klienta",
+    "tags": [
+      "panel klienta",
+      "konto",
+      "oferty"
+    ],
+    "path": "images/gocompare/profil/desktop/03-account-dashboard.png",
+    "description": "Panel konta: strona ubezpieczenia auta z sekcją „Your previous quotes” (poprzednie wyceny).",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "gocompare",
+    "flow": "profil",
+    "device": "desktop",
+    "step": 4,
+    "tag": "ustawienia",
+    "tags": [
+      "ustawienia",
+      "konto",
+      "dane"
+    ],
+    "path": "images/gocompare/profil/desktop/04-profile-personal-details.png",
+    "description": "Profil: dane osobowe użytkownika z możliwością edycji.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "gocompare",
+    "flow": "profil",
+    "device": "desktop",
+    "step": 5,
+    "tag": "ustawienia",
+    "tags": [
+      "ustawienia",
+      "konto",
+      "bezpieczeństwo"
+    ],
+    "path": "images/gocompare/profil/desktop/05-security-change-password.png",
+    "description": "Bezpieczeństwo: ekran zmiany hasła.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "gocompare",
+    "flow": "profil",
+    "device": "desktop",
+    "step": 6,
+    "tag": "ustawienia",
+    "tags": [
+      "ustawienia",
+      "konto",
+      "zgody"
+    ],
+    "path": "images/gocompare/profil/desktop/06-communication-preference-centre.png",
+    "description": "Centrum preferencji komunikacji: zgody marketingowe i przypomnienia o odnowieniu polisy.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "gocompare",
+    "flow": "profil",
+    "device": "desktop",
+    "step": 7,
+    "tag": "nagrody",
+    "tags": [
+      "nagrody",
+      "konto"
+    ],
+    "path": "images/gocompare/profil/desktop/07-rewards.png",
+    "description": "Nagrody (Rewards) dostępne dla klientów Go.Compare.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "gocompare",
+    "flow": "profil",
+    "device": "desktop",
+    "step": 8,
+    "tag": "nagrody",
+    "tags": [
+      "nagrody",
+      "konto"
+    ],
+    "path": "images/gocompare/profil/desktop/08-rewards-scroll.png",
+    "description": "Nagrody — dalsza część strony po przewinięciu.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "gocompare",
+    "flow": "profil",
+    "device": "mobile",
+    "step": 1,
+    "tag": "login",
+    "tags": [
+      "login",
+      "konto"
+    ],
+    "path": "images/gocompare/profil/mobile/01-login.png",
+    "description": "Logowanie do konta Go.Compare — podanie adresu e-mail; bez hasła, logowanie kodem jednorazowym wysyłanym mailem.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "gocompare",
+    "flow": "profil",
+    "device": "mobile",
+    "step": 2,
+    "tag": "login",
+    "tags": [
+      "login",
+      "konto",
+      "kod jednorazowy"
+    ],
+    "path": "images/gocompare/profil/mobile/02-code-step.png",
+    "description": "Wpisanie jednorazowego kodu z maila, który potwierdza logowanie.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "gocompare",
+    "flow": "profil",
+    "device": "mobile",
+    "step": 3,
+    "tag": "panel klienta",
+    "tags": [
+      "panel klienta",
+      "konto",
+      "oferty"
+    ],
+    "path": "images/gocompare/profil/mobile/03-account-dashboard.png",
+    "description": "Panel konta: strona ubezpieczenia auta z sekcją „Your previous quotes” (poprzednie wyceny).",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "gocompare",
+    "flow": "profil",
+    "device": "mobile",
+    "step": 4,
+    "tag": "panel klienta",
+    "tags": [
+      "panel klienta",
+      "konto",
+      "nawigacja"
+    ],
+    "path": "images/gocompare/profil/mobile/04-mobile-menu-navigation.png",
+    "description": "Menu nawigacji konta na mobile: profil, bezpieczeństwo, komunikacja, nagrody, zapisane wyceny.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "gocompare",
+    "flow": "profil",
+    "device": "mobile",
+    "step": 5,
+    "tag": "ustawienia",
+    "tags": [
+      "ustawienia",
+      "konto",
+      "dane"
+    ],
+    "path": "images/gocompare/profil/mobile/05-profile-personal-details.png",
+    "description": "Profil: dane osobowe użytkownika z możliwością edycji.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "gocompare",
+    "flow": "profil",
+    "device": "mobile",
+    "step": 6,
+    "tag": "ustawienia",
+    "tags": [
+      "ustawienia",
+      "konto",
+      "bezpieczeństwo"
+    ],
+    "path": "images/gocompare/profil/mobile/06-security-change-password.png",
+    "description": "Bezpieczeństwo: ekran zmiany hasła.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "gocompare",
+    "flow": "profil",
+    "device": "mobile",
+    "step": 7,
+    "tag": "ustawienia",
+    "tags": [
+      "ustawienia",
+      "konto",
+      "zgody"
+    ],
+    "path": "images/gocompare/profil/mobile/07-communication-preference-centre.png",
+    "description": "Centrum preferencji komunikacji: zgody marketingowe i przypomnienia o odnowieniu polisy.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "gocompare",
+    "flow": "profil",
+    "device": "mobile",
+    "step": 8,
+    "tag": "nagrody",
+    "tags": [
+      "nagrody",
+      "konto"
+    ],
+    "path": "images/gocompare/profil/mobile/08-rewards.png",
+    "description": "Nagrody (Rewards) dostępne dla klientów Go.Compare.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "gocompare",
+    "flow": "profil",
+    "device": "mobile",
+    "step": 9,
+    "tag": "nagrody",
+    "tags": [
+      "nagrody",
+      "konto"
+    ],
+    "path": "images/gocompare/profil/mobile/09-rewards-scroll.png",
+    "description": "Nagrody — dalsza część strony po przewinięciu.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "gocompare",
+    "flow": "profil",
+    "device": "mobile",
+    "step": 10,
+    "tag": "oferty",
+    "tags": [
+      "oferty",
+      "konto",
+      "panel klienta"
+    ],
+    "path": "images/gocompare/profil/mobile/10-saved-quotes.png",
+    "description": "Zapisane wyceny w koncie klienta.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "gocompare",
+    "flow": "profil",
+    "device": "mobile",
+    "step": 11,
+    "tag": "oferty",
+    "tags": [
+      "oferty",
+      "konto",
+      "panel klienta"
+    ],
+    "path": "images/gocompare/profil/mobile/11-saved-quotes-scroll.png",
+    "description": "Zapisane wyceny — dalsza część listy po przewinięciu.",
+    "width": 1170,
+    "height": 2532
   }
 ]
