@@ -167,4 +167,4 @@ Logowanie User ID + hasło; założenie konta wymaga numeru polisy, nazwiska, da
 
 ### Rankomat — Konto
 
-Brak linku logowania w nagłówku — wejście tylko przez /konto. Rejestracja e-mail + hasło z jedną zgodą na informacje handlowe (zaznaczona), aktywacja linkiem z maila, panel z kalkulacjami, ustawienia z opcjonalnym 2FA SMS; na mobile menu strony i menu konta. Desktop 7 kroków, mobile 9 — `images/rankomat/konto/{desktop,mobile}/`.
+Brak linku logowania w nagłówku — wejście tylko przez /konto. Rejestracja e-mail + hasło z jedną opcjonalną zgodą na informacje handlowe (domyślnie odznaczona; zaznaczyliśmy ją), aktywacja linkiem z maila, panel z kalkulacjami, ustawienia z opcjonalnym 2FA SMS; na mobile menu strony i menu konta. Desktop 7 kroków, mobile 9 — `images/rankomat/konto/{desktop,mobile}/`.
