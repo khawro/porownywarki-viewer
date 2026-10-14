@@ -140,3 +140,7 @@ LINK4 nie ma konta klienta; jedyne logowanie to status szkody (/iss/logowanie) �
 ### Lovys — Konto (częściowy)
 
 Logowanie na go.lovys.com/fr/login: tylko „Se connecter”, „Mot de passe oublié” i „S’assurer” — brak rejestracji, konto powstaje po zakupie polisy. Menu mobilne bez linku do konta. Desktop 1 krok, mobile 2 — `images/lovys/konto/{desktop,mobile}/`.
+
+### Mubi — Konto
+
+Rejestracja e-mailem + hasło (lub Google/Facebook), bez zgód; aktywacja linkiem z maila. Profil z zapisanymi kalkulacjami, edycja danych, „Zmień zgody” = „Brak zgód” (brak checkboxów marketingowych), zmiana hasła; na mobile menu. Desktop 9 kroków, mobile 8 — `images/mubi/konto/{desktop,mobile}/`.

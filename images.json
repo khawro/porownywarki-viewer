@@ -15523,5 +15523,262 @@
     "description": "Menu mobilne z listą ubezpieczeń (habitation, auto, mobilités douces, animaux, smartphone, santé, emprunteur…) z cenami „dès” — bez linku do konta.",
     "width": 1170,
     "height": 2532
+  },
+  {
+    "site": "mubi",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 1,
+    "tag": "login",
+    "tags": [
+      "login",
+      "konto",
+      "aktywacja"
+    ],
+    "path": "images/mubi/konto/desktop/01-login-modal-inactive-account.webp",
+    "description": "Modal logowania Mubi (Google, Facebook lub e-mail + hasło) z komunikatem, że konto nie zostało jeszcze aktywowane — aktywacja linkiem z maila.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "mubi",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 2,
+    "tag": "rejestracja",
+    "tags": [
+      "rejestracja",
+      "konto"
+    ],
+    "path": "images/mubi/konto/desktop/02-register-entry-options.webp",
+    "description": "„Utwórz konto” — wybór: Google, Facebook lub rejestracja e-mailem.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "mubi",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 3,
+    "tag": "rejestracja",
+    "tags": [
+      "rejestracja",
+      "hasło"
+    ],
+    "path": "images/mubi/konto/desktop/03-register-email-password-form.webp",
+    "description": "Formularz „Utwórz konto”: e-mail, hasło i powtórzenie hasła — bez żadnych zgód marketingowych.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "mubi",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 4,
+    "tag": "rejestracja",
+    "tags": [
+      "rejestracja",
+      "aktywacja",
+      "e-mail"
+    ],
+    "path": "images/mubi/konto/desktop/04-registration-confirm-code-step.webp",
+    "description": "„Gotowe! Potwierdź email” — konto aktywuje się linkiem wysłanym mailem.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "mubi",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 5,
+    "tag": "panel klienta",
+    "tags": [
+      "panel klienta",
+      "kalkulacje"
+    ],
+    "path": "images/mubi/konto/desktop/05-dashboard.webp",
+    "description": "„Twój profil” — zalogowany e-mail, zakładki Edytuj profil / Zmiana hasła / Twoje zgody; zapisana kalkulacja (Toyota Corolla) z „Uzupełnij dane” i brak kupionych polis.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "mubi",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 6,
+    "tag": "dane osobowe",
+    "tags": [
+      "dane osobowe",
+      "konto"
+    ],
+    "path": "images/mubi/konto/desktop/06-details-profile.webp",
+    "description": "„Edytuj profil” — imię, nazwisko, telefon i adres (kod pocztowy, miejscowość, ulica, numer domu i mieszkania).",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "mubi",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 7,
+    "tag": "polisy",
+    "tags": [
+      "kalkulacje",
+      "polisy"
+    ],
+    "path": "images/mubi/konto/desktop/07-policies-calculations.webp",
+    "description": "Kalkulacje i polisy — zapisane kalkulacje z możliwością kontynuacji oraz sekcja „Kupione polisy” (pusta).",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "mubi",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 8,
+    "tag": "zgody",
+    "tags": [
+      "zgody marketingowe",
+      "preferencje komunikacji"
+    ],
+    "path": "images/mubi/konto/desktop/08-consents-marketing.webp",
+    "description": "„Zmień zgody” — „Brak zgód”: konto nie ma żadnych checkboxów marketingowych do zaznaczenia.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "mubi",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 9,
+    "tag": "ustawienia",
+    "tags": [
+      "ustawienia",
+      "hasło"
+    ],
+    "path": "images/mubi/konto/desktop/09-settings.webp",
+    "description": "„Ustaw nowe hasło” — zmiana hasła: aktualne, nowe i powtórzenie nowego hasła.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "mubi",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 1,
+    "tag": "login",
+    "tags": [
+      "login",
+      "konto"
+    ],
+    "path": "images/mubi/konto/mobile/01-entry-login.webp",
+    "description": "Modal logowania: „Kontynuuj z Google”, „Kontynuuj z Facebook” lub e-mail i hasło; link „Zarejestruj się”.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "mubi",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 2,
+    "tag": "rejestracja",
+    "tags": [
+      "rejestracja",
+      "hasło"
+    ],
+    "path": "images/mubi/konto/mobile/02-registration-form.webp",
+    "description": "„Utwórz konto”: e-mail, hasło (min. 6 znaków, mała i wielka litera, cyfra) i powtórzenie hasła — bez zgód.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "mubi",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 3,
+    "tag": "panel klienta",
+    "tags": [
+      "panel klienta",
+      "kalkulacje"
+    ],
+    "path": "images/mubi/konto/mobile/03-dashboard.webp",
+    "description": "„Twój profil” — zalogowany e-mail, zakładki Edytuj profil / Zmiana hasła / Twoje zgody; zapisana kalkulacja (Toyota Corolla) z „Uzupełnij dane” i brak kupionych polis.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "mubi",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 4,
+    "tag": "dane osobowe",
+    "tags": [
+      "dane osobowe",
+      "konto"
+    ],
+    "path": "images/mubi/konto/mobile/04-details-profile.webp",
+    "description": "„Edytuj profil” — imię, nazwisko, telefon i adres (kod pocztowy, miejscowość, ulica, numer domu i mieszkania).",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "mubi",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 5,
+    "tag": "polisy",
+    "tags": [
+      "kalkulacje",
+      "polisy"
+    ],
+    "path": "images/mubi/konto/mobile/05-policies-calculations.webp",
+    "description": "Kalkulacje i polisy — zapisane kalkulacje z możliwością kontynuacji oraz sekcja „Kupione polisy” (pusta).",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "mubi",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 6,
+    "tag": "zgody",
+    "tags": [
+      "zgody marketingowe",
+      "preferencje komunikacji"
+    ],
+    "path": "images/mubi/konto/mobile/06-consents-marketing.webp",
+    "description": "„Zmień zgody” — „Brak zgód”: konto nie ma żadnych checkboxów marketingowych do zaznaczenia.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "mubi",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 7,
+    "tag": "ustawienia",
+    "tags": [
+      "ustawienia",
+      "hasło"
+    ],
+    "path": "images/mubi/konto/mobile/07-settings.webp",
+    "description": "„Ustaw nowe hasło” — zmiana hasła: aktualne, nowe i powtórzenie nowego hasła.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "mubi",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 8,
+    "tag": "nawigacja",
+    "tags": [
+      "nawigacja",
+      "menu"
+    ],
+    "path": "images/mubi/konto/mobile/08-menu.webp",
+    "description": "Menu mobilne zalogowanego użytkownika: Kalkulator OC/AC, Moje konto, Wyloguj się.",
+    "width": 1170,
+    "height": 2532
   }
 ]
