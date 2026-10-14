@@ -14454,5 +14454,69 @@
     "description": "Nowe konto powstaje tylko przez wycenę — start od podania brytyjskiego numeru rejestracyjnego auta.",
     "width": 1170,
     "height": 2532
+  },
+  {
+    "site": "pevno",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 1,
+    "tag": "login",
+    "tags": [
+      "login",
+      "konto",
+      "UNIQA"
+    ],
+    "path": "images/pevno/konto/desktop/01-login-entry.png",
+    "description": "Konto Pevno przekierowuje do logowania UNIQA „Moje ubezpieczenia” — osobny portal klienta ubezpieczyciela.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "pevno",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 2,
+    "tag": "rejestracja",
+    "tags": [
+      "rejestracja",
+      "konto",
+      "mObywatel"
+    ],
+    "path": "images/pevno/konto/desktop/02-registration-methods.png",
+    "description": "„Załóż konto w 3 prostych krokach” — rejestracja przez mObywatel (kod QR w aplikacji) albo kodem jednorazowym, ten drugi tylko dla klientów z min. 1 polisą (PESEL + numer polisy lub numer rejestracyjny).",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "pevno",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 1,
+    "tag": "login",
+    "tags": [
+      "login",
+      "konto",
+      "UNIQA"
+    ],
+    "path": "images/pevno/konto/mobile/01-login-entry.png",
+    "description": "Konto Pevno przekierowuje do logowania UNIQA „Moje ubezpieczenia” — osobny portal klienta ubezpieczyciela.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "pevno",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 2,
+    "tag": "rejestracja",
+    "tags": [
+      "rejestracja",
+      "konto",
+      "mObywatel"
+    ],
+    "path": "images/pevno/konto/mobile/02-registration-methods.png",
+    "description": "„Załóż konto w 3 prostych krokach” — rejestracja przez mObywatel (kod QR w aplikacji) albo kodem jednorazowym, ten drugi tylko dla klientów z min. 1 polisą (PESEL + numer polisy lub numer rejestracyjny).",
+    "width": 1170,
+    "height": 2532
   }
 ]

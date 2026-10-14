@@ -100,3 +100,7 @@ Logowanie do Jerry tylko numerem telefonu (kod SMS); rejestracja kończy się na
 ### Marshmallow — Konto
 
 Konto na account.marshmallow.com: (desktop) bramka „Get the app”, logowanie e-mailem bez hasła (magic link), „Check your inbox” — link nie dociera, bo konto mają tylko posiadacze polisy; nowe konto tylko przez wycenę (numer rejestracyjny UK). Desktop 4 kroki, mobile 3 — `images/marshmallow/konto/{desktop,mobile}/`.
+
+### Pevno — Konto
+
+Konto Pevno prowadzi do portalu UNIQA „Moje ubezpieczenia”; rejestracja przez mObywatel (QR) lub kodem jednorazowym tylko dla klientów z polisą (PESEL + nr polisy lub rejestracyjny). Desktop 2 kroki, mobile 2 — `images/pevno/konto/{desktop,mobile}/`.
