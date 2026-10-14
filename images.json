@@ -16456,5 +16456,250 @@
     "description": "Menu mobilne: Insurance & more, Claims, Resources & tools, About us oraz przyciski „Log in” i „Contact us”.",
     "width": 1170,
     "height": 2532
+  },
+  {
+    "site": "rankomat",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 1,
+    "tag": "wejście",
+    "tags": [
+      "konto",
+      "wejście"
+    ],
+    "path": "images/rankomat/konto/desktop/01-moje-ubezpieczenia-auto.webp",
+    "description": "Wejście do konta tylko przez adres /konto (brak linku „Zaloguj” w nagłówku) — widok „Moje ubezpieczenia” (Samochód, Nieruchomość, Podróż) i „Nowe porównanie”.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "rankomat",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 2,
+    "tag": "login",
+    "tags": [
+      "login",
+      "konto",
+      "hasło"
+    ],
+    "path": "images/rankomat/konto/desktop/02-login.webp",
+    "description": "„Zaloguj się” — e-mail i hasło, „Zapamiętaj mnie”, „Nie pamiętasz hasła?” i link „Utwórz konto”.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "rankomat",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 3,
+    "tag": "rejestracja",
+    "tags": [
+      "rejestracja",
+      "zgody marketingowe"
+    ],
+    "path": "images/rankomat/konto/desktop/03-rejestracja.webp",
+    "description": "„Załóż konto” — e-mail i hasło (min. 8 znaków, w tym cyfra) oraz jedna zgoda na informacje handlowe drogą elektroniczną od spółek Grupy Rankomat (zaznaczona).",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "rankomat",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 4,
+    "tag": "aktywacja",
+    "tags": [
+      "aktywacja",
+      "e-mail"
+    ],
+    "path": "images/rankomat/konto/desktop/04-aktywacja.webp",
+    "description": "Konto aktywowane linkiem z maila — „Gratulujemy! Twoje konto jest gotowe” / „Twoje konto jest już aktywne” z przyciskiem „Zaloguj się”.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "rankomat",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 5,
+    "tag": "panel klienta",
+    "tags": [
+      "panel klienta",
+      "kalkulacje"
+    ],
+    "path": "images/rankomat/konto/desktop/05-panel.webp",
+    "description": "Panel konta z e-mailem użytkownika — „Moje ubezpieczenia”, zakładka Samochód: „Nie znaleziono kalkulacji” i „Nowe porównanie” OC/AC.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "rankomat",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 6,
+    "tag": "kalkulacje",
+    "tags": [
+      "kalkulacje",
+      "nieruchomość"
+    ],
+    "path": "images/rankomat/konto/desktop/06-kalkulacje-nieruchomosc.webp",
+    "description": "Zakładka Nieruchomość — brak kalkulacji i zachęta „Nowe mieszkanie?” do porównania ubezpieczeń mieszkań.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "rankomat",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 7,
+    "tag": "ustawienia",
+    "tags": [
+      "ustawienia",
+      "2FA",
+      "SMS"
+    ],
+    "path": "images/rankomat/konto/desktop/07-ustawienia.webp",
+    "description": "Ustawienia — opcjonalna weryfikacja dwuetapowa SMS (status: nieaktywna).",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "rankomat",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 1,
+    "tag": "wejście",
+    "tags": [
+      "konto",
+      "wejście"
+    ],
+    "path": "images/rankomat/konto/mobile/01-moje-ubezpieczenia-auto.webp",
+    "description": "Wejście do konta tylko przez adres /konto (brak linku „Zaloguj” w nagłówku) — widok „Moje ubezpieczenia” (Samochód, Nieruchomość, Podróż) i „Nowe porównanie”.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "rankomat",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 2,
+    "tag": "login",
+    "tags": [
+      "login",
+      "konto",
+      "hasło"
+    ],
+    "path": "images/rankomat/konto/mobile/02-login.webp",
+    "description": "„Zaloguj się” — e-mail i hasło, „Zapamiętaj mnie”, „Nie pamiętasz hasła?” i link „Utwórz konto”.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "rankomat",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 3,
+    "tag": "rejestracja",
+    "tags": [
+      "rejestracja",
+      "zgody marketingowe"
+    ],
+    "path": "images/rankomat/konto/mobile/03-rejestracja.webp",
+    "description": "„Załóż konto” — e-mail i hasło (min. 8 znaków, w tym cyfra) oraz jedna zgoda na informacje handlowe drogą elektroniczną od spółek Grupy Rankomat (zaznaczona).",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "rankomat",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 4,
+    "tag": "aktywacja",
+    "tags": [
+      "aktywacja",
+      "e-mail"
+    ],
+    "path": "images/rankomat/konto/mobile/04-aktywacja.webp",
+    "description": "Konto aktywowane linkiem z maila — „Gratulujemy! Twoje konto jest gotowe” / „Twoje konto jest już aktywne” z przyciskiem „Zaloguj się”.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "rankomat",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 5,
+    "tag": "panel klienta",
+    "tags": [
+      "panel klienta",
+      "kalkulacje"
+    ],
+    "path": "images/rankomat/konto/mobile/05-panel.webp",
+    "description": "Panel konta z e-mailem użytkownika — „Moje ubezpieczenia”, zakładka Samochód: „Nie znaleziono kalkulacji” i „Nowe porównanie” OC/AC.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "rankomat",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 6,
+    "tag": "kalkulacje",
+    "tags": [
+      "kalkulacje",
+      "nieruchomość"
+    ],
+    "path": "images/rankomat/konto/mobile/06-kalkulacje-nieruchomosc.webp",
+    "description": "Zakładka Nieruchomość — brak kalkulacji i zachęta „Nowe mieszkanie?” do porównania ubezpieczeń mieszkań.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "rankomat",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 7,
+    "tag": "nawigacja",
+    "tags": [
+      "nawigacja",
+      "menu"
+    ],
+    "path": "images/rankomat/konto/mobile/07-menu-otwarte.webp",
+    "description": "Menu strony na mobile: ubezpieczenia (samochód, nieruchomość, podróż, życie, pakiety medyczne, NNW) i finanse — bez pozycji konta.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "rankomat",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 8,
+    "tag": "nawigacja",
+    "tags": [
+      "nawigacja",
+      "menu",
+      "panel klienta"
+    ],
+    "path": "images/rankomat/konto/mobile/08-menu.webp",
+    "description": "Menu konta: Pojazdy, Nieruchomości, Podróże (brak — „Porównaj oferty”), Ustawienia, Wyloguj się.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "rankomat",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 9,
+    "tag": "ustawienia",
+    "tags": [
+      "ustawienia",
+      "2FA",
+      "SMS"
+    ],
+    "path": "images/rankomat/konto/mobile/09-ustawienia.webp",
+    "description": "Ustawienia — opcjonalna weryfikacja dwuetapowa SMS (status: nieaktywna).",
+    "width": 1170,
+    "height": 2532
   }
 ]
