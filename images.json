@@ -16027,5 +16027,202 @@
     "description": "Portal klienta wita „Cześć undefined!” (błąd — brak imienia); Dane profilu: dokumenty, dane personalne, dane pojazdu, status płatności, opinia, kontakt; przyciski „Zgłoś szkodę” i „Zgłoś awarię na drodze”.",
     "width": 1170,
     "height": 2532
+  },
+  {
+    "site": "pillow",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 1,
+    "tag": "login",
+    "tags": [
+      "login",
+      "konto",
+      "hasło"
+    ],
+    "path": "images/pillow/konto/desktop/01-login-entry.webp",
+    "description": "„Přihlášení” na portal.pillow.cz — nazwa użytkownika i hasło albo logowanie kluczem dostępu („S přístupovým klíčem”).",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "pillow",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 2,
+    "tag": "rejestracja",
+    "tags": [
+      "rejestracja",
+      "konto"
+    ],
+    "path": "images/pillow/konto/desktop/02-registration-choice.webp",
+    "description": "„První přihlášení pro klienty z Česka” — wybór: „Jsem klient”, „Jsem poradce” lub „Kolemjdoucí” (przechodzień, bez umowy).",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "pillow",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 3,
+    "tag": "rejestracja",
+    "tags": [
+      "rejestracja",
+      "konto"
+    ],
+    "path": "images/pillow/konto/desktop/03-registration-newbie-form.webp",
+    "description": "„Nová registrace” dla przechodnia — e-mail, „Nabídka Pillow pro” (kraj) i typ klienta.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "pillow",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 4,
+    "tag": "pomoc",
+    "tags": [
+      "reset hasła",
+      "login"
+    ],
+    "path": "images/pillow/konto/desktop/04-lost-password-entry.webp",
+    "description": "„Zapomenuté heslo” — podanie e-maila, na który przyjdzie instrukcja ustawienia nowego hasła.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "pillow",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 5,
+    "tag": "pomoc",
+    "tags": [
+      "login",
+      "pomoc"
+    ],
+    "path": "images/pillow/konto/desktop/05-lost-login-entry.webp",
+    "description": "„Zapomenuté uživatelské jméno” — odzyskanie nazwy użytkownika (e-mail, kraj, numer klienta); nazwa przychodzi SMS-em.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "pillow",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 6,
+    "tag": "rejestracja",
+    "tags": [
+      "rejestracja",
+      "dane osobowe"
+    ],
+    "path": "images/pillow/konto/desktop/06-registration-name-phone-stop.webp",
+    "description": "„Zadání jména” — imię, nazwisko i numer telefonu komórkowego; flow kończy się na tym kroku.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "pillow",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 1,
+    "tag": "nawigacja",
+    "tags": [
+      "nawigacja",
+      "menu"
+    ],
+    "path": "images/pillow/konto/mobile/01-site-menu-open.webp",
+    "description": "Menu strony na mobile: Home, Auto, Majetek, Úraz a nemoc, Škody a kontakty i „Přihlásit se”.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "pillow",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 2,
+    "tag": "rejestracja",
+    "tags": [
+      "rejestracja",
+      "konto"
+    ],
+    "path": "images/pillow/konto/mobile/02-registration-choice.webp",
+    "description": "„První přihlášení pro klienty z Česka” — wybór: „Jsem klient”, „Jsem poradce” lub „Kolemjdoucí” (przechodzień, bez umowy).",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "pillow",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 3,
+    "tag": "błąd",
+    "tags": [
+      "login",
+      "błąd",
+      "przeglądarka"
+    ],
+    "path": "images/pillow/konto/mobile/03-login-redirect-browser-check.webp",
+    "description": "Na mobile /login przekierowuje na /leave: „Váš prohlížeč je již zastaralý” — portal uznaje przeglądarkę za przestarzałą i podaje listę wspieranych.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "pillow",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 4,
+    "tag": "rejestracja",
+    "tags": [
+      "rejestracja",
+      "konto"
+    ],
+    "path": "images/pillow/konto/mobile/04-registration-newbie-form.webp",
+    "description": "„Nová registrace” dla przechodnia — e-mail, „Nabídka Pillow pro” (kraj) i typ klienta.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "pillow",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 5,
+    "tag": "pomoc",
+    "tags": [
+      "reset hasła",
+      "login"
+    ],
+    "path": "images/pillow/konto/mobile/05-lost-password-entry.webp",
+    "description": "„Zapomenuté heslo” — podanie e-maila, na który przyjdzie instrukcja ustawienia nowego hasła.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "pillow",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 6,
+    "tag": "pomoc",
+    "tags": [
+      "login",
+      "pomoc"
+    ],
+    "path": "images/pillow/konto/mobile/06-lost-login-entry.webp",
+    "description": "„Zapomenuté uživatelské jméno” — odzyskanie nazwy użytkownika (e-mail, kraj, numer klienta); nazwa przychodzi SMS-em.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "pillow",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 7,
+    "tag": "rejestracja",
+    "tags": [
+      "rejestracja",
+      "konto"
+    ],
+    "path": "images/pillow/konto/mobile/07-registration-step2-email-filled.webp",
+    "description": "„Nová registrace” z wpisanym e-mailem, krajem Česká republika i wyborem typu klienta — dalej krok z imieniem i telefonem, na którym flow się kończy.",
+    "width": 1170,
+    "height": 2532
   }
 ]

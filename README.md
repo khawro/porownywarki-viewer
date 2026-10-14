@@ -152,3 +152,7 @@ Po rejestracji (bez zgód marketingowych) obowiązkowy drugi składnik — Googl
 ### Ominimo — Konto
 
 Rejestracja bez zgód marketingowych; logowanie bez hasła linkiem z maila. Strona konta pokazuje tylko staż konta, edycja (surowy formularz) — e-mail, hasło, język; portal wita „Cześć undefined!” (błąd). Desktop 6 kroków, mobile 5 — `images/ominimo/konto/{desktop,mobile}/`.
+
+### Pillow — Konto (częściowy)
+
+portal.pillow.cz: logowanie (hasło lub klucz dostępu), rejestracja „Kolemjdoucí” → formularz → imię i telefon (koniec flow), odzyskiwanie hasła i loginu; na mobile /login przekierowuje na /leave („przestarzała przeglądarka”). Desktop 6 kroków, mobile 7 — `images/pillow/konto/{desktop,mobile}/`.
