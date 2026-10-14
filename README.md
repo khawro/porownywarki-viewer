@@ -156,3 +156,7 @@ Rejestracja bez zgód marketingowych; logowanie bez hasła linkiem z maila. Stro
 ### Pillow — Konto (częściowy)
 
 portal.pillow.cz: logowanie (hasło lub klucz dostępu), rejestracja „Kolemjdoucí” → formularz → imię i telefon (koniec flow), odzyskiwanie hasła i loginu; na mobile /login przekierowuje na /leave („przestarzała przeglądarka”). Desktop 6 kroków, mobile 7 — `images/pillow/konto/{desktop,mobile}/`.
+
+### Policygenius — Konto
+
+Logowanie bez hasła (Google lub kod z maila); panel z postępem wniosku, konto tylko z imieniem, e-mailem i telefonem — preferencje komunikacji zmienia się mailem do team@policygenius.com. Na mobile menu publiczne i menu konta. Desktop 5 kroków, mobile 5 — `images/policygenius/konto/{desktop,mobile}/`.

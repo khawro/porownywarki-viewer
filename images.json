@@ -16224,5 +16224,158 @@
     "description": "„Nová registrace” z wpisanym e-mailem, krajem Česká republika i wyborem typu klienta — dalej krok z imieniem i telefonem, na którym flow się kończy.",
     "width": 1170,
     "height": 2532
+  },
+  {
+    "site": "policygenius",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 1,
+    "tag": "landing",
+    "tags": [
+      "landing",
+      "login"
+    ],
+    "path": "images/policygenius/konto/desktop/01-homepage-sign-in-entry.webp",
+    "description": "Strona główna Policygenius — „Sign in” w nagłówku prowadzi do konta.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "policygenius",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 2,
+    "tag": "login",
+    "tags": [
+      "login",
+      "kod jednorazowy",
+      "Google"
+    ],
+    "path": "images/policygenius/konto/desktop/02-signin-email-code.webp",
+    "description": "„Welcome back!” — logowanie bez hasła: Google albo e-mail, na który przychodzi jednorazowy kod.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "policygenius",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 3,
+    "tag": "panel klienta",
+    "tags": [
+      "panel klienta",
+      "oferty"
+    ],
+    "path": "images/policygenius/konto/desktop/03-dashboard.webp",
+    "description": "„Welcome, John” — status wniosku Life (Quotes → Apply → Review → Decision) z „Complete profile” i wygasła prośba Home & auto.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "policygenius",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 4,
+    "tag": "dane osobowe",
+    "tags": [
+      "dane osobowe",
+      "preferencje komunikacji"
+    ],
+    "path": "images/policygenius/konto/desktop/04-account.webp",
+    "description": "Konto: tylko imię i nazwisko, e-mail i telefon; preferencje komunikacji zmienia się wyłącznie mailowo przez team@policygenius.com (lub telefonicznie).",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "policygenius",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 5,
+    "tag": "oferty",
+    "tags": [
+      "oferty",
+      "polisy"
+    ],
+    "path": "images/policygenius/konto/desktop/05-policies-quotes.webp",
+    "description": "Home & auto — „Your request has expired”, przyciski „Get new quotes” i „Message us”.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "policygenius",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 1,
+    "tag": "nawigacja",
+    "tags": [
+      "nawigacja",
+      "menu",
+      "login"
+    ],
+    "path": "images/policygenius/konto/mobile/01-menu-open-signin-visible.webp",
+    "description": "Menu publicznej strony na mobile (Life, Home, Auto, Disability, About us) z pozycją „Sign in”.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "policygenius",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 2,
+    "tag": "nawigacja",
+    "tags": [
+      "nawigacja",
+      "menu",
+      "panel klienta"
+    ],
+    "path": "images/policygenius/konto/mobile/02-menu-open.webp",
+    "description": "Menu zalogowanego konta: Overview, Messages, Your protection (Life, Home & auto), Explore, Account, Logout i telefon pomocy.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "policygenius",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 3,
+    "tag": "panel klienta",
+    "tags": [
+      "panel klienta",
+      "oferty"
+    ],
+    "path": "images/policygenius/konto/mobile/03-dashboard.webp",
+    "description": "„Welcome, John” — status wniosku Life (Quotes → Apply → Review → Decision) z „Complete profile” i wygasła prośba Home & auto.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "policygenius",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 4,
+    "tag": "dane osobowe",
+    "tags": [
+      "dane osobowe",
+      "preferencje komunikacji"
+    ],
+    "path": "images/policygenius/konto/mobile/04-account.webp",
+    "description": "Konto: tylko imię i nazwisko, e-mail i telefon; preferencje komunikacji zmienia się wyłącznie mailowo przez team@policygenius.com (lub telefonicznie).",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "policygenius",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 5,
+    "tag": "oferty",
+    "tags": [
+      "oferty",
+      "polisy"
+    ],
+    "path": "images/policygenius/konto/mobile/05-policies-quotes.webp",
+    "description": "Home & auto — „Your request has expired”, przyciski „Get new quotes” i „Message us”.",
+    "width": 1170,
+    "height": 2532
   }
 ]
