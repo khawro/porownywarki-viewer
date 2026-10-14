@@ -15857,5 +15857,175 @@
     "description": "„Keep Your Account Safe” — zaraz po rejestracji obowiązkowy drugi składnik: Google Authenticator lub SMS, bez opcji pominięcia; flow kończy się tutaj.",
     "width": 1170,
     "height": 2532
+  },
+  {
+    "site": "ominimo",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 1,
+    "tag": "login",
+    "tags": [
+      "login",
+      "konto",
+      "magic link"
+    ],
+    "path": "images/ominimo/konto/desktop/01-login-entry.webp",
+    "description": "„Zaloguj się” — tylko adres e-mail i „Wyślij link do logowania”; logowanie bez hasła, linkiem z maila.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "ominimo",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 2,
+    "tag": "rejestracja",
+    "tags": [
+      "rejestracja",
+      "konto"
+    ],
+    "path": "images/ominimo/konto/desktop/02-register-empty-form.webp",
+    "description": "Formularz „Create new account”: e-mail, nazwa użytkownika, hasło i jego powtórzenie — bez żadnych zgód marketingowych.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "ominimo",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 3,
+    "tag": "login",
+    "tags": [
+      "login",
+      "magic link",
+      "e-mail"
+    ],
+    "path": "images/ominimo/konto/desktop/03-login-link-sent.webp",
+    "description": "Potwierdzenie wysłania linku do logowania na podany e-mail (zielony komunikat).",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "ominimo",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 4,
+    "tag": "panel klienta",
+    "tags": [
+      "panel klienta",
+      "konto"
+    ],
+    "path": "images/ominimo/konto/desktop/04-account-page.webp",
+    "description": "Strona konta pokazuje tylko staż konta („Posiada konto przez … minutes … seconds”) — nic więcej.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "ominimo",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 5,
+    "tag": "ustawienia",
+    "tags": [
+      "ustawienia",
+      "hasło",
+      "język"
+    ],
+    "path": "images/ominimo/konto/desktop/05-edit-page.webp",
+    "description": "Edycja konta jako surowy, nieostylowany formularz: e-mail, aktualne/nowe hasło i język strony (Polish).",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "ominimo",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 6,
+    "tag": "panel klienta",
+    "tags": [
+      "panel klienta",
+      "szkody"
+    ],
+    "path": "images/ominimo/konto/desktop/06-portal-pl.webp",
+    "description": "Portal klienta wita „Cześć undefined!” (błąd — brak imienia); Dane profilu: dokumenty, dane personalne, dane pojazdu, status płatności, opinia, kontakt; przyciski „Zgłoś szkodę” i „Zgłoś awarię na drodze”.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "ominimo",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 1,
+    "tag": "login",
+    "tags": [
+      "login",
+      "konto",
+      "magic link"
+    ],
+    "path": "images/ominimo/konto/mobile/01-login-entry.webp",
+    "description": "„Zaloguj się” — tylko adres e-mail i „Wyślij link do logowania”; logowanie bez hasła, linkiem z maila.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "ominimo",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 2,
+    "tag": "rejestracja",
+    "tags": [
+      "rejestracja",
+      "konto"
+    ],
+    "path": "images/ominimo/konto/mobile/02-register-empty-form.webp",
+    "description": "Formularz „Create new account”: e-mail, nazwa użytkownika, hasło i jego powtórzenie — bez żadnych zgód marketingowych.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "ominimo",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 3,
+    "tag": "panel klienta",
+    "tags": [
+      "panel klienta",
+      "konto"
+    ],
+    "path": "images/ominimo/konto/mobile/03-account-page.webp",
+    "description": "Strona konta pokazuje tylko staż konta („Posiada konto przez … minutes … seconds”) — nic więcej.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "ominimo",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 4,
+    "tag": "ustawienia",
+    "tags": [
+      "ustawienia",
+      "hasło",
+      "język"
+    ],
+    "path": "images/ominimo/konto/mobile/04-edit-page.webp",
+    "description": "Edycja konta jako surowy, nieostylowany formularz: e-mail, aktualne/nowe hasło i język strony (Polish).",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "ominimo",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 5,
+    "tag": "panel klienta",
+    "tags": [
+      "panel klienta",
+      "szkody"
+    ],
+    "path": "images/ominimo/konto/mobile/05-portal-pl.webp",
+    "description": "Portal klienta wita „Cześć undefined!” (błąd — brak imienia); Dane profilu: dokumenty, dane personalne, dane pojazdu, status płatności, opinia, kontakt; przyciski „Zgłoś szkodę” i „Zgłoś awarię na drodze”.",
+    "width": 1170,
+    "height": 2532
   }
 ]

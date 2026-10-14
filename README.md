@@ -148,3 +148,7 @@ Rejestracja e-mailem + hasło (lub Google/Facebook), bez zgód; aktywacja linkie
 ### NerdWallet — Konto (częściowy)
 
 Po rejestracji (bez zgód marketingowych) obowiązkowy drugi składnik — Google Authenticator lub SMS, bez pominięcia; flow kończy się na tym ekranie. Desktop 2 kroki, mobile 3 (z menu) — `images/nerdwallet/konto/{desktop,mobile}/`.
+
+### Ominimo — Konto
+
+Rejestracja bez zgód marketingowych; logowanie bez hasła linkiem z maila. Strona konta pokazuje tylko staż konta, edycja (surowy formularz) — e-mail, hasło, język; portal wita „Cześć undefined!” (błąd). Desktop 6 kroków, mobile 5 — `images/ominimo/konto/{desktop,mobile}/`.
