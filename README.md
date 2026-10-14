@@ -172,3 +172,7 @@ Brak linku logowania w nagłówku — wejście tylko przez /konto. Rejestracja e
 ### Redclick — Konto (częściowy)
 
 Logowanie na login.redclick.pl nazwą użytkownika nadaną przy zakupie polisy — brak rejestracji; odzyskanie danych wymaga PESEL/REGON (tylko posiadacze polis). Na mobile menu z „ZALOGUJ SIĘ”. Desktop 2 kroki, mobile 3 — `images/redclick/konto/{desktop,mobile}/`.
+
+### Rixo.cz — Konto
+
+Logowanie e-mail + hasło lub Facebook/Google/Apple, rejestracja (e-mail, hasło, telefon), panel z kalkulacjami i umowami, dane osobowe (testowe), zmiana hasła; na mobile menu przed i po zalogowaniu. Brak ekranu zgód marketingowych w koncie. Desktop 5 kroków, mobile 7 — `images/rixo/konto/{desktop,mobile}/`.

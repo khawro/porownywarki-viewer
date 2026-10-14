@@ -16781,5 +16781,188 @@
     "description": "Menu mobilne Redclick (Ubezpieczenie, W razie szkody, Świat Redclick, „Poproś o pomoc”) z przyciskiem „ZALOGUJ SIĘ”.",
     "width": 1170,
     "height": 2532
+  },
+  {
+    "site": "rixo",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 1,
+    "tag": "login",
+    "tags": [
+      "login",
+      "konto",
+      "hasło"
+    ],
+    "path": "images/rixo/konto/desktop/01-login-entry.webp",
+    "description": "„Přihlaste se” — e-mail i hasło („Zapomněli jste heslo?”, „Zůstat trvale přihlášen(a)”) lub Facebook, Google, Apple; link „Zaregistrujte se”.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "rixo",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 2,
+    "tag": "rejestracja",
+    "tags": [
+      "rejestracja",
+      "konto"
+    ],
+    "path": "images/rixo/konto/desktop/02-registration-entry.webp",
+    "description": "„Pro nahrání vašich smluv si vytvořte účet” — rejestracja przez Facebook/Google/Apple albo e-mail, hasło i telefon (+420) z checkboxem zgody na przetwarzanie danych z umów (nie marketingowej). W koncie Rixo nie ma ekranu zgód marketingowych.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "rixo",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 3,
+    "tag": "panel klienta",
+    "tags": [
+      "panel klienta",
+      "umowy"
+    ],
+    "path": "images/rixo/konto/desktop/03-dashboard.webp",
+    "description": "Panel klienta — „Nabídky a srovnání” z rozpoczętą kalkulacją OC/AC (Hyundai i30, 75 %), „Moje smlouvy” (pusto: „Nahrajte smlouvu”) i blog RIXO.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "rixo",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 4,
+    "tag": "dane osobowe",
+    "tags": [
+      "dane osobowe",
+      "konto"
+    ],
+    "path": "images/rixo/konto/desktop/04-profil-osobni-udaje.webp",
+    "description": "„Osobní údaje” — imię, nazwisko i rodné číslo (dane testowe: Jan Testovací), adres stały, telefon i e-mail kontaktowy. W koncie Rixo nie ma ekranu zgód marketingowych.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "rixo",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 5,
+    "tag": "ustawienia",
+    "tags": [
+      "ustawienia",
+      "hasło"
+    ],
+    "path": "images/rixo/konto/desktop/05-nastaveni-zmena-hesla.webp",
+    "description": "Ustawienia — zmiana hasła: aktualne, nowe i powtórzenie nowego hasła („Změnit heslo”). W koncie Rixo nie ma ekranu zgód marketingowych.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "rixo",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 1,
+    "tag": "login",
+    "tags": [
+      "login",
+      "konto",
+      "hasło"
+    ],
+    "path": "images/rixo/konto/mobile/01-login-entry.webp",
+    "description": "„Přihlaste se” — e-mail i hasło („Zapomněli jste heslo?”, „Zůstat trvale přihlášen(a)”) lub Facebook, Google, Apple; link „Zaregistrujte se”.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "rixo",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 2,
+    "tag": "rejestracja",
+    "tags": [
+      "rejestracja",
+      "konto"
+    ],
+    "path": "images/rixo/konto/mobile/02-registration-entry.webp",
+    "description": "„Pro nahrání vašich smluv si vytvořte účet” — rejestracja przez Facebook/Google/Apple albo e-mail, hasło i telefon (+420) z checkboxem zgody na przetwarzanie danych z umów (nie marketingowej). W koncie Rixo nie ma ekranu zgód marketingowych.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "rixo",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 3,
+    "tag": "nawigacja",
+    "tags": [
+      "nawigacja",
+      "menu"
+    ],
+    "path": "images/rixo/konto/mobile/03-menu-open-logged-out.webp",
+    "description": "Menu strony (niezalogowany): Pojištění, Energie, Finance, Kontrola smluv, Mobilní aplikace, Kariéra oraz „Registrovat” i „Přihlásit se”.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "rixo",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 4,
+    "tag": "nawigacja",
+    "tags": [
+      "nawigacja",
+      "menu",
+      "panel klienta"
+    ],
+    "path": "images/rixo/konto/mobile/04-menu-open-logged-in.webp",
+    "description": "Menu konta (zalogowany): e-mail użytkownika, Úvodní stránka, Osobní údaje, Změna hesla, Odhlásit se. W koncie Rixo nie ma ekranu zgód marketingowych.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "rixo",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 5,
+    "tag": "dane osobowe",
+    "tags": [
+      "dane osobowe",
+      "konto"
+    ],
+    "path": "images/rixo/konto/mobile/05-profil.webp",
+    "description": "„Osobní údaje” — imię, nazwisko i rodné číslo (dane testowe: Jan Testovací), adres stały, telefon i e-mail kontaktowy. W koncie Rixo nie ma ekranu zgód marketingowych.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "rixo",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 6,
+    "tag": "umowy",
+    "tags": [
+      "umowy",
+      "oferty"
+    ],
+    "path": "images/rixo/konto/mobile/06-smlouvy-nabidky.webp",
+    "description": "Umowy i oferty — rozpoczęta kalkulacja „Povinné ručení a havarijní pojištění” (Hyundai i30, 75 %) i pusta sekcja „Moje smlouvy”.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "rixo",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 7,
+    "tag": "ustawienia",
+    "tags": [
+      "ustawienia",
+      "hasło"
+    ],
+    "path": "images/rixo/konto/mobile/07-nastaveni-zmena-hesla.webp",
+    "description": "Ustawienia — zmiana hasła: aktualne, nowe i powtórzenie nowego hasła („Změnit heslo”). W koncie Rixo nie ma ekranu zgód marketingowych.",
+    "width": 1170,
+    "height": 2532
   }
 ]
