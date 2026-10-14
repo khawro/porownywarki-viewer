@@ -14343,5 +14343,116 @@
     "description": "Rejestracja kończy się na „Let’s confirm your phone number” — konto wymaga weryfikacji SMS na numer z USA, więc flow kończy się na tym kroku.",
     "width": 1170,
     "height": 2532
+  },
+  {
+    "site": "marshmallow",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 1,
+    "tag": "aplikacja",
+    "tags": [
+      "konto",
+      "aplikacja"
+    ],
+    "path": "images/marshmallow/konto/desktop/01-get-the-app.png",
+    "description": "Bramka „Get the app” przed wejściem do konta — Marshmallow zachęca do aplikacji; dalej link „Continue to online account” do konta w przeglądarce.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "marshmallow",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 2,
+    "tag": "login",
+    "tags": [
+      "login",
+      "konto",
+      "magic link"
+    ],
+    "path": "images/marshmallow/konto/desktop/02-login-form-empty.png",
+    "description": "Logowanie na account.marshmallow.com tylko adresem e-mail — bez hasła, link logujący (magic link) wysyłany mailem.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "marshmallow",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 3,
+    "tag": "login",
+    "tags": [
+      "login",
+      "konto",
+      "magic link"
+    ],
+    "path": "images/marshmallow/konto/desktop/03-magic-link-check-inbox.png",
+    "description": "„Check your inbox” — prośba o kliknięcie linku z maila; link nie dotarł, bo konto mają wyłącznie posiadacze polisy.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "marshmallow",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 4,
+    "tag": "rejestracja",
+    "tags": [
+      "rejestracja",
+      "konto",
+      "wycena"
+    ],
+    "path": "images/marshmallow/konto/desktop/04-quote-entry-vehicle-reg.png",
+    "description": "Nowe konto powstaje tylko przez wycenę — start od podania brytyjskiego numeru rejestracyjnego auta.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "marshmallow",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 1,
+    "tag": "login",
+    "tags": [
+      "login",
+      "konto",
+      "magic link"
+    ],
+    "path": "images/marshmallow/konto/mobile/01-login-form-empty.png",
+    "description": "Logowanie na account.marshmallow.com tylko adresem e-mail — bez hasła, link logujący (magic link) wysyłany mailem.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "marshmallow",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 2,
+    "tag": "login",
+    "tags": [
+      "login",
+      "konto",
+      "magic link"
+    ],
+    "path": "images/marshmallow/konto/mobile/02-magic-link-check-inbox.png",
+    "description": "„Check your inbox” — prośba o kliknięcie linku z maila; link nie dotarł, bo konto mają wyłącznie posiadacze polisy.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "marshmallow",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 3,
+    "tag": "rejestracja",
+    "tags": [
+      "rejestracja",
+      "konto",
+      "wycena"
+    ],
+    "path": "images/marshmallow/konto/mobile/03-quote-entry-vehicle-reg.png",
+    "description": "Nowe konto powstaje tylko przez wycenę — start od podania brytyjskiego numeru rejestracyjnego auta.",
+    "width": 1170,
+    "height": 2532
   }
 ]

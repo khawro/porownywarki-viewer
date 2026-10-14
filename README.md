@@ -96,3 +96,7 @@ Konto Getsafe działa tylko w aplikacji: na desktopie modal „Login via Getsafe
 ### Jerry — Konto
 
 Logowanie do Jerry tylko numerem telefonu (kod SMS); rejestracja kończy się na potwierdzeniu numeru — wymagany numer z USA. Desktop 2 kroki, mobile 2 — `images/jerry/konto/{desktop,mobile}/`.
+
+### Marshmallow — Konto
+
+Konto na account.marshmallow.com: (desktop) bramka „Get the app”, logowanie e-mailem bez hasła (magic link), „Check your inbox” — link nie dociera, bo konto mają tylko posiadacze polisy; nowe konto tylko przez wycenę (numer rejestracyjny UK). Desktop 4 kroki, mobile 3 — `images/marshmallow/konto/{desktop,mobile}/`.
