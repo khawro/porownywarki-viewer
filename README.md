@@ -136,3 +136,7 @@ Logowanie na app.withhugo.com: e-mail + hasło, telefon (kod SMS), Google lub Ap
 ### LINK4 — Konto (częściowy)
 
 LINK4 nie ma konta klienta; jedyne logowanie to status szkody (/iss/logowanie) — telefon + PESEL. Menu mobilne bez pozycji konta. Desktop 1 krok, mobile 2 — `images/link4/konto/{desktop,mobile}/`.
+
+### Lovys — Konto (częściowy)
+
+Logowanie na go.lovys.com/fr/login: tylko „Se connecter”, „Mot de passe oublié” i „S’assurer” — brak rejestracji, konto powstaje po zakupie polisy. Menu mobilne bez linku do konta. Desktop 1 krok, mobile 2 — `images/lovys/konto/{desktop,mobile}/`.

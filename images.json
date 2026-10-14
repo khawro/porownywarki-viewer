@@ -15476,5 +15476,52 @@
     "description": "„Check your inbox” — zamiast linku do resetu hasła Hugo wysyła mailem kod logowania do wpisania w pola; flow kończy się tutaj.",
     "width": 1920,
     "height": 1200
+  },
+  {
+    "site": "lovys",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 1,
+    "tag": "login",
+    "tags": [
+      "login",
+      "konto",
+      "hasło"
+    ],
+    "path": "images/lovys/konto/desktop/01-login-entry.webp",
+    "description": "„Quel plaisir de vous revoir” na go.lovys.com/fr/login — e-mail i hasło, „Se connecter”, „Mot de passe oublié ?” oraz „S’assurer” dla osób bez ubezpieczenia; brak rejestracji, konto powstaje dopiero po zakupie polisy. Po lewej promocja aplikacji („Découvrez notre appli !”).",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "lovys",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 1,
+    "tag": "login",
+    "tags": [
+      "login",
+      "konto",
+      "hasło"
+    ],
+    "path": "images/lovys/konto/mobile/01-login-entry.webp",
+    "description": "„Quel plaisir de vous revoir” na go.lovys.com/fr/login — e-mail i hasło, „Se connecter”, „Mot de passe oublié ?” oraz „S’assurer” dla osób bez ubezpieczenia; brak rejestracji, konto powstaje dopiero po zakupie polisy. U góry baner aplikacji Lovys.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "lovys",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 2,
+    "tag": "nawigacja",
+    "tags": [
+      "nawigacja",
+      "menu"
+    ],
+    "path": "images/lovys/konto/mobile/02-menu-open.webp",
+    "description": "Menu mobilne z listą ubezpieczeń (habitation, auto, mobilités douces, animaux, smartphone, santé, emprunteur…) z cenami „dès” — bez linku do konta.",
+    "width": 1170,
+    "height": 2532
   }
 ]
