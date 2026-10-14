@@ -15780,5 +15780,82 @@
     "description": "Menu mobilne zalogowanego użytkownika: Kalkulator OC/AC, Moje konto, Wyloguj się.",
     "width": 1170,
     "height": 2532
+  },
+  {
+    "site": "nerdwallet",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 1,
+    "tag": "landing",
+    "tags": [
+      "landing",
+      "konto"
+    ],
+    "path": "images/nerdwallet/konto/desktop/01-entry-home.webp",
+    "description": "Strona główna NerdWallet — wejście do konta przez „Sign in” / „Join” w nagłówku; formularz rejestracji nie miał żadnych zgód marketingowych.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "nerdwallet",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 2,
+    "tag": "weryfikacja",
+    "tags": [
+      "weryfikacja",
+      "2FA",
+      "SMS"
+    ],
+    "path": "images/nerdwallet/konto/desktop/02-verification-mfa-enroll.webp",
+    "description": "„Keep Your Account Safe” — zaraz po rejestracji obowiązkowy drugi składnik: Google Authenticator lub SMS, bez opcji pominięcia; flow kończy się tutaj.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "nerdwallet",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 1,
+    "tag": "landing",
+    "tags": [
+      "landing",
+      "konto"
+    ],
+    "path": "images/nerdwallet/konto/mobile/01-entry-home.webp",
+    "description": "Strona główna NerdWallet — wejście do konta przez „Sign in” / „Join” w nagłówku; formularz rejestracji nie miał żadnych zgód marketingowych.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "nerdwallet",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 2,
+    "tag": "nawigacja",
+    "tags": [
+      "nawigacja",
+      "menu"
+    ],
+    "path": "images/nerdwallet/konto/mobile/02-menu.webp",
+    "description": "Menu mobilne z kategoriami (Credit cards, Banking, Home, Loans, Insurance, Personal finance, Investing, Small business, Taxes) i przyciskami „Sign in” / „Join”.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "nerdwallet",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 3,
+    "tag": "weryfikacja",
+    "tags": [
+      "weryfikacja",
+      "2FA",
+      "SMS"
+    ],
+    "path": "images/nerdwallet/konto/mobile/03-verification-mfa-enroll.webp",
+    "description": "„Keep Your Account Safe” — zaraz po rejestracji obowiązkowy drugi składnik: Google Authenticator lub SMS, bez opcji pominięcia; flow kończy się tutaj.",
+    "width": 1170,
+    "height": 2532
   }
 ]

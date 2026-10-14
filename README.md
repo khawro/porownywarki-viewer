@@ -144,3 +144,7 @@ Logowanie na go.lovys.com/fr/login: tylko „Se connecter”, „Mot de passe ou
 ### Mubi — Konto
 
 Rejestracja e-mailem + hasło (lub Google/Facebook), bez zgód; aktywacja linkiem z maila. Profil z zapisanymi kalkulacjami, edycja danych, „Zmień zgody” = „Brak zgód” (brak checkboxów marketingowych), zmiana hasła; na mobile menu. Desktop 9 kroków, mobile 8 — `images/mubi/konto/{desktop,mobile}/`.
+
+### NerdWallet — Konto (częściowy)
+
+Po rejestracji (bez zgód marketingowych) obowiązkowy drugi składnik — Google Authenticator lub SMS, bez pominięcia; flow kończy się na tym ekranie. Desktop 2 kroki, mobile 3 (z menu) — `images/nerdwallet/konto/{desktop,mobile}/`.
