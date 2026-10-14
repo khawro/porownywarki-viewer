@@ -131,4 +131,8 @@ Logowanie ukryte — brak linku w nagłówku i menu mobilnym; strona /se/member/
 
 ### Hugo — Konto (częściowy)
 
-Logowanie na app.withhugo.com: e-mail + hasło, telefon (kod SMS), Google lub Apple; e-mail miał już konto, więc flow pokazuje prośbę o hasło i ekran „I need help logging in”. Na mobile także menu strony. Desktop 5 kroków, mobile 5 — `images/hugo/konto/{desktop,mobile}/`.
+Logowanie na app.withhugo.com: e-mail + hasło, telefon (kod SMS), Google lub Apple; e-mail miał już konto, więc flow pokazuje prośbę o hasło i ekran „I need help logging in”. Na mobile także menu strony. Desktop 7 kroków (także reset hasła → kod logowania mailem), mobile 5 — `images/hugo/konto/{desktop,mobile}/`.
+
+### LINK4 — Konto (częściowy)
+
+LINK4 nie ma konta klienta; jedyne logowanie to status szkody (/iss/logowanie) — telefon + PESEL. Menu mobilne bez pozycji konta. Desktop 1 krok, mobile 2 — `images/link4/konto/{desktop,mobile}/`.

@@ -15397,5 +15397,84 @@
     "description": "Menu strony marketingowej na mobile: Home, How you pay, Reviews, Claims, Agents, About us oraz przyciski „Log in” i „Check my price”.",
     "width": 1170,
     "height": 2532
+  },
+  {
+    "site": "link4",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 1,
+    "tag": "login",
+    "tags": [
+      "login",
+      "szkody",
+      "PESEL"
+    ],
+    "path": "images/link4/konto/desktop/01-iss-login-entry.webp",
+    "description": "LINK4 nie ma konta klienta — jedyne logowanie to sprawdzanie statusu szkody (/iss/logowanie): „Zaloguj się” numerem telefonu i PESEL, z akceptacją regulaminu.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "link4",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 1,
+    "tag": "login",
+    "tags": [
+      "login",
+      "szkody",
+      "PESEL"
+    ],
+    "path": "images/link4/konto/mobile/01-iss-login-entry.webp",
+    "description": "Logowanie do statusu szkody (/iss/logowanie) — numer telefonu + PESEL; to jedyne logowanie w LINK4, brak konta klienta.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "link4",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 2,
+    "tag": "nawigacja",
+    "tags": [
+      "nawigacja",
+      "menu"
+    ],
+    "path": "images/link4/konto/mobile/02-menu-open.webp",
+    "description": "Menu mobilne: Ubezpieczenia, Obsługa i kontakt, Dokumenty OWU i DZIPU, Likwidacja szkód — bez pozycji konta klienta.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "hugo",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 6,
+    "tag": "login",
+    "tags": [
+      "login",
+      "hasło",
+      "reset hasła"
+    ],
+    "path": "images/hugo/konto/desktop/06-reset-request-password-prompt.webp",
+    "description": "Prośba o hasło z opcją „Forgot password” — początek resetu hasła.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "hugo",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 7,
+    "tag": "login",
+    "tags": [
+      "login",
+      "kod jednorazowy",
+      "e-mail"
+    ],
+    "path": "images/hugo/konto/desktop/07-reset-confirmation-check-inbox.webp",
+    "description": "„Check your inbox” — zamiast linku do resetu hasła Hugo wysyła mailem kod logowania do wpisania w pola; flow kończy się tutaj.",
+    "width": 1920,
+    "height": 1200
   }
 ]
