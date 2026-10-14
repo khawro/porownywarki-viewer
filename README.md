@@ -160,3 +160,7 @@ portal.pillow.cz: logowanie (hasło lub klucz dostępu), rejestracja „Kolemjdo
 ### Policygenius — Konto
 
 Logowanie bez hasła (Google lub kod z maila); panel z postępem wniosku, konto tylko z imieniem, e-mailem i telefonem — preferencje komunikacji zmienia się mailem do team@policygenius.com. Na mobile menu publiczne i menu konta. Desktop 5 kroków, mobile 5 — `images/policygenius/konto/{desktop,mobile}/`.
+
+### Progressive — Konto (częściowy)
+
+Logowanie User ID + hasło; założenie konta wymaga numeru polisy, nazwiska, daty urodzenia i ZIP — tylko dla posiadaczy polis, więc flow kończy się na weryfikacji. Na mobile także menu. Desktop 2 kroki, mobile 3 — `images/progressive/konto/{desktop,mobile}/`.

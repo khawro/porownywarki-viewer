@@ -16377,5 +16377,84 @@
     "description": "Home & auto — „Your request has expired”, przyciski „Get new quotes” i „Message us”.",
     "width": 1170,
     "height": 2532
+  },
+  {
+    "site": "progressive",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 1,
+    "tag": "login",
+    "tags": [
+      "login",
+      "konto",
+      "hasło"
+    ],
+    "path": "images/progressive/konto/desktop/01-login.webp",
+    "description": "„Welcome” — logowanie User ID i hasłem („Save User ID”, „Need help logging in?”), link „New user? Register”; obok skróty bez logowania (Make a Payment, ID cards) i promocja aplikacji.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "progressive",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 2,
+    "tag": "rejestracja",
+    "tags": [
+      "rejestracja",
+      "weryfikacja",
+      "polisa"
+    ],
+    "path": "images/progressive/konto/desktop/02-create-account-verify-identity.webp",
+    "description": "„First, let’s find you” — założenie konta wymaga numeru polisy, nazwiska, daty urodzenia i kodu ZIP; konto tylko dla posiadaczy polis, flow kończy się tutaj.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "progressive",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 1,
+    "tag": "login",
+    "tags": [
+      "login",
+      "konto",
+      "hasło"
+    ],
+    "path": "images/progressive/konto/mobile/01-login.webp",
+    "description": "„Welcome” — logowanie User ID i hasłem („Save User ID”, „Need help logging in?”), link „New user? Register”; obok skróty bez logowania (Make a Payment, ID cards) i promocja aplikacji.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "progressive",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 2,
+    "tag": "rejestracja",
+    "tags": [
+      "rejestracja",
+      "weryfikacja",
+      "polisa"
+    ],
+    "path": "images/progressive/konto/mobile/02-create-account-verify-identity.webp",
+    "description": "„First, let’s find you” — założenie konta wymaga numeru polisy, nazwiska, daty urodzenia i kodu ZIP; konto tylko dla posiadaczy polis, flow kończy się tutaj.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "progressive",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 3,
+    "tag": "nawigacja",
+    "tags": [
+      "nawigacja",
+      "menu"
+    ],
+    "path": "images/progressive/konto/mobile/03-mobile-menu.webp",
+    "description": "Menu mobilne: Insurance & more, Claims, Resources & tools, About us oraz przyciski „Log in” i „Contact us”.",
+    "width": 1170,
+    "height": 2532
   }
 ]
