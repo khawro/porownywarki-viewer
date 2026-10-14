@@ -1,0 +1,7 @@
+README.md
+sync-images.sh
+vercel-*.tgz
+*.tgz
+node_modules
+mobile-home-375.png
+tablet-home-768.png

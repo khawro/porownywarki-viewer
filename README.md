@@ -26,7 +26,7 @@ Otwórz: http://localhost:8765/
 | `styles.css` | Mobbin-inspired (biały canvas, ink #141414, accent #0065ff) |
 | `app.js` | flow browse + tag search / compare |
 | `images.json` | metadane (site, device, step, tag, tags, path, description) |
-| `images/{site}/{device}/*.png` | screenshoty |
+| `images/{site}/{device}/*.webp` | screenshoty |
 
 ## Tagi
 
@@ -34,7 +34,7 @@ Wymyślone / znormalizowane: `start` (home), `pojazd`, `kierowca`, `dane`, `ład
 
 ## Nowa strona — checklista
 
-1. Screenshoty → `images/{site}/{desktop,mobile}/NN-slug.png` + wpisy w `images.json`.
+1. Screenshoty → `images/{site}/{desktop,mobile}/NN-slug.webp` + wpisy w `images.json`.
 2. Etykieta w `SITE_LABELS` (`app.js`).
 3. **Kraj w `SITE_COUNTRIES` (`app.js`, zaraz pod `SITE_LABELS`)** — kod rynku przechwyconego flow (`PL`, `US`, `GB`, `DE`, `SE`, `CZ`, `FR`, `ES`). Nowy kraj → dopisz go też w `COUNTRIES` (flaga + nazwa po polsku). Bez wpisu strona nie ma flagi.
 4. Dopisz stronę do listy na górze tego README.
@@ -53,8 +53,8 @@ Flagi rysuje dołączony font `fonts/TwemojiCountryFlags.woff2` (z [country-flag
 Strona może mieć kilka flowów. Wpis w `images.json` bez pola `flow` należy do flow
 domyślnego (`main`, etykieta „Kalkulator”). Dodatkowy flow:
 
-1. Zrzuty do `images/<site>/<flow>/<device>/NN-slug.png`, np.
-   `images/gocompare/konto/desktop/01-login.png` (flow domyślny zostaje w `images/<site>/<device>/`).
+1. Zrzuty do `images/<site>/<flow>/<device>/NN-slug.webp`, np.
+   `images/gocompare/konto/desktop/01-login.webp` (flow domyślny zostaje w `images/<site>/<device>/`).
 2. Wpisy w `images.json` z polem `"flow"`. Numeracja `step` od 1 osobno w każdym flow i urządzeniu:
    ```json
    {
@@ -64,7 +64,7 @@ domyślnego (`main`, etykieta „Kalkulator”). Dodatkowy flow:
      "step": 1,
      "tag": "login",
      "tags": ["login", "konto"],
-     "path": "images/gocompare/konto/desktop/01-login.png",
+     "path": "images/gocompare/konto/desktop/01-login.webp",
      "description": "Logowanie do konta…",
      "width": 1920,
      "height": 1200
@@ -108,3 +108,7 @@ Konto Pevno prowadzi do portalu UNIQA „Moje ubezpieczenia”; rejestracja prze
 ### Kiosk Polis — Konto
 
 Konto w portalu KioskPolis24 (portal-polisy.pl): tylko logowanie e-mail + hasło, brak rejestracji — konto powstaje po zakupie polisy. Desktop 1 krok, mobile 1 — `images/kioskpolis/konto/{desktop,mobile}/`.
+
+## Format obrazów
+
+Zrzuty trzymamy jako WebP (quality 82, wymiary bez zmian) — PNG z przechwytywania konwertuj przed commitem, np. `cwebp -q 82 in.png -o out.webp`.
