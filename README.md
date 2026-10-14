@@ -54,37 +54,37 @@ Strona może mieć kilka flowów. Wpis w `images.json` bez pola `flow` należy d
 domyślnego (`main`, etykieta „Kalkulator”). Dodatkowy flow:
 
 1. Zrzuty do `images/<site>/<flow>/<device>/NN-slug.png`, np.
-   `images/gocompare/profil/desktop/01-login.png` (flow domyślny zostaje w `images/<site>/<device>/`).
+   `images/gocompare/konto/desktop/01-login.png` (flow domyślny zostaje w `images/<site>/<device>/`).
 2. Wpisy w `images.json` z polem `"flow"`. Numeracja `step` od 1 osobno w każdym flow i urządzeniu:
    ```json
    {
      "site": "gocompare",
-     "flow": "profil",
+     "flow": "konto",
      "device": "desktop",
      "step": 1,
      "tag": "login",
      "tags": ["login", "konto"],
-     "path": "images/gocompare/profil/desktop/01-login.png",
+     "path": "images/gocompare/konto/desktop/01-login.png",
      "description": "Logowanie do konta…",
      "width": 1920,
      "height": 1200
    }
    ```
-3. Etykieta w `FLOW_LABELS` w `app.js` (np. `profil: "Konto"`); kolejność zakładek w `FLOW_ORDER`.
+3. Etykieta w `FLOW_LABELS` w `app.js` (np. `konto: "Konto"`); kolejność zakładek w `FLOW_ORDER`.
 
 Gdy strona ma ponad 1 flow, widok strony pokazuje przełącznik flowów z liczbą kroków,
 a karta w siatce plakietkę „N flowy”. Wyszukiwarka obejmuje nazwy flowów.
-Deep link: `#<site>`, `#<site>/<krok>`, `#<site>/<flow>/<krok>` (np. `#gocompare/profil/3`).
+Deep link: `#<site>`, `#<site>/<krok>`, `#<site>/<flow>/<krok>` (np. `#gocompare/konto/3`).
 
 ### Go.Compare — Konto
 
 `gocompare` ma dwa flowy: Kalkulator (wycena auta) i Konto (konto klienta: logowanie
 kodem jednorazowym z maila — bez hasła, panel z poprzednimi wycenami, dane osobowe,
 bezpieczeństwo, preferencje komunikacji, nagrody; na mobile także menu i zapisane wyceny).
-Desktop 8 kroków, mobile 11 — `images/gocompare/profil/{desktop,mobile}/`.
+Desktop 8 kroków, mobile 11 — `images/gocompare/konto/{desktop,mobile}/`.
 
 ### Feather — Konto
 
 `feather` ma dwa flowy: Kalkulator i Konto (konto klienta: rejestracja, panel konta, polisy,
 dane osobowe, preferencje komunikacji z włączonymi zgodami marketingowymi, płatności, szkody,
-pomoc, dokumenty; na mobile także menu). Desktop 9 kroków, mobile 11 — `images/feather/profil/{desktop,mobile}/`.
+pomoc, dokumenty; na mobile także menu). Desktop 9 kroków, mobile 11 — `images/feather/konto/{desktop,mobile}/`.

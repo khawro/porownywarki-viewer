@@ -13630,7 +13630,7 @@
   },
   {
     "site": "gocompare",
-    "flow": "profil",
+    "flow": "konto",
     "device": "desktop",
     "step": 1,
     "tag": "login",
@@ -13638,14 +13638,14 @@
       "login",
       "konto"
     ],
-    "path": "images/gocompare/profil/desktop/01-login.png",
+    "path": "images/gocompare/konto/desktop/01-login.png",
     "description": "Logowanie do konta Go.Compare — podanie adresu e-mail; bez hasła, logowanie kodem jednorazowym wysyłanym mailem.",
     "width": 1920,
     "height": 1200
   },
   {
     "site": "gocompare",
-    "flow": "profil",
+    "flow": "konto",
     "device": "desktop",
     "step": 2,
     "tag": "login",
@@ -13654,14 +13654,14 @@
       "konto",
       "kod jednorazowy"
     ],
-    "path": "images/gocompare/profil/desktop/02-code-step.png",
+    "path": "images/gocompare/konto/desktop/02-code-step.png",
     "description": "Wpisanie jednorazowego kodu z maila, który potwierdza logowanie.",
     "width": 1920,
     "height": 1200
   },
   {
     "site": "gocompare",
-    "flow": "profil",
+    "flow": "konto",
     "device": "desktop",
     "step": 3,
     "tag": "panel klienta",
@@ -13670,14 +13670,14 @@
       "konto",
       "oferty"
     ],
-    "path": "images/gocompare/profil/desktop/03-account-dashboard.png",
+    "path": "images/gocompare/konto/desktop/03-account-dashboard.png",
     "description": "Panel konta: strona ubezpieczenia auta z sekcją „Your previous quotes” (poprzednie wyceny).",
     "width": 1920,
     "height": 1200
   },
   {
     "site": "gocompare",
-    "flow": "profil",
+    "flow": "konto",
     "device": "desktop",
     "step": 4,
     "tag": "ustawienia",
@@ -13686,14 +13686,14 @@
       "konto",
       "dane"
     ],
-    "path": "images/gocompare/profil/desktop/04-profile-personal-details.png",
+    "path": "images/gocompare/konto/desktop/04-profile-personal-details.png",
     "description": "Konto: dane osobowe użytkownika z możliwością edycji.",
     "width": 1920,
     "height": 1200
   },
   {
     "site": "gocompare",
-    "flow": "profil",
+    "flow": "konto",
     "device": "desktop",
     "step": 5,
     "tag": "ustawienia",
@@ -13702,14 +13702,14 @@
       "konto",
       "bezpieczeństwo"
     ],
-    "path": "images/gocompare/profil/desktop/05-security-change-password.png",
+    "path": "images/gocompare/konto/desktop/05-security-change-password.png",
     "description": "Bezpieczeństwo: ekran zmiany hasła.",
     "width": 1920,
     "height": 1200
   },
   {
     "site": "gocompare",
-    "flow": "profil",
+    "flow": "konto",
     "device": "desktop",
     "step": 6,
     "tag": "ustawienia",
@@ -13718,14 +13718,14 @@
       "konto",
       "zgody"
     ],
-    "path": "images/gocompare/profil/desktop/06-communication-preference-centre.png",
+    "path": "images/gocompare/konto/desktop/06-communication-preference-centre.png",
     "description": "Centrum preferencji komunikacji: zgody marketingowe i przypomnienia o odnowieniu polisy.",
     "width": 1920,
     "height": 1200
   },
   {
     "site": "gocompare",
-    "flow": "profil",
+    "flow": "konto",
     "device": "desktop",
     "step": 7,
     "tag": "nagrody",
@@ -13733,14 +13733,14 @@
       "nagrody",
       "konto"
     ],
-    "path": "images/gocompare/profil/desktop/07-rewards.png",
+    "path": "images/gocompare/konto/desktop/07-rewards.png",
     "description": "Nagrody (Rewards) dostępne dla klientów Go.Compare.",
     "width": 1920,
     "height": 1200
   },
   {
     "site": "gocompare",
-    "flow": "profil",
+    "flow": "konto",
     "device": "desktop",
     "step": 8,
     "tag": "nagrody",
@@ -13748,14 +13748,14 @@
       "nagrody",
       "konto"
     ],
-    "path": "images/gocompare/profil/desktop/08-rewards-scroll.png",
+    "path": "images/gocompare/konto/desktop/08-rewards-scroll.png",
     "description": "Nagrody — dalsza część strony po przewinięciu.",
     "width": 1920,
     "height": 1200
   },
   {
     "site": "gocompare",
-    "flow": "profil",
+    "flow": "konto",
     "device": "mobile",
     "step": 1,
     "tag": "login",
@@ -13763,14 +13763,14 @@
       "login",
       "konto"
     ],
-    "path": "images/gocompare/profil/mobile/01-login.png",
+    "path": "images/gocompare/konto/mobile/01-login.png",
     "description": "Logowanie do konta Go.Compare — podanie adresu e-mail; bez hasła, logowanie kodem jednorazowym wysyłanym mailem.",
     "width": 1170,
     "height": 2532
   },
   {
     "site": "gocompare",
-    "flow": "profil",
+    "flow": "konto",
     "device": "mobile",
     "step": 2,
     "tag": "login",
@@ -13779,14 +13779,14 @@
       "konto",
       "kod jednorazowy"
     ],
-    "path": "images/gocompare/profil/mobile/02-code-step.png",
+    "path": "images/gocompare/konto/mobile/02-code-step.png",
     "description": "Wpisanie jednorazowego kodu z maila, który potwierdza logowanie.",
     "width": 1170,
     "height": 2532
   },
   {
     "site": "gocompare",
-    "flow": "profil",
+    "flow": "konto",
     "device": "mobile",
     "step": 3,
     "tag": "panel klienta",
@@ -13795,14 +13795,14 @@
       "konto",
       "oferty"
     ],
-    "path": "images/gocompare/profil/mobile/03-account-dashboard.png",
+    "path": "images/gocompare/konto/mobile/03-account-dashboard.png",
     "description": "Panel konta: strona ubezpieczenia auta z sekcją „Your previous quotes” (poprzednie wyceny).",
     "width": 1170,
     "height": 2532
   },
   {
     "site": "gocompare",
-    "flow": "profil",
+    "flow": "konto",
     "device": "mobile",
     "step": 4,
     "tag": "panel klienta",
@@ -13811,14 +13811,14 @@
       "konto",
       "nawigacja"
     ],
-    "path": "images/gocompare/profil/mobile/04-mobile-menu-navigation.png",
+    "path": "images/gocompare/konto/mobile/04-mobile-menu-navigation.png",
     "description": "Menu nawigacji konta na mobile: profil, bezpieczeństwo, komunikacja, nagrody, zapisane wyceny.",
     "width": 1170,
     "height": 2532
   },
   {
     "site": "gocompare",
-    "flow": "profil",
+    "flow": "konto",
     "device": "mobile",
     "step": 5,
     "tag": "ustawienia",
@@ -13827,14 +13827,14 @@
       "konto",
       "dane"
     ],
-    "path": "images/gocompare/profil/mobile/05-profile-personal-details.png",
+    "path": "images/gocompare/konto/mobile/05-profile-personal-details.png",
     "description": "Konto: dane osobowe użytkownika z możliwością edycji.",
     "width": 1170,
     "height": 2532
   },
   {
     "site": "gocompare",
-    "flow": "profil",
+    "flow": "konto",
     "device": "mobile",
     "step": 6,
     "tag": "ustawienia",
@@ -13843,14 +13843,14 @@
       "konto",
       "bezpieczeństwo"
     ],
-    "path": "images/gocompare/profil/mobile/06-security-change-password.png",
+    "path": "images/gocompare/konto/mobile/06-security-change-password.png",
     "description": "Bezpieczeństwo: ekran zmiany hasła.",
     "width": 1170,
     "height": 2532
   },
   {
     "site": "gocompare",
-    "flow": "profil",
+    "flow": "konto",
     "device": "mobile",
     "step": 7,
     "tag": "ustawienia",
@@ -13859,14 +13859,14 @@
       "konto",
       "zgody"
     ],
-    "path": "images/gocompare/profil/mobile/07-communication-preference-centre.png",
+    "path": "images/gocompare/konto/mobile/07-communication-preference-centre.png",
     "description": "Centrum preferencji komunikacji: zgody marketingowe i przypomnienia o odnowieniu polisy.",
     "width": 1170,
     "height": 2532
   },
   {
     "site": "gocompare",
-    "flow": "profil",
+    "flow": "konto",
     "device": "mobile",
     "step": 8,
     "tag": "nagrody",
@@ -13874,14 +13874,14 @@
       "nagrody",
       "konto"
     ],
-    "path": "images/gocompare/profil/mobile/08-rewards.png",
+    "path": "images/gocompare/konto/mobile/08-rewards.png",
     "description": "Nagrody (Rewards) dostępne dla klientów Go.Compare.",
     "width": 1170,
     "height": 2532
   },
   {
     "site": "gocompare",
-    "flow": "profil",
+    "flow": "konto",
     "device": "mobile",
     "step": 9,
     "tag": "nagrody",
@@ -13889,14 +13889,14 @@
       "nagrody",
       "konto"
     ],
-    "path": "images/gocompare/profil/mobile/09-rewards-scroll.png",
+    "path": "images/gocompare/konto/mobile/09-rewards-scroll.png",
     "description": "Nagrody — dalsza część strony po przewinięciu.",
     "width": 1170,
     "height": 2532
   },
   {
     "site": "gocompare",
-    "flow": "profil",
+    "flow": "konto",
     "device": "mobile",
     "step": 10,
     "tag": "oferty",
@@ -13905,14 +13905,14 @@
       "konto",
       "panel klienta"
     ],
-    "path": "images/gocompare/profil/mobile/10-saved-quotes.png",
+    "path": "images/gocompare/konto/mobile/10-saved-quotes.png",
     "description": "Zapisane wyceny w koncie klienta.",
     "width": 1170,
     "height": 2532
   },
   {
     "site": "gocompare",
-    "flow": "profil",
+    "flow": "konto",
     "device": "mobile",
     "step": 11,
     "tag": "oferty",
@@ -13921,14 +13921,14 @@
       "konto",
       "panel klienta"
     ],
-    "path": "images/gocompare/profil/mobile/11-saved-quotes-scroll.png",
+    "path": "images/gocompare/konto/mobile/11-saved-quotes-scroll.png",
     "description": "Zapisane wyceny — dalsza część listy po przewinięciu.",
     "width": 1170,
     "height": 2532
   },
   {
     "site": "feather",
-    "flow": "profil",
+    "flow": "konto",
     "device": "desktop",
     "step": 1,
     "tag": "rejestracja",
@@ -13936,14 +13936,14 @@
       "rejestracja",
       "konto"
     ],
-    "path": "images/feather/profil/desktop/01-signup.png",
+    "path": "images/feather/konto/desktop/01-signup.png",
     "description": "Rejestracja konta Feather — formularz z imieniem, nazwiskiem i adresem e-mail; logowanie bez hasła, linkiem/kodem z maila.",
     "width": 1920,
     "height": 1200
   },
   {
     "site": "feather",
-    "flow": "profil",
+    "flow": "konto",
     "device": "desktop",
     "step": 2,
     "tag": "panel klienta",
@@ -13951,14 +13951,14 @@
       "panel klienta",
       "konto"
     ],
-    "path": "images/feather/profil/desktop/02-account-home.png",
+    "path": "images/feather/konto/desktop/02-account-home.png",
     "description": "Strona „Account”: dane użytkownika, ustawienia osobiste (konto, płatności, komunikacja, prywatność) oraz akcje: opinia i kontakt.",
     "width": 1920,
     "height": 1200
   },
   {
     "site": "feather",
-    "flow": "profil",
+    "flow": "konto",
     "device": "desktop",
     "step": 3,
     "tag": "polisy",
@@ -13966,14 +13966,14 @@
       "panel klienta",
       "polisy"
     ],
-    "path": "images/feather/profil/desktop/03-policies-list.png",
+    "path": "images/feather/konto/desktop/03-policies-list.png",
     "description": "Zakładka „Policies” — lista polis i produktów do wykupienia (konto bez aktywnych polis).",
     "width": 1920,
     "height": 1200
   },
   {
     "site": "feather",
-    "flow": "profil",
+    "flow": "konto",
     "device": "desktop",
     "step": 4,
     "tag": "dane osobowe",
@@ -13981,14 +13981,14 @@
       "dane osobowe",
       "konto"
     ],
-    "path": "images/feather/profil/desktop/04-personal-details.png",
+    "path": "images/feather/konto/desktop/04-personal-details.png",
     "description": "Ustawienia konta — dane osobowe użytkownika.",
     "width": 1920,
     "height": 1200
   },
   {
     "site": "feather",
-    "flow": "profil",
+    "flow": "konto",
     "device": "desktop",
     "step": 5,
     "tag": "preferencje komunikacji",
@@ -13997,14 +13997,14 @@
       "newsletter",
       "zgody marketingowe"
     ],
-    "path": "images/feather/profil/desktop/05-communication-preferences.png",
+    "path": "images/feather/konto/desktop/05-communication-preferences.png",
     "description": "Kommunikationseinstellungen — przełączniki zgód: eventy, promocje, ankiety, Feather insights, nowości produktowe, przypomnienia (marketing włączony).",
     "width": 1920,
     "height": 1200
   },
   {
     "site": "feather",
-    "flow": "profil",
+    "flow": "konto",
     "device": "desktop",
     "step": 6,
     "tag": "płatności",
@@ -14012,14 +14012,14 @@
       "płatności",
       "konto"
     ],
-    "path": "images/feather/profil/desktop/06-billing-payment.png",
+    "path": "images/feather/konto/desktop/06-billing-payment.png",
     "description": "Billing and payment — metody płatności i rozliczenia.",
     "width": 1920,
     "height": 1200
   },
   {
     "site": "feather",
-    "flow": "profil",
+    "flow": "konto",
     "device": "desktop",
     "step": 7,
     "tag": "szkody",
@@ -14027,14 +14027,14 @@
       "szkody",
       "panel klienta"
     ],
-    "path": "images/feather/profil/desktop/07-claims-overview.png",
+    "path": "images/feather/konto/desktop/07-claims-overview.png",
     "description": "Zakładka „Claims” — przegląd zgłoszeń szkód.",
     "width": 1920,
     "height": 1200
   },
   {
     "site": "feather",
-    "flow": "profil",
+    "flow": "konto",
     "device": "desktop",
     "step": 8,
     "tag": "pomoc",
@@ -14042,14 +14042,14 @@
       "pomoc",
       "kontakt"
     ],
-    "path": "images/feather/profil/desktop/08-help-support.png",
+    "path": "images/feather/konto/desktop/08-help-support.png",
     "description": "Zakładka „Support” — centrum pomocy i kontakt z Feather.",
     "width": 1920,
     "height": 1200
   },
   {
     "site": "feather",
-    "flow": "profil",
+    "flow": "konto",
     "device": "desktop",
     "step": 9,
     "tag": "dokumenty",
@@ -14057,14 +14057,14 @@
       "dokumenty",
       "prywatność"
     ],
-    "path": "images/feather/profil/desktop/09-documents.png",
+    "path": "images/feather/konto/desktop/09-documents.png",
     "description": "Prywatność, warunki i bezpieczeństwo — dokumenty i regulaminy.",
     "width": 1920,
     "height": 1200
   },
   {
     "site": "feather",
-    "flow": "profil",
+    "flow": "konto",
     "device": "mobile",
     "step": 1,
     "tag": "panel klienta",
@@ -14072,14 +14072,14 @@
       "panel klienta",
       "konto"
     ],
-    "path": "images/feather/profil/mobile/01-account-home.png",
+    "path": "images/feather/konto/mobile/01-account-home.png",
     "description": "Strona „Account”: dane użytkownika, ustawienia osobiste (konto, płatności, komunikacja, prywatność) oraz akcje: opinia i kontakt.",
     "width": 1170,
     "height": 2532
   },
   {
     "site": "feather",
-    "flow": "profil",
+    "flow": "konto",
     "device": "mobile",
     "step": 2,
     "tag": "polisy",
@@ -14087,14 +14087,14 @@
       "panel klienta",
       "polisy"
     ],
-    "path": "images/feather/profil/mobile/02-policies-list.png",
+    "path": "images/feather/konto/mobile/02-policies-list.png",
     "description": "Zakładka „Policies” — lista polis i produktów do wykupienia (konto bez aktywnych polis).",
     "width": 1170,
     "height": 2532
   },
   {
     "site": "feather",
-    "flow": "profil",
+    "flow": "konto",
     "device": "mobile",
     "step": 3,
     "tag": "polisy",
@@ -14102,14 +14102,14 @@
       "panel klienta",
       "polisy"
     ],
-    "path": "images/feather/profil/mobile/03-policies-scroll.png",
+    "path": "images/feather/konto/mobile/03-policies-scroll.png",
     "description": "Dalsza część listy polis po przewinięciu.",
     "width": 1170,
     "height": 2532
   },
   {
     "site": "feather",
-    "flow": "profil",
+    "flow": "konto",
     "device": "mobile",
     "step": 4,
     "tag": "dane osobowe",
@@ -14117,14 +14117,14 @@
       "dane osobowe",
       "konto"
     ],
-    "path": "images/feather/profil/mobile/04-personal-details.png",
+    "path": "images/feather/konto/mobile/04-personal-details.png",
     "description": "Ustawienia konta — dane osobowe użytkownika.",
     "width": 1170,
     "height": 2532
   },
   {
     "site": "feather",
-    "flow": "profil",
+    "flow": "konto",
     "device": "mobile",
     "step": 5,
     "tag": "preferencje komunikacji",
@@ -14133,14 +14133,14 @@
       "newsletter",
       "zgody marketingowe"
     ],
-    "path": "images/feather/profil/mobile/05-communication-preferences.png",
+    "path": "images/feather/konto/mobile/05-communication-preferences.png",
     "description": "Kommunikationseinstellungen — przełączniki zgód: eventy, promocje, ankiety, Feather insights, nowości produktowe, przypomnienia (marketing włączony).",
     "width": 1170,
     "height": 2532
   },
   {
     "site": "feather",
-    "flow": "profil",
+    "flow": "konto",
     "device": "mobile",
     "step": 6,
     "tag": "preferencje komunikacji",
@@ -14148,14 +14148,14 @@
       "preferencje komunikacji",
       "newsletter"
     ],
-    "path": "images/feather/profil/mobile/06-communication-scroll.png",
+    "path": "images/feather/konto/mobile/06-communication-scroll.png",
     "description": "Dalsza część ustawień komunikacji po przewinięciu.",
     "width": 1170,
     "height": 2532
   },
   {
     "site": "feather",
-    "flow": "profil",
+    "flow": "konto",
     "device": "mobile",
     "step": 7,
     "tag": "płatności",
@@ -14163,14 +14163,14 @@
       "płatności",
       "konto"
     ],
-    "path": "images/feather/profil/mobile/07-billing-payment.png",
+    "path": "images/feather/konto/mobile/07-billing-payment.png",
     "description": "Billing and payment — metody płatności i rozliczenia.",
     "width": 1170,
     "height": 2532
   },
   {
     "site": "feather",
-    "flow": "profil",
+    "flow": "konto",
     "device": "mobile",
     "step": 8,
     "tag": "szkody",
@@ -14178,14 +14178,14 @@
       "szkody",
       "panel klienta"
     ],
-    "path": "images/feather/profil/mobile/08-claims-overview.png",
+    "path": "images/feather/konto/mobile/08-claims-overview.png",
     "description": "Zakładka „Claims” — przegląd zgłoszeń szkód.",
     "width": 1170,
     "height": 2532
   },
   {
     "site": "feather",
-    "flow": "profil",
+    "flow": "konto",
     "device": "mobile",
     "step": 9,
     "tag": "pomoc",
@@ -14193,14 +14193,14 @@
       "pomoc",
       "kontakt"
     ],
-    "path": "images/feather/profil/mobile/09-help-support.png",
+    "path": "images/feather/konto/mobile/09-help-support.png",
     "description": "Zakładka „Support” — centrum pomocy i kontakt z Feather.",
     "width": 1170,
     "height": 2532
   },
   {
     "site": "feather",
-    "flow": "profil",
+    "flow": "konto",
     "device": "mobile",
     "step": 10,
     "tag": "dokumenty",
@@ -14208,14 +14208,14 @@
       "dokumenty",
       "prywatność"
     ],
-    "path": "images/feather/profil/mobile/10-documents.png",
+    "path": "images/feather/konto/mobile/10-documents.png",
     "description": "Prywatność, warunki i bezpieczeństwo — dokumenty i regulaminy.",
     "width": 1170,
     "height": 2532
   },
   {
     "site": "feather",
-    "flow": "profil",
+    "flow": "konto",
     "device": "mobile",
     "step": 11,
     "tag": "nawigacja",
@@ -14223,7 +14223,7 @@
       "nawigacja",
       "konto"
     ],
-    "path": "images/feather/profil/mobile/11-account-menu.png",
+    "path": "images/feather/konto/mobile/11-account-menu.png",
     "description": "Menu nawigacji na mobile (Policies, Claims, Support, Account).",
     "width": 1170,
     "height": 2532

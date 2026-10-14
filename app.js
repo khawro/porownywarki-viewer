@@ -80,10 +80,10 @@
   const DEFAULT_FLOW = "main";
   const FLOW_LABELS = {
     main: "Kalkulator",
-    profil: "Konto",
+    konto: "Konto",
   };
   // kolejność zakładek (nieznane flowy na końcu, alfabetycznie)
-  const FLOW_ORDER = ["main", "profil"];
+  const FLOW_ORDER = ["main", "konto"];
 
   const COUNTRIES = {
     PL: { flag: "\u{1F1F5}\u{1F1F1}", name: "Polska" },
