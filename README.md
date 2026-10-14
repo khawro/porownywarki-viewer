@@ -124,3 +124,7 @@ Logowanie i rejestracja „Crea tu cuenta”; rejestracja wymaga telefonu, DNI/N
 ### Compare the Market — Konto
 
 Rejestracja e-mailem + hasło, weryfikacja jednorazowym kodem z maila; panel konta, My details, puste poprzednie wyceny, publiczna strona Meerkat Rewards, preferencje marketingowe (Email/Phone/Text/Post zaznaczone), ustawienia. Desktop 9 kroków, mobile 10 (menu tylko na mobile) — `images/comparethemarket/konto/{desktop,mobile}/`.
+
+### Hedvig — Konto (częściowy)
+
+Logowanie ukryte — brak linku w nagłówku i menu mobilnym; strona /se/member/login tylko przez BankID (QR na desktopie, na mobile wygasła sesja). Reszta konta w aplikacji. Desktop 2 kroki, mobile 3 — `images/hedvig/konto/{desktop,mobile}/`.

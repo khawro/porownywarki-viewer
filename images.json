@@ -15164,5 +15164,84 @@
     "description": "Ustawienia — e-mail, uwierzytelnianie dwuskładnikowe (wył.), zmiana hasła i „Close your account”.",
     "width": 1170,
     "height": 2532
+  },
+  {
+    "site": "hedvig",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 1,
+    "tag": "login",
+    "tags": [
+      "login",
+      "konto",
+      "BankID"
+    ],
+    "path": "images/hedvig/konto/desktop/01-member-login-bankid-entry.webp",
+    "description": "Ukryte logowanie członka (/se/member/login, brak linku w nagłówku) — „Logga in” z jedynym przyciskiem „Logga in med BankID”.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "hedvig",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 2,
+    "tag": "login",
+    "tags": [
+      "login",
+      "BankID",
+      "kod QR"
+    ],
+    "path": "images/hedvig/konto/desktop/02-bankid-qr-entry.webp",
+    "description": "Logowanie BankID na desktopie — kod QR do zeskanowania aplikacją BankID („Logga in med BankID”); bez szwedzkiego BankID flow kończy się tutaj, reszta konta jest w aplikacji.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "hedvig",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 1,
+    "tag": "login",
+    "tags": [
+      "login",
+      "konto",
+      "BankID"
+    ],
+    "path": "images/hedvig/konto/mobile/01-member-login-entry.webp",
+    "description": "Ukryte logowanie członka (/se/member/login) — „Logga in” z jedynym przyciskiem „Logga in med BankID”.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "hedvig",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 2,
+    "tag": "login",
+    "tags": [
+      "login",
+      "BankID",
+      "błąd"
+    ],
+    "path": "images/hedvig/konto/mobile/02-bankid-session-expired.webp",
+    "description": "„Din BankID session löpte ut” — sesja BankID wygasła (brak aplikacji BankID), przycisk „Försök igen”; flow kończy się tutaj, reszta konta jest w aplikacji.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "hedvig",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 3,
+    "tag": "nawigacja",
+    "tags": [
+      "nawigacja",
+      "menu"
+    ],
+    "path": "images/hedvig/konto/mobile/03-menu-hamburger-open.webp",
+    "description": "Menu hamburger strony: lista ubezpieczeń, Support, Om Hedvig i linki do App Store/Google Play — brak pozycji logowania.",
+    "width": 1170,
+    "height": 2532
   }
 ]
