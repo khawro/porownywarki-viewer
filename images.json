@@ -14875,5 +14875,294 @@
     "description": "„Crea tu cuenta” z wymaganymi polami: telefon, DNI/NIE, data urodzenia i adres — bez prawdziwego hiszpańskiego DNI/NIE flow kończy się na tym kroku.",
     "width": 1170,
     "height": 2532
+  },
+  {
+    "site": "comparethemarket",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 1,
+    "tag": "login",
+    "tags": [
+      "login",
+      "konto"
+    ],
+    "path": "images/comparethemarket/konto/desktop/01-login-entry.webp",
+    "description": "„Your account” — start od podania adresu e-mail („What’s your email?”); serwis sprawdza, czy konto istnieje, i kieruje do logowania lub rejestracji.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "comparethemarket",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 2,
+    "tag": "rejestracja",
+    "tags": [
+      "rejestracja",
+      "konto",
+      "hasło"
+    ],
+    "path": "images/comparethemarket/konto/desktop/02-registration.webp",
+    "description": "„Create an account” w 2 krokach: utworzenie hasła (wymagania: 8 znaków, cyfry, małe i wielkie litery) i weryfikacja e-maila — przycisk „Email me a passcode”.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "comparethemarket",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 3,
+    "tag": "rejestracja",
+    "tags": [
+      "rejestracja",
+      "kod jednorazowy"
+    ],
+    "path": "images/comparethemarket/konto/desktop/03-code-step.webp",
+    "description": "Wpisanie jednorazowego kodu (one-time passcode) wysłanego e-mailem, z opcją „Didn’t receive an email?”.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "comparethemarket",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 4,
+    "tag": "panel klienta",
+    "tags": [
+      "panel klienta",
+      "konto"
+    ],
+    "path": "images/comparethemarket/konto/desktop/04-dashboard.webp",
+    "description": "Panel „Welcome James” — baner z zachętą do MFA, skróty do wycen (auto, podróż, dom, broadband), puste poprzednie wyceny i sekcja Family & friends.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "comparethemarket",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 5,
+    "tag": "dane osobowe",
+    "tags": [
+      "dane osobowe",
+      "konto"
+    ],
+    "path": "images/comparethemarket/konto/desktop/05-my-details.webp",
+    "description": "„My details” — osoby, adresy, pojazdy i zwierzęta zapisane przy wycenach, z „View & edit”.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "comparethemarket",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 6,
+    "tag": "oferty",
+    "tags": [
+      "poprzednie wyceny",
+      "panel klienta"
+    ],
+    "path": "images/comparethemarket/konto/desktop/06-previous-quotes.webp",
+    "description": "Poprzednie wyceny — pusty stan („You don’t have any … quotes”) z przyciskiem do rozpoczęcia porównania.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "comparethemarket",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 7,
+    "tag": "nagrody",
+    "tags": [
+      "nagrody",
+      "Meerkat"
+    ],
+    "path": "images/comparethemarket/konto/desktop/07-rewards.webp",
+    "description": "„Your rewards” — publiczna strona Meerkat Rewards (np. Caffè Nero 25% zniżki, 2 for 1 na restauracje i kino).",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "comparethemarket",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 8,
+    "tag": "preferencje komunikacji",
+    "tags": [
+      "preferencje komunikacji",
+      "zgody marketingowe",
+      "newsletter"
+    ],
+    "path": "images/comparethemarket/konto/desktop/08-marketing-preferences.webp",
+    "description": "Marketing preferences — zgody na kontakt zaznaczone: Email, Phone, Text i Post (opcja „Do not contact me” odznaczona).",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "comparethemarket",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 9,
+    "tag": "ustawienia",
+    "tags": [
+      "ustawienia",
+      "bezpieczeństwo"
+    ],
+    "path": "images/comparethemarket/konto/desktop/09-settings.webp",
+    "description": "Ustawienia — e-mail, uwierzytelnianie dwuskładnikowe (wył.), zmiana hasła i „Close your account”.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "comparethemarket",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 1,
+    "tag": "login",
+    "tags": [
+      "login",
+      "konto"
+    ],
+    "path": "images/comparethemarket/konto/mobile/01-login-entry.webp",
+    "description": "„Your account” — start od podania adresu e-mail („What’s your email?”); serwis sprawdza, czy konto istnieje, i kieruje do logowania lub rejestracji.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "comparethemarket",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 2,
+    "tag": "rejestracja",
+    "tags": [
+      "rejestracja",
+      "konto",
+      "hasło"
+    ],
+    "path": "images/comparethemarket/konto/mobile/02-registration.webp",
+    "description": "„Create an account” w 2 krokach: utworzenie hasła (wymagania: 8 znaków, cyfry, małe i wielkie litery) i weryfikacja e-maila — przycisk „Email me a passcode”.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "comparethemarket",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 3,
+    "tag": "rejestracja",
+    "tags": [
+      "rejestracja",
+      "kod jednorazowy"
+    ],
+    "path": "images/comparethemarket/konto/mobile/03-code-step.webp",
+    "description": "Wpisanie jednorazowego kodu (one-time passcode) wysłanego e-mailem, z opcją „Didn’t receive an email?”.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "comparethemarket",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 4,
+    "tag": "panel klienta",
+    "tags": [
+      "panel klienta",
+      "konto"
+    ],
+    "path": "images/comparethemarket/konto/mobile/04-dashboard.webp",
+    "description": "Panel „Welcome James” — baner z zachętą do MFA, skróty do wycen (auto, podróż, dom, broadband), puste poprzednie wyceny i sekcja Family & friends.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "comparethemarket",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 5,
+    "tag": "nawigacja",
+    "tags": [
+      "nawigacja",
+      "menu"
+    ],
+    "path": "images/comparethemarket/konto/mobile/05-mobile-menu.webp",
+    "description": "Menu konta na mobile: kategorie wycen, nowa wycena, My rewards, My details, Service/Marketing preferences, Settings, Sign Out.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "comparethemarket",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 6,
+    "tag": "dane osobowe",
+    "tags": [
+      "dane osobowe",
+      "konto"
+    ],
+    "path": "images/comparethemarket/konto/mobile/06-my-details.webp",
+    "description": "„My details” — osoby, adresy, pojazdy i zwierzęta zapisane przy wycenach, z „View & edit”.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "comparethemarket",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 7,
+    "tag": "oferty",
+    "tags": [
+      "poprzednie wyceny",
+      "panel klienta"
+    ],
+    "path": "images/comparethemarket/konto/mobile/07-previous-quotes.webp",
+    "description": "Poprzednie wyceny — pusty stan („You don’t have any … quotes”) z przyciskiem do rozpoczęcia porównania.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "comparethemarket",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 8,
+    "tag": "nagrody",
+    "tags": [
+      "nagrody",
+      "Meerkat"
+    ],
+    "path": "images/comparethemarket/konto/mobile/08-rewards.webp",
+    "description": "„Your rewards” — publiczna strona Meerkat Rewards (np. Caffè Nero 25% zniżki, 2 for 1 na restauracje i kino).",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "comparethemarket",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 9,
+    "tag": "preferencje komunikacji",
+    "tags": [
+      "preferencje komunikacji",
+      "zgody marketingowe",
+      "newsletter"
+    ],
+    "path": "images/comparethemarket/konto/mobile/09-marketing-preferences.webp",
+    "description": "Marketing preferences — zgody na kontakt zaznaczone: Email, Phone, Text i Post (opcja „Do not contact me” odznaczona).",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "comparethemarket",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 10,
+    "tag": "ustawienia",
+    "tags": [
+      "ustawienia",
+      "bezpieczeństwo"
+    ],
+    "path": "images/comparethemarket/konto/mobile/10-settings.webp",
+    "description": "Ustawienia — e-mail, uwierzytelnianie dwuskładnikowe (wył.), zmiana hasła i „Close your account”.",
+    "width": 1170,
+    "height": 2532
   }
 ]

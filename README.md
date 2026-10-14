@@ -120,3 +120,7 @@ Logowanie e-mailem z 6-cyfrowym kodem od Mayi (bot AI), panel „Welcome back”
 ### Cleverea — Konto
 
 Logowanie i rejestracja „Crea tu cuenta”; rejestracja wymaga telefonu, DNI/NIE, daty urodzenia i adresu, więc flow kończy się na formularzu. Desktop 3 kroki, mobile 3 — `images/cleverea/konto/{desktop,mobile}/`.
+
+### Compare the Market — Konto
+
+Rejestracja e-mailem + hasło, weryfikacja jednorazowym kodem z maila; panel konta, My details, puste poprzednie wyceny, publiczna strona Meerkat Rewards, preferencje marketingowe (Email/Phone/Text/Post zaznaczone), ustawienia. Desktop 9 kroków, mobile 10 (menu tylko na mobile) — `images/comparethemarket/konto/{desktop,mobile}/`.
