@@ -14788,10 +14788,12 @@
     "tag": "login",
     "tags": [
       "login",
-      "konto"
+      "konto",
+      "kod jednorazowy",
+      "SMS"
     ],
     "path": "images/cleverea/konto/desktop/01-login-entry.webp",
-    "description": "Logowanie do konta Cleverea — wejście do „Mi cuenta” (e-mail i hasło) z opcją założenia konta.",
+    "description": "„Iniciar sesión” — logowanie tylko numerem telefonu („Teléfono de contacto”), bez hasła; kod wysyłany przez WhatsApp lub SMS. Link „regístrate ahora” do rejestracji i alternatywa „Continuar con Email”.",
     "width": 1920,
     "height": 1200
   },
@@ -14834,10 +14836,12 @@
     "tag": "login",
     "tags": [
       "login",
-      "konto"
+      "konto",
+      "kod jednorazowy",
+      "SMS"
     ],
     "path": "images/cleverea/konto/mobile/01-login-entry.webp",
-    "description": "Logowanie do konta Cleverea — wejście do „Mi cuenta” (e-mail i hasło) z opcją założenia konta.",
+    "description": "„Iniciar sesión” — logowanie tylko numerem telefonu („Teléfono de contacto”), bez hasła; kod wysyłany przez WhatsApp lub SMS. Link „regístrate ahora” do rejestracji i alternatywa „Continuar con Email”.",
     "width": 1170,
     "height": 2532
   },
