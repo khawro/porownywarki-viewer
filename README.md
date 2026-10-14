@@ -180,3 +180,7 @@ Logowanie e-mail + hasło lub Facebook/Google/Apple, rejestracja (e-mail, hasło
 ### Root — Konto (częściowy)
 
 Logowanie e-mail + hasło na joinroot.com; po zalogowaniu wymuszony krok „Protect your account with your phone number” (kod SMS) — nagrywanie zakończyło się tutaj. Rejestracja tylko przez wycenę. Desktop 3 kroki, mobile 2 — `images/root/konto/{desktop,mobile}/`.
+
+### The Zebra — Konto
+
+Logowanie bez hasła (6-cyfrowy kod z maila) lub Google/Apple; panel z monitoringiem cen, profil, wszystkie 6 zgód marketingowych zaznaczone i zapisane, zapisane wyceny; na mobile menu. Desktop 6 kroków, mobile 7 — `images/thezebra/konto/{desktop,mobile}/`.

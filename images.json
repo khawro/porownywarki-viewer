@@ -17041,5 +17041,206 @@
     "description": "„Sign up” prowadzi tylko do wyceny: „Get a quote in less than 5 minutes” — start od imienia i nazwiska jak w prawie jazdy; konto powstaje wyłącznie przez wycenę.",
     "width": 1170,
     "height": 2532
+  },
+  {
+    "site": "thezebra",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 1,
+    "tag": "login",
+    "tags": [
+      "login",
+      "konto",
+      "kod jednorazowy"
+    ],
+    "path": "images/thezebra/konto/desktop/01-login-entry.webp",
+    "description": "„Welcome back” — logowanie bez hasła: e-mail i jednorazowy 6-cyfrowy kod z maila albo „Continue with Google” / „Continue with Apple”.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "thezebra",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 2,
+    "tag": "rejestracja",
+    "tags": [
+      "rejestracja",
+      "konto",
+      "kod jednorazowy"
+    ],
+    "path": "images/thezebra/konto/desktop/02-signup-entry.webp",
+    "description": "„Create an account” — Google, Apple lub e-mail z jednorazowym kodem logowania, bez hasła.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "thezebra",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 3,
+    "tag": "panel klienta",
+    "tags": [
+      "panel klienta",
+      "monitoring cen"
+    ],
+    "path": "images/thezebra/konto/desktop/03-dashboard.webp",
+    "description": "Panel „Welcome back” — Price Tracking dla ubezpieczenia auta (kolejne sprawdzenie cen za 24 dni, najniższa oferta 34 $), „Link policy” i sekcja Updates z poradami.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "thezebra",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 4,
+    "tag": "dane osobowe",
+    "tags": [
+      "dane osobowe",
+      "konto"
+    ],
+    "path": "images/thezebra/konto/desktop/04-profile.webp",
+    "description": "Profil — imię i nazwisko, e-mail i telefon (persona testowa Jordan Miller, numer 555), link do preferencji komunikacji Email/SMS i wylogowanie.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "thezebra",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 5,
+    "tag": "preferencje komunikacji",
+    "tags": [
+      "preferencje komunikacji",
+      "zgody marketingowe",
+      "newsletter"
+    ],
+    "path": "images/thezebra/konto/desktop/05-notifications-marketing.webp",
+    "description": "„We’re excited to help you personalize your experience” — wszystkie 6 zgód marketingowych (e-mail i SMS: Industry Insider, Quote alerts, Price tracking, Policy updates…) zaznaczone i zapisane — „Preferences saved!”.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "thezebra",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 6,
+    "tag": "oferty",
+    "tags": [
+      "oferty",
+      "zapisane wyceny"
+    ],
+    "path": "images/thezebra/konto/desktop/06-saved-quotes.webp",
+    "description": "Quote Details — zapisana oferta Liberty Mutual 34 $/6 mies. (25k/50k), oznaczona jako wygasła, z przyciskiem „See current rates”.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "thezebra",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 1,
+    "tag": "login",
+    "tags": [
+      "login",
+      "konto",
+      "kod jednorazowy"
+    ],
+    "path": "images/thezebra/konto/mobile/01-login-entry.webp",
+    "description": "„Welcome back” — logowanie bez hasła: e-mail i jednorazowy 6-cyfrowy kod z maila albo „Continue with Google” / „Continue with Apple”.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "thezebra",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 2,
+    "tag": "rejestracja",
+    "tags": [
+      "rejestracja",
+      "konto",
+      "kod jednorazowy"
+    ],
+    "path": "images/thezebra/konto/mobile/02-signup-entry.webp",
+    "description": "„Create an account” — Google, Apple lub e-mail z jednorazowym kodem logowania, bez hasła.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "thezebra",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 3,
+    "tag": "panel klienta",
+    "tags": [
+      "panel klienta",
+      "monitoring cen"
+    ],
+    "path": "images/thezebra/konto/mobile/03-dashboard.webp",
+    "description": "Panel „Welcome back” — Price Tracking dla ubezpieczenia auta (kolejne sprawdzenie cen za 24 dni, najniższa oferta 34 $), „Link policy” i sekcja Updates z poradami.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "thezebra",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 4,
+    "tag": "dane osobowe",
+    "tags": [
+      "dane osobowe",
+      "konto"
+    ],
+    "path": "images/thezebra/konto/mobile/04-profile.webp",
+    "description": "Profil — imię i nazwisko, e-mail i telefon (persona testowa Jordan Miller, numer 555), link do preferencji komunikacji Email/SMS i wylogowanie.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "thezebra",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 5,
+    "tag": "oferty",
+    "tags": [
+      "oferty",
+      "zapisane wyceny"
+    ],
+    "path": "images/thezebra/konto/mobile/05-saved-quotes.webp",
+    "description": "Quote Details — zapisana oferta Liberty Mutual 34 $/6 mies. (25k/50k), oznaczona jako wygasła, z przyciskiem „See current rates”.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "thezebra",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 6,
+    "tag": "preferencje komunikacji",
+    "tags": [
+      "preferencje komunikacji",
+      "zgody marketingowe",
+      "newsletter"
+    ],
+    "path": "images/thezebra/konto/mobile/06-notifications-marketing.webp",
+    "description": "„We’re excited to help you personalize your experience” — wszystkie 6 zgód marketingowych (e-mail i SMS: Industry Insider, Quote alerts, Price tracking, Policy updates…) zaznaczone i zapisane — „Preferences saved!”.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "thezebra",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 7,
+    "tag": "nawigacja",
+    "tags": [
+      "nawigacja",
+      "menu"
+    ],
+    "path": "images/thezebra/konto/mobile/07-mobile-menu.webp",
+    "description": "Menu mobilne z numerem do agentów (1.888.419.3716) i przyciskiem „Get Quotes”.",
+    "width": 1170,
+    "height": 2532
   }
 ]
