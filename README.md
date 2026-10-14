@@ -82,3 +82,9 @@ Deep link: `#<site>`, `#<site>/<krok>`, `#<site>/<flow>/<krok>` (np. `#gocompare
 kodem jednorazowym z maila — bez hasła, panel z poprzednimi wycenami, dane osobowe,
 bezpieczeństwo, preferencje komunikacji, nagrody; na mobile także menu i zapisane wyceny).
 Desktop 8 kroków, mobile 11 — `images/gocompare/profil/{desktop,mobile}/`.
+
+### Feather — Profil
+
+`feather` ma dwa flowy: Kalkulator i Profil (konto klienta: rejestracja, panel konta, polisy,
+dane osobowe, preferencje komunikacji z włączonymi zgodami marketingowymi, płatności, szkody,
+pomoc, dokumenty; na mobile także menu). Desktop 9 kroków, mobile 11 — `images/feather/profil/{desktop,mobile}/`.

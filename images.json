@@ -13925,5 +13925,307 @@
     "description": "Zapisane wyceny — dalsza część listy po przewinięciu.",
     "width": 1170,
     "height": 2532
+  },
+  {
+    "site": "feather",
+    "flow": "profil",
+    "device": "desktop",
+    "step": 1,
+    "tag": "rejestracja",
+    "tags": [
+      "rejestracja",
+      "konto"
+    ],
+    "path": "images/feather/profil/desktop/01-signup.png",
+    "description": "Rejestracja konta Feather — formularz z imieniem, nazwiskiem i adresem e-mail; logowanie bez hasła, linkiem/kodem z maila.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "feather",
+    "flow": "profil",
+    "device": "desktop",
+    "step": 2,
+    "tag": "panel klienta",
+    "tags": [
+      "panel klienta",
+      "konto"
+    ],
+    "path": "images/feather/profil/desktop/02-account-home.png",
+    "description": "Strona „Account”: dane użytkownika, ustawienia osobiste (konto, płatności, komunikacja, prywatność) oraz akcje: opinia i kontakt.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "feather",
+    "flow": "profil",
+    "device": "desktop",
+    "step": 3,
+    "tag": "polisy",
+    "tags": [
+      "panel klienta",
+      "polisy"
+    ],
+    "path": "images/feather/profil/desktop/03-policies-list.png",
+    "description": "Zakładka „Policies” — lista polis i produktów do wykupienia (konto bez aktywnych polis).",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "feather",
+    "flow": "profil",
+    "device": "desktop",
+    "step": 4,
+    "tag": "dane osobowe",
+    "tags": [
+      "dane osobowe",
+      "konto"
+    ],
+    "path": "images/feather/profil/desktop/04-personal-details.png",
+    "description": "Ustawienia konta — dane osobowe użytkownika.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "feather",
+    "flow": "profil",
+    "device": "desktop",
+    "step": 5,
+    "tag": "preferencje komunikacji",
+    "tags": [
+      "preferencje komunikacji",
+      "newsletter",
+      "zgody marketingowe"
+    ],
+    "path": "images/feather/profil/desktop/05-communication-preferences.png",
+    "description": "Kommunikationseinstellungen — przełączniki zgód: eventy, promocje, ankiety, Feather insights, nowości produktowe, przypomnienia (marketing włączony).",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "feather",
+    "flow": "profil",
+    "device": "desktop",
+    "step": 6,
+    "tag": "płatności",
+    "tags": [
+      "płatności",
+      "konto"
+    ],
+    "path": "images/feather/profil/desktop/06-billing-payment.png",
+    "description": "Billing and payment — metody płatności i rozliczenia.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "feather",
+    "flow": "profil",
+    "device": "desktop",
+    "step": 7,
+    "tag": "szkody",
+    "tags": [
+      "szkody",
+      "panel klienta"
+    ],
+    "path": "images/feather/profil/desktop/07-claims-overview.png",
+    "description": "Zakładka „Claims” — przegląd zgłoszeń szkód.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "feather",
+    "flow": "profil",
+    "device": "desktop",
+    "step": 8,
+    "tag": "pomoc",
+    "tags": [
+      "pomoc",
+      "kontakt"
+    ],
+    "path": "images/feather/profil/desktop/08-help-support.png",
+    "description": "Zakładka „Support” — centrum pomocy i kontakt z Feather.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "feather",
+    "flow": "profil",
+    "device": "desktop",
+    "step": 9,
+    "tag": "dokumenty",
+    "tags": [
+      "dokumenty",
+      "prywatność"
+    ],
+    "path": "images/feather/profil/desktop/09-documents.png",
+    "description": "Prywatność, warunki i bezpieczeństwo — dokumenty i regulaminy.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "feather",
+    "flow": "profil",
+    "device": "mobile",
+    "step": 1,
+    "tag": "panel klienta",
+    "tags": [
+      "panel klienta",
+      "konto"
+    ],
+    "path": "images/feather/profil/mobile/01-account-home.png",
+    "description": "Strona „Account”: dane użytkownika, ustawienia osobiste (konto, płatności, komunikacja, prywatność) oraz akcje: opinia i kontakt.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "feather",
+    "flow": "profil",
+    "device": "mobile",
+    "step": 2,
+    "tag": "polisy",
+    "tags": [
+      "panel klienta",
+      "polisy"
+    ],
+    "path": "images/feather/profil/mobile/02-policies-list.png",
+    "description": "Zakładka „Policies” — lista polis i produktów do wykupienia (konto bez aktywnych polis).",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "feather",
+    "flow": "profil",
+    "device": "mobile",
+    "step": 3,
+    "tag": "polisy",
+    "tags": [
+      "panel klienta",
+      "polisy"
+    ],
+    "path": "images/feather/profil/mobile/03-policies-scroll.png",
+    "description": "Dalsza część listy polis po przewinięciu.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "feather",
+    "flow": "profil",
+    "device": "mobile",
+    "step": 4,
+    "tag": "dane osobowe",
+    "tags": [
+      "dane osobowe",
+      "konto"
+    ],
+    "path": "images/feather/profil/mobile/04-personal-details.png",
+    "description": "Ustawienia konta — dane osobowe użytkownika.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "feather",
+    "flow": "profil",
+    "device": "mobile",
+    "step": 5,
+    "tag": "preferencje komunikacji",
+    "tags": [
+      "preferencje komunikacji",
+      "newsletter",
+      "zgody marketingowe"
+    ],
+    "path": "images/feather/profil/mobile/05-communication-preferences.png",
+    "description": "Kommunikationseinstellungen — przełączniki zgód: eventy, promocje, ankiety, Feather insights, nowości produktowe, przypomnienia (marketing włączony).",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "feather",
+    "flow": "profil",
+    "device": "mobile",
+    "step": 6,
+    "tag": "preferencje komunikacji",
+    "tags": [
+      "preferencje komunikacji",
+      "newsletter"
+    ],
+    "path": "images/feather/profil/mobile/06-communication-scroll.png",
+    "description": "Dalsza część ustawień komunikacji po przewinięciu.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "feather",
+    "flow": "profil",
+    "device": "mobile",
+    "step": 7,
+    "tag": "płatności",
+    "tags": [
+      "płatności",
+      "konto"
+    ],
+    "path": "images/feather/profil/mobile/07-billing-payment.png",
+    "description": "Billing and payment — metody płatności i rozliczenia.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "feather",
+    "flow": "profil",
+    "device": "mobile",
+    "step": 8,
+    "tag": "szkody",
+    "tags": [
+      "szkody",
+      "panel klienta"
+    ],
+    "path": "images/feather/profil/mobile/08-claims-overview.png",
+    "description": "Zakładka „Claims” — przegląd zgłoszeń szkód.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "feather",
+    "flow": "profil",
+    "device": "mobile",
+    "step": 9,
+    "tag": "pomoc",
+    "tags": [
+      "pomoc",
+      "kontakt"
+    ],
+    "path": "images/feather/profil/mobile/09-help-support.png",
+    "description": "Zakładka „Support” — centrum pomocy i kontakt z Feather.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "feather",
+    "flow": "profil",
+    "device": "mobile",
+    "step": 10,
+    "tag": "dokumenty",
+    "tags": [
+      "dokumenty",
+      "prywatność"
+    ],
+    "path": "images/feather/profil/mobile/10-documents.png",
+    "description": "Prywatność, warunki i bezpieczeństwo — dokumenty i regulaminy.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "feather",
+    "flow": "profil",
+    "device": "mobile",
+    "step": 11,
+    "tag": "nawigacja",
+    "tags": [
+      "nawigacja",
+      "konto"
+    ],
+    "path": "images/feather/profil/mobile/11-account-menu.png",
+    "description": "Menu nawigacji na mobile (Policies, Claims, Support, Account).",
+    "width": 1170,
+    "height": 2532
   }
 ]
