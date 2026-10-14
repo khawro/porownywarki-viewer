@@ -15243,5 +15243,159 @@
     "description": "Menu hamburger strony: lista ubezpieczeń, Support, Om Hedvig i linki do App Store/Google Play — brak pozycji logowania.",
     "width": 1170,
     "height": 2532
+  },
+  {
+    "site": "hugo",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 1,
+    "tag": "login",
+    "tags": [
+      "login",
+      "konto"
+    ],
+    "path": "images/hugo/konto/desktop/01-login.webp",
+    "description": "„Welcome Back!” na app.withhugo.com — logowanie zweryfikowanym adresem e-mail („Sign in with email”), linki „Other ways to log in”, „I need help logging in” i „Get a quote”.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "hugo",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 2,
+    "tag": "login",
+    "tags": [
+      "login",
+      "Google",
+      "Apple",
+      "SMS"
+    ],
+    "path": "images/hugo/konto/desktop/02-login-other-options.webp",
+    "description": "Inne sposoby logowania: „Sign in with phone” (kod SMS), Google i Apple.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "hugo",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 3,
+    "tag": "login",
+    "tags": [
+      "login",
+      "SMS",
+      "kod jednorazowy"
+    ],
+    "path": "images/hugo/konto/desktop/03-login-phone-option.webp",
+    "description": "Logowanie numerem telefonu — „Send code” wysyła kod SMS; link „Back to login options”.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "hugo",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 4,
+    "tag": "login",
+    "tags": [
+      "login",
+      "hasło"
+    ],
+    "path": "images/hugo/konto/desktop/04-login-email-password-prompt.webp",
+    "description": "E-mail miał już konto, więc pojawia się prośba o hasło — „Log in”, „Forgot password”, „I need help logging in”.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "hugo",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 5,
+    "tag": "pomoc",
+    "tags": [
+      "pomoc",
+      "login"
+    ],
+    "path": "images/hugo/konto/desktop/05-login-help.webp",
+    "description": "„What are you having trouble with?” — utrata dostępu do numeru telefonu, do e-maila lub zapomniane dane logowania; flow kończy się tutaj.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "hugo",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 1,
+    "tag": "login",
+    "tags": [
+      "login",
+      "konto"
+    ],
+    "path": "images/hugo/konto/mobile/01-login.webp",
+    "description": "„Welcome Back!” na app.withhugo.com — logowanie zweryfikowanym adresem e-mail („Sign in with email”), linki „Other ways to log in”, „I need help logging in” i „Get a quote”.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "hugo",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 2,
+    "tag": "login",
+    "tags": [
+      "login",
+      "SMS",
+      "kod jednorazowy"
+    ],
+    "path": "images/hugo/konto/mobile/02-login-phone-option.webp",
+    "description": "Logowanie numerem telefonu — „Send code” wysyła kod SMS; link „Back to login options”.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "hugo",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 3,
+    "tag": "login",
+    "tags": [
+      "login",
+      "hasło"
+    ],
+    "path": "images/hugo/konto/mobile/03-login-email-password-prompt.webp",
+    "description": "E-mail miał już konto, więc pojawia się prośba o hasło — „Log in”, „Forgot password”, „I need help logging in”.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "hugo",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 4,
+    "tag": "pomoc",
+    "tags": [
+      "pomoc",
+      "login"
+    ],
+    "path": "images/hugo/konto/mobile/04-login-help.webp",
+    "description": "„What are you having trouble with?” — utrata dostępu do numeru telefonu, do e-maila lub zapomniane dane logowania; flow kończy się tutaj.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "hugo",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 5,
+    "tag": "nawigacja",
+    "tags": [
+      "nawigacja",
+      "menu"
+    ],
+    "path": "images/hugo/konto/mobile/05-site-menu-logged-out.webp",
+    "description": "Menu strony marketingowej na mobile: Home, How you pay, Reviews, Claims, Agents, About us oraz przyciski „Log in” i „Check my price”.",
+    "width": 1170,
+    "height": 2532
   }
 ]

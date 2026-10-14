@@ -128,3 +128,7 @@ Rejestracja e-mailem + hasło, weryfikacja jednorazowym kodem z maila; panel kon
 ### Hedvig — Konto (częściowy)
 
 Logowanie ukryte — brak linku w nagłówku i menu mobilnym; strona /se/member/login tylko przez BankID (QR na desktopie, na mobile wygasła sesja). Reszta konta w aplikacji. Desktop 2 kroki, mobile 3 — `images/hedvig/konto/{desktop,mobile}/`.
+
+### Hugo — Konto (częściowy)
+
+Logowanie na app.withhugo.com: e-mail + hasło, telefon (kod SMS), Google lub Apple; e-mail miał już konto, więc flow pokazuje prośbę o hasło i ekran „I need help logging in”. Na mobile także menu strony. Desktop 5 kroków, mobile 5 — `images/hugo/konto/{desktop,mobile}/`.
