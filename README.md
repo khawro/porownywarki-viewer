@@ -48,7 +48,7 @@ Obecne przypisanie: PL — Rankomat, Kiosk Polis, Mubi, Beesafe, Link4, Trasti, 
 
 Flagi rysuje dołączony font `fonts/TwemojiCountryFlags.woff2` (z [country-flag-emoji-polyfill](https://github.com/talkjs/country-flag-emoji-polyfill), grafiki Twemoji © Twitter/X, CC-BY 4.0), bo np. Windows nie ma flag w systemowych emoji. Gdy flagi i tak się nie wyrenderują, zamiast nich pokazuje się mały badge z kodem kraju (`PL`, `US`…).
 
-## Kilka flowów na stronę (np. Kalkulator + Profil)
+## Kilka flowów na stronę (np. Kalkulator + Konto)
 
 Strona może mieć kilka flowów. Wpis w `images.json` bez pola `flow` należy do flow
 domyślnego (`main`, etykieta „Kalkulator”). Dodatkowy flow:
@@ -70,21 +70,21 @@ domyślnego (`main`, etykieta „Kalkulator”). Dodatkowy flow:
      "height": 1200
    }
    ```
-3. Etykieta w `FLOW_LABELS` w `app.js` (np. `profil: "Profil"`); kolejność zakładek w `FLOW_ORDER`.
+3. Etykieta w `FLOW_LABELS` w `app.js` (np. `profil: "Konto"`); kolejność zakładek w `FLOW_ORDER`.
 
 Gdy strona ma ponad 1 flow, widok strony pokazuje przełącznik flowów z liczbą kroków,
 a karta w siatce plakietkę „N flowy”. Wyszukiwarka obejmuje nazwy flowów.
 Deep link: `#<site>`, `#<site>/<krok>`, `#<site>/<flow>/<krok>` (np. `#gocompare/profil/3`).
 
-### Go.Compare — Profil
+### Go.Compare — Konto
 
-`gocompare` ma dwa flowy: Kalkulator (wycena auta) i Profil (konto klienta: logowanie
+`gocompare` ma dwa flowy: Kalkulator (wycena auta) i Konto (konto klienta: logowanie
 kodem jednorazowym z maila — bez hasła, panel z poprzednimi wycenami, dane osobowe,
 bezpieczeństwo, preferencje komunikacji, nagrody; na mobile także menu i zapisane wyceny).
 Desktop 8 kroków, mobile 11 — `images/gocompare/profil/{desktop,mobile}/`.
 
-### Feather — Profil
+### Feather — Konto
 
-`feather` ma dwa flowy: Kalkulator i Profil (konto klienta: rejestracja, panel konta, polisy,
+`feather` ma dwa flowy: Kalkulator i Konto (konto klienta: rejestracja, panel konta, polisy,
 dane osobowe, preferencje komunikacji z włączonymi zgodami marketingowymi, płatności, szkody,
 pomoc, dokumenty; na mobile także menu). Desktop 9 kroków, mobile 11 — `images/feather/profil/{desktop,mobile}/`.

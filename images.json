@@ -13687,7 +13687,7 @@
       "dane"
     ],
     "path": "images/gocompare/profil/desktop/04-profile-personal-details.png",
-    "description": "Profil: dane osobowe użytkownika z możliwością edycji.",
+    "description": "Konto: dane osobowe użytkownika z możliwością edycji.",
     "width": 1920,
     "height": 1200
   },
@@ -13828,7 +13828,7 @@
       "dane"
     ],
     "path": "images/gocompare/profil/mobile/05-profile-personal-details.png",
-    "description": "Profil: dane osobowe użytkownika z możliwością edycji.",
+    "description": "Konto: dane osobowe użytkownika z możliwością edycji.",
     "width": 1170,
     "height": 2532
   },

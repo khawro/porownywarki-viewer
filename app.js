@@ -80,7 +80,7 @@
   const DEFAULT_FLOW = "main";
   const FLOW_LABELS = {
     main: "Kalkulator",
-    profil: "Profil",
+    profil: "Konto",
   };
   // kolejność zakładek (nieznane flowy na końcu, alfabetycznie)
   const FLOW_ORDER = ["main", "profil"];
