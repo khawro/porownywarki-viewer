@@ -112,3 +112,7 @@ Konto w portalu KioskPolis24 (portal-polisy.pl): tylko logowanie e-mail + hasło
 ## Format obrazów
 
 Zrzuty trzymamy jako WebP (quality 82, wymiary bez zmian) — PNG z przechwytywania konwertuj przed commitem, np. `cwebp -q 82 in.png -o out.webp`.
+
+### Lemonade — Konto
+
+Logowanie e-mailem z 6-cyfrowym kodem od Mayi (bot AI), panel „Welcome back”, wyceny w chat.lemonade.com, ustawienia tylko imię i e-mail (bez zgód marketingowych), FAQ; na mobile także menu. Desktop 7 kroków, mobile 8 — `images/lemonade/konto/{desktop,mobile}/`.

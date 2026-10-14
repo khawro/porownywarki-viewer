@@ -14550,5 +14550,234 @@
     "description": "Kiosk Polis przekierowuje do portalu „KioskPolis24” (portal-polisy.pl) — logowanie tylko e-mailem i hasłem (Zaloguj, „Przypomnij hasło”); brak rejestracji, konto powstaje dopiero po zakupie polisy.",
     "width": 1170,
     "height": 2532
+  },
+  {
+    "site": "lemonade",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 1,
+    "tag": "login",
+    "tags": [
+      "login",
+      "konto",
+      "kod jednorazowy"
+    ],
+    "path": "images/lemonade/konto/desktop/01-login-entry.webp",
+    "description": "Logowanie do Lemonade adresem e-mail — bez hasła; Maya (bot AI) wysyła jednorazowy 6-cyfrowy kod.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "lemonade",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 2,
+    "tag": "login",
+    "tags": [
+      "login",
+      "kod jednorazowy"
+    ],
+    "path": "images/lemonade/konto/desktop/02-otp-step.webp",
+    "description": "Wpisanie 6-cyfrowego kodu jednorazowego z maila, potwierdzającego logowanie.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "lemonade",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 3,
+    "tag": "panel klienta",
+    "tags": [
+      "panel klienta",
+      "konto"
+    ],
+    "path": "images/lemonade/konto/desktop/03-dashboard.webp",
+    "description": "Panel klienta „Welcome back, Alex” — przegląd konta.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "lemonade",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 4,
+    "tag": "panel klienta",
+    "tags": [
+      "panel klienta",
+      "konto"
+    ],
+    "path": "images/lemonade/konto/desktop/04-dashboard-scroll.webp",
+    "description": "Dalsza część panelu klienta po przewinięciu.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "lemonade",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 5,
+    "tag": "oferty",
+    "tags": [
+      "polisy",
+      "oferty",
+      "chat"
+    ],
+    "path": "images/lemonade/konto/desktop/05-policies-quotes.webp",
+    "description": "Polisy i wyceny — wycena trzymana w chat.lemonade.com jako „Your car quote”.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "lemonade",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 6,
+    "tag": "ustawienia",
+    "tags": [
+      "ustawienia",
+      "dane osobowe"
+    ],
+    "path": "images/lemonade/konto/desktop/06-profile-account.webp",
+    "description": "Ustawienia konta — tylko imię i e-mail; brak przełączników zgód marketingowych.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "lemonade",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 7,
+    "tag": "pomoc",
+    "tags": [
+      "pomoc",
+      "FAQ"
+    ],
+    "path": "images/lemonade/konto/desktop/07-help.webp",
+    "description": "Pomoc — FAQ Lemonade.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "lemonade",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 1,
+    "tag": "login",
+    "tags": [
+      "login",
+      "konto",
+      "kod jednorazowy"
+    ],
+    "path": "images/lemonade/konto/mobile/01-login-entry.webp",
+    "description": "Logowanie do Lemonade adresem e-mail — bez hasła; Maya (bot AI) wysyła jednorazowy 6-cyfrowy kod.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "lemonade",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 2,
+    "tag": "login",
+    "tags": [
+      "login",
+      "kod jednorazowy"
+    ],
+    "path": "images/lemonade/konto/mobile/02-otp-step.webp",
+    "description": "Wpisanie 6-cyfrowego kodu jednorazowego z maila, potwierdzającego logowanie.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "lemonade",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 3,
+    "tag": "panel klienta",
+    "tags": [
+      "panel klienta",
+      "konto"
+    ],
+    "path": "images/lemonade/konto/mobile/03-dashboard.webp",
+    "description": "Panel klienta „Welcome back, Alex” — przegląd konta.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "lemonade",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 4,
+    "tag": "panel klienta",
+    "tags": [
+      "panel klienta",
+      "konto"
+    ],
+    "path": "images/lemonade/konto/mobile/04-dashboard-scroll.webp",
+    "description": "Dalsza część panelu klienta po przewinięciu.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "lemonade",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 5,
+    "tag": "oferty",
+    "tags": [
+      "polisy",
+      "oferty",
+      "chat"
+    ],
+    "path": "images/lemonade/konto/mobile/05-policies-quotes.webp",
+    "description": "Polisy i wyceny — wycena trzymana w chat.lemonade.com jako „Your car quote”.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "lemonade",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 6,
+    "tag": "ustawienia",
+    "tags": [
+      "ustawienia",
+      "dane osobowe"
+    ],
+    "path": "images/lemonade/konto/mobile/06-profile-account.webp",
+    "description": "Ustawienia konta — tylko imię i e-mail; brak przełączników zgód marketingowych.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "lemonade",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 7,
+    "tag": "pomoc",
+    "tags": [
+      "pomoc",
+      "FAQ"
+    ],
+    "path": "images/lemonade/konto/mobile/07-help.webp",
+    "description": "Pomoc — FAQ Lemonade.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "lemonade",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 8,
+    "tag": "menu",
+    "tags": [
+      "menu",
+      "nawigacja"
+    ],
+    "path": "images/lemonade/konto/mobile/08-mobile-menu.webp",
+    "description": "Menu hamburger publicznej strony Lemonade na mobile.",
+    "width": 1170,
+    "height": 2532
   }
 ]
