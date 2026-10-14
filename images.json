@@ -14518,5 +14518,37 @@
     "description": "„Załóż konto w 3 prostych krokach” — rejestracja przez mObywatel (kod QR w aplikacji) albo kodem jednorazowym, ten drugi tylko dla klientów z min. 1 polisą (PESEL + numer polisy lub numer rejestracyjny).",
     "width": 1170,
     "height": 2532
+  },
+  {
+    "site": "kioskpolis",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 1,
+    "tag": "login",
+    "tags": [
+      "login",
+      "konto",
+      "KioskPolis24"
+    ],
+    "path": "images/kioskpolis/konto/desktop/01-login-entry.png",
+    "description": "Kiosk Polis przekierowuje do portalu „KioskPolis24” (portal-polisy.pl) — logowanie tylko e-mailem i hasłem (Zaloguj, „Przypomnij hasło”); brak rejestracji, konto powstaje dopiero po zakupie polisy.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "kioskpolis",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 1,
+    "tag": "login",
+    "tags": [
+      "login",
+      "konto",
+      "KioskPolis24"
+    ],
+    "path": "images/kioskpolis/konto/mobile/01-login-entry.png",
+    "description": "Kiosk Polis przekierowuje do portalu „KioskPolis24” (portal-polisy.pl) — logowanie tylko e-mailem i hasłem (Zaloguj, „Przypomnij hasło”); brak rejestracji, konto powstaje dopiero po zakupie polisy.",
+    "width": 1170,
+    "height": 2532
   }
 ]

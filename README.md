@@ -104,3 +104,7 @@ Konto na account.marshmallow.com: (desktop) bramka „Get the app”, logowanie 
 ### Pevno — Konto
 
 Konto Pevno prowadzi do portalu UNIQA „Moje ubezpieczenia”; rejestracja przez mObywatel (QR) lub kodem jednorazowym tylko dla klientów z polisą (PESEL + nr polisy lub rejestracyjny). Desktop 2 kroki, mobile 2 — `images/pevno/konto/{desktop,mobile}/`.
+
+### Kiosk Polis — Konto
+
+Konto w portalu KioskPolis24 (portal-polisy.pl): tylko logowanie e-mail + hasło, brak rejestracji — konto powstaje po zakupie polisy. Desktop 1 krok, mobile 1 — `images/kioskpolis/konto/{desktop,mobile}/`.
