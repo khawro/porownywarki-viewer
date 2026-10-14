@@ -17242,5 +17242,39 @@
     "description": "Menu mobilne z numerem do agentów (1.888.419.3716) i przyciskiem „Get Quotes”.",
     "width": 1170,
     "height": 2532
+  },
+  {
+    "site": "warta",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 1,
+    "tag": "login",
+    "tags": [
+      "login",
+      "konto",
+      "PESEL",
+      "SMS"
+    ],
+    "path": "images/warta/konto/desktop/01-login.webp",
+    "description": "„Moja Warta” — logowanie tylko PESEL-em i numerem telefonu (kod SMS), bez rejestracji e-mailem; obok lista funkcji (polisy, płatności, zgłoszenie szkody, dokumenty) i „Warta dla Biznesu”. Nagrywanie zatrzymało się na tej bramce.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "warta",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 1,
+    "tag": "login",
+    "tags": [
+      "login",
+      "konto",
+      "PESEL",
+      "SMS"
+    ],
+    "path": "images/warta/konto/mobile/01-login.webp",
+    "description": "„Moja Warta” na mobile — PESEL i numer telefonu (kod SMS), link „Nie możesz się zalogować?”; brak rejestracji e-mailem. Nagrywanie zatrzymało się na tej bramce.",
+    "width": 1170,
+    "height": 2532
   }
 ]

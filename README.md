@@ -184,3 +184,7 @@ Logowanie e-mail + hasło na joinroot.com; po zalogowaniu wymuszony krok „Prot
 ### The Zebra — Konto
 
 Logowanie bez hasła (6-cyfrowy kod z maila) lub Google/Apple; panel z monitoringiem cen, profil, wszystkie 6 zgód marketingowych zaznaczone i zapisane, zapisane wyceny; na mobile menu. Desktop 6 kroków, mobile 7 — `images/thezebra/konto/{desktop,mobile}/`.
+
+### Warta — Konto (częściowy)
+
+Moja Warta: logowanie tylko PESEL + numer telefonu (kod SMS), bez rejestracji e-mailem — nagrywanie zatrzymało się na bramce. Desktop 1 krok, mobile 1 — `images/warta/konto/{desktop,mobile}/`.
