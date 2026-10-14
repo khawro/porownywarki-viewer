@@ -14779,5 +14779,97 @@
     "description": "Menu hamburger publicznej strony Lemonade na mobile.",
     "width": 1170,
     "height": 2532
+  },
+  {
+    "site": "cleverea",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 1,
+    "tag": "login",
+    "tags": [
+      "login",
+      "konto"
+    ],
+    "path": "images/cleverea/konto/desktop/01-login-entry.webp",
+    "description": "Logowanie do konta Cleverea — wejście do „Mi cuenta” (e-mail i hasło) z opcją założenia konta.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "cleverea",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 2,
+    "tag": "rejestracja",
+    "tags": [
+      "rejestracja",
+      "konto"
+    ],
+    "path": "images/cleverea/konto/desktop/02-register-empty.webp",
+    "description": "Formularz rejestracji „Crea tu cuenta” — pusty.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "cleverea",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 3,
+    "tag": "rejestracja",
+    "tags": [
+      "rejestracja",
+      "konto",
+      "walidacja"
+    ],
+    "path": "images/cleverea/konto/desktop/03-register-required-fields.webp",
+    "description": "„Crea tu cuenta” z wymaganymi polami: telefon, DNI/NIE, data urodzenia i adres — bez prawdziwego hiszpańskiego DNI/NIE flow kończy się na tym kroku.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "cleverea",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 1,
+    "tag": "login",
+    "tags": [
+      "login",
+      "konto"
+    ],
+    "path": "images/cleverea/konto/mobile/01-login-entry.webp",
+    "description": "Logowanie do konta Cleverea — wejście do „Mi cuenta” (e-mail i hasło) z opcją założenia konta.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "cleverea",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 2,
+    "tag": "rejestracja",
+    "tags": [
+      "rejestracja",
+      "konto"
+    ],
+    "path": "images/cleverea/konto/mobile/02-register-empty.webp",
+    "description": "Formularz rejestracji „Crea tu cuenta” — pusty.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "cleverea",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 3,
+    "tag": "rejestracja",
+    "tags": [
+      "rejestracja",
+      "konto",
+      "walidacja"
+    ],
+    "path": "images/cleverea/konto/mobile/03-register-required-fields.webp",
+    "description": "„Crea tu cuenta” z wymaganymi polami: telefon, DNI/NIE, data urodzenia i adres — bez prawdziwego hiszpańskiego DNI/NIE flow kończy się na tym kroku.",
+    "width": 1170,
+    "height": 2532
   }
 ]

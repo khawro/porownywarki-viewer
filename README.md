@@ -116,3 +116,7 @@ Zrzuty trzymamy jako WebP (quality 82, wymiary bez zmian) — PNG z przechwytywa
 ### Lemonade — Konto
 
 Logowanie e-mailem z 6-cyfrowym kodem od Mayi (bot AI), panel „Welcome back”, wyceny w chat.lemonade.com, ustawienia tylko imię i e-mail (bez zgód marketingowych), FAQ; na mobile także menu. Desktop 7 kroków, mobile 8 — `images/lemonade/konto/{desktop,mobile}/`.
+
+### Cleverea — Konto
+
+Logowanie i rejestracja „Crea tu cuenta”; rejestracja wymaga telefonu, DNI/NIE, daty urodzenia i adresu, więc flow kończy się na formularzu. Desktop 3 kroki, mobile 3 — `images/cleverea/konto/{desktop,mobile}/`.
