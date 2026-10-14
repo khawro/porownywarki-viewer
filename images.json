@@ -14245,5 +14245,39 @@
     "description": "Menu nawigacji na mobile (Policies, Claims, Support, Account).",
     "width": 1170,
     "height": 2532
+  },
+  {
+    "site": "getsafe",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 1,
+    "tag": "login",
+    "tags": [
+      "login",
+      "konto",
+      "aplikacja",
+      "kod QR"
+    ],
+    "path": "images/getsafe/konto/desktop/01-login-entry.png",
+    "description": "Konto Getsafe dostępne tylko w aplikacji — modal „Login via Getsafe app” z samym kodem QR do zeskanowania telefonem; brak logowania i rejestracji w przeglądarce.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "getsafe",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 1,
+    "tag": "login",
+    "tags": [
+      "login",
+      "konto",
+      "aplikacja",
+      "menu"
+    ],
+    "path": "images/getsafe/konto/mobile/01-login-entry.png",
+    "description": "Menu mobilne z pozycją „Login”, która prowadzi wyłącznie do aplikacji Getsafe — konto tylko w aplikacji (logowanie przez skan kodu QR), brak logowania w przeglądarce.",
+    "width": 1170,
+    "height": 2532
   }
 ]
