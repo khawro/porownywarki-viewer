@@ -92,3 +92,7 @@ pomoc, dokumenty; na mobile także menu). Desktop 9 kroków, mobile 11 — `imag
 ### Getsafe — Konto
 
 Konto Getsafe działa tylko w aplikacji: na desktopie modal „Login via Getsafe app” z kodem QR, na mobile menu z „Login” prowadzącym do aplikacji. Brak logowania/rejestracji w przeglądarce. Desktop 1 krok, mobile 1 — `images/getsafe/konto/{desktop,mobile}/`.
+
+### Jerry — Konto
+
+Logowanie do Jerry tylko numerem telefonu (kod SMS); rejestracja kończy się na potwierdzeniu numeru — wymagany numer z USA. Desktop 2 kroki, mobile 2 — `images/jerry/konto/{desktop,mobile}/`.

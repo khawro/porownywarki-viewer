@@ -14279,5 +14279,69 @@
     "description": "Menu mobilne z pozycją „Login”, która prowadzi wyłącznie do aplikacji Getsafe — konto tylko w aplikacji (logowanie przez skan kodu QR), brak logowania w przeglądarce.",
     "width": 1170,
     "height": 2532
+  },
+  {
+    "site": "jerry",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 1,
+    "tag": "login",
+    "tags": [
+      "login",
+      "konto",
+      "SMS"
+    ],
+    "path": "images/jerry/konto/desktop/01-login-entry.png",
+    "description": "Logowanie do konta Jerry wyłącznie numerem telefonu („Enter your phone number to log in”) — bez e-maila i hasła; dostęp potwierdzany kodem SMS.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "jerry",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 2,
+    "tag": "rejestracja",
+    "tags": [
+      "rejestracja",
+      "konto",
+      "SMS"
+    ],
+    "path": "images/jerry/konto/desktop/02-registration-phone.png",
+    "description": "Rejestracja kończy się na „Let’s confirm your phone number” — konto wymaga weryfikacji SMS na numer z USA, więc flow kończy się na tym kroku.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "jerry",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 1,
+    "tag": "login",
+    "tags": [
+      "login",
+      "konto",
+      "SMS"
+    ],
+    "path": "images/jerry/konto/mobile/01-login-entry.png",
+    "description": "Logowanie do konta Jerry wyłącznie numerem telefonu („Enter your phone number to log in”) — bez e-maila i hasła; dostęp potwierdzany kodem SMS.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "jerry",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 2,
+    "tag": "rejestracja",
+    "tags": [
+      "rejestracja",
+      "konto",
+      "SMS"
+    ],
+    "path": "images/jerry/konto/mobile/02-registration-phone.png",
+    "description": "Rejestracja kończy się na „Let’s confirm your phone number” — konto wymaga weryfikacji SMS na numer z USA, więc flow kończy się na tym kroku.",
+    "width": 1170,
+    "height": 2532
   }
 ]
