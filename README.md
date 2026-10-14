@@ -168,3 +168,7 @@ Logowanie User ID + hasło; założenie konta wymaga numeru polisy, nazwiska, da
 ### Rankomat — Konto
 
 Brak linku logowania w nagłówku — wejście tylko przez /konto. Rejestracja e-mail + hasło z jedną opcjonalną zgodą na informacje handlowe (domyślnie odznaczona; zaznaczyliśmy ją), aktywacja linkiem z maila, panel z kalkulacjami, ustawienia z opcjonalnym 2FA SMS; na mobile menu strony i menu konta. Desktop 7 kroków, mobile 9 — `images/rankomat/konto/{desktop,mobile}/`.
+
+### Redclick — Konto (częściowy)
+
+Logowanie na login.redclick.pl nazwą użytkownika nadaną przy zakupie polisy — brak rejestracji; odzyskanie danych wymaga PESEL/REGON (tylko posiadacze polis). Na mobile menu z „ZALOGUJ SIĘ”. Desktop 2 kroki, mobile 3 — `images/redclick/konto/{desktop,mobile}/`.

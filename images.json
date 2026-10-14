@@ -16701,5 +16701,85 @@
     "description": "Ustawienia — opcjonalna weryfikacja dwuetapowa SMS (status: nieaktywna).",
     "width": 1170,
     "height": 2532
+  },
+  {
+    "site": "redclick",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 1,
+    "tag": "login",
+    "tags": [
+      "login",
+      "konto",
+      "hasło"
+    ],
+    "path": "images/redclick/konto/desktop/01-login.webp",
+    "description": "„Wprowadź swoje dane dostępowe” na login.redclick.pl — nazwa użytkownika nadana przy zakupie polisy (np. e-mail z kodem cyfrowym) i hasło; brak rejestracji, link „Utwórz hasło lub odzyskaj dane dostępowe”.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "redclick",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 2,
+    "tag": "pomoc",
+    "tags": [
+      "pomoc",
+      "PESEL",
+      "login"
+    ],
+    "path": "images/redclick/konto/desktop/02-recover-pesel.webp",
+    "description": "„Odzyskaj nazwę użytkownika i hasło” — wymaga PESEL lub REGON, więc działa tylko dla posiadaczy polis; flow kończy się tutaj.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "redclick",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 1,
+    "tag": "login",
+    "tags": [
+      "login",
+      "konto",
+      "hasło"
+    ],
+    "path": "images/redclick/konto/mobile/01-login.webp",
+    "description": "„Wprowadź swoje dane dostępowe” na login.redclick.pl — nazwa użytkownika nadana przy zakupie polisy (np. e-mail z kodem cyfrowym) i hasło; brak rejestracji, link „Utwórz hasło lub odzyskaj dane dostępowe”.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "redclick",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 2,
+    "tag": "pomoc",
+    "tags": [
+      "pomoc",
+      "PESEL",
+      "login"
+    ],
+    "path": "images/redclick/konto/mobile/02-recover-pesel.webp",
+    "description": "„Odzyskaj nazwę użytkownika i hasło” — wymaga PESEL lub REGON, więc działa tylko dla posiadaczy polis; flow kończy się tutaj.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "redclick",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 3,
+    "tag": "nawigacja",
+    "tags": [
+      "nawigacja",
+      "menu",
+      "login"
+    ],
+    "path": "images/redclick/konto/mobile/03-menu-zaloguj-sie.webp",
+    "description": "Menu mobilne Redclick (Ubezpieczenie, W razie szkody, Świat Redclick, „Poproś o pomoc”) z przyciskiem „ZALOGUJ SIĘ”.",
+    "width": 1170,
+    "height": 2532
   }
 ]
