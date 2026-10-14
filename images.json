@@ -16964,5 +16964,82 @@
     "description": "Ustawienia — zmiana hasła: aktualne, nowe i powtórzenie nowego hasła („Změnit heslo”). W koncie Rixo nie ma ekranu zgód marketingowych.",
     "width": 1170,
     "height": 2532
+  },
+  {
+    "site": "root",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 1,
+    "tag": "login",
+    "tags": [
+      "login",
+      "konto",
+      "hasło"
+    ],
+    "path": "images/root/konto/desktop/01-login.webp",
+    "description": "„Sign in to your Root account” — e-mail i hasło, „Forgot password?” i link „New to Root? Sign up”. Po zalogowaniu Root wymusza krok „Protect your account with your phone number” (kod SMS) przed dostępem do konta — nagrywanie zakończyło się na tym etapie.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "root",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 2,
+    "tag": "login",
+    "tags": [
+      "login",
+      "SMS"
+    ],
+    "path": "images/root/konto/desktop/02-welcome-back-email.webp",
+    "description": "„Welcome back.” — ponowne logowanie: potwierdzenie adresu e-mail i „Continue”. Po zalogowaniu Root wymusza krok „Protect your account with your phone number” (kod SMS) przed dostępem do konta — nagrywanie zakończyło się na tym etapie.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "root",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 3,
+    "tag": "rejestracja",
+    "tags": [
+      "rejestracja",
+      "wycena"
+    ],
+    "path": "images/root/konto/desktop/03-signup-landing.webp",
+    "description": "„Sign up” prowadzi tylko do wyceny: „Get a quote in less than 5 minutes” — start od imienia i nazwiska jak w prawie jazdy; konto powstaje wyłącznie przez wycenę.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "root",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 1,
+    "tag": "login",
+    "tags": [
+      "login",
+      "konto",
+      "hasło"
+    ],
+    "path": "images/root/konto/mobile/01-login.webp",
+    "description": "„Sign in to your Root account” — e-mail i hasło, „Forgot password?” i link „New to Root? Sign up”. Po zalogowaniu Root wymusza krok „Protect your account with your phone number” (kod SMS) przed dostępem do konta — nagrywanie zakończyło się na tym etapie.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "root",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 2,
+    "tag": "rejestracja",
+    "tags": [
+      "rejestracja",
+      "wycena"
+    ],
+    "path": "images/root/konto/mobile/02-signup-landing.webp",
+    "description": "„Sign up” prowadzi tylko do wyceny: „Get a quote in less than 5 minutes” — start od imienia i nazwiska jak w prawie jazdy; konto powstaje wyłącznie przez wycenę.",
+    "width": 1170,
+    "height": 2532
   }
 ]

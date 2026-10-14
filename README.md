@@ -176,3 +176,7 @@ Logowanie na login.redclick.pl nazwą użytkownika nadaną przy zakupie polisy �
 ### Rixo.cz — Konto
 
 Logowanie e-mail + hasło lub Facebook/Google/Apple, rejestracja (e-mail, hasło, telefon), panel z kalkulacjami i umowami, dane osobowe (testowe), zmiana hasła; na mobile menu przed i po zalogowaniu. Brak ekranu zgód marketingowych w koncie. Desktop 5 kroków, mobile 7 — `images/rixo/konto/{desktop,mobile}/`.
+
+### Root — Konto (częściowy)
+
+Logowanie e-mail + hasło na joinroot.com; po zalogowaniu wymuszony krok „Protect your account with your phone number” (kod SMS) — nagrywanie zakończyło się tutaj. Rejestracja tylko przez wycenę. Desktop 3 kroki, mobile 2 — `images/root/konto/{desktop,mobile}/`.
