@@ -17276,5 +17276,69 @@
     "description": "„Moja Warta” na mobile — PESEL i numer telefonu (kod SMS), link „Nie możesz się zalogować?”; brak rejestracji e-mailem. Nagrywanie zatrzymało się na tej bramce.",
     "width": 1170,
     "height": 2532
+  },
+  {
+    "site": "beesafe",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 1,
+    "tag": "login",
+    "tags": [
+      "login",
+      "konto",
+      "SMS"
+    ],
+    "path": "images/beesafe/konto/desktop/01-login-entry.webp",
+    "description": "„Podaj swój numer telefonu. Wyślemy 6 cyfrowy kod SMS-em” — logowanie do konta Beesafe tylko numerem telefonu właściciela polisy i kodem SMS, bez hasła i rejestracji e-mailem.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "beesafe",
+    "flow": "konto",
+    "device": "desktop",
+    "step": 2,
+    "tag": "login",
+    "tags": [
+      "login",
+      "SMS",
+      "kod jednorazowy"
+    ],
+    "path": "images/beesafe/konto/desktop/02-sms-code-step.webp",
+    "description": "„Przepisz kod z SMS-a” — pole na 6-cyfrowy kod, „SMS nie doszedł? Wyślij ponownie” i „Popraw numer”. Bez polisy kod nie przychodzi, więc nagrywanie zatrzymało się na tym kroku.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "beesafe",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 1,
+    "tag": "login",
+    "tags": [
+      "login",
+      "konto",
+      "SMS"
+    ],
+    "path": "images/beesafe/konto/mobile/01-login-entry.webp",
+    "description": "„Podaj swój numer telefonu. Wyślemy 6 cyfrowy kod SMS-em” — logowanie do konta Beesafe tylko numerem telefonu właściciela polisy i kodem SMS, bez hasła i rejestracji e-mailem.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "beesafe",
+    "flow": "konto",
+    "device": "mobile",
+    "step": 2,
+    "tag": "login",
+    "tags": [
+      "login",
+      "SMS",
+      "kod jednorazowy"
+    ],
+    "path": "images/beesafe/konto/mobile/02-sms-code-step.webp",
+    "description": "„Przepisz kod z SMS-a” — pole na 6-cyfrowy kod, „SMS nie doszedł? Wyślij ponownie” i „Popraw numer”. Bez polisy kod nie przychodzi, więc nagrywanie zatrzymało się na tym kroku.",
+    "width": 1170,
+    "height": 2532
   }
 ]
