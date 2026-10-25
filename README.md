@@ -2,7 +2,7 @@
 
 Statyczna web-aplikacja (styl Mobbin) do podglądu screenshotów flow OC:
 
-- **Rankomat**, **Kiosk Polis**, **Insurify**, **NerdWallet**, **Lemonade**, **Mubi**, **GoCompare**, **The Zebra**, **Beesafe**, **Link4**, **Policygenius**, **Marshmallow**, **Getsafe**, **Feather**, **Compare the Market**, **Confused.com**, **Root Insurance**, **Progressive**, **Hedvig**, **Trasti**, **Warta**, **Ominimo**, **Pevno**, **Redclick**, **Klik.cz**, **Rixo.cz**, **Lovys**, **Pillow.cz**, **Jerry**, **Hugo**, **Cleverea**, **CHECK24**
+- **Rankomat**, **Kiosk Polis**, **Insurify**, **NerdWallet**, **Lemonade**, **Mubi**, **GoCompare**, **The Zebra**, **Beesafe**, **Link4**, **Policygenius**, **Marshmallow**, **Getsafe**, **Feather**, **Compare the Market**, **Confused.com**, **Root Insurance**, **Progressive**, **Hedvig**, **Trasti**, **Warta**, **Ominimo**, **Pevno**, **Redclick**, **Klik.cz**, **Rixo.cz**, **Lovys**, **Pillow.cz**, **Jerry**, **Hugo**, **Cleverea**, **CHECK24**, **Poliseo**
 - przy nazwie strony flaga kraju rynku (🇵🇱 Polska, 🇺🇸 USA, 🇬🇧 UK, 🇩🇪 Niemcy, 🇸🇪 Szwecja, 🇨🇿 Czechy, 🇫🇷 Francja) — na kartach, w nagłówku flow, w chipach i w panelu bocznym
 - osobno **Desktop** i **Mobile**; w trybie Mobile nie ma stron bez ekranów mobile (i odwrotnie) — liczone z `images.json`
 - we flow: poprzedni / następny ekran (przyciski ‹ ›, strzałki ← →, swipe) z licznikiem „N / total”; klik w ekran otwiera powiększony podgląd (Esc zamyka)
@@ -39,7 +39,7 @@ Wymyślone / znormalizowane: `start` (home), `pojazd`, `kierowca`, `dane`, `ład
 3. **Kraj w `SITE_COUNTRIES` (`app.js`, zaraz pod `SITE_LABELS`)** — kod rynku przechwyconego flow (`PL`, `US`, `GB`, `DE`, `SE`, `CZ`, `FR`, `ES`). Nowy kraj → dopisz go też w `COUNTRIES` (flaga + nazwa po polsku). Bez wpisu strona nie ma flagi.
 4. Dopisz stronę do listy na górze tego README.
 
-Obecne przypisanie: PL — Rankomat, Kiosk Polis, Mubi, Beesafe, Link4, Trasti, Warta, Ominimo, Pevno, Redclick, Balcia (ukryta) · US — Insurify, The Zebra, NerdWallet, Lemonade, Policygenius, Root Insurance, Progressive, Jerry, Hugo · GB — GoCompare, Marshmallow, Compare the Market, Confused.com · DE — Getsafe, Feather, CHECK24 · SE — Hedvig · CZ — Klik.cz, Rixo.cz, Pillow.cz · FR — Lovys · ES — Cleverea.
+Obecne przypisanie: PL — Rankomat, Kiosk Polis, Mubi, Beesafe, Link4, Trasti, Warta, Ominimo, Pevno, Redclick, Balcia (ukryta), Poliseo · US — Insurify, The Zebra, NerdWallet, Lemonade, Policygenius, Root Insurance, Progressive, Jerry, Hugo · GB — GoCompare, Marshmallow, Compare the Market, Confused.com · DE — Getsafe, Feather, CHECK24 · SE — Hedvig · CZ — Klik.cz, Rixo.cz, Pillow.cz · FR — Lovys · ES — Cleverea.
 
 **Uwaga (flow częściowe):** **Trasti** — ścieżka kończy się na blokadzie CEPiK („nie możemy przedstawić Ci oferty”), bez ekranu ofert. **Warta** — AC niedostępne online; oferta OC 2 291 zł / 12 mies.; ścieżka kończy się na „Dane do polisy” przy obowiązkowym pełnym VIN. **Ominimo** — VIN obowiązkowy; po kroku właściciela/kierowcy brak oferty online („nie jesteśmy w stanie wygenerować oferty online”), ścieżka kończy się na tej blokadzie. **Redclick** — konwersacyjny flow OC/AC; po kroku kontaktowym błąd bazy danych („Ups… bazy dane nie odpowiadają”), bez ceny — ścieżka częściowa. **Jerry** — US car insurance (jerry.ai); ścieżka częściowa kończy się na weryfikacji SMS (4-cyfrowy kod) — do kontynuacji potrzebny realny numer US. **Cleverea** — hiszpański broker/porównywarka OC/AC; ścieżka częściowa kończy się na liście ofert (Axa od 588,55 €/rok), bez wyboru oferty i zakupu. **Balcia** — OC; wyszukiwanie pojazdu po numerze w CEPiK/UFG zwracało błędy, więc pojazd wybrany ręcznie; po danych osobowych modal „BSY-1857 – Wystąpił błąd w kalkulacji”, bez ceny — ścieżka częściowa. *(Obecnie ukryta — patrz „Ukryte strony”.)* **CHECK24** — Kfz-Versicherung (DE); ścieżka częściowa kończy się na Cloudflare Turnstile („Bestätigen Sie, dass Sie ein Mensch sind”) przed „Ergebnis anzeigen”, bez taryf. Strefa klienta „Mein Konto” jest osobnym flowem **Konto** (`images/check24/konto/`: logowanie, przegląd konta, dane osobowe, Versicherungscenter, Merkzettel, ustawienia logowania i bezpieczeństwa, powiadomienia, metody płatności, a na mobile także menu profilu; desktop 8 kroków, mobile 10); dane osobowe na zrzutach zostały zamaskowane.
 
@@ -192,3 +192,7 @@ Moja Warta: logowanie tylko PESEL + numer telefonu (kod SMS), bez rejestracji e-
 ### Beesafe — Konto (częściowy)
 
 Logowanie numerem telefonu + 6-cyfrowy kod SMS; bez polisy kod nie przychodzi, więc nagrywanie zatrzymało się na kroku kodu. Desktop 2 kroki, mobile 2 — `images/beesafe/konto/{desktop,mobile}/`.
+
+### Poliseo
+
+Poliseo (https://poliseo.pl/) — polska porównywarka (PL). Kalkulator OC/AC: numer rejestracyjny i dane startowe, ręczny wybór pojazdu (brak wyniku po numerze; Toyota Corolla 1.6 2018), szczegóły pojazdu, krok „Właściciel” (zgody marketingowe), obowiązkowy numer telefonu przed ofertami, lista 17 ofert (od 6 239 zł) i szczegóły oferty TUZ. Desktop 10 kroków, mobile 10 — `images/poliseo/{desktop,mobile}/`.

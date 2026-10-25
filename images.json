@@ -17340,5 +17340,293 @@
     "description": "„Przepisz kod z SMS-a” — pole na 6-cyfrowy kod, „SMS nie doszedł? Wyślij ponownie” i „Popraw numer”. Bez polisy kod nie przychodzi, więc nagrywanie zatrzymało się na tym kroku.",
     "width": 1170,
     "height": 2532
+  },
+  {
+    "site": "poliseo",
+    "device": "desktop",
+    "step": 1,
+    "tag": "landing",
+    "tags": [
+      "landing",
+      "cookies"
+    ],
+    "path": "images/poliseo/desktop/01-landing.webp",
+    "description": "Strona główna Poliseo z banerem cookies.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "poliseo",
+    "device": "desktop",
+    "step": 2,
+    "tag": "calculator",
+    "tags": [
+      "calculator",
+      "plate"
+    ],
+    "path": "images/poliseo/desktop/02-calculator-start.webp",
+    "description": "Kalkulator OC/AC – pierwszy krok, numer rejestracyjny.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "poliseo",
+    "device": "desktop",
+    "step": 3,
+    "tag": "start",
+    "tags": [
+      "start",
+      "plate",
+      "consents"
+    ],
+    "path": "images/poliseo/desktop/03-calculator-filled.webp",
+    "description": "Dane startowe: numer rejestracyjny, data urodzenia, data startu polisy i zgody.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "poliseo",
+    "device": "desktop",
+    "step": 4,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle",
+      "plate"
+    ],
+    "path": "images/poliseo/desktop/04-vehicle-section-no-lookup.webp",
+    "description": "Sekcja pojazdu – brak wyniku wyszukiwania po numerze, ręczny wybór auta.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "poliseo",
+    "device": "desktop",
+    "step": 5,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle",
+      "car"
+    ],
+    "path": "images/poliseo/desktop/05-vehicle-selected.webp",
+    "description": "Wybrany pojazd: Toyota Corolla 1.6 (2018).",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "poliseo",
+    "device": "desktop",
+    "step": 6,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle",
+      "usage",
+      "policy"
+    ],
+    "path": "images/poliseo/desktop/06-vehicle-details-filled.webp",
+    "description": "Szczegóły pojazdu: przebieg, daty, rejestracja, użytkowanie, parkowanie, poprzedni ubezpieczyciel.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "poliseo",
+    "device": "desktop",
+    "step": 7,
+    "tag": "owner",
+    "tags": [
+      "owner",
+      "license",
+      "email",
+      "consents"
+    ],
+    "path": "images/poliseo/desktop/07-owner-step-filled.webp",
+    "description": "Krok „Właściciel”: prawo jazdy, kod pocztowy, historia ubezpieczenia, e-mail i zgody marketingowe.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "poliseo",
+    "device": "desktop",
+    "step": 8,
+    "tag": "contact",
+    "tags": [
+      "contact",
+      "validation"
+    ],
+    "path": "images/poliseo/desktop/08-phone-required-blocker.webp",
+    "description": "Walidacja – numer telefonu jest obowiązkowy przed pokazaniem ofert.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "poliseo",
+    "device": "desktop",
+    "step": 9,
+    "tag": "offers",
+    "tags": [
+      "offers",
+      "results"
+    ],
+    "path": "images/poliseo/desktop/09-offers-list.webp",
+    "description": "Lista 17 ofert OC/AC z filtrami, najtańsza od 6 239 zł.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "poliseo",
+    "device": "desktop",
+    "step": 10,
+    "tag": "offer",
+    "tags": [
+      "offer",
+      "details"
+    ],
+    "path": "images/poliseo/desktop/10-offer-detail.webp",
+    "description": "Szczegóły oferty TUZ – zakres OC i NNW.",
+    "width": 1920,
+    "height": 1200
+  },
+  {
+    "site": "poliseo",
+    "device": "mobile",
+    "step": 1,
+    "tag": "landing",
+    "tags": [
+      "landing",
+      "cookies"
+    ],
+    "path": "images/poliseo/mobile/01-landing.webp",
+    "description": "Strona główna Poliseo z banerem cookies.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "poliseo",
+    "device": "mobile",
+    "step": 2,
+    "tag": "calculator",
+    "tags": [
+      "calculator",
+      "plate"
+    ],
+    "path": "images/poliseo/mobile/02-calculator-start.webp",
+    "description": "Kalkulator OC/AC – pierwszy krok, numer rejestracyjny.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "poliseo",
+    "device": "mobile",
+    "step": 3,
+    "tag": "start",
+    "tags": [
+      "start",
+      "plate",
+      "consents"
+    ],
+    "path": "images/poliseo/mobile/03-calculator-filled.webp",
+    "description": "Dane startowe: numer rejestracyjny, data urodzenia, data startu polisy i zgody.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "poliseo",
+    "device": "mobile",
+    "step": 4,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle",
+      "plate"
+    ],
+    "path": "images/poliseo/mobile/04-vehicle-section-no-lookup.webp",
+    "description": "Sekcja pojazdu – brak wyniku wyszukiwania po numerze, ręczny wybór auta.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "poliseo",
+    "device": "mobile",
+    "step": 5,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle",
+      "car"
+    ],
+    "path": "images/poliseo/mobile/05-vehicle-selected.webp",
+    "description": "Wybrany pojazd: Toyota Corolla 1.6 (2018).",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "poliseo",
+    "device": "mobile",
+    "step": 6,
+    "tag": "vehicle",
+    "tags": [
+      "vehicle",
+      "usage",
+      "policy"
+    ],
+    "path": "images/poliseo/mobile/06-vehicle-details-filled.webp",
+    "description": "Szczegóły pojazdu: przebieg, daty, rejestracja, użytkowanie, parkowanie, poprzedni ubezpieczyciel.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "poliseo",
+    "device": "mobile",
+    "step": 7,
+    "tag": "owner",
+    "tags": [
+      "owner",
+      "license",
+      "email",
+      "consents"
+    ],
+    "path": "images/poliseo/mobile/07-owner-step-filled.webp",
+    "description": "Krok „Właściciel”: prawo jazdy, kod pocztowy, historia ubezpieczenia, e-mail i zgody marketingowe.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "poliseo",
+    "device": "mobile",
+    "step": 8,
+    "tag": "contact",
+    "tags": [
+      "contact",
+      "validation"
+    ],
+    "path": "images/poliseo/mobile/08-phone-required-blocker.webp",
+    "description": "Walidacja – numer telefonu jest obowiązkowy przed pokazaniem ofert.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "poliseo",
+    "device": "mobile",
+    "step": 9,
+    "tag": "offers",
+    "tags": [
+      "offers",
+      "results"
+    ],
+    "path": "images/poliseo/mobile/09-offers-list.webp",
+    "description": "Lista 17 ofert OC/AC z filtrami, najtańsza od 6 239 zł.",
+    "width": 1170,
+    "height": 2532
+  },
+  {
+    "site": "poliseo",
+    "device": "mobile",
+    "step": 10,
+    "tag": "offer",
+    "tags": [
+      "offer",
+      "details"
+    ],
+    "path": "images/poliseo/mobile/10-offer-detail.webp",
+    "description": "Szczegóły oferty TUZ – zakres OC i NNW.",
+    "width": 1170,
+    "height": 2532
   }
 ]

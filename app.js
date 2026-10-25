@@ -33,6 +33,7 @@
     cleverea: "Cleverea",
     balcia: "Balcia",
     check24: "CHECK24",
+    poliseo: "Poliseo",
   };
 
   // Rynek przechwyconego flow (kraj strony/aplikacji). Każdy nowy site → dopisz tutaj.
@@ -70,6 +71,7 @@
     cleverea: "ES",
     balcia: "PL",
     check24: "DE",
+    poliseo: "PL",
   };
 
   // Strony ukryte w galerii (pliki i wpisy w images.json zostają). Aby przywrócić — usuń id z listy.
