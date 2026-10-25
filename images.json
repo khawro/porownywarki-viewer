@@ -17347,11 +17347,10 @@
     "step": 1,
     "tag": "landing",
     "tags": [
-      "landing",
-      "cookies"
+      "landing"
     ],
     "path": "images/poliseo/desktop/01-landing.webp",
-    "description": "Strona główna Poliseo z banerem cookies.",
+    "description": "Strona główna Poliseo.",
     "width": 1920,
     "height": 1200
   },
@@ -17491,11 +17490,10 @@
     "step": 1,
     "tag": "landing",
     "tags": [
-      "landing",
-      "cookies"
+      "landing"
     ],
     "path": "images/poliseo/mobile/01-landing.webp",
-    "description": "Strona główna Poliseo z banerem cookies.",
+    "description": "Strona główna Poliseo.",
     "width": 1170,
     "height": 2532
   },
